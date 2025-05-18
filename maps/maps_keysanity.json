@@ -1,0 +1,46 @@
+[
+  {
+    "name": "metroid",
+    "location_size": 40,
+    "location_border_thickness": 5,
+    "img": "images/map_full_keysanity.png"
+  },
+  {
+    "name": "crateria",
+    "location_size": 40,
+    "location_border_thickness": 5,
+    "img": "images/map_crateria_keysanity.png"
+  },
+  {
+    "name": "norfair",
+    "location_size": 40,
+    "location_border_thickness": 5,
+    "img": "images/map_norfair_keysanity.png"
+  },
+   {
+    "name": "wreckedship",
+    "location_size": 40,
+    "location_border_thickness": 5,
+    "img": "images/map_ws_keysanity.png"
+  },
+   {
+    "name": "brinstar",
+    "location_size": 40,
+    "location_border_thickness": 5,
+    "img": "images/map_brinstar_keysanity.png"
+  },
+   {
+    "name": "maridia",
+    "location_size": 40,
+    "location_border_thickness": 5,
+    "img": "images/map_maridia_keysanity.png"
+  },
+  {
+    "name": "lightworld",
+    "img": "images/lttp_lightworld.png"
+  },
+  {
+    "name": "darkworld",
+    "img": "images/lttp_darkworld.png"
+  }
+]

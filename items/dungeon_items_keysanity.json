@@ -1,0 +1,352 @@
+[
+  {
+    "name": "Eastern Palace",
+    "type": "progressive_toggle",
+    "capturable": false,
+    "stages": [
+      {
+        "img": "images/unknown.png",
+        "codes": "ep,easternpalace"
+      },
+      {
+        "img": "images/Crystal.png",
+        "codes": "ep,easternpalace,crystal,allcrystals"
+      },
+      {
+        "img": "images/FFCrystal.png",
+        "disabled_img": "images/FFCrystalOFF.png",
+        "disabled_img_mods": "",
+        "codes": "ep,easternpalace,crystal56,allcrystals"
+      },
+      {
+        "img": "images/Pendant.png",
+        "codes": "ep,easternpalace,pendant,allpendants"
+      },
+      {
+        "img": "images/GreenPendant.png",
+        "disabled_img": "images/GreenPendantOFF.png",
+        "disabled_img_mods": "",
+        "codes": "ep,easternpalace,greenpendant,allpendants"
+      },
+      {
+        "img": "images/g4.png",
+        "codes": "ep,easternpalace"
+      }
+    ]
+  },
+  {
+    "name": "Desert Palace",
+    "capturable": false,
+    "type": "progressive_toggle",
+    "stages": [
+      {
+        "img": "images/unknown.png",
+        "codes": "dp,desertpalace"
+      },
+      {
+        "img": "images/Crystal.png",
+        "codes": "dp,desertpalace,crystal,allcrystals"
+      },
+      {
+        "img": "images/FFCrystal.png",
+        "disabled_img": "images/FFCrystalOFF.png",
+        "disabled_img_mods": "",
+        "codes": "dp,desertpalace,crystal56,allcrystals"
+      },
+      {
+        "img": "images/Pendant.png",
+        "codes": "dp,desertpalace,pendant,allpendants"
+      },
+      {
+        "img": "images/GreenPendant.png",
+        "disabled_img": "images/GreenPendantOFF.png",
+        "disabled_img_mods": "",
+        "codes": "dp,desertpalace,greenpendant,allpendants"
+      },
+      {
+        "img": "images/g4.png",
+        "codes": "dp,desertpalace"
+      }
+    ]
+  },
+  {
+    "name": "Tower of Hera",
+    "capturable": false,
+    "type": "progressive_toggle",
+    "stages": [
+      {
+        "img": "images/unknown.png",
+        "codes": "toh,towerofhera"
+      },
+      {
+        "img": "images/Crystal.png",
+        "codes": "toh,towerofhera,crystal,allcrystals"
+      },
+      {
+        "img": "images/FFCrystal.png",
+        "disabled_img": "images/FFCrystalOFF.png",
+        "disabled_img_mods": "",
+        "codes": "toh,towerofhera,crystal56,allcrystals"
+      },
+      {
+        "img": "images/Pendant.png",
+        "codes": "toh,towerofhera,pendant,allpendants"
+      },
+      {
+        "img": "images/GreenPendant.png",
+        "disabled_img": "images/GreenPendantOFF.png",
+        "disabled_img_mods": "",
+        "codes": "toh,towerofhera,greenpendant,allpendants"
+      },
+      {
+        "img": "images/g4.png",
+        "codes": "toh,towerofhera"
+      }
+    ]
+  },
+  {
+    "name": "Palace of Darkness",
+    "capturable": false,
+    "type": "progressive_toggle",
+    "stages": [
+      {
+        "img": "images/unknown.png",
+        "codes": "pod,palaceofdarkness"
+      },
+      {
+        "img": "images/Crystal.png",
+        "codes": "pod,palaceofdarkness,crystal,allcrystals"
+      },
+      {
+        "img": "images/FFCrystal.png",
+        "disabled_img": "images/FFCrystalOFF.png",
+        "disabled_img_mods": "",
+        "codes": "pod,palaceofdarkness,crystal56,allcrystals"
+      },
+      {
+        "img": "images/Pendant.png",
+        "codes": "pod,palaceofdarkness,pendant,allpendants"
+      },
+      {
+        "img": "images/GreenPendant.png",
+        "disabled_img": "images/GreenPendantOFF.png",
+        "disabled_img_mods": "",
+        "codes": "pod,palaceofdarkness,greenpendant,allpendants"
+      },
+      {
+        "img": "images/g4.png",
+        "codes": "pod,palaceofdarkness"
+      }
+    ]
+  },
+  {
+    "name": "Swamp Palace",
+    "capturable": false,
+    "type": "progressive_toggle",
+    "stages": [
+      {
+        "img": "images/unknown.png",
+        "codes": "sp,swamppalace"
+      },
+      {
+        "img": "images/Crystal.png",
+        "codes": "sp,swamppalace,crystal,allcrystals"
+      },
+      {
+        "img": "images/FFCrystal.png",
+        "disabled_img": "images/FFCrystalOFF.png",
+        "disabled_img_mods": "",
+        "codes": "sp,swamppalace,crystal56,allcrystals"
+      },
+      {
+        "img": "images/Pendant.png",
+        "codes": "sp,swamppalace,pendant,allpendants"
+      },
+      {
+        "img": "images/GreenPendant.png",
+        "disabled_img": "images/GreenPendantOFF.png",
+        "disabled_img_mods": "",
+        "codes": "sp,swamppalace,greenpendant,allpendants"
+      },
+      {
+        "img": "images/g4.png",
+        "codes": "sp,swamppalace"
+      }
+    ]
+  },
+  {
+    "name": "Skull Woods",
+    "capturable": false,
+    "type": "progressive_toggle",
+    "stages": [
+      {
+        "img": "images/unknown.png",
+        "codes": "sw,skullwoods"
+      },
+      {
+        "img": "images/Crystal.png",
+        "codes": "sw,skullwoods,crystal,allcrystals"
+      },
+      {
+        "img": "images/FFCrystal.png",
+        "disabled_img": "images/FFCrystalOFF.png",
+        "disabled_img_mods": "",
+        "codes": "sw,skullwoods,crystal56,allcrystals"
+      },
+      {
+        "img": "images/Pendant.png",
+        "codes": "sw,skullwoods,pendant,allpendants"
+      },
+      {
+        "img": "images/GreenPendant.png",
+        "disabled_img": "images/GreenPendantOFF.png",
+        "disabled_img_mods": "",
+        "codes": "sw,skullwoods,greenpendant,allpendants"
+      },
+      {
+        "img": "images/g4.png",
+        "codes": "sw,skullwoods"
+      }
+    ]
+  },
+  {
+    "name": "Thieves Town",
+    "capturable": false,
+    "type": "progressive_toggle",
+    "stages": [
+      {
+        "img": "images/unknown.png",
+        "codes": "tt,thievestown"
+      },
+      {
+        "img": "images/Crystal.png",
+        "codes": "tt,thievestown,crystal,allcrystals"
+      },
+      {
+        "img": "images/FFCrystal.png",
+        "disabled_img": "images/FFCrystalOFF.png",
+        "disabled_img_mods": "",
+        "codes": "tt,thievestown,crystal56,allcrystals"
+      },
+      {
+        "img": "images/Pendant.png",
+        "codes": "tt,thievestown,pendant,allpendants"
+      },
+      {
+        "img": "images/GreenPendant.png",
+        "disabled_img": "images/GreenPendantOFF.png",
+        "disabled_img_mods": "",
+        "codes": "tt,thievestown,greenpendant,allpendants"
+      },
+      {
+        "img": "images/g4.png",
+        "codes": "tt,thievestown"
+      }
+    ]
+  },
+  {
+    "name": "Ice Palace",
+    "capturable": false,
+    "type": "progressive_toggle",
+    "stages": [
+      {
+        "img": "images/unknown.png",
+        "codes": "ip,icepalace"
+      },
+      {
+        "img": "images/Crystal.png",
+        "codes": "ip,icepalace,crystal,allcrystals"
+      },
+      {
+        "img": "images/FFCrystal.png",
+        "disabled_img": "images/FFCrystalOFF.png",
+        "disabled_img_mods": "",
+        "codes": "ip,icepalace,crystal56,allcrystals"
+      },
+      {
+        "img": "images/Pendant.png",
+        "codes": "ip,icepalace,pendant,allpendants"
+      },
+      {
+        "img": "images/GreenPendant.png",
+        "disabled_img": "images/GreenPendantOFF.png",
+        "disabled_img_mods": "",
+        "codes": "ip,icepalace,greenpendant,allpendants"
+      },
+      {
+        "img": "images/g4.png",
+        "codes": "ip,icepalace"
+      }
+    ]
+  },
+  {
+    "name": "Misery Mire",
+    "capturable": false,
+    "type": "progressive_toggle",
+    "stages": [
+      {
+        "img": "images/unknown.png",
+        "codes": "mm,miserymire"
+      },
+      {
+        "img": "images/Crystal.png",
+        "codes": "mm,miserymire,crystal,allcrystals"
+      },
+      {
+        "img": "images/FFCrystal.png",
+        "disabled_img": "images/FFCrystalOFF.png",
+        "disabled_img_mods": "",
+        "codes": "mm,miserymire,crystal56,allcrystals"
+      },
+      {
+        "img": "images/Pendant.png",
+        "codes": "mm,miserymire,pendant,allpendants"
+      },
+      {
+        "img": "images/GreenPendant.png",
+        "disabled_img": "images/GreenPendantOFF.png",
+        "disabled_img_mods": "",
+        "codes": "mm,miserymire,greenpendant,allpendants"
+      },
+      {
+        "img": "images/g4.png",
+        "codes": "mm,miserymire"
+      }
+    ]
+  },
+  {
+    "name": "Turtle Rock",
+    "capturable": false,
+    "type": "progressive_toggle",
+    "stages": [
+      {
+        "img": "images/unknown.png",
+        "codes": "tr,turtlerock"
+      },
+      {
+        "img": "images/Crystal.png",
+        "codes": "tr,turtlerock,crystal,allcrystals"
+      },
+      {
+        "img": "images/FFCrystal.png",
+        "disabled_img": "images/FFCrystalOFF.png",
+        "disabled_img_mods": "",
+        "codes": "tr,turtlerock,crystal56,allcrystals"
+      },
+      {
+        "img": "images/Pendant.png",
+        "codes": "tr,turtlerock,pendant,allpendants"
+      },
+      {
+        "img": "images/GreenPendant.png",
+        "disabled_img": "images/GreenPendantOFF.png",
+        "disabled_img_mods": "",
+        "codes": "tr,turtlerock,greenpendant,allpendants"
+      },
+      {
+        "img": "images/g4.png",
+        "codes": "tr,turtlerock"
+      }
+    ]
+  }
+]

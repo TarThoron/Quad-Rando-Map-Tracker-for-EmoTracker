@@ -1,0 +1,448 @@
+[
+  {
+    "name": "Hyrule Castle",
+    "color": "#701d43",
+    "map_locations": [
+      {
+        "map": "lightworld",
+        "x": 1003,
+        "y": 906
+      },
+      {
+        "map": "lightworld",
+        "x": 925,
+        "y": 536
+      }
+    ],
+    "sections": [
+      {
+        "name": "Escape",
+        "clear_as_group": false,
+        "access_rules": [
+          "[lift1],[lamp]"
+        ],
+        "item_count": 6
+      }
+    ]
+  },
+  {
+    "name": "Eastern Palace",
+    "color": "#af0000",
+    "sections": [
+      {
+        "name": "Dungeon",
+        "clear_as_group": false,
+        "access_rules": [
+          "[lamp]"
+        ],
+        "item_count": 3
+      },
+      {
+        "name": "Armos Knights",
+        "access_rules": [
+          "bow,[lamp]"
+        ],
+        "hosted_item": "easternpalace"
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "lightworld",
+        "x": 1925,
+        "y": 791
+      }
+    ]
+  },
+  {
+    "name": "DesertPalaceCanBeatBoss",
+    "access_rules": [
+      "[sword]",
+      "hammer",
+      "bow",
+      "firerod",
+      "icerod",
+      "byrna",
+      "somaria"
+    ]
+  },
+  {
+    "name": "Desert Palace",
+    "color": "#af0000",
+    "access_rules": [
+      "book",
+      "mirror,lift2,flute",
+      "@CanAccessMiseryMirePortal,mirror"
+    ],
+    "sections": [
+      {
+        "name": "Dungeon",
+        "clear_as_group": false,
+        "capture_item": true,
+        "access_rules": [
+          "[boots]"
+        ],
+        "item_count": 2
+      },
+      {
+        "name": "Lanmolas",
+        "short_name": "Lanmo",
+        "access_rules": [
+          "@Desert Palace/Dungeon,lift1,@CanLightTorches,@DesertPalaceCanBeatBoss",
+          "@Desert Palace/Dungeon,@CanAccessMiseryMirePortal,mirror,@CanLightTorches,@DesertPalaceCanBeatBoss"
+        ],
+        "hosted_item": "desertpalace"
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "lightworld",
+        "x": 146,
+        "y": 1584
+      }
+    ]
+  },
+  {
+    "name": "Tower of Hera",
+    "color": "#af0000",
+    "access_rules": [
+      "@Light World Death Mountain West,mirror",
+      "@Light World Death Mountain West,hookshot,hammer"
+    ],
+    "sections": [
+      {
+        "name": "Dungeon",
+        "clear_as_group": false,
+        "access_rules": [
+          "[@CanLightTorches]"
+        ],
+        "item_count": 2
+      },
+      {
+        "name": "Moldorm",
+        "access_rules": [
+          "@Tower of Hera/Dungeon,sword",
+          "@Tower of Hera/Dungeon,hammer"
+        ],
+        "hosted_item": "towerofhera"
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "lightworld",
+        "x": 1126,
+        "y": 68
+      }
+    ]
+  },
+  {
+    "name": "Castle Tower",
+    "color": "#701d43",
+    "access_rules": [
+      "@CanKillManyEnemies,cape",
+      "@CanKillManyEnemies,sword2"
+    ],
+    "map_locations": [
+      {
+        "map": "lightworld",
+        "x": 1003,
+        "y": 807
+      }
+    ],
+    "sections": [
+      {
+        "name": "Agahnim",
+        "access_rules": [
+          "[lamp],sword"
+        ],
+        "hosted_item": "aga1"
+      }
+    ]
+  },
+  {
+    "name": "Palace of Darkness",
+    "color": "#af0000",
+    "access_rules": [
+      "pearl,@Dark World North East"
+    ],
+    "sections": [
+      {
+        "name": "Dungeon",
+        "clear_as_group": false,
+        "access_rules": [
+          "[bow],[lamp]"
+        ],
+        "item_count": 5
+      },
+      {
+        "name": "Helmasaur King",
+        "short_name": "Helma",
+        "access_rules": [
+          "@Palace of Darkness/Dungeon,bow,hammer,[lamp]"
+        ],
+        "hosted_item": "palaceofdarkness"
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "darkworld",
+        "x": 1924,
+        "y": 800
+      }
+    ]
+  },
+  {
+    "name": "Swamp Palace",
+    "color": "#af0000",
+    "access_rules": [
+      "pearl,mirror,flippers,@Dark World South"
+    ],
+    "sections": [
+      {
+        "name": "Dungeon",
+        "clear_as_group": false,
+        "access_rules": [
+          "[hammer],[hookshot]"
+        ],
+        "item_count": 6
+      },
+      {
+        "name": "Arrgus",
+        "access_rules": [
+          "hammer,hookshot"
+        ],
+        "hosted_item": "swamppalace"
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "darkworld",
+        "x": 940,
+        "y": 1880
+      }
+    ]
+  },
+  {
+    "name": "Skull Woods",
+    "access_rules": [
+      "pearl,@Dark World North West"
+    ],
+    "color": "#af0000",
+    "sections": [
+      {
+        "name": "Dungeon",
+        "access_rules": [
+          "[firerod]"
+        ],
+        "clear_as_group": false,
+        "item_count": 2
+      },
+      {
+        "name": "Mothula",
+        "access_rules": [
+          "firerod,sword"
+        ],
+        "hosted_item": "skullwoods"
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "darkworld",
+        "x": 79,
+        "y": 121
+      }
+    ]
+  },
+  {
+    "name": "Thieves' Town",
+    "color": "#af0000",
+    "access_rules": [
+      "pearl,@Dark World North West"
+    ],
+    "sections": [
+      {
+        "name": "Dungeon",
+        "clear_as_group": false,
+        "access_rules": [
+          "[hammer]"
+        ],
+        "item_count": 4
+      },
+      {
+        "name": "Blind",
+        "hosted_item": "thievestown",
+        "access_rules": [
+          "sword",
+          "hammer",
+          "somaria",
+          "byrna"
+        ]
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "darkworld",
+        "x": 251,
+        "y": 971
+      }
+    ]
+  },
+  {
+    "name": "Ice Palace",
+    "color": "#af0000",
+    "access_rules": [
+      "[flippers],pearl,lift2,@CanMeltFreezors"
+    ],
+    "sections": [
+      {
+        "name": "Dungeon",
+        "clear_as_group": false,
+        "access_rules": [
+          "[hammer],[hookshot]"
+        ],
+        "item_count": 3
+      },
+      {
+        "name": "Kholdstare",
+        "access_rules": [
+          "@Ice Palace/Dungeon,hammer,[somaria]"
+        ],
+        "hosted_item": "icepalace"
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "darkworld",
+        "x": 1600,
+        "y": 1735
+      }
+    ]
+  },
+  {
+    "name": "Misery Mire",
+    "color": "#af0000",
+    "access_rules": [
+      "mm_medallion,sword,pearl,boots,@Dark World Mire",
+      "mm_medallion,sword,pearl,hookshot,@Dark World Mire",
+      "quake,ether,bombos,sword,pearl,boots,@Dark World Mire",
+      "quake,ether,bombos,sword,pearl,hookshot,@Dark World Mire"
+    ],
+    "sections": [
+      {
+        "name": "Dungeon",
+        "clear_as_group": false,
+        "access_rules": [
+          "[@CanLightTorches]"
+        ],
+        "item_count": 2
+      },
+      {
+        "name": "Vitreous",
+        "access_rules": [
+          "[lamp],somaria"
+        ],
+        "hosted_item": "miserymire"
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "darkworld",
+        "x": 150,
+        "y": 1670
+      }
+    ]
+  },
+  {
+    "name": "Turtle Rock",
+    "color": "#af0000",
+    "access_rules": [
+      "@Light World Death Mountain East,tr_medallion,sword,pearl,lift2,hammer,somaria",
+      "@Light World Death Mountain East,bombos,ether,quake,sword,pearl,lift2,hammer,somaria"
+    ],
+    "sections": [
+      {
+        "name": "Dungeon",
+        "clear_as_group": false,
+        "access_rules": [
+          "[firerod],[lamp],[cape]",
+          "[firerod],[lamp],[byrna]",
+          "[firerod],[lamp],[shield3]"
+        ],
+        "item_count": 5
+      },
+      {
+        "name": "Trinexx",
+        "access_rules": [
+          "@Turtle Rock/Dungeon,[lamp],firerod,icerod"
+        ],
+        "hosted_item": "turtlerock"
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "darkworld",
+        "x": 1890,
+        "y": 144
+      }
+    ],
+    "children": [
+      // Put Mimic Cave here to allow for different keysanity override.
+      {
+        "name": "Mimic Cave",
+        "color": "#934f17",
+        "access_rules": [
+          "[firerod],mirror"
+        ],
+        "sections": [
+          {
+            "name": "Mimic Cave",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "lightworld",
+            "x": 1694,
+            "y": 190
+          },
+          {
+            "map": "darkworld",
+            "x": 1693,
+            "y": 205
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Ganon's Tower",
+    "color": "#af0000",
+    "access_rules": [
+      "@Dark World Death Mountain East,pearl,$gtCrystalCount"
+    ],
+    "sections": [
+      {
+        "name": "Dungeon",
+        "clear_as_group": false,
+        "access_rules": [
+          "[hammer],[firerod],[hookshot],[boots],[somaria]"
+        ],
+        "item_count": 23
+      },
+      {
+        "name": "Tower",
+        "clear_as_group": false,
+        "access_rules": [
+          "@Ganon's Tower/Dungeon,bow,@CanLightTorches,[hookshot]"
+        ],
+        "item_count": 4
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "darkworld",
+        "x": 1126,
+        "y": 68
+      }
+    ]
+  }
+]

@@ -1,0 +1,58 @@
+[
+  // Some locations can be accessed from both worlds and have more complex access dependencies as a result.
+  // These need to get loaded after all the light/dark world locations to handle the dependencies.
+  {
+    "name": "Both Worlds",
+    "chest_unopened_img": "images/0058.png",
+    "chest_opened_img": "images/0059.png",
+    "children": [
+      {
+        "name": "King's Tomb",
+        "access_rules": [
+          "@Light World North West,boots,lift2",
+          "@Dark World North West,boots,mirror"
+        ],
+        "sections": [
+          {
+            "name": "The Crypt",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "lightworld",
+            "x": 1207,
+            "y": 598
+          }
+        ]
+      },
+      {
+        "name": "Lake Hylia Island",
+        "sections": [
+          {
+            "name": "Lake Hylia Island",
+            "access_rules": [
+              "flippers,pearl,mirror,@Dark World South",
+              "flippers,pearl,mirror,@Dark World North East",
+              "{@Light World South}"
+            ],
+            "capture_item": true,
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "lightworld",
+            "x": 1450,
+            "y": 1666
+          },
+          {
+            "map": "darkworld",
+            "x": 1450,
+            "y": 1666
+          }
+        ]
+      }
+    ]
+  }
+]

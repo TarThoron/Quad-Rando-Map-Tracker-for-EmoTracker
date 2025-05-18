@@ -1,0 +1,294 @@
+[
+    {
+        "name": "Level 1 - The Eagle",
+        "color": "#008088",
+        "chest_opened_img": "images/getitem.png",
+        "children": [
+            {
+                "name": "Map 72 - Kill Keese",
+                "map_locations":[
+                    {
+                        "map":"level1",
+                        "x": 423,
+                        "y": 1015,
+                        "size": 48
+                    },
+                    {
+                        "map":"dungeons1",
+                        "x": 337,
+                        "y": 683,
+                        "size": 48
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Kill Keese",
+                        "item_count": 1,
+                        "access_rules":["z1boom","@CanKillMostZ1Things"]
+                    }
+                ]
+            },
+            {
+                "name": "Map 74 - Staflos Item",
+                "map_locations":[
+                    {
+                        "map":"level1",
+                        "x": 856,
+                        "y": 1000,
+                        "size": 48
+                    },
+                    {
+                        "map":"dungeons1",
+                        "x": 555,
+                        "y": 676,
+                        "size": 48
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Staflos Item",
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Map 53 - Kill Staflos",
+                "map_locations":[
+                    {
+                        "map":"level1",
+                        "x": 647,
+                        "y": 584,
+                        "size": 48
+                    },
+                    {
+                        "map":"dungeons1",
+                        "x": 451,
+                        "y": 467,
+                        "size": 48
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Kill Staflos",
+                        "item_count": 1,
+                        "access_rules":["@CanKillMostZ1Things"]
+                    }
+                ]
+            },
+            {
+                "name": "Map 54 - Compass",
+                "map_locations":[
+                    {
+                        "map":"level1",
+                        "x": 966,
+                        "y": 615,
+                        "size": 48
+                    },
+                    {
+                        "map":"dungeons1",
+                        "x": 609,
+                        "y": 482,
+                        "size": 48
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Compass",
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Map 43 - Map",
+                "map_locations":[
+                    {
+                        "map":"level1",
+                        "x": 711,
+                        "y": 440,
+                        "size": 48
+                    },
+                    {
+                        "map":"dungeons1",
+                        "x": 483,
+                        "y": 396,
+                        "size": 48
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Map",
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Map 44 - Boomerang",
+                "map_locations":[
+                    {
+                        "map":"level1",
+                        "x": 902,
+                        "y": 408,
+                        "size": 48
+                    },
+                    {
+                        "map":"dungeons1",
+                        "x": 576,
+                        "y": 380,
+                        "size": 48
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Kill Goriya",
+                        "item_count": 1,
+                        "access_rules":["@CanKillMostZ1Things"]
+                    }
+                ]
+            },
+            {
+                "name": "Map 45 - Wallmaster Item",
+                "map_locations":[
+                    {
+                        "map":"level1",
+                        "x": 1192,
+                        "y": 488,
+                        "size": 48
+                    },
+                    {
+                        "map":"dungeons1",
+                        "x": 723,
+                        "y": 418,
+                        "size": 48
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Wallmaster Item",
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Map 33 - Staflos item",
+                "map_locations":[
+                    {
+                        "map":"level1",
+                        "x": 711,
+                        "y": 238,
+                        "size": 48
+                    },
+                    {
+                        "map":"dungeons1",
+                        "x": 484,
+                        "y": 294,
+                        "size": 48
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Staflos Item",
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Map 23- Kill Goriya",
+                "map_locations":[
+                    {
+                        "map":"level1",
+                        "x": 647,
+                        "y": 56,
+                        "size": 48
+                    },
+                    {
+                        "map":"dungeons1",
+                        "x": 449,
+                        "y": 203,
+                        "size": 48
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Kill Goriya",
+                        "item_count": 1,
+                        "access_rules":["@CanKillMostZ1Things"]
+                    }
+                ]
+            },
+            {
+                "name": "Hidden Stairs Item",
+                "map_locations":[
+                    {
+                        "map":"level1",
+                        "x": 389,
+                        "y": 264,
+                        "size": 48
+                    },
+                    {
+                        "map":"dungeons1",
+                        "x": 324,
+                        "y": 218,
+                        "size": 48
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Bow",
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Map 35 - Kill Boss",
+                "map_locations":[
+                    {
+                        "map":"level1",
+                        "x": 1224,
+                        "y": 264,
+                        "size": 48
+                    },
+                    {
+                        "map":"dungeons1",
+                        "x": 746,
+                        "y": 307,
+                        "size": 48
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Kill Boss",
+                        "item_count": 1,
+                        "access_rules":["@CanKillBosses"],
+                        "chest_unopened_img":"images/leveloneboss.png"
+                    }
+                ]
+            },
+            {
+                "name": "Level 1 Prize",
+                "map_locations":[
+                    {
+                        "map":"level1",
+                        "x": 1406,
+                        "y": 267,
+                        "size": 48
+                    },
+                    {
+                        "map":"dungeons1",
+                        "x": 830,
+                        "y": 308,
+                        "size": 48
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Triforce",
+                        "item_count": 1,
+                        "access_rules":["@CanKillBosses"],
+                        "chest_unopened_img": "images/z-triforceicon.png",
+                        "hosted_item": "z1tri1"
+                    }
+                ]
+            }
+        ]
+    }
+]

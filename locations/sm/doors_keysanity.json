@@ -1,0 +1,27 @@
+[
+  // Extra locations for specific non-blue doors that are replaced by key doors in keysanity.
+  {
+    "name": "CanOpenCrateriaSurfaceDoor",
+    "access_rules": ["@CardCrateriaL1"]
+  },
+  {
+    "name": "CanOpenBombTorizoDoor",
+    "access_rules": ["@CardCrateriaBoss"]
+  },
+  {
+    "name": "CanOpenMoatDoor",
+    "access_rules": ["@CardCrateriaL2"]
+  },
+  {
+    "name": "CanOpenIceBeamDoor",
+    "access_rules": ["@CardNorfairL1"]
+  },
+  {
+    "name": "CanOpenCathedralDoor",
+    "access_rules": ["@CardNorfairL2"]
+  },
+  {
+    "name": "CanAccessCrocomire",
+    "access_rules": ["@CardNorfairBoss"]
+  }
+]

@@ -1,0 +1,67 @@
+[
+  // Keycard access locations for keysanity override logic.
+  {
+    "name": "CardCrateriaL1",
+    "access_rules": ["crateria_key1"]
+  },
+  {
+    "name": "CardCrateriaL2",
+    "access_rules": ["crateria_key2"]
+  },
+  {
+    "name": "CardCrateriaBoss",
+    "access_rules": ["crateria_bosskey"]
+  },
+  {
+    "name": "CardBrinstarL1",
+    "access_rules": ["brinstar_key1"]
+  },
+  {
+    "name": "CardBrinstarL2",
+    "access_rules": ["brinstar_key2"]
+  },
+  {
+    "name": "CardBrinstarBoss",
+    "access_rules": ["brinstar_bosskey"]
+  },
+  {
+    "name": "CardNorfairL1",
+    "access_rules": ["un_key1"]
+  },
+  {
+    "name": "CardNorfairL2",
+    "access_rules": ["un_key2"]
+  },
+  {
+    "name": "CardNorfairBoss",
+    "access_rules": ["un_bosskey"]
+  },
+  {
+    "name": "CardMaridiaL1",
+    "access_rules": ["maridia_key1"]
+  },
+  {
+    "name": "CardMaridiaL2",
+    "access_rules": ["maridia_key2"]
+  },
+  {
+    "name": "CardMaridiaBoss",
+    "access_rules": ["maridia_bosskey"]
+  },
+  {
+    "name": "CardWreckedShipL1",
+    "access_rules": ["ws_key1"]
+  },
+  {
+    "name": "CardWreckedShipBoss",
+    "access_rules": ["ws_bosskey"]
+  },
+  {
+    "name": "CardLowerNorfairL1",
+    "access_rules": ["ln_key1"]
+  },
+  {
+    "name": "CardLowerNorfairBoss",
+    "access_rules": ["ln_bosskey"]
+  }
+]

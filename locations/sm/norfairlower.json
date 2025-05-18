@@ -1,0 +1,364 @@
+[
+  {
+    "name": "Lower Norfair",
+    "chest_unopened_img": "images/major_unopened.png",
+    "chest_opened_img": "images/major_opened.png",
+    "color": "#d42020",
+    "children": [
+      {
+        "name": "CanExitThroughUpperNorfair",
+        "access_rules": [
+          "normal,@CardLowerNorfairL1,@CardNorfairL2",
+          "normal,gravity,@CardNorfairL2",
+          "normal,gravity,wave,grapple",
+          "normal,gravity,wave,space",
+
+          "[hard],@CardNorfairL2",
+          "[hard],speed",
+          "[hard],@CanFly",
+          "[hard],grapple",
+          "[hard],hijump,@CanSpringBallJump",
+          "[hard],hijump,ice"
+        ]
+      },
+      {
+        "name": "CanExitThroughPortal",
+        "access_rules": [
+          "normal,@CanUsePowerBombs,space,super",
+          "normal,@CanUsePowerBombs,space,charge",
+
+          "[hard],@CanUsePowerBombs"
+        ]
+      },
+      {
+        "name": "CanExitLowerNorfairEast",
+        "access_rules": [
+          "normal,morph,@CardNorfairL2",
+          "normal,morph,gravity,wave,grapple",
+          "normal,morph,gravity,wave,space",
+
+          "[hard],morph,@CardNorfairL2",
+          "[hard],morph,@CanBlueGateGlitch,speed",
+          "[hard],morph,@CanBlueGateGlitch,@CanFly",
+          "[hard],morph,@CanBlueGateGlitch,grapple",
+          "[hard],morph,@CanBlueGateGlitch,hijump,@CanSpringBallJump",
+          "[hard],morph,@CanBlueGateGlitch,hijump,ice",
+          "[hard],alltanks:5"
+        ]
+      },
+      {
+        "name": "Norfair Lower West",
+        "access_rules": [
+          "normal,varia,@Norfair Upper East,@CanUsePowerBombs,space,gravity,@CardNorfairL2",
+          "normal,varia,@Norfair Upper East,@CanUsePowerBombs,space,gravity,wave,speed",
+          "normal,varia,@CanAccessNorfairLowerPortal,@CanDestroyBombWalls",
+
+          "[hard],@Norfair Upper East,@CanUsePowerBombs,varia,hijump,@CardNorfairL2",
+          "[hard],@Norfair Upper East,@CanUsePowerBombs,varia,hijump,speed,@CanBlueGateGlitch",
+          "[hard],@Norfair Upper East,@CanUsePowerBombs,varia,gravity,@CardNorfairL2",
+          "[hard],@Norfair Upper East,@CanUsePowerBombs,varia,gravity,speed,@CanBlueGateGlitch",
+          "[hard],@CanAccessNorfairLowerPortal,@CanDestroyBombWalls"
+        ],
+        "children": [
+          {
+            "name": "Screw Attack",
+            "access_rules": [
+              "normal,@CanDestroyBombWalls,space,@CanUsePowerBombs",
+              "normal,@CanDestroyBombWalls,@CanAccessNorfairLowerPortal",
+
+              "[hard],@CanDestroyBombWalls,varia",
+              "[hard],@CanDestroyBombWalls,@CanAccessNorfairLowerPortal"
+            ],
+            "sections": [
+              {
+                "name": "Screw Attack",
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "metroid",
+                "x": 1576,
+                "y": 1808
+              },
+              {
+                "map": "norfair",
+                "x": 696,
+                "y": 596
+              }
+            ]
+          },
+          {
+            "name": "Missile (Gold Torizo)",
+            "sections": [
+              {
+                "name": "Missile (Gold Torizo)",
+                "capture_item": true,
+                "access_rules": [
+                  "normal,@CanUsePowerBombs,space,super",
+
+                  "[hard],@CanUsePowerBombs,space,varia,hijump",
+                  "[hard],@CanUsePowerBombs,space,varia,gravity",
+                  "[hard],@CanUsePowerBombs,space,varia,@CanAccessNorfairLowerPortal,super,@CanFly",
+                  "[hard],@CanUsePowerBombs,space,varia,@CanAccessNorfairLowerPortal,super,@CanSpringBallJump",
+                  "[hard],@CanUsePowerBombs,space,varia,@CanAccessNorfairLowerPortal,super,speed",
+
+                  // Allow viewable on hard mode via green gate glitch.
+                  "{hard,super}",
+                  "{@CanAccessNorfairLowerPortal}"
+                ],
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "metroid",
+                "x": 1512,
+                "y": 1776
+              },
+              {
+                "map": "norfair",
+                "x": 632,
+                "y": 564
+              }
+            ]
+          },
+          {
+            "name": "Super Missile (Gold Torizo)",
+            "access_rules": [
+              "normal,@CanDestroyBombWalls,super,@CanAccessNorfairLowerPortal",
+              "normal,@CanDestroyBombWalls,super,space,@CanUsePowerBombs",
+              "normal,@CanDestroyBombWalls,charge,@CanAccessNorfairLowerPortal",
+              "normal,@CanDestroyBombWalls,charge,space,@CanUsePowerBombs",
+
+              "[hard],@CanDestroyBombWalls,varia,super",
+              "[hard],@CanDestroyBombWalls,varia,charge"
+            ],
+            "sections": [
+              {
+                "name": "Super Missile (Gold Torizo)",
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "metroid",
+                "x": 1544,
+                "y": 1776
+              },
+              {
+                "map": "norfair",
+                "x": 664,
+                "y": 564
+              }
+            ]
+          },
+          {
+            "name": "Missile (Mickey Mouse room)",
+            "access_rules": [
+              "normal,@CanFly,morph,super,@CanExitThroughUpperNorfair",
+              "normal,@CanFly,morph,super,@CanExitThroughPortal",
+
+              "[hard],morph,varia,super,@CanFly,@CanExitThroughUpperNorfair",
+              "[hard],morph,varia,super,@CanFly,@CanExitThroughPortal",
+              "[hard],morph,varia,super,@CanSpringBallJump,@CanExitThroughUpperNorfair",
+              "[hard],morph,varia,super,@CanSpringBallJump,@CanExitThroughPortal",
+              "[hard],morph,varia,super,speed,hijump,@CanUsePowerBombs,@CanExitThroughUpperNorfair",
+              "[hard],morph,varia,super,speed,hijump,@CanUsePowerBombs,@CanExitThroughPortal",
+              "[hard],morph,varia,super,speed,charge,ice,@CanExitThroughUpperNorfair",
+              "[hard],morph,varia,super,speed,charge,ice,@CanExitThroughPortal"
+            ],
+            "sections": [
+              {
+                "name": "Missile (Mickey Mouse room)",
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "metroid",
+                "x": 1832,
+                "y": 1616
+              },
+              {
+                "map": "norfair",
+                "x": 952,
+                "y": 404
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Norfair Lower East",
+        "access_rules": [
+          "normal,varia,@CardLowerNorfairL1,@Norfair Upper East,@CanUsePowerBombs,space,gravity",
+          "normal,varia,@CardLowerNorfairL1,@CanAccessNorfairLowerPortal,@CanDestroyBombWalls,super,@CanUsePowerBombs,@CanFly",
+
+          "[hard],varia,@CardLowerNorfairL1,@Norfair Upper East,@CanUsePowerBombs,hijump",
+
+          "[hard],varia,@CardLowerNorfairL1,@Norfair Upper East,@CanUsePowerBombs,gravity,@CanFly",
+          "[hard],varia,@CardLowerNorfairL1,@Norfair Upper East,@CanUsePowerBombs,gravity,@CanSpringBallJump",
+          "[hard],varia,@CardLowerNorfairL1,@Norfair Upper East,@CanUsePowerBombs,gravity,ice,charge",
+
+          "[hard],varia,@CardLowerNorfairL1,@CanAccessNorfairLowerPortal,@CanDestroyBombWalls,super,@CanFly,@CanPassBombPassages",
+          "[hard],varia,@CardLowerNorfairL1,@CanAccessNorfairLowerPortal,@CanDestroyBombWalls,super,screw,space",
+
+          "[hard],varia,@CardLowerNorfairL1,@CanAccessNorfairLowerPortal,@CanDestroyBombWalls,super,@CanSpringBallJump,@CanPassBombPassages",
+          "[hard],varia,@CardLowerNorfairL1,@CanAccessNorfairLowerPortal,@CanDestroyBombWalls,super,@CanSpringBallJump,screw,space",
+
+          "[hard],varia,@CardLowerNorfairL1,@CanAccessNorfairLowerPortal,@CanDestroyBombWalls,super,speed,hijump,@CanPassBombPassages",
+          "[hard],varia,@CardLowerNorfairL1,@CanAccessNorfairLowerPortal,@CanDestroyBombWalls,super,speed,ice,charge,@CanPassBombPassages"
+        ],
+        "children": [
+          {
+            "name": "Missile (lower Norfair above fire flea room)",
+            "access_rules": [
+              "@CanExitLowerNorfairEast"
+            ],
+            "sections": [
+              {
+                "name": "Missile (lower Norfair above fire flea room)",
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "metroid",
+                "x": 2056,
+                "y": 1456
+              },
+              {
+                "map": "norfair",
+                "x": 1176,
+                "y": 244
+              }
+            ]
+          },
+          {
+            "name": "Power Bomb (lower Norfair above fire flea room)",
+            "access_rules": [
+              "normal,morph,@CanExitLowerNorfairEast",
+              "[hard],@CanExitLowerNorfairEast,@CanPassBombPassages"
+            ],
+            "sections": [
+              {
+                "name": "Power Bomb (lower Norfair above fire flea room)",
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "metroid",
+                "x": 2120,
+                "y": 1488
+              },
+              {
+                "map": "norfair",
+                "x": 1240,
+                "y": 276
+              }
+            ]
+          },
+          {
+            "name": "Power Bomb (Power Bombs of shame)",
+            "access_rules": [
+              "@CanExitLowerNorfairEast,@CanUsePowerBombs"
+            ],
+            "sections": [
+              {
+                "name": "Power Bomb (Power Bombs of shame)",
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "metroid",
+                "x": 1960,
+                "y": 1744
+              },
+              {
+                "map": "norfair",
+                "x": 1080,
+                "y": 532
+              }
+            ]
+          },
+          {
+            "name": "Missile (lower Norfair near Wave Beam)",
+            "access_rules": [
+              "normal,morph,@CanExitLowerNorfairEast",
+              "[hard],@CanExitLowerNorfairEast,morph,@CanDestroyBombWalls"
+            ],
+            "sections": [
+              {
+                "name": "Missile (lower Norfair near Wave Beam)",
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "metroid",
+                "x": 1864,
+                "y": 1456
+              },
+              {
+                "map": "norfair",
+                "x": 984,
+                "y": 244
+              }
+            ]
+          },
+          {
+            "name": "Energy Tank, Ridley",
+            "access_rules": [
+              "@CanExitLowerNorfairEast,@CardLowerNorfairBoss,@CanUsePowerBombs,super"
+            ],
+            "sections": [
+              {
+                "name": "Energy Tank, Ridley",
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "metroid",
+                "x": 1640,
+                "y": 1840
+              },
+              {
+                "map": "norfair",
+                "x": 760,
+                "y": 628
+              }
+            ]
+          },
+          {
+            "name": "Energy Tank, Firefleas",
+            "access_rules": [
+              "@CanExitLowerNorfairEast"
+            ],
+            "sections": [
+              {
+                "name": "Energy Tank, Firefleas",
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "metroid",
+                "x": 2122,
+                "y": 1646
+              },
+              {
+                "map": "norfair",
+                "x": 1240,
+                "y": 436
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]

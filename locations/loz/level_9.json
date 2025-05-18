@@ -1,0 +1,520 @@
+[
+    {
+        "name": "Level 9 - Spectacle Rock",
+        "color": "#bcbcbc",
+        "access_rules":["z1bomb,@CanKillMostZ1Things,$L9TriforceCount"],
+        "children":[
+            {
+                "name": "Front",
+                "children":[
+                    {
+                        "name":"Map D6 - Kill Enemies",
+                        "map_locations":[
+                            {
+                                "map":"level9",
+                                "x": 1672,
+                                "y": 968,
+                                "size": 48
+                            },
+                            {
+                                "map":"dungeons2",
+                                "x": 1908,
+                                "y": 484,
+                                "size":48
+                            }
+                        ],
+                        "sections":[
+                            {
+                                "name": "Kill Enemies",
+                                "item_count": 1
+                            }
+                        ]
+                    },
+                    {
+                        "name":"Map C4 - Kill Wizzrobes",
+                        "map_locations":[
+                            {
+                                "map":"level9",
+                                "x": 1160,
+                                "y": 790,
+                                "size": 48
+                            },
+                            {
+                                "map":"dungeons2",
+                                "x": 1653,
+                                "y": 395,
+                                "size":48
+                            }
+                        ],
+                        "sections":[
+                            {
+                                "name": "Kill Wizzrobes",
+                                "item_count": 1,
+                                "access_rules":["@CanKillWizzrobes"]
+                            }
+                        ]
+                    },
+                    {
+                        "name":"Map B4 - Kill Keese",
+                        "map_locations":[
+                            {
+                                "map":"level9",
+                                "x": 1160,
+                                "y": 616,
+                                "size": 48
+                            },
+                            {
+                                "map":"dungeons2",
+                                "x": 1653,
+                                "y": 308,
+                                "size":48
+                            }
+                        ],
+                        "sections":[
+                            {
+                                "name": "Kill Keese",
+                                "item_count": 1,
+                                "access_rules":["z1ladder","{}"]
+                            }
+                        ]
+                    },
+                    {
+                        "name":"Map A3 - Floor Item",
+                        "map_locations":[
+                            {
+                                "map":"level9",
+                                "x": 984,
+                                "y": 392,
+                                "size": 48
+                            },
+                            {
+                                "map":"dungeons2",
+                                "x": 1565,
+                                "y": 196,
+                                "size":48
+                            }
+                        ],
+                        "sections":[
+                            {
+                                "name": "Floor Item",
+                                "item_count": 1
+                            }
+                        ]
+                    },
+                    {
+                        "name":"Map 92 - Kill Moldorm",
+                        "map_locations":[
+                            {
+                                "map":"level9",
+                                "x": 647,
+                                "y": 262,
+                                "size": 48
+                            },
+                            {
+                                "map":"dungeons2",
+                                "x": 1396,
+                                "y": 131,
+                                "size":48
+                            }
+                        ],
+                        "sections":[
+                            {
+                                "name": "Kill Moldorm",
+                                "item_count": 1
+                            }
+                        ]
+                    },
+                    {
+                        "name":"Map 91 - Kill Lanmolas",
+                        "map_locations":[
+                            {
+                                "map":"level9",
+                                "x": 392,
+                                "y": 262,
+                                "size": 48
+                            },
+                            {
+                                "map":"dungeons2",
+                                "x": 1269,
+                                "y": 131,
+                                "size":48
+                            }
+                        ],
+                        "sections":[
+                            {
+                                "name": "Kill Lanmolas",
+                                "item_count": 1,
+                                "access_rules":["@CanKillGleeok"]
+                            }
+                        ]
+                    },
+                    {
+                        "name":"Map 95 - Kill Wizzrobes",
+                        "map_locations":[
+                            {
+                                "map":"level9",
+                                "x": 1415,
+                                "y": 262,
+                                "size": 48
+                            },
+                            {
+                                "map":"dungeons2",
+                                "x": 1780,
+                                "y": 131,
+                                "size":48
+                            }
+                        ],
+                        "sections":[
+                            {
+                                "name": "Kill Wizzrobes",
+                                "item_count": 1,
+                                "capture_item":true,
+                                "access_rules":["@CanKillWizzrobes,z1ladder","{@CanKillWizzrobes}"]
+                            }
+                        ]
+                    },
+                    {
+                        "name":"Map A5 - Kill Enemies",
+                        "map_locations":[
+                            {
+                                "map":"level9",
+                                "x": 1416,
+                                "y": 440,
+                                "size": 48
+                            },
+                            {
+                                "map":"dungeons2",
+                                "x": 1781,
+                                "y": 220,
+                                "size":48
+                            }
+                        ],
+                        "sections":[
+                            {
+                                "name": "Kill Enemies",
+                                "item_count": 1
+                            }
+                        ]
+                    },
+                    {
+                        "name":"Map B5 - Compass",
+                        "map_locations":[
+                            {
+                                "map":"level9",
+                                "x": 1416,
+                                "y": 616,
+                                "size": 48
+                            },
+                            {
+                                "map":"dungeons2",
+                                "x": 1781,
+                                "y": 308,
+                                "size":48
+                            }
+                        ],
+                        "sections":[
+                            {
+                                "name": "Kill Wizzrobes",
+                                "item_count": 1,
+                                "access_rules":["@CanKillWizzrobes"]
+                            }
+                        ]
+                    },
+                    {
+                        "name":"Map 96 - Kill Petra",
+                        "map_locations":[
+                            {
+                                "map":"level9",
+                                "x": 1672,
+                                "y": 262,
+                                "size": 48
+                            },
+                            {
+                                "map":"dungeons2",
+                                "x": 1908,
+                                "y": 131,
+                                "size":48
+                            }
+                        ],
+                        "sections":[
+                            {
+                                "name": "Kill Petra",
+                                "item_count": 1,
+                                "access_rules":["@CanKillGleeok"]
+                            }
+                        ]
+                    },
+                    {
+                        "name":"Map A6 - Kill Gels",
+                        "map_locations":[
+                            {
+                                "map":"level9",
+                                "x": 1672,
+                                "y": 440,
+                                "size": 48
+                            },
+                            {
+                                "map":"dungeons2",
+                                "x": 1908,
+                                "y": 220,
+                                "size":48
+                            }
+                        ],
+                        "sections":[
+                            {
+                                "name": "Kill Gels",
+                                "item_count": 1
+                            }
+                        ]
+                    },
+                    {
+                        "name":"Map A7 - Map",
+                        "map_locations":[
+                            {
+                                "map":"level9",
+                                "x": 1926,
+                                "y": 440,
+                                "size": 48
+                            },
+                            {
+                                "map":"dungeons2",
+                                "x": 2036,
+                                "y": 220,
+                                "size":48
+                            }
+                        ],
+                        "sections":[
+                            {
+                                "name": "Kill Petra",
+                                "item_count": 1,
+                                "access_rules":["@CanKillGleeok"]
+                            }
+                        ]
+                    },
+                    {
+                        "name":"Map B7 - Kill Vires",
+                        "map_locations":[
+                            {
+                                "map":"level9",
+                                "x": 1926,
+                                "y": 616,
+                                "size": 48
+                            },
+                            {
+                                "map":"dungeons2",
+                                "x": 2036,
+                                "y": 308,
+                                "size":48
+                            }
+                        ],
+                        "sections":[
+                            {
+                                "name": "Kill Vires",
+                                "item_count": 1
+                            }
+                        ]
+                    },
+                    {
+                        "name":"Map C7 - Floor Item",
+                        "map_locations":[
+                            {
+                                "map":"level9",
+                                "x": 2007,
+                                "y": 744,
+                                "size": 48
+                            },
+                            {
+                                "map":"dungeons2",
+                                "x": 2077,
+                                "y": 370,
+                                "size":48
+                            }
+                        ],
+                        "sections":[
+                            {
+                                "name": "Floor Item",
+                                "item_count": 1
+                            }
+                        ]
+                    },
+                    {
+                        "name":"Map D7 - Kill Wizzrobes",
+                        "map_locations":[
+                            {
+                                "map":"level9",
+                                "x": 1926,
+                                "y": 968,
+                                "size": 48
+                            },
+                            {
+                                "map":"dungeons2",
+                                "x": 2036,
+                                "y": 484,
+                                "size":48
+                            }
+                        ],
+                        "sections":[
+                            {
+                                "name": "Kill Wizzrobes",
+                                "item_count": 1,
+                                "capture_item":true,
+                                "access_rules":["@CanKillWizzrobes,z1ladder","{@CanKillWizzrobes}"]
+                            }
+                        ]
+                    },                    
+                    {
+                        "name":"Hidden Stairs 1 - Red Ring",
+                        "map_locations":[
+                            {
+                                "map":"level9",
+                                "x": 1926,
+                                "y": 1145,
+                                "size": 48
+                            },
+                            {
+                                "map":"dungeons2",
+                                "x": 2036,
+                                "y": 40,
+                                "size":48
+                            }
+                        ],
+                        "sections":[
+                            {
+                                "name": "Red Ring",
+                                "item_count": 1,
+                                "access_rules":["@CanKillWizzrobes"]
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name":"Main",
+                "access_rules":["@CanKillWizzrobes"],
+                "children":[
+                    {
+                        "name":"Map E2 - Kill Keese",
+                        "map_locations":[
+                            {
+                                "map":"level9",
+                                "x": 648,
+                                "y": 1145,
+                                "size": 48
+                            },
+                            {
+                                "map":"dungeons2",
+                                "x": 1397,
+                                "y": 572,
+                                "size":48
+                            }
+                        ],
+                        "sections":[
+                            {
+                                "name": "Kill Keese",
+                                "item_count": 1
+                            }
+                        ]
+                    },
+                    {
+                        "name":"Map E1 - Floor Item",
+                        "map_locations":[
+                            {
+                                "map":"level9",
+                                "x": 472,
+                                "y": 1096,
+                                "size": 48
+                            },
+                            {
+                                "map":"dungeons2",
+                                "x": 1309,
+                                "y": 548,
+                                "size":48
+                            }
+                        ],
+                        "sections":[
+                            {
+                                "name": "Floor Item",
+                                "item_count": 1
+                            }
+                        ]
+                    },
+                    {
+                        "name":"Hidden Stairs 2 - Silver Arrow",
+                        "map_locations":[
+                            {
+                                "map":"level9",
+                                "x": 135,
+                                "y": 90,
+                                "size": 48
+                            },
+                            {
+                                "map":"dungeons2",
+                                "x": 1180,
+                                "y": 106,
+                                "size":48
+                            }
+                        ],
+                        "sections":[
+                            {
+                                "name": "Silver Arrow",
+                                "item_count": 1,
+                                "access_rules":["@CanKillGleeok"]
+                            }
+                        ]
+                    },
+                    {
+                        "name":"Map C0 - Kill Wizzrobes",
+                        "map_locations":[
+                            {
+                                "map":"level9",
+                                "x": 135,
+                                "y": 792,
+                                "size": 48
+                            },
+                            {
+                                "map":"dungeons2",
+                                "x": 1141,
+                                "y": 396,
+                                "size":48
+                            }
+                        ],
+                        "sections":[
+                            {
+                                "name": "Kill Wizzrobes",
+                                "item_count": 1,
+                                "access_rules":["z1ladder"]
+                            }
+                        ]
+                    },
+                    {
+                        "name":"Map C2- Ganon",
+                        "map_locations":[
+                            {
+                                "map":"level9",
+                                "x": 640,
+                                "y": 790,
+                                "size": 48
+                            },
+                            {
+                                "map":"dungeons2",
+                                "x": 1392,
+                                "y": 395,
+                                "size":48
+                            }
+                        ],
+                        "sections":[
+                            {
+                                "name": "Kill Ganon",
+                                "item_count": 1,
+                                "access_rules":["z1sword,z1bow,z1arrows2"],
+                                "chest_unopened_img":"images/z-ganon.png",
+                                "chest_opened_img":"images/zelda.png",
+                                "hosted_item":"z1ganon"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+]

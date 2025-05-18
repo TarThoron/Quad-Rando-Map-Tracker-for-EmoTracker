@@ -1,0 +1,751 @@
+[
+    {
+        "name": "Brinstar",
+        "chest_unopened_img": "images/m1-chozo.png",
+        "chest_opened_img": "images/m1-chozo-empty.png",
+        "color": "#021281",
+        "children": [
+            {
+                "name": "Morph Ball",
+                "map_locations": [
+                    {
+                        "map": "m1-zebes",
+                        "x": 334,
+                        "y": 777,
+                        "size": 50
+                    }
+                ],
+                "sections": [
+                    {
+                      "name": "Morph Ball",
+                      "item_count": 1,
+                      "access_rules":
+                        ["m1morph"]
+                    }
+                ]
+            },
+            {
+                "name": "Long Beam",
+                "map_locations": [
+                    {
+                        "map": "m1-zebes",
+                        "x": 635,
+                        "y": 239,
+                        "size": 50
+                    }
+                ],
+                "sections": [
+                    {
+                    "name": "Long Beam",
+                    "item_count": 1,
+                    "access_rules": 
+                        [ "m1missile" ]
+                    }
+                ]
+            },
+            {
+                "name": "Bombs",
+                "map_locations": [
+                    {
+                        "map": "m1-zebes",
+                        "x": 1714,
+                        "y": 239,
+                        "size": 50
+                    }
+                ],
+                "sections": [
+                    {
+                    "name": "Bombs",
+                    "item_count": 1,
+                    "access_rules":
+                        [ "m1missile" ]
+                    }
+                ]
+            }, 
+            {
+                "name": "Brinstar Ice Beam",
+                "map_locations": [
+                    {
+                        "map": "m1-zebes",
+                        "x": 1355,
+                        "y": 479,
+                        "size": 50
+                    }
+                ],
+                "sections": [
+                    {
+                    "name": "Brinstar Ice Beam",
+                    "item_count": 1,
+                    "access_rules":
+                        [ "m1missile,m1morph,m1bombs"]
+                    }
+                ]
+            },
+            {
+                "name": "Varia Suit",
+                "map_locations": [
+                    {
+                        "map": "m1-zebes",
+                        "x": 1114,
+                        "y": 59,
+                        "size": 50
+                    }
+                ],
+                "sections": [
+                    {
+                    "name": "Varia Suit",
+                    "item_count": 1,
+                    "access_rules":
+                        [ "m1missile,m1bombs,m1jump"]
+                    }
+                ]
+            },     
+            {
+                "name": "Morph Wall Etank",
+                "map_locations": [
+                    {
+                        "map": "m1-zebes",
+                        "x": 754,
+                        "y": 777,
+                        "size": 50
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Morph Wall Etank",
+                        "item_count": 1,
+                        "capturable":true,
+                        "access_rules":
+                            ["m1morph,m1ice","{m1morph,m1missile}","{m1morph,m1long}"]
+                    }
+                ]
+            },
+            {
+                "name": "Right Lava Etank",
+                "map_locations": [
+                    {
+                        "map": "m1-zebes",
+                        "x": 1713,
+                        "y": 358,
+                        "size": 50
+                    }
+                ],
+                "sections": [
+                    {
+                    "name": "Right Lava Etank",
+                    "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Top Right Corridor Etank",
+                "map_locations": [
+                    {
+                        "map": "m1-zebes",
+                        "x": 1833,
+                        "y": 117,
+                        "size": 50
+                    }
+                ],
+                "sections": [
+                    {
+                    "name": "Top Right Corridor Etank",
+                    "item_count": 1,
+                    "access_rules":
+                        ["m1morph,m1bombs"]
+                    }
+                ]
+            },
+            {
+                "name": "Pre-Norfair Missile",
+                "map_locations": [
+                    {
+                        "map": "m1-zebes",
+                        "x": 1294,
+                        "y": 598,
+                        "size": 50
+                    }
+                ],
+                "sections": [
+                    {
+                    "name": "Pre-Norfair Missile",
+                    "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Top Right Corridor Missile",
+                "map_locations": [
+                    {
+                        "map": "m1-zebes",
+                        "x": 1653,
+                        "y": 117,
+                        "size": 50
+                    }
+                ],
+                "sections": [
+                    {
+                    "name": "Triple Lava Pillar Missile",
+                    "item_count": 1,
+                    "access_rules":
+                        ["m1morph,m1bombs"]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name":"Kraid's Hideout",
+        "chest_unopened_img":"images/m1-chozo.png",
+        "chest_opened_img":"images/m1-chozo-empty.png",
+        "color": "#1a5c00",
+        "access_rules":["m1morph,m1bombs"],
+        "children":[          
+            {
+                "name": "Top Left Missile",
+                "map_locations": [
+                    {
+                        "map": "m1-zebes",
+                        "x": 454,
+                        "y": 1258,
+                        "size": 50
+                    }
+                ],
+                "sections": [
+                    {
+                    "name": "Top Left Missile",
+                    "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Top Right Missile",
+                "map_locations": [
+                    {
+                        "map": "m1-zebes",
+                        "x": 753,
+                        "y": 1258,
+                        "size": 50
+                    }
+                ],
+                "sections": [
+                    {
+                    "name": "Top Middle Missile",
+                    "item_count": 1,
+                    "access_rules":
+                        ["m1missile"]
+                    }
+                ]
+            },
+            {
+                "name": "Bottom Left Missile",
+                "map_locations": [
+                    {
+                        "map": "m1-zebes",
+                        "x": 514,
+                        "y": 1618,
+                        "size": 50
+                    }
+                ],
+                "sections": [
+                    {
+                    "name": "Bottom Left Missile",
+                    "item_count": 1,
+                    "access_rules":
+                        ["m1missile"]
+                    }
+                ]
+            },
+            {
+                "name": "Bottom Right Missile",
+                "map_locations": [
+                    {
+                        "map": "m1-zebes",
+                        "x": 813,
+                        "y": 1498,
+                        "size": 50
+                    }
+                ],
+                "sections": [
+                    {
+                    "name": "Middle Missile",
+                    "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Top Etank",
+                "map_locations": [
+                    {
+                        "map": "m1-zebes",
+                        "x": 814,
+                        "y": 1317,
+                        "size": 50
+                    }
+                ],
+                "sections": [
+                    {
+                    "name": "Top Etank",
+                    "item_count": 1,
+                    "access_rules":
+                        ["m1missile"]
+                    }
+                ]
+            },
+            {
+                "name": "Kraid Etank",
+                "map_locations": [
+                    {
+                        "map": "m1-zebes",
+                        "x": 717,
+                        "y": 1770,
+                        "size": 50
+                    }
+                ],
+                "sections": [
+                    {
+                    "name": "Kraid Etank",
+                    "item_count": 1,
+                    "access_rules":
+                        ["m1missile"]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Norfair",
+        "chest_unopened_img":"images/m1-chozo.png",
+        "chest_opened_img":"images/m1-chozo-empty.png",
+        "color": "#7e0001",
+        "children":[
+            {
+                "name": "Hijump",
+                "map_locations": [
+                    {
+                        "map": "m1-zebes",
+                        "x": 1833,
+                        "y": 1017,
+                        "size": 50
+                    }
+                ],
+                "sections": [
+                    {
+                    "name": "Hijump",
+                    "item_count": 1,
+                    "access_rules":
+                        ["m1missile,m1morph,m1bombs"]
+                    }
+                ]
+            },
+            {
+                "name": "Norfair Ice Beam",
+                "map_locations": [
+                    {
+                        "map": "m1-zebes",
+                        "x": 1775,
+                        "y": 719,
+                        "size": 50
+                    }
+                ],
+                "sections": [
+                    {
+                    "name": "Norfair Ice Beam",
+                    "item_count": 1,
+                    "access_rules":
+                        ["m1morph,m1bombs,m1ice","m1morph,m1bombs,m1jump"]
+                    }
+                ]
+            },
+            {
+                "name": "Screw Attack",
+                "map_locations": [
+                    {
+                        "map": "m1-zebes",
+                        "x": 1114,
+                        "y": 959,
+                        "size": 50
+                    }
+                ],
+                "sections": [
+                    {
+                    "name": "Screw Attack",
+                    "item_count": 1,
+                    "access_rules":
+                        ["m1morph,m1bombs"]
+                    }
+                ]
+            },
+            {
+                "name": "Wave Beam",
+                "map_locations": [
+                    {
+                        "map": "m1-zebes",
+                        "x": 1294,
+                        "y": 1258,
+                        "size": 50
+                    }
+                ],
+                "sections": [
+                    {
+                    "name": "Wave Beam",
+                    "item_count": 1,
+                    "access_rules":
+                        ["m1missile,m1morph,m1bombs"]
+                    }
+                ]
+            },
+            {
+                "name": "Top Missile Left",
+                "map_locations": [
+                    {
+                        "map": "m1-zebes",
+                        "x": 1834,
+                        "y": 598,
+                        "size": 50
+                    }
+                ],
+                "sections": [
+                    {
+                    "name": "Top Missile Left",
+                    "item_count": 1,
+                    "access_rules":
+                        ["m1missile,m1morph,m1bombs,m1ice","m1missile,m1morph,m1bombs,m1jump"]
+                    }
+                ]
+            },
+            {
+                "name": "Top Missile Right",
+                "map_locations": [
+                    {
+                        "map": "m1-zebes",
+                        "x": 1894,
+                        "y": 598,
+                        "size": 50
+                    }
+                ],
+                "sections": [
+                    {
+                    "name": "Top Missile Right",
+                    "item_count": 1,
+                    "access_rules":
+                        ["m1missile,m1morph,m1bombs,m1ice","m1missile,m1morph,m1bombs,m1jump"]
+                    }
+                ]
+            },
+            {
+                "name": "Triple Missile Left",
+                "map_locations": [
+                    {
+                        "map": "m1-zebes",
+                        "x": 1774,
+                        "y": 658,
+                        "size": 50
+                    }
+                ],
+                "sections": [
+                    {
+                    "name": "Triple Missile Left",
+                    "item_count": 1,
+                    "access_rules":
+                        ["m1jump","m1ice"]
+                    }
+                ]
+            },
+            {
+                "name": "Triple Missile Middle",
+                "map_locations": [
+                    {
+                        "map": "m1-zebes",
+                        "x": 1834,
+                        "y": 658,
+                        "size": 50
+                    }
+                ],
+                "sections": [
+                    {
+                    "name": "Triple Missile Middle",
+                    "item_count": 1,
+                    "access_rules":
+                        ["m1jump","m1ice"]
+                    }
+                ]
+            },
+            {
+                "name": "Triple Missile Right",
+                "map_locations": [
+                    {
+                        "map": "m1-zebes",
+                        "x": 1894,
+                        "y": 658,
+                        "size": 50
+                    }
+                ],
+                "sections": [
+                    {
+                    "name": "Triple Missile Right",
+                    "item_count": 1,
+                    "access_rules":
+                        ["m1jump","m1ice"]
+                    }
+                ]
+            },
+            {
+                "name": "Top Left Connector",
+                "map_locations": [
+                    {
+                        "map": "m1-zebes",
+                        "x": 1294,
+                        "y": 837,
+                        "size": 50
+                    }
+                ],
+                "sections": [
+                    {
+                    "name": "Top Left Connector",
+                    "item_count": 1,
+                    "access_rules":
+                        [""]
+                    }
+                ]
+            },
+            {
+                "name": "Top Left Missile",
+                "map_locations": [
+                    {
+                        "map": "m1-zebes",
+                        "x": 1234,
+                        "y": 898,
+                        "size": 50
+                    }
+                ],
+                "sections": [
+                    {
+                    "name": "Left Missile",
+                    "item_count": 1,
+                    "access_rules":
+                        ["m1morph,m1bombs"]
+                    }
+                ]
+            },
+            {
+                "name": "Orange Corridor Left Missile",
+                "map_locations": [
+                    {
+                        "map": "m1-zebes",
+                        "x": 1355,
+                        "y": 898,
+                        "size": 50
+                    }
+                ],
+                "sections": [
+                    {
+                    "name": "Orange Corridor Left Missile",
+                    "item_count": 1,
+                    "access_rules":
+                        ["m1morph,m1bombs,m1ice"]
+                    }
+                ]
+            },
+            {
+                "name": "Orange Corridor Right Missile",
+                "map_locations": [
+                    {
+                        "map": "m1-zebes",
+                        "x": 1414,
+                        "y": 898,
+                        "size": 50
+                    }
+                ],
+                "sections": [
+                    {
+                    "name": "Orange Corridor Right Missile",
+                    "item_count": 1,
+                    "access_rules":
+                        ["m1morph,m1bombs,m1ice"]
+                    }
+                ]
+            },
+            {
+                "name": "Right Eyes Missile",
+                "map_locations": [
+                    {
+                        "map": "m1-zebes",
+                        "x": 1894,
+                        "y": 1197,
+                        "size": 50
+                    }
+                ],
+                "sections": [
+                    {
+                    "name": "Right Eyes Missile",
+                    "item_count": 1,
+                    "access_rules":
+                        ["m1missile,m1morph,m1bombs"]
+                    }
+                ]
+            },
+            {
+                "name": "Bottom Eyes Missile Left",
+                "map_locations": [
+                    {
+                        "map": "m1-zebes",
+                        "x": 1355,
+                        "y": 1317,
+                        "size": 50
+                    }
+                ],
+                "sections": [
+                    {
+                    "name": "Bottom Eyes Missile Left",
+                    "item_count": 1,
+                    "access_rules":
+                        ["m1missile,m1morph,m1bombs"]
+                    }
+                ]
+            },
+            {
+                "name": "Bottom Eyes Missile Right",
+                "map_locations": [
+                    {
+                        "map": "m1-zebes",
+                        "x": 1414,
+                        "y": 1317,
+                        "size": 50
+                    }
+                ],
+                "sections": [
+                    {
+                    "name": "Bottom Eyes Missile Right",
+                    "item_count": 1,
+                    "access_rules":
+                        ["m1missile,m1morph,m1bombs"]
+                    }
+                ]
+            },
+            {
+                "name": "Norfair Etank",
+                "map_locations": [
+                    {
+                        "map": "m1-zebes",
+                        "x": 1774,
+                        "y": 1137,
+                        "size": 50
+                    }
+                ],
+                "sections": [
+                    {
+                    "name": "",
+                    "item_count": 1,
+                    "access_rules":
+                        ["m1missile,m1morph,m1bombs"]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Ridley's Hideout",
+        "chest_unopened_img":"images/m1-chozo.png",
+        "chest_opened_img":"images/m1-chozo-empty.png",
+        "color": "#37015d",
+        "access_rules":["m1morph,m1bombs"],
+        "children":[
+            {
+                "name": "Top Purple Missile",
+                "map_locations": [
+                    {
+                        "map": "m1-zebes",
+                        "x": 1294,
+                        "y": 1498,
+                        "size": 50
+                    }
+                ],
+                "sections": [
+                    {
+                    "name": "Top Purple Missile",
+                    "item_count": 1,
+                    "access_rules":
+                        [""]
+                    }
+                ]
+            },
+            {
+                "name": "Jump Missile",
+                "map_locations": [
+                    {
+                        "map": "m1-zebes",
+                        "x": 1653,
+                        "y": 1677,
+                        "size": 50
+                    }
+                ],
+                "sections": [
+                    {
+                    "name": "Jump Missile",
+                    "item_count": 1,
+                    "access_rules":
+                        ["m1missile"]
+                    }
+                ]
+            },
+            {
+                "name": "Below Ridley Missile",
+                "map_locations": [
+                    {
+                        "map": "m1-zebes",
+                        "x": 1414,
+                        "y": 1857,
+                        "size": 50
+                    }
+                ],
+                "sections": [
+                    {
+                    "name": "Below Ridley Missile",
+                    "item_count": 1,
+                    "access_rules":
+                        [""]
+                    }
+                ]
+            },
+            {
+                "name": "Hidden Fall Shaft Etank",
+                "map_locations": [
+                    {
+                        "map": "m1-zebes",
+                        "x": 1234,
+                        "y": 1557,
+                        "size": 50
+                    }
+                ],
+                "sections": [
+                    {
+                    "name": "Hidden Fall Shaft Etank",
+                    "item_count": 1,
+                    "access_rules":
+                        ["m1missile"]
+                    }
+                ]
+            },
+            {
+                "name": "Ridley Etank",
+                "map_locations": [
+                    {
+                        "map": "m1-zebes",
+                        "x": 1114,
+                        "y": 1798,
+                        "size": 50
+                    }
+                ],
+                "sections": [
+                    {
+                    "name": "Ridley Etank",
+                    "item_count": 1,
+                    "access_rules":
+                        ["m1missile:2"]
+                    }
+                ]
+            }
+        ]
+    }
+]

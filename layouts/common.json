@@ -1,0 +1,221 @@
+{
+  "sm_maps": {
+    "type": "tabbed",
+    "tabs": [
+      {
+        "title": "Full",
+        "content": {
+          "type": "map",
+          "maps": [
+            "metroid"
+          ]
+        }
+      },
+      {
+        "title": "Crateria",
+        "content": {
+          "type": "map",
+          "maps": [
+            "crateria"
+          ]
+        }
+      },
+      {
+        "title": "Brinstar",
+        "content": {
+          "type": "map",
+          "maps": [
+            "brinstar"
+          ]
+        }
+      },
+      {
+        "title": "Wrecked Ship",
+        "content": {
+          "type": "map",
+          "maps": [
+            "wreckedship"
+          ]
+        }
+      },
+      {
+        "title": "Maridia",
+        "content": {
+          "type": "map",
+          "maps": [
+            "maridia"
+          ]
+        }
+      },
+      {
+        "title": "Norfair",
+        "content": {
+          "type": "map",
+          "maps": [
+            "norfair"
+          ]
+        }
+      }
+    ]
+  },
+  "alttp_maps": {
+    "type": "tabbed",
+    "tabs": [
+      {
+        "title": "Full",
+        "content": {
+          "type": "map",
+          "maps": [
+            "lightworld", "darkworld"
+          ]
+        }
+      },
+      {
+        "title": "Light World",
+        "content": {
+          "type": "map",
+          "maps": [
+            "lightworld"
+          ]
+        }
+      },
+      {
+        "title": "Dark World",
+        "content": {
+          "type": "map",
+          "maps": [
+            "darkworld"
+          ]
+        }
+      }
+    ]
+  },
+  "m1_map": {
+    "type":"tabbed",
+    "tabs": [
+      {
+        "title": "Zebes",
+        "content":{
+          "type": "map",
+          "maps": [
+            "m1-zebes"
+          ]
+        }
+      }
+    ]
+  },
+  "z1_map": {
+    "type":"tabbed",
+    "tabs": [
+      {
+        "title": "Full",
+        "content": 
+        {
+          "type": "array",
+          "orientation": "vertical",
+          "content":[
+            {
+              "type": "map",
+              "maps": [
+                "hyrule"
+              ]
+            },
+            {
+              "type": "map",
+              "maps": [
+                "dungeons1"
+              ]
+            },
+            {
+              "type":"map",
+              "maps":[
+                "dungeons2"
+              ]
+            }
+          ]
+        }        
+      },
+      {
+        "title": "Level 1",        
+        "content":{
+          "type":"map",
+          "maps":[
+            "level1"
+          ]
+        }
+      },
+      {
+        "title": "Level 2",        
+        "content":{
+          "type":"map",
+          "maps":[
+            "level2"
+          ]
+        }
+      },
+      {
+        "title": "Level 3",        
+        "content":{
+          "type":"map",
+          "maps":[
+            "level3"
+          ]
+        }
+      },
+      {
+        "title": "Level 4",        
+        "content":{
+          "type":"map",
+          "maps":[
+            "level4"
+          ]
+        }
+      },
+      {
+        "title": "Level 5",        
+        "content":{
+          "type":"map",
+          "maps":[
+            "level5"
+          ]
+        }
+      },
+      {
+        "title": "Level 6",        
+        "content":{
+          "type":"map",
+          "maps":[
+            "level6"
+          ]
+        }
+      },
+      {
+        "title": "Level 7",        
+        "content":{
+          "type":"map",
+          "maps":[
+            "level7"
+          ]
+        }
+      },
+      {
+        "title": "Level 8",        
+        "content":{
+          "type":"map",
+          "maps":[
+            "level8"
+          ]
+        }
+      },
+      {
+        "title": "Level 9",        
+        "content":{
+          "type":"map",
+          "maps":[
+            "level9"
+          ]
+        }
+      }
+    ]
+  }
+}

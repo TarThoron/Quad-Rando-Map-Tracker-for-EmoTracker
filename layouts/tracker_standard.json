@@ -1,0 +1,478 @@
+{
+  "alttp_item_grid": {
+    "type": "itemgrid",
+    "h_alignment": "center",
+    "item_margin": "2,2",
+    "rows": [
+      [ "bowandarrows", "boomerangs", "hookshot", "powder", "mushroom", "armor", "owsword"],
+      [ "firerod", "icerod", "bombos", "ether", "quake", "lift1", "shield"],
+      [ "lamp", "hammer", "ocarina", "net", "book", "shovel", "pearl"],
+      [ "bottle", "somaria", "byrna", "cape", "mirror", "flippers", "boots"],
+      [ "easternpalace", "desertpalace", "towerofhera", "aga", "halfmagic", "heartpiece", "heartcontainer"],
+      [ "palaceofdarkness", "swamppalace", "skullwoods", "thievestown", "icepalace", "miserymire", "turtlerock"]
+    ]
+  },
+  "sm_item_grid": {
+    "type": "array",
+    "orientation": "vertical",
+    "v_alignment": "top",
+    "margin": "0,0",
+    "content": [
+      {
+        "type": "itemgrid",
+        "item_margin": "5,3",
+        "h_alignment": "center",
+        "rows": [
+          [ "charge", "wave", "ice", "spazer", "plasma", "kraid"],
+          [ "morph", "bomb", "spring", "space","screw", "phantoon"],
+          [ "varia", "gravity", "hijump", "speed", "grapple", "draygon"],
+          [ "missile", "supermissile", "powerbomb", "etank", "reservetank", "ridley"]
+        ]
+      }
+      
+    ]
+  },
+  "loz_item_grid": {
+    "type":"array",
+    "orientation":"horizontal",
+    "h_alignment": "center",
+    "margin":"0,0",
+    "item_margin":"1",
+    "content":[
+      {
+        "type": "itemgrid",
+        "margin": "0,4",
+        "item_margin": "0,2",
+        "h_alignment": "left",
+        "rows": [
+          [ "z1sword", "z1boom", "z1candle", "z1arrows", "z1bow", "z1raft", "z1baiter" ],
+          [ "z1heart", "z1bomb", "z1ring", "z1recorder", "z1bracelet", "z1ladder", "z1brod" ]
+        ]
+      },
+      {
+        "type": "array",
+        "orientation": "vertical",
+        "margin": "0,10,0,0",
+        "content": [
+          {
+            "type": "itemgrid",
+            "margin": "0,0",
+            "item_margin": "1,1",
+            "h_alignment": "left",
+            "width": 32,
+            "rows": [
+              [ "z1magickey" ]
+            ]
+          },
+          {
+            "type": "itemgrid",
+            "width": 32,
+            "height": 20,
+            "item_margin": "-5,-20,1,10",
+            "h_alignment": "left",
+            "rows": [
+              [ "anykeycounter" ]
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "triforce_pieces": {
+    "type":"itemgrid",
+    "margin": "0,-2",
+    "item_margin": "-3,0",
+    "rows":[
+      ["z1tri1", "z1tri2", "z1tri3", "z1tri4", "z1tri5", "z1tri6", "z1tri7", "z1tri8"]
+    ]
+  },
+  "metroid_item_grid": {
+    "type":"itemgrid",
+    "margin": "0,4",
+    "item_margin": "3,3",
+    "rows":[
+      ["m1morph",  "m1bombs", "m1long", "m1wave", "m1ice", "m1kraid" ],
+      ["m1varia", "m1jump", "m1screw", "m1missile", "m1etank", "m1ridley"]
+    ]
+  },
+  "tracker_capture_item": {
+    "type": "container",
+    "content": {
+      "type": "itemgrid",
+      "h_alignment": "center",
+      "item_margin": "1,2",
+      "rows": [
+        [ "bow", "silvers", "hookshot", "bombs", "powder", "mushroom", "charge", "ice", "wave", "spazer", "plasma"],
+        [ "firerod", "icerod", "bombos", "ether", "quake", "shovel", "morph", "bomb", "spring", "space","screw"],
+        [ "lamp", "hammer", "ocarina", "net", "book", "pearl", "varia", "gravity", "hijump", "speed", "grapple"],
+        [ "bottle", "somaria", "byrna", "cape", "mirror", "blueboomerang", "redboomerang", "heartpiece_icon", "xray", "etank_icon", "reservetank_icon"],
+        [ "lift1", "boots", "flippers", "halfmagic", "owsword", "shield", "armor", "heartcontainer_icon", "missile_icon", "super_icon", "pb_icon"],
+        [ "z1woodsword", "z1boomerang", "z1magicboom", "z1silver", "z1bow", "z1ladder", "z1letter", "m1bombs", "m1long", "m1wave", "m1ice"],
+        [ "z1whitesword", "z1bluering", "z1redring", "z1recorder", "z1bracelet", "z1raft", "z1heart-icon", "m1morph", "m1varia", "m1jump", "m1screw"],
+        [ "z1magicsword", "z1bluecandle", "z1redcandle", "z1rod", "z1book", "z1smallkey", "z1magickey", "triforce-icon", "", "m1missile-icon", "m1etank-icon"]
+      ]
+    }
+  },
+  "take_any_capture_item":{
+    "type":"container",
+    "content":{
+      "type":"itemgrid",
+      "rows":[
+        ["z1arrow", "z1bomb", "z1smallheart", "z1rupee", "z1smallkey", "z1heart-icon"]
+      ]
+    }
+  },  
+  "goals": {
+    "type": "array",
+    "orientation": "horizontal",
+    "margin": "0,0",
+    "content": [
+      {
+        "type": "array",
+        "orientation": "vertical",
+        "margin": "-3,0,0,0",
+        "content": [
+          {
+            "type": "itemgrid",
+            "item_width": "120",
+            "item_height": "48",
+            "item_margin":"0.0",
+            "rows": [
+              ["goal"]
+            ] 
+          },
+          {            
+            "type": "array",
+            "orientation": "horizontal",
+            "h_alignment": "center",
+            "margin": "0,0",
+            "content": [
+              {                
+                "type": "itemgrid",                
+                "rows":[
+                  [ "triforcepiece"]
+                ]
+              },
+              {
+                "type": "itemgrid",
+                "margin": "-8,-2,0,0",
+                "rows": [
+                  [ "triforcecounter"]
+                ]
+              }
+            ]            
+          }
+        ]
+      },
+      {
+        "type":"itemgrid",
+        "h_alignment": "right",
+        "item_margin":"1,1",
+        "item_size":"48",
+        "badge_font_size": "12",
+        "rows": [
+          [ "ganon", "mbrain" ],
+          [ "z1ganon", "m1brain" ]
+        ]
+      }
+    ]
+  },  
+  "objectives": {
+    "type":"array",
+    "orientation": "horizontal",
+    "h_alignment":"center",
+    "margin": "0,-12",
+    "content": [
+      {
+        "type":"itemgrid",
+        "margin": "0,0",
+        "h_alignment":"center",
+        "v_alignment":"center",
+        "item_margin":"0",
+        "item_width": 118,
+        "item_height": 32,
+        "rows":[
+          ["L9"],
+          ["TE"],
+          ["GV"],
+          ["TS"]
+        ]
+      },
+      {
+        "type":"itemgrid",
+        "margin":"0,0",
+        "h_alignment":"left",
+        "item_margin": "0,0",
+        "rows": [
+          ["triforcepiececount"],
+          ["gt_crystals"],
+          ["ganon_crystals"],
+          ["g4count"]
+        ]
+      }
+    ]
+  },
+  "broadcast_goals": {
+    "type":"array",
+    "orientation":"vertical",
+    "h_alignment":"center",
+    "content":[
+      {
+        "type": "array",
+        "orientation":"horizontal",
+        "margin": "0,-8",
+        "content":[
+          {
+            "type":"itemgrid",
+            "item_width": "120",
+            "item_height": "48",
+            "item_margin":"0.0",
+            "rows": [
+              ["goal"]
+            ] 
+          },
+          {            
+            "type": "array",
+            "orientation": "horizontal",              
+            "h_alignment": "center",
+            "margin": "0,0",
+            "content": [
+              {                
+                "type": "itemgrid",                
+                "rows":[
+                  [ "triforcepiece"]
+                ]
+              },
+              {
+                "type": "itemgrid",
+                "margin": "-8,-2,0,0",
+                "rows": [
+                  [ "triforcecounter"]
+                ]
+              }
+            ]            
+          }
+        ]
+      },
+      {
+        "type":"array",
+        "orientation":"horizontal",
+        "margin":"0,-8,0,1",
+        "content":[
+          {
+            "type":"itemgrid",
+            "item_size": 48,
+            "rows":[
+              ["ganon", "mbrain", "z1ganon", "m1brain"]
+            ]
+          }
+        ]
+      },
+      {
+        "type":"array",
+        "orientation":"horizontal",
+        "h_alignment":"center",
+        "margin":"0,-15",
+        "content":[
+          {
+            "type":"itemgrid",
+            "h_alignment":"center",
+            "v_alignment":"top",
+            "margin":"0,0",
+            "item_margin":"0,-6,0,-5",
+            "item_width": 118,
+            "item_height": 32,
+            "rows":[
+              ["TE", "L9"],
+              ["gt_crystals", "triforcepiececount"],
+              ["GV", "TS"],
+              ["ganon_crystals", "g4count"]
+            ]
+          }
+        ]
+      }
+    ]
+  }, 
+  "tracker_default": {
+    "type": "container",
+    "content": {
+      "min_width": "283",
+      "type": "dock",
+      "dropshadow": true,
+      "content": [
+        {
+          "type": "dock",
+          "dock": "left",
+          "h_alignment": "bottom",
+          "content": [
+		        {
+                "type": "tabbed",
+                "orientation": "vertical",
+                "background": "#101010",
+                "tabs": [
+                  {
+                    "type": "group",
+                    "title": "Items",
+                    "content": {
+                      "type": "array",
+                      "orientation": "vertical",
+                      "margin": "0,0",
+                      "content": [
+                        {
+                          "type": "layout",
+                          "key": "alttp_item_grid"
+                        },
+                        {
+                          "type": "layout",
+                          "key": "sm_item_grid"
+                        },
+                        {
+                          "type":"layout",
+                          "key":"loz_item_grid"
+                        },
+                        {
+                          "type":"layout",
+                          "key":"triforce_pieces"
+                        },
+                        {
+                          "type":"layout",
+                          "key":"metroid_item_grid"
+                        },
+                        {
+                          "type":"layout",
+                          "key":"goals"
+                        },
+                        {
+                          "type":"layout",
+                          "key":"objectives"
+                        }
+                    ]
+                  }
+                },
+                {
+                  "type": "group",
+                  "title": "Pinned Locations",
+                  "content": {
+                    "min_width": "262",
+                    "type": "recentpins",
+                    "style": "stack",
+                    "h_alignment": "stretch",
+                    "v_alignment": "stretch",
+                    "compact": true
+                  }
+                }
+			        ]
+		        }
+          ]
+        },
+        {
+          "type": "tabbed",
+          "tabs": [
+            {
+              "title": "Super Metroid",
+              "content": {
+                "type": "layout",
+                "key": "sm_maps"
+              }
+            },
+            {
+              "title": "Link to the Past",
+              "content": {
+                "type": "layout",
+                "key": "alttp_maps"
+              }
+            },
+            {
+              "title": "Metroid",
+              "content":{
+                "type": "layout",
+                "key": "m1_map"
+              }
+            },
+            {
+              "title": "Legend of Zelda",
+              "content":{
+                "type":"layout",
+                "key": "z1_map"
+              }
+            },
+            {
+              "title": "All",
+              "content":{
+                "type":"tabbed",
+                "tabs":[
+                  {
+                    "title": "Vertical",
+                    "content":{
+                      "type":"array",
+                      "orientation":"vertical",
+                      "content":[
+                        {
+                          "type":"map",
+                          "orientation": "horizontal",
+                          "maps":[
+                            "lightworld",
+                            "darkworld"
+                          ]
+                        },
+                        {
+                          "type":"map",
+                          "orientation":"horizontal",
+                          "maps":[
+                            "metroid",
+                            "m1-zebes"
+                          ]
+                        },
+                        {
+                          "type":"map",
+                          "orientation":"horizontal",
+                          "maps":[
+                            "hyrule"
+                          ]
+                        }              
+                      ]
+                    }
+                  },
+                  {
+                    "title": "Horizontal",
+                    "content":{
+                      "type":"array",
+                      "orientation":"horizontal",
+                      "content":[
+                        {
+                          "type":"map",
+                          "orientation": "vertical",
+                          "maps":[
+                            "lightworld",
+                            "darkworld"
+                          ]
+                        },
+                        {
+                          "type":"map",
+                          "orientation":"vertical",
+                          "maps":[
+                            "metroid",
+                            "m1-zebes"
+                          ]
+                        },
+                        {
+                          "type":"map",
+                          "orientation":"vertical",
+                          "maps":[
+                            "hyrule",
+                            "dungeons1",
+                            "dungeons2"
+                          ]
+                        }              
+                      ]
+                    }
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

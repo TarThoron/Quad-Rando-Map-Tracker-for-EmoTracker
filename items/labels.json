@@ -1,0 +1,119 @@
+[
+  // LTTP labels
+  {
+    "name": "Hyrule Castle",
+    "type": "static",
+    "img": "images/HC.png",
+    "codes": "hc_label"
+  },
+  {
+    "name": "Aganhim's Tower",
+    "type": "static",
+    "img": "images/AT.png",
+    "codes": "at_label"
+  },
+  {
+    "name": "Eastern Palace",
+    "type": "static",
+    "img": "images/EP.png",
+    "codes": "ep_label"
+  },
+  {
+    "name": "Desert Palace",
+    "type": "static",
+    "img": "images/DP.png",
+    "codes": "dp_label"
+  },
+  {
+    "name": "Tower of Hera",
+    "type": "static",
+    "img": "images/TH.png",
+    "codes": "toh_label"
+  },
+  {
+    "name": "Palace of Darkness",
+    "type": "static",
+    "img": "images/PD.png",
+    "codes": "pod_label"
+  },
+  {
+    "name": "Swamp Palace",
+    "type": "static",
+    "img": "images/SP.png",
+    "codes": "sp_label"
+  },
+  {
+    "name": "Skull Woods",
+    "type": "static",
+    "img": "images/SW.png",
+    "codes": "sw_label"
+  },
+  {
+    "name": "Thieves Town",
+    "type": "static",
+    "img": "images/TT.png",
+    "codes": "tt_label"
+  },
+  {
+    "name": "Ice Palace",
+    "type": "static",
+    "img": "images/IP.png",
+    "codes": "ip_label"
+  },
+  {
+    "name": "Misery Mire",
+    "type": "static",
+    "img": "images/MM.png",
+    "codes": "mm_label"
+  },
+  {
+    "name": "Turtle Rock",
+    "type": "static",
+    "img": "images/TR.png",
+    "codes": "tr_label"
+  },
+  {
+    "name": "Ganon's Tower",
+    "type": "static",
+    "img": "images/GT.png",
+    "codes": "gt_label"
+  },
+
+  // SM labels
+  {
+    "name": "Crateria",
+    "type": "static",
+    "img": "images/CR.png",
+    "codes": "crateria_label"
+  },
+  {
+    "name": "Brinstar",
+    "type": "static",
+    "img": "images/BR.png",
+    "codes": "brinstar_label"
+  },
+  {
+    "name": "Upper Norfair",
+    "type": "static",
+    "img": "images/UN.png",
+    "codes": "un_label"
+  },
+  {
+    "name": "Wrecked Ship",
+    "type": "static",
+    "img": "images/WS.png",
+    "codes": "ws_label"
+  },
+  {
+    "name": "Maridia",
+    "type": "static",
+    "img": "images/MA.png",
+    "codes": "maridia_label"
+  },
+  {
+    "name": "Lower Norfair",
+    "type": "static",
+    "img": "images/LN.png",
+    "codes": "ln_label"
+  }
+]

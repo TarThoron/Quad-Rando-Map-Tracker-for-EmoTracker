@@ -1,0 +1,750 @@
+[
+  {
+    "name": "Light World",
+    "chest_unopened_img": "images/0058.png",
+    "chest_opened_img": "images/0059.png",
+    "color": "#059134",
+    "children": [
+      {
+        "name": "Light World North West",
+        "children": [
+          {
+            "name": "Master Sword Pedestal",
+            "short_name": "Pedestal",
+            "map_locations": [
+              {
+                "map": "lightworld",
+                "x": 83,
+                "y": 101
+              }
+            ],
+            "sections": [
+              {
+                "name": "Pedestal",
+                "capture_item": true,
+                "access_rules": [
+                  "greenpendant,pendant:2",
+                  "{book}"
+                ],
+                "item_count": 1
+              }
+            ]
+          },
+          {
+            "name": "Kakariko Tavern",
+            "map_locations": [
+              {
+                "map": "lightworld",
+                "x": 320,
+                "y": 1145
+              }
+            ],
+            "sections": [
+              {
+                "name": "Back Room",
+                "item_count": 1
+              }
+            ]
+          },
+          {
+            "name": "Chicken House",
+            "map_locations": [
+              {
+                "map": "lightworld",
+                "x": 197,
+                "y": 1066
+              }
+            ],
+            "sections": [
+              {
+                "name": "Bombable Wall",
+                "item_count": 1
+              }
+            ]
+          },
+          {
+            "name": "Kakariko Well",
+            "map_locations": [
+              {
+                "map": "lightworld",
+                "x": 47,
+                "y": 833
+              }
+            ],
+            "sections": [
+              {
+                "name": "Cave",
+                "item_count": 4
+              },
+              {
+                "name": "Bombable Wall",
+                "short_name": "Bomb",
+                "item_count": 1
+              }
+            ]
+          },
+          {
+            "name": "Blind's Hideout",
+            "map_locations": [
+              {
+                "map": "lightworld",
+                "x": 307,
+                "y": 840
+              }
+            ],
+            "sections": [
+              {
+                "name": "Basement",
+                "short_name": "Main",
+                "item_count": 4
+              },
+              {
+                "name": "Bombable Wall",
+                "short_name": "Bomb",
+                "item_count": 1
+              }
+            ]
+          },
+          {
+            "name": "Pegasus Rocks",
+            "access_rules": [
+              "boots"
+            ],
+            "map_locations": [
+              {
+                "map": "lightworld",
+                "x": 777,
+                "y": 590
+              }
+            ],
+            "sections": [
+              {
+                "name": "Pegasus Rocks",
+                "item_count": 1
+              }
+            ]
+          },
+          {
+            "name": "Bottle Merchant",
+            "map_locations": [
+              {
+                "map": "lightworld",
+                "x": 190,
+                "y": 933
+              }
+            ],
+            "sections": [
+              {
+                "name": "Bottle Merchant",
+                "item_count": 1
+              }
+            ]
+          },
+          {
+            "name": "Magic Bat",
+            "map_locations": [
+              {
+                "map": "lightworld",
+                "x": 650,
+                "y": 1127
+              }
+            ],
+            "access_rules": [
+              "hammer",
+              "pearl,mirror,lift2"
+            ],
+            "sections": [
+              {
+                "name": "Magic Bowl",
+                "access_rules": [
+                  "powder",
+                  "[powder],somaria,mushroom"
+                ],
+                "item_count": 1
+              }
+            ]
+          },
+          {
+            "name": "Sick Kid",
+            "access_rules": [
+              "bottle"
+            ],
+            "map_locations": [
+              {
+                "map": "lightworld",
+                "x": 314,
+                "y": 1060
+              }
+            ],
+            "sections": [
+              {
+                "name": "By The Bed",
+                "item_count": 1
+              }
+            ]
+          },
+          {
+            "name": "Lost Woods Hideout",
+            "map_locations": [
+              {
+                "map": "lightworld",
+                "x": 320,
+                "y": 260
+              }
+            ],
+            "sections": [
+              {
+                "name": "Lost Woods Hideout",
+                "short_name": "Hideout",
+                "item_count": 1
+              }
+            ]
+          },
+          {
+            "name": "Lumberjack Tree",
+            "short_name": "Lumberjacks",
+            "map_locations": [
+              {
+                "map": "lightworld",
+                "x": 633,
+                "y": 117
+              }
+            ],
+            "sections": [
+              {
+                "name": "Lumberjack Tree",
+                "capture_item": true,
+                "access_rules": [
+                  "aga1,boots",
+                  "{}"
+                ],
+                "item_count": 1
+              }
+            ]
+          },
+          {
+            "name": "Mushroom",
+            "map_locations": [
+              {
+                "map": "lightworld",
+                "x": 240,
+                "y": 180
+              }
+            ],
+            "sections": [
+              {
+                "name": "Mushroom",
+                "short_name": "Mushroom",
+                "item_count": 1
+              },
+            ]
+          },
+        ]
+      },
+      {
+        "name": "Light World North East",
+        "children": [
+          {
+            "name": "Secret Passage",
+            "color": "#701d43",
+            "map_locations": [
+              {
+                "map": "lightworld",
+                "x": 1196,
+                "y": 834
+              }
+            ],
+            "sections": [
+              {
+                "name": "Link's Uncle",
+                "item_count": 1
+              },
+              {
+                "name": "Hallway",
+                "item_count": 1
+              }
+            ]
+          },
+          {
+            "name": "Sahasrahla's Hut",
+            "map_locations": [
+              {
+                "map": "lightworld",
+                "x": 1630,
+                "y": 900
+              }
+            ],
+            "sections": [
+              {
+                "name": "Back Room",
+                "item_count": 3
+              },
+              {
+                "name": "Sahasrahla",
+                "access_rules": [
+                  "greenpendant"
+                ],
+                "item_count": 1
+              }
+            ]
+          },
+          {
+            "name": "Zora Area",
+            "map_locations": [
+              {
+                "map": "lightworld",
+                "x": 1920,
+                "y": 273
+              }
+            ],
+            "sections": [
+              {
+                "name": "King Zora",
+                "access_rules": [
+                  "lift1",
+                  "[flippers]"
+                ],
+                "item_count": 1
+              },
+              {
+                "name": "Zora's Ledge",
+                "capture_item": true,
+                "access_rules": [
+                  "flippers",
+                  "{lift1}",
+                  "{[flippers]}"
+                ],
+                "item_count": 1
+              }
+            ]
+          },
+          {
+            "name": "Potion Shop",
+            "map_locations": [
+              {
+                "map": "lightworld",
+                "x": 1607,
+                "y": 670
+              }
+            ],
+            "access_rules": [
+              "mushroom"
+            ],
+            "sections": [
+              {
+                "name": "Potion Shop",
+                "item_count": 1
+              }
+            ]
+          },
+          {
+            "name": "Waterfall Fairy",
+            "access_rules": [
+              "flippers",
+              "pearl,[flippers]",
+              "boots,[flippers]"
+            ],
+            "sections": [
+              {
+                "name": "Waterfall Fairy",
+                "item_count": 2
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "lightworld",
+                "x": 1806,
+                "y": 286
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Light World South",
+        "children": [
+          {
+            "name": "The Dam",
+            "sections": [
+              {
+                "name": "Floodgate Chest",
+                "item_count": 1
+              },
+              {
+                "name": "Sunken Treasure",
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "lightworld",
+                "x": 942,
+                "y": 1880
+              }
+            ]
+          },
+          {
+            "name": "Link's House",
+            "map_locations": [
+              {
+                "map": "lightworld",
+                "x": 1097,
+                "y": 1366
+              }
+            ],
+            "sections": [
+              {
+                "name": "Link's House",
+                "item_count": 1
+              }
+            ]
+          },
+          {
+            "name": "Aginah's Cave",
+            "sections": [
+              {
+                "name": "Aginah's Cave",
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "lightworld",
+                "x": 400,
+                "y": 1655
+              }
+            ]
+          },
+          {
+            "name": "Mini Moldorm Cave",
+            "color": "#158134",
+            "sections": [
+              {
+                "name": "Mini Moldorm Cave",
+                "item_count": 5
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "lightworld",
+                "x": 1309,
+                "y": 1887
+              }
+            ]
+          },
+          {
+            "name": "Ice Rod Cave",
+            "color": "#158134",
+            "sections": [
+              {
+                "name": "Ice Rod Cave",
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "lightworld",
+                "x": 1795,
+                "y": 1547
+              }
+            ]
+          },
+          {
+            "name": "Hobo",
+            "access_rules": [
+              "[flippers]"
+            ],
+            "sections": [
+              {
+                "name": "Under The Bridge",
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "lightworld",
+                "x": 1390,
+                "y": 1390
+              }
+            ]
+          },
+          {
+            "name": "Checkerboard Cave",
+            "color": "#aa860d",
+            "access_rules": [
+              "mirror,flute,lift2",
+              "mirror,@CanAccessMiseryMirePortal,lift1"
+            ],
+            "sections": [
+              {
+                "name": "Checkerboard Cave",
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "lightworld",
+                "x": 354,
+                "y": 1560
+              },
+              {
+                "map": "darkworld",
+                "x": 334,
+                "y": 1557
+              }
+            ]
+          },
+          {
+            "name": "Library",
+            "map_locations": [
+              {
+                "map": "lightworld",
+                "x": 313,
+                "y": 1310
+              }
+            ],
+            "sections": [
+              {
+                "name": "On The Shelf",
+                "capture_item": true,
+                "access_rules": [
+                  "boots",
+                  "{}"
+                ],
+                "item_count": 1
+              }
+            ]
+          },
+          {
+            "name": "Maze Race",
+            "map_locations": [
+              {
+                "map": "lightworld",
+                "x": 111,
+                "y": 1354
+              }
+            ],
+            "sections": [
+              {
+                "name": "Maze Race",
+                "capture_item": true,
+                "item_count": 1
+              }
+            ]
+          },
+          {
+            "name": "Desert Ledge",
+            "color": "#aa860d",
+            "sections": [
+              {
+                "name": "Desert Ledge",
+                "capture_item": true,
+                "access_rules": [
+                  "book",
+                  "mirror,lift2,flute",
+                  "@CanAccessMiseryMirePortal,mirror",
+                  "{}"
+                ],
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "lightworld",
+                "x": 40,
+                "y": 1835
+              }
+            ]
+          },
+          {
+            "name": "Flute Spot",
+            "access_rules": [
+              "shovel"
+            ],
+            "map_locations": [
+              {
+                "map": "lightworld",
+                "x": 600,
+                "y": 1350
+              }
+            ],
+            "sections": [
+              {
+                "name": "Flute Spot",
+                "item_count": 1
+              }
+            ]
+          },
+        ]
+      },
+      {
+        "name": "Light World Death Mountain West",
+        "color": "#934f17",
+        "access_rules": [
+          "flute",
+          "[lamp],lift1",
+          "@CanAccessDeathMountainPortal"
+        ],
+        "children": [
+          {
+            "name": "Old Man",
+            "access_rules": [
+              "[lamp]"
+            ],
+            "sections": [
+              {
+                "name": "Old Man",
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "lightworld",
+                "x": 816,
+                "y": 378
+              }
+            ]
+          },
+          {
+            "name": "Spectacle Rock",
+            "sections": [
+              {
+                "name": "Spectacle Rock",
+                "capture_item": true,
+                "access_rules": [
+                  "mirror",
+                  "{}"
+                ],
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "lightworld",
+                "x": 980,
+                "y": 178
+              }
+            ]
+          },
+          {
+            "name": "Spectacle Rock Cave",
+            "sections": [
+              {
+                "name": "Cave",
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "lightworld",
+                "x": 900,
+                "y": 260
+              }
+            ]
+          },
+          {
+            "name": "Ether Tablet",
+            "sections": [
+              {
+                "name": "Tablet",
+                "capture_item": true,
+                "access_rules": [
+                  "book,sword2,mirror",
+                  "book,sword2,hammer,hookshot",
+                  "{book,mirror}",
+                  "{book,hammer,hookshot}"
+                ],
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "lightworld",
+                "x": 844,
+                "y": 38
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Light World Death Mountain East",
+        "color": "#934f17",
+        "access_rules": [
+          "@Light World Death Mountain West,hammer,mirror",
+          "@Light World Death Mountain West,hookshot",
+        ],
+        "children": [
+          {
+            "name": "Spiral Cave",
+            "sections": [
+              {
+                "name": "Spiral Cave",
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "lightworld",
+                "x": 1598,
+                "y": 180
+              }
+            ]
+          },
+          {
+            "name": "Paradox Cave",
+            "sections": [
+              {
+                "name": "Bottom",
+                "item_count": 2
+              },
+              {
+                "name": "Top",
+                "item_count": 5
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "lightworld",
+                "x": 1731,
+                "y": 434
+              },
+              {
+                "map": "lightworld",
+                "x": 1714,
+                "y": 293
+              }
+            ]
+          },
+          {
+            "name": "Floating Island",
+            "color": "#934f17",
+            "sections": [
+              {
+                "name": "Island",
+                "capture_item": true,
+                "access_rules": [
+                  "mirror,pearl,lift2",
+                  "{}"
+                ],
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "lightworld",
+                "x": 1627,
+                "y": 40
+              },
+              {
+                "map": "darkworld",
+                "x": 1627,
+                "y": 40
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]

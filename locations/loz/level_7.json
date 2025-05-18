@@ -1,0 +1,480 @@
+[
+    {
+        "name": "Level 7 - The Demon",
+        "color": "#00a800",
+        "access_rules":["z1recorder"],
+        "chest_opened_img":"images/getitem.png",
+        "children":[
+            {
+                "name":"Front",
+                "children":[
+                    {
+                        "name": "Map FA - Kill Moldorms",
+                        "map_locations":[
+                            {
+                                "map":"level7",
+                                "x": 648,
+                                "y": 1320,
+                                "size": 48
+                            },
+                            {
+                                "map":"dungeons2",
+                                "x": 324,
+                                "y": 658,
+                                "size": 48
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "name":"Kill Moldorms",
+                                "item_count":1,
+                                "access_rules":["@CanKillMostZ1Things"]
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Map E9 - Kill Goryia",
+                        "map_locations":[
+                            {
+                                "map":"level7",
+                                "x": 390,
+                                "y": 1144,
+                                "size": 48
+                            },
+                            {
+                                "map":"dungeons2",
+                                "x": 195,
+                                "y": 572,
+                                "size": 48
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "name":"Kill Goryia",
+                                "item_count":1,
+                                "access_rules":["@CanKillMostZ1Things"]
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Map EC - Kill Digdogger",
+                        "map_locations":[
+                            {
+                                "map":"level7",
+                                "x": 1160,
+                                "y": 1144,
+                                "size": 48
+                            },
+                            {
+                                "map":"dungeons2",
+                                "x": 580,
+                                "y": 572,
+                                "size": 48
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "name":"Kill Digdogger",
+                                "item_count":1,
+                                "access_rules":["z1recorder,@CanKillMostZ1Things"]
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Map ED - Staflos Item",
+                        "map_locations":[
+                            {
+                                "map":"level7",
+                                "x": 1496,
+                                "y": 1144,
+                                "size": 48
+                            },
+                            {
+                                "map":"dungeons2",
+                                "x": 748,
+                                "y": 572,
+                                "size": 48
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "name":"Staflos Item",
+                                "item_count":1,
+                                "access_rules":["[z1ladder]","{}"]
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Middle",
+                "access_rules":["z1bomb"],
+                "children":[
+                    {
+                        "name": "Map F8 - Ropes Item",
+                        "map_locations":[
+                            {
+                                "map":"level7",
+                                "x": 135,
+                                "y": 1320,
+                                "size": 48
+                            },
+                            {
+                                "map":"dungeons2",
+                                "x": 65,
+                                "y": 658,
+                                "size": 48
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "name":"Ropes Item",
+                                "item_count":1
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Map E8 - Kill Keese",
+                        "map_locations":[
+                            {
+                                "map":"level7",
+                                "x": 135,
+                                "y": 1144,
+                                "size": 48
+                            },
+                            {
+                                "map":"dungeons2",
+                                "x": 65,
+                                "y": 572,
+                                "size": 48
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "name":"Kill Keese",
+                                "item_count":1,
+                                "access_rules":["z1boom","@CanKillMostZ1Things"]
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Map D8 - Kill Dodongos",
+                        "map_locations":[
+                            {
+                                "map":"level7",
+                                "x": 135,
+                                "y": 968,
+                                "size": 48
+                            },
+                            {
+                                "map":"dungeons2",
+                                "x": 65,
+                                "y": 484,
+                                "size": 48
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "name":"Kill Dodongos",
+                                "item_count":1
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Map DA - Compass",
+                        "map_locations":[
+                            {
+                                "map":"level7",
+                                "x": 648,
+                                "y": 968,
+                                "size": 48
+                            },
+                            {
+                                "map":"dungeons2",
+                                "x": 324,
+                                "y": 484,
+                                "size": 48
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "name":"Staflos Item",
+                                "item_count":1
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Map B8 - Kill Goryia",
+                        "map_locations":[
+                            {
+                                "map":"level7",
+                                "x": 216,
+                                "y": 568,
+                                "size": 48
+                            },
+                            {
+                                "map":"dungeons2",
+                                "x": 108,
+                                "y": 284,
+                                "size": 48
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "name":"Kill Goryia",
+                                "item_count":1,
+                                "access_rules":["z1ladder,@CanKillMostZ1Things"]
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Map BA - Kill Moldorms",
+                        "map_locations":[
+                            {
+                                "map":"level7",
+                                "x": 648,
+                                "y": 616,
+                                "size": 48
+                            },
+                            {
+                                "map":"dungeons2",
+                                "x": 324,
+                                "y": 308,
+                                "size": 48
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "name":"Kill Moldorms",
+                                "item_count":1,
+                                "access_rules":["z1ladder,@CanKillMostZ1Things"]
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name":"Back",
+                "access_rules":["z1bomb,z1ladder,z1bait,@CanKillMostZ1Things"],
+                "children":[                    
+                    {
+                        "name": "Map 98 - Map",
+                        "map_locations":[
+                            {
+                                "map":"level7",
+                                "x": 135,
+                                "y": 264,
+                                "size": 48
+                            },
+                            {
+                                "map":"dungeons2",
+                                "x": 65,
+                                "y": 132,
+                                "size": 48
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "name":"Kill Enemies",
+                                "item_count":1
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Map 89 - Kill Goryia",
+                        "map_locations":[
+                            {
+                                "map":"level7",
+                                "x": 390,
+                                "y": 88,
+                                "size": 48
+                            },
+                            {
+                                "map":"dungeons2",
+                                "x": 195,
+                                "y": 44,
+                                "size": 48
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "name":"Kill Goryia",
+                                "item_count":1
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Map 8A - Kill Goryia",
+                        "map_locations":[
+                            {
+                                "map":"level7",
+                                "x": 648,
+                                "y": 88,
+                                "size": 48
+                            },
+                            {
+                                "map":"dungeons2",
+                                "x": 324,
+                                "y": 44,
+                                "size": 48
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "name":"Kill Goryia",
+                                "item_count":1
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Hidden Stairs Item",
+                        "map_locations":[
+                            {
+                                "map":"level7",
+                                "x": 923,
+                                "y": 616,
+                                "size": 48
+                            },
+                            {
+                                "map":"dungeons2",
+                                "x": 324,
+                                "y": 132,
+                                "size": 48
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "name":"Red Candle",
+                                "item_count":1
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Map 9B - Kill Goryia",
+                        "map_locations":[
+                            {
+                                "map":"level7",
+                                "x": 904,
+                                "y": 264,
+                                "size": 48
+                            },
+                            {
+                                "map":"dungeons2",
+                                "x": 452,
+                                "y": 132,
+                                "size": 48
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "name":"Kill Goryia",
+                                "item_count":1
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Map 8B - Kill Moldorms",
+                        "map_locations":[
+                            {
+                                "map":"level7",
+                                "x": 904,
+                                "y": 88,
+                                "size": 48
+                            },
+                            {
+                                "map":"dungeons2",
+                                "x": 452,
+                                "y": 44,
+                                "size": 48
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "name":"Kill Moldorms",
+                                "item_count":1
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name":"Far Back",
+                "access_rules":["z1bomb,z1ladder,z1bait,z1recorder,@CanKillBosses"],
+                "children":[
+                    {
+                        "name": "Map 8C - Kill Dodongos",
+                        "map_locations":[
+                            {
+                                "map":"level7",
+                                "x": 1160,
+                                "y": 88,
+                                "size": 48
+                            },
+                            {
+                                "map":"dungeons2",
+                                "x": 580,
+                                "y": 44,
+                                "size": 48
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "name":"Kill Dodongos",
+                                "item_count":1
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Map AA - Kill Boss",
+                        "map_locations":[
+                            {
+                                "map":"level7",
+                                "x": 648,
+                                "y": 440,
+                                "size": 48
+                            },
+                            {
+                                "map":"dungeons2",
+                                "x": 324,
+                                "y": 220,
+                                "size": 48
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "name":"",
+                                "item_count":1,
+                                "chest_unopened_img":"images/leveloneboss.png"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Level 7 Prize",
+                        "map_locations":[
+                            {
+                                "map":"level7",
+                                "x": 896,
+                                "y": 444,
+                                "size": 48
+                            },
+                            {
+                                "map":"dungeons2",
+                                "x": 448,
+                                "y": 222,
+                                "size": 48
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "name":"Triforce",
+                                "item_count":1,
+                                "chest_unopened_img":"images/z-triforceicon.png",
+                                "hosted_item":"z1tri7"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+]

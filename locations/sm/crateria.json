@@ -1,0 +1,372 @@
+[
+  {
+    "name": "Crateria",
+    "chest_unopened_img": "images/major_unopened.png",
+    "chest_opened_img": "images/major_opened.png",
+    "color": "#d83890",
+    "children": [
+      {
+        "name": "CanEnterAndLeaveGauntlet",
+        "access_rules": [
+          "normal,@CardCrateriaL1,morph,@CanFly,@CanIbj",
+          "normal,@CardCrateriaL1,morph,@CanFly,@CanUsePowerBombs,powerbomb:10",
+          "normal,@CardCrateriaL1,morph,@CanFly,screw",
+          "normal,@CardCrateriaL1,morph,speed,@CanIbj",
+          "normal,@CardCrateriaL1,morph,speed,@CanUsePowerBombs,powerbomb:10",
+          "normal,@CardCrateriaL1,morph,speed,screw",
+
+          "[hard],@CardCrateriaL1,morph,bomb",
+          "[hard],@CardCrateriaL1,morph,powerbomb:10",
+          "[hard],@CardCrateriaL1,screw",
+          "[hard],@CardCrateriaL1,speed,@CanUsePowerBombs,alltanks:2"
+        ]
+      },
+      {
+        "name": "Crateria Central",
+        "children": [
+          {
+            "name": "Bombs",
+            "access_rules": [
+              "normal,@CanOpenBombTorizoDoor,@CanPassBombPassages",
+              "[hard],@CanOpenBombTorizoDoor,morph"
+            ],
+            "sections": [
+              {
+                "name": "Bombs",
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "metroid",
+                "x": 840,
+                "y": 272
+              },
+              {
+                "map": "crateria",
+                "x": 712,
+                "y": 276
+              }
+            ]
+          },
+          {
+            "name": "Super Missile (Crateria)",
+            "sections": [
+              {
+                "name": "Super Missile (Crateria)",
+                "capture_item": true,
+                "access_rules": [
+                  "@CanUsePowerBombs,alltanks:2,speed",
+                  "{@CanUsePowerBombs}"
+                ],
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "metroid",
+                "x": 808,
+                "y": 368
+              },
+              {
+                "map": "crateria",
+                "x": 680,
+                "y": 372
+              }
+            ]
+          },
+          {
+            "name": "Missile (Crateria middle)",
+            "access_rules": [
+              "@CanPassBombPassages"
+            ],
+            "sections": [
+              {
+                "name": "Missile (Crateria middle)",
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "metroid",
+                "x": 552,
+                "y": 304
+              },
+              {
+                "map": "crateria",
+                "x": 424,
+                "y": 308
+              }
+            ]
+          },
+          {
+            "name": "Missile (Crateria bottom)",
+            "access_rules": [
+              "@CanDestroyBombWalls"
+            ],
+            "sections": [
+              {
+                "name": "Missile (Crateria bottom)",
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "metroid",
+                "x": 680,
+                "y": 656
+              },
+              {
+                "map": "crateria",
+                "x": 552,
+                "y": 660
+              }
+            ]
+          },
+          {
+            "name": "Power Bomb (Crateria surface)",
+            "access_rules": [
+              "@CanOpenCrateriaSurfaceDoor,speed",
+              "@CanOpenCrateriaSurfaceDoor,@CanFly"
+            ],
+            "sections": [
+              {
+                "name": "Power Bomb (Crateria surface)",
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "metroid",
+                "x": 1096,
+                "y": 112
+              },
+              {
+                "map": "crateria",
+                "x": 968,
+                "y": 116
+              }
+            ]
+          },
+        ]
+      },
+      {
+        "name": "Crateria West",
+        "access_rules": [
+          "@CanDestroyBombWalls",
+          "speed"
+        ],
+        "children": [
+          {
+            "name": "Energy Tank, Gauntlet",
+            "sections": [
+              {
+                "name": "Energy Tank, Gauntlet",
+                "capture_item": true,
+                "access_rules": [
+                  "normal,@CanEnterAndLeaveGauntlet,alltanks:1",
+                  "[hard],@CanEnterAndLeaveGauntlet",
+                  "{@CardCrateriaL1,morph,powerbomb}",
+                  "{@CardCrateriaL1,speed,alltanks:2}"
+                ],
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "metroid",
+                "x": 584,
+                "y": 144
+              },
+              {
+                "map": "crateria",
+                "x": 456,
+                "y": 148
+              }
+            ]
+          },
+          {
+            "name": "Energy Tank, Terminator",
+            "sections": [
+              {
+                "name": "Energy Tank, Terminator",
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "metroid",
+                "x": 424,
+                "y": 272
+              },
+              {
+                "map": "crateria",
+                "x": 296,
+                "y": 276
+              }
+            ]
+          },
+          {
+            "name": "After Gauntlet",
+            "sections": [
+              {
+                "name": "Missile (Crateria gauntlet left)",
+                "capture_item": true,
+                "access_rules": [
+                  "normal,@CanEnterAndLeaveGauntlet,@CanPassBombPassages,alltanks:2",
+                  "[hard],@CanEnterAndLeaveGauntlet,@CanPassBombPassages",
+                  "{@CanUsePowerBombs}",
+                ],
+                "item_count": 1
+              },
+              {
+                "name": "Missile (Crateria gauntlet right)",
+                "capture_item": true,
+                "access_rules": [
+                  "normal,@CanEnterAndLeaveGauntlet,@CanPassBombPassages,alltanks:2",
+                  "[hard],@CanEnterAndLeaveGauntlet,@CanPassBombPassages",
+                  "{@CanUsePowerBombs}",
+                ],
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "metroid",
+                "x": 392,
+                "y": 176
+              },
+              {
+                "map": "crateria",
+                "x": 264,
+                "y": 180
+              }
+            ]
+          },
+        ]
+      },
+      {
+        "name": "Crateria East",
+        "access_rules": [
+          "@CanOpenMoatDoor,super",
+          "@CanOpenMoatDoor,@CanAccessNorfairUpperPortal,@CanUsePowerBombs,ice",
+          "@CanOpenMoatDoor,@CanAccessNorfairUpperPortal,@CanUsePowerBombs,hijump",
+          "@CanUsePowerBombs,super,gravity",
+
+          "normal,@CanOpenMoatDoor,@CanAccessNorfairUpperPortal,@CanUsePowerBombs,space",
+          "normal,@CanAccessMaridiaPortal,gravity,super,@CanDestroyBombWalls,@CardMaridiaL2",
+          "normal,@CanAccessMaridiaPortal,gravity,super,draygon",
+
+          "[hard],@CanOpenMoatDoor,@CanAccessNorfairUpperPortal,@CanUsePowerBombs,@CanFly",
+          "[hard],@CanOpenMoatDoor,@CanAccessNorfairUpperPortal,@CanUsePowerBombs,@CanSpringBallJump",
+          "[hard],@CanAccessMaridiaPortal,@CardMaridiaL2,super,hijump,@CanPassBombPassages",
+          "[hard],@CanAccessMaridiaPortal,@CardMaridiaL2,super,gravity,@CanDestroyBombWalls",
+          "[hard],@CanAccessMaridiaPortal,gravity,draygon",
+          "[hard],@CanUsePowerBombs,super,hijump,ice,grapple,@CardMaridiaL1",
+          "[hard],@CanUsePowerBombs,super,hijump,@CanSpringBallJump,grapple,@CardMaridiaL1"
+        ],
+        "children": [
+          {
+            "name": "Missile (outside Wrecked Ship bottom)",
+            "access_rules": [
+              "normal,morph,speed",
+              "normal,morph,grapple",
+              "normal,morph,space",
+              "normal,morph,gravity,@CanIbj",
+              "normal,morph,gravity,hijump",
+              "normal,morph,@Wrecked Ship",
+              "[hard],morph"
+            ],
+            "sections": [
+              {
+                "name": "Missile (outside Wrecked Ship bottom)",
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "metroid",
+                "x": 1256,
+                "y": 240
+              },
+              {
+                "map": "crateria",
+                "x": 1128,
+                "y": 244
+              }
+            ]
+          },
+          {
+            "name": "Missile (outside Wrecked Ship top)",
+            "access_rules": [
+              "@Wrecked Ship,@CanUnlockShip"
+            ],
+            "sections": [
+              {
+                "name": "Missile (outside Wrecked Ship top)",
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "metroid",
+                "x": 1290,
+                "y": 78
+              },
+              {
+                "map": "crateria",
+                "x": 1160,
+                "y": 84
+              }
+            ]
+          },
+          {
+            "name": "Missile (outside Wrecked Ship middle)",
+            "access_rules": [
+              "@Wrecked Ship,@CanUnlockShip"
+            ],
+            "sections": [
+              {
+                "name": "Missile (outside Wrecked Ship middle)",
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "metroid",
+                "x": 1256,
+                "y": 143
+              },
+              {
+                "map": "crateria",
+                "x": 1128,
+                "y": 148
+              }
+            ]
+          },
+          {
+            "name": "Missile (Crateria moat)",
+            "sections": [
+              {
+                "name": "Missile (Crateria moat)",
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "metroid",
+                "x": 1192,
+                "y": 208
+              },
+              {
+                "map": "crateria",
+                "x": 1064,
+                "y": 212
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]

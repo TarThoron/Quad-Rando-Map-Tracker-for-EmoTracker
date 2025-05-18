@@ -1,0 +1,212 @@
+[
+  // LTTP logic
+  {
+    "name": "CanLightTorches",
+    "access_rules": [
+      "firerod",
+      "lamp"
+    ]
+  },
+  {
+    "name": "CanMeltFreezors",
+    "access_rules": [
+      "firerod",
+      "bombos,sword"
+    ]
+  },
+  {
+    "name": "CanExtendMagic",
+    "access_rules": [
+      "halfmagic",
+      "bottle"
+    ]
+  },
+  {
+    "name": "CanKillManyEnemies",
+    "access_rules": [
+      "sword",
+      "hammer",
+      "bow",
+      "firerod",
+      "somaria",
+      "byrna,@CanExtendMagic"
+    ]
+  },
+
+  // SM logic
+  {
+    "name": "CanIbj",
+    "access_rules": [
+      "morph,bomb"
+    ]
+  },
+  {
+    "name": "CanFly",
+    "access_rules": [
+      "space",
+      "@CanIbj"
+    ]
+  },
+  {
+    "name": "CanUsePowerBombs",
+    "access_rules": [
+      "morph,powerbomb"
+    ]
+  },
+  {
+    "name": "CanPassBombPassages",
+    "access_rules": [
+      "morph,bomb",
+      "morph,powerbomb"
+    ]
+  },
+  {
+    "name": "CanDestroyBombWalls",
+    "access_rules": [
+      "@CanPassBombPassages",
+      "screw"
+    ]
+  },
+  {
+    "name": "CanSpringBallJump",
+    "access_rules": [
+      "morph,spring"
+    ]
+  },
+  {
+    "name": "CanHellRun",
+    "access_rules": [
+      "varia",
+      "alltanks:5"
+    ]
+  },
+  {
+    "name": "CanOpenRedDoors",
+    "access_rules": [
+      "missile",
+      "super"
+    ]
+  },
+  {
+    "name": "CanBlueGateGlitch",
+    "access_rules": [
+      "missile",
+      "super",
+      "wave"
+    ]
+  },
+
+  // Cross-game portals
+  {
+    "name": "CanAccessDeathMountainPortal",
+    "access_rules": [
+      "@CanDestroyBombWalls,super,morph",
+      "speed,super,morph"
+    ]
+  },
+  {
+    "name": "CanAccessDarkWorldPortal",
+    "access_rules": [
+      "normal,@CardMaridiaL1,@CardMaridiaL2,@CanUsePowerBombs,super,gravity,speed",
+
+      "[hard],@CardMaridiaL1,@CardMaridiaL2,@CanUsePowerBombs,super,charge,gravity,ice",
+      "[hard],@CardMaridiaL1,@CardMaridiaL2,@CanUsePowerBombs,super,charge,gravity,speed",
+      "[hard],@CardMaridiaL1,@CardMaridiaL2,@CanUsePowerBombs,super,charge,hijump,ice,grapple",
+      "[hard],@CardMaridiaL1,@CardMaridiaL2,@CanUsePowerBombs,super,missile,gravity,ice",
+      "[hard],@CardMaridiaL1,@CardMaridiaL2,@CanUsePowerBombs,super,missile,gravity,speed",
+      "[hard],@CardMaridiaL1,@CardMaridiaL2,@CanUsePowerBombs,super,missile,hijump,ice,grapple"
+    ]
+  },
+  {
+    "name": "CanAccessMiseryMirePortal",
+    "access_rules": [
+      "normal,speed,wave,varia,super,gravity,space,@CanUsePowerBombs",
+      "normal,@CardNorfairL2,varia,super,gravity,space,@CanUsePowerBombs",
+
+      "[hard],speed,varia,super,gravity,@CanUsePowerBombs",
+      "[hard],speed,varia,super,hijump,@CanUsePowerBombs",
+      "[hard],@CardNorfairL2,varia,super,hijump,@CanUsePowerBombs",
+      "[hard],@CardNorfairL2,varia,super,@CanFly,gravity,@CanUsePowerBombs",
+      "[hard],@CardNorfairL2,varia,super,@CanSpringBallJump,gravity,@CanUsePowerBombs",
+      "[hard],@CardNorfairL2,varia,super,ice,gravity,@CanUsePowerBombs"
+    ]
+  },
+  {
+    "name": "CanAccessNorfairUpperPortal",
+    "access_rules": [
+      "flute",
+      "lift1,[lamp]"
+    ]
+  },
+  {
+    "name": "CanAccessNorfairLowerPortal",
+    "access_rules": [
+      "flute,lift2"
+    ]
+  },
+  {
+    "name": "CanAccessMaridiaPortal",
+    "access_rules": [
+      "pearl,flippers,gravity,morph,aga1",
+      "pearl,flippers,gravity,morph,hammer,lift1",
+      "pearl,flippers,gravity,morph,lift2",
+
+      "[hard],pearl,flippers,morph,@CanSpringBallJump,aga1",
+      "[hard],pearl,flippers,morph,@CanSpringBallJump,hammer,lift1",
+      "[hard],pearl,flippers,morph,@CanSpringBallJump,lift2",
+      "[hard],pearl,flippers,morph,hijump,aga1",
+      "[hard],pearl,flippers,morph,hijump,hammer,lift1",
+      "[hard],pearl,flippers,morph,hijump,lift2"
+    ]
+  },
+  //LoZ Logic
+  {
+    "name": "CanKillMostZ1Things",
+    "access_rules":[
+      "[],z1bomb",
+      "z1sword",
+      "z1rod",
+      "z1bow,z1arrows",
+      "z1candle"
+    ]
+  },
+  {
+    "name":"CanKillBosses",
+    "access_rules":[
+      "[],z1bomb",
+      "z1sword",
+      "z1rod",
+      "z1bow,z1arrows"
+    ]
+  },
+  {
+    "name":"CanKillDarknuts",
+    "access_rules":[
+      "[],z1bomb",
+      "z1sword",
+      "z1rod"
+    ]
+  },
+  {
+    "name":"CanKillPolsVoice",
+    "access_rules":[
+      "z1sword",
+      "z1rod",
+      "z1bow,z1arrows"
+    ]
+  },
+  {
+    "name":"CanKillGleeok",
+    "access_rules":[
+      "z1sword",
+      "z1rod"
+    ]
+  },
+  {
+    "name":"CanKillWizzrobes",
+    "access_rules":[
+      "[],z1bomb",
+      "z1sword"
+    ]
+  }
+]

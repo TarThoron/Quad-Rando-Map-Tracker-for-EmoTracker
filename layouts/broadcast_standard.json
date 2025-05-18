@@ -1,0 +1,48 @@
+﻿{
+  "tracker_broadcast": {
+    "type": "array",
+    "orientation": "horizontal",    
+    "background": "#101010",
+    "content":[
+      {    
+        "type": "array",
+        "orientation": "vertical",
+        "margin": "0,0",
+        "content": [
+          {
+            "type": "layout",
+            "key": "alttp_item_grid"
+          },
+          {
+            "type": "layout",
+            "key": "sm_item_grid"
+          }
+        ]
+      },
+      {
+        "type": "array",
+        "orientation": "vertical",
+        "margin":"-4,0,0,0",
+        "h_alignment":"center",
+        "content":[
+          {
+            "type": "layout",
+            "key": "loz_item_grid"
+          },
+          {
+            "type":"layout",
+            "key":"triforce_pieces"
+          },
+          {
+            "type":"layout",
+            "key":"metroid_item_grid"
+          },
+          {
+            "type":"layout",
+            "key":"broadcast_goals"
+          }
+        ]
+      }
+    ]
+  }
+}

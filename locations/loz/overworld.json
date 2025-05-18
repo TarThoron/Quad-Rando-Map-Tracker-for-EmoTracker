@@ -1,0 +1,638 @@
+
+[
+	{
+		"name": "H8 - Wood Sword",
+		"short_name": "H8",
+		"map_locations": 
+		[
+			{
+				"map": "hyrule",
+				"x": 980,
+				"y": 676,
+				"size": 48
+			}
+		],
+		"sections":
+		[
+			{
+				"name": "Open Cave",
+				"capture_item": false,
+				"item_count": 1,
+				"chest_unopened_img": "images/sections/opencave.png",
+				"chest_opened_img": "images/sections/opencave.png"
+			}
+		]
+	},
+	{
+		"name": "K1 - White Sword",
+		"short_name": "K1",
+		"map_locations": 
+		[
+			{
+				"map": "hyrule",
+				"x": 1348,
+				"y": 60,
+				"size": 48
+			}
+		],
+		"sections":
+		[
+			{
+				"name": "Open Cave",
+				"capture_item": true,
+				"item_count": 1,
+				"access_rules": [ "z1heart:2", "{}" ],
+				"chest_unopened_img": "images/sections/opencave.png",
+				"chest_opened_img": "images/sections/opencave.png"
+			}
+		]
+	},
+	{
+		"name": "B3 - Magic Sword",
+		"short_name": "B3",
+		"map_locations": 
+		[
+			{
+				"map": "hyrule",
+				"x": 252,
+				"y": 268,
+				"size": 48
+			}
+		],
+		"sections":
+		[
+			{
+				"name": "Push Grave",
+				"capture_item": true,
+				"item_count": 1,
+				"access_rules": [ "z1heart:9", "{}" ],
+                "chest_unopened_img": "images/sections/grave.png"
+			}
+		]
+	},
+	{
+		"name": "E3 - Graveyard Armos",
+		"short_name": "E3",
+		"map_locations": 
+		[
+			{
+				"map": "hyrule",
+				"x": 628,
+				"y": 260,
+				"size": 48
+			}
+		],
+		"sections":
+		[
+			{
+				"name": "Under Armos",
+				"capture_item": false,
+				"item_count": 1,
+				"chest_unopened_img": "images/sections/armos.png"
+			}
+		]
+	},
+	{
+		"name": "P6 - Overworld Item",
+		"short_name": "P6",
+		"map_locations": 
+		[
+			{
+				"map": "hyrule",
+				"x": 2068,
+				"y": 532,
+				"size": 48
+			}
+		],
+		"sections":
+		[
+			{
+				"name": "Use Ladder",
+				"capture_item": true,
+				"item_count": 1,
+				"access_rules": [ "z1ladder", "{}" ],
+				"chest_unopened_img": "images/sections/ladderwater.png",
+				"chest_opened_img": "images/sections/bridge.png"
+			}
+		]
+	},
+	{
+		"name": "O1 - First Quest Letter",
+		"short_name": "O1",
+		"map_locations": 
+		[
+			{
+				"map": "hyrule",
+				"x": 1884,
+				"y": 84,
+				"size": 48
+			}
+		],
+		"sections":
+		[
+			{
+				"name": "Open Cave",
+				"capture_item": false,
+				"item_count": 1,
+				"chest_unopened_img": "images/sections/opencave.png"
+			}
+		]
+	},
+	{
+		"name": "M3 - Monocle Rock Take Any",
+		"short_name": "Monocle Rock",
+		"access_rules": [ "z1bomb,[takeany]" ],
+		"map_locations": 
+		[
+			{
+				"map": "hyrule",
+				"x": 1660,
+				"y": 276,
+				"size": 48
+			}
+		],
+		"sections":
+		[
+			{
+				"name": "Left Item",
+				"capture_item": true,
+				"capture_item_layout": "take_any_capture_item",
+				"item_count": 1,
+				"chest_unopened_img": "images/sections/oldman.png",
+				"chest_opened_img": "images/sections/opencave.png"
+			},
+			{
+				"name": "Right Item",
+				"capture_item": true,
+				"capture_item_layout": "take_any_capture_item",
+				"item_count": 1,
+				"chest_unopened_img": "images/sections/oldman.png",
+				"chest_opened_img": "images/sections/opencave.png"
+			}
+		]
+	},
+	{
+		"name": "P3 - Raft Spot Take Any",
+		"short_name": "P3",
+		"access_rules": [ "z1raft,[takeany]" ],
+		"map_locations": 
+		[
+			{
+				"map": "hyrule",
+				"x": 2020,
+				"y": 268,
+				"size": 48
+			}
+		],
+		"sections":
+		[
+			{
+				"name": "Left Item",
+				"capture_item": true,
+				"capture_item_layout": "take_any_capture_item",
+				"item_count": 1,
+				"chest_unopened_img": "images/sections/oldman.png",
+				"chest_opened_img": "images/sections/opencave.png"
+			},
+			{
+				"name": "Right Item",
+				"capture_item": true,
+				"capture_item_layout": "take_any_capture_item",
+				"item_count": 1,
+				"chest_unopened_img": "images/sections/oldman.png",
+				"chest_opened_img": "images/sections/opencave.png"
+			}
+		]
+	},
+	{
+		"name": "L8 - South Shore Take Any",
+		"short_name": "L8",
+		"access_rules": [ "z1bomb,[takeany]" ],
+		"map_locations": 
+		[
+			{
+				"map": "hyrule",
+				"x": 1532,
+				"y": 676,
+				"size": 48
+			}
+		],
+		"sections":
+		[
+			{
+				"name": "Left Item",
+				"capture_item": true,
+				"capture_item_layout": "take_any_capture_item",
+				"item_count": 1,
+				"chest_unopened_img": "images/sections/oldman.png",
+				"chest_opened_img": "images/sections/opencave.png"
+			},
+			{
+				"name": "Right Item",
+				"capture_item": true,
+				"capture_item_layout": "take_any_capture_item",
+				"item_count": 1,
+				"chest_unopened_img": "images/sections/oldman.png",
+				"chest_opened_img": "images/sections/opencave.png"
+			}
+		]
+	},
+	{
+		"name": "H5 - Burn Bush Take Any",
+		"short_name": "H5",
+		"access_rules": [ "z1candle,[takeany]" ],
+		"map_locations": 
+		[
+			{
+				"map": "hyrule",
+				"x": 1036,
+				"y": 460,
+				"size": 48
+			}
+		],
+		"sections":
+		[
+			{
+				"name": "Left Item",
+				"capture_item": true,
+				"capture_item_layout": "take_any_capture_item",
+				"item_count": 1,
+				"chest_unopened_img": "images/sections/oldman.png",
+				"chest_opened_img": "images/sections/opencave.png"
+			},
+			{
+				"name": "Right Item",
+				"capture_item": true,
+				"capture_item_layout": "take_any_capture_item",
+				"item_count": 1,
+				"chest_unopened_img": "images/sections/oldman.png",
+				"chest_opened_img": "images/sections/opencave.png"
+			}
+		]
+	},
+	{
+		"name": "H4 - Level 1",
+		"short_name": "Level 1",
+		"map_locations": 
+		[
+			{
+				"map": "hyrule",
+				"x": 1004,
+				"y": 348,
+				"size": 48
+			}
+		],
+		"sections":
+		[
+			{
+				"name": "Items",
+				"capture_item": false,
+				"clear_as_group": false,
+				"item_count": 5
+			},
+			{
+				"name": "Keys",
+				"capture_item":false,
+				"clear_as_group":false,
+				"item_count":4,
+				"chest_unopened_img":"images/z1smallkey.png",
+				"chest_opened_img":"images/z1smallkeygray.png"
+			},
+			{
+				"name": "Boss",
+				"capture_item":false,
+				"clear_as_group":false,
+				"item_count":1,
+				"access_rules":["@CanKillBosses"],
+				"chest_unopened_img":"images/leveloneboss.png",
+				"chest_opened_img":"images/z-triforceicon.png",
+				"hosted_item":"z1tri1"
+			}
+		]
+	},
+	{
+		"name": "M4 - Level 2",
+		"short_name": "Level 2",
+		"map_locations": 
+		[
+			{
+				"map": "hyrule",
+				"x": 1644,
+				"y": 348,
+				"size": 48
+			}
+		],
+		"sections":
+		[
+			{
+				"name": "Items",
+				"capture_item": false,
+				"clear_as_group": false,
+				"item_count": 6
+			},
+			{
+				"name": "Keys",
+				"capture_item":false,
+				"clear_as_group":false,
+				"item_count":3,
+				"chest_unopened_img":"images/z1smallkey.png",
+				"chest_opened_img":"images/z1smallkeygray.png"
+			},
+			{
+				"name": "Boss",
+				"capture_item":false,
+				"clear_as_group":false,
+				"item_count":1,
+				"access_rules":["z1bomb"],
+				"chest_unopened_img":"images/leveltwoboss.png",
+				"chest_opened_img":"images/z-triforceicon.png",
+				"hosted_item":"z1tri2"
+			}
+		]
+	},
+	{
+		"name": "E8 - Level 3",
+		"short_name": "Level 3",
+		"map_locations": 
+		[
+			{
+				"map": "hyrule",
+				"x": 628,
+				"y": 700,
+				"size": 48
+			}
+		],
+		"sections":
+		[
+			{
+				"name": "Items",
+				"capture_item": false,
+				"clear_as_group": false,
+				"item_count": 3
+			},
+			{
+				"name": "Keys",
+				"capture_item":false,
+				"clear_as_group":false,
+				"item_count":4,
+				"chest_unopened_img":"images/z1smallkey.png",
+				"chest_opened_img":"images/z1smallkeygray.png"
+			},
+			{
+				"name": "Boss",
+				"capture_item":false,
+				"clear_as_group":false,
+				"item_count":1,
+				"access_rules":["@CanKillDarknuts"],
+				"chest_unopened_img":"images/levelthreeboss.png",
+				"chest_opened_img":"images/z-triforceicon.png",
+				"hosted_item":"z1tri3"
+			}
+		]
+	},
+	{
+		"name": "F5 - Level 4",
+		"short_name": "Level 4",
+		"access_rules": [ "z1raft" ],
+		"map_locations": 
+		[
+			{
+				"map": "hyrule",
+				"x": 756,
+				"y": 436,
+				"size": 48
+			}
+		],
+		"sections":
+		[
+			{
+				"name": "Items",
+				"capture_item": false,
+				"clear_as_group": false,
+				"item_count": 3
+			},
+			{
+				"name": "Keys",
+				"capture_item":false,
+				"clear_as_group":false,
+				"item_count":3,
+				"chest_unopened_img":"images/z1smallkey.png",
+				"chest_opened_img":"images/z1smallkeygray.png"
+			},
+			{
+				"name": "Boss",
+				"capture_item":false,
+				"clear_as_group":false,
+				"item_count":1,
+				"access_rules":["z1ladder,@CanKillGleeok"],
+				"chest_unopened_img":"images/levelfourboss.png",
+				"chest_opened_img":"images/z-triforceicon.png",
+				"hosted_item":"z1tri4"
+			}
+		]
+	},
+	{
+		"name": "L1 - Level 5",
+		"short_name": "Level 5",
+		"map_locations": 
+		[
+			{
+				"map": "hyrule",
+				"x": 1516,
+				"y": 84,
+				"size": 48
+			}
+		],
+		"sections":
+		[
+			{
+				"name": "Items",
+				"capture_item": false,
+				"clear_as_group": false,
+				"item_count": 7
+			},
+			{
+				"name": "Keys",
+				"capture_item":false,
+				"clear_as_group":false,
+				"item_count":5,
+				"chest_unopened_img":"images/z1smallkey.png",
+				"chest_opened_img":"images/z1smallkeygray.png"
+			},
+			{
+				"name": "Boss",
+				"capture_item":false,
+				"clear_as_group":false,
+				"item_count":1,
+				"access_rules":["z1ladder,z1recorder,@CanKillBosses"],
+				"chest_unopened_img":"images/levelfiveboss.png",
+				"chest_opened_img":"images/z-triforceicon.png",
+				"hosted_item":"z1tri5"
+			}
+		]
+	},
+	{
+		"name": "C3 - Level 6",
+		"short_name": "Level 6",
+		"map_locations": 
+		[
+			{
+				"map": "hyrule",
+				"x": 368,
+				"y": 260,
+				"size": 48
+			}
+		],
+		"sections":
+		[
+			{
+				"name": "Items",
+				"capture_item": false,
+				"clear_as_group": false,
+				"item_count": 6
+			},
+			{
+				"name": "Keys",
+				"capture_item":false,
+				"clear_as_group":false,
+				"item_count":4,
+				"chest_unopened_img":"images/z1smallkey.png",
+				"chest_opened_img":"images/z1smallkeygray.png"
+			},
+			{
+				"name": "Boss",
+				"capture_item":false,
+				"clear_as_group":false,
+				"item_count":1,
+				"access_rules":["z1ladder,z1bow,z1arrows"],
+				"chest_unopened_img":"images/levelsixboss.png",
+				"chest_opened_img":"images/z-triforceicon.png",
+				"hosted_item":"z1tri6"
+			}
+		]
+	},
+	{
+		"name": "C5 - Level 7",
+		"short_name": "Level 7",
+		"access_rules": [ "z1recorder" ],
+		"map_locations": 
+		[
+			{
+				"map": "hyrule",
+				"x": 368,
+				"y": 440,
+				"size": 48
+			}
+		],
+		"sections":
+		[
+			{
+				"name": "Items",
+				"capture_item": false,
+				"clear_as_group": false,
+				"item_count": 13
+			},
+			{
+				"name": "Keys",
+				"capture_item":false,
+				"clear_as_group":false,
+				"item_count":3,
+				"chest_unopened_img":"images/z1smallkey.png",
+				"chest_opened_img":"images/z1smallkeygray.png"
+			},
+			{
+				"name": "Boss",
+				"capture_item":false,
+				"clear_as_group":false,
+				"item_count":1,
+				"access_rules":["z1ladder,@CanKillBosses"],
+				"chest_unopened_img":"images/leveloneboss.png",
+				"chest_opened_img":"images/z-triforceicon.png",
+				"hosted_item":"z1tri7"
+			}
+		]
+	},
+	{
+		"name": "N7 - Level 8",
+		"short_name": "Level 8",
+		"access_rules": [ "z1candle" ],
+		"map_locations": 
+		[
+			{
+				"map": "hyrule",
+				"x": 1796,
+				"y": 596,
+				"size": 48
+			}
+		],
+		"sections":
+		[
+			{
+				"name": "Items",
+				"capture_item": false,
+				"clear_as_group": false,
+				"item_count": 11
+			},
+			{
+				"name": "Keys",
+				"capture_item":false,
+				"clear_as_group":false,
+				"item_count":4,
+				"chest_unopened_img":"images/z1smallkey.png",
+				"chest_opened_img":"images/z1smallkeygray.png"
+			},
+			{
+				"name": "Boss",
+				"capture_item":false,
+				"clear_as_group":false,
+				"item_count":1,
+				"access_rules":["z1bomb,z1sword","z1bomb,z1rod"],
+				"chest_unopened_img":"images/leveleightboss.png",
+				"chest_opened_img":"images/z-triforceicon.png",
+				"hosted_item":"z1tri8"
+			}
+		]
+	},
+	{
+		"name": "F1 - Level 9 - Spectacle Rock",
+		"short_name": "Spectacle Rock",
+		"access_rules": [ "z1bomb,$L9TriforceCount" ],
+		"map_locations": 
+			[
+			{
+				"map": "hyrule",
+				"x": 732,
+				"y": 100,
+				"size": 48
+			}
+		],
+		"sections":
+		[
+			{
+				"name": "Items",
+				"capture_item": false,
+				"clear_as_group": false,
+				"item_count": 15
+			},
+			{
+				"name": "Keys",
+				"capture_item":false,
+				"clear_as_group":false,
+				"item_count":3,
+				"chest_unopened_img":"images/z1smallkey.png",
+				"chest_opened_img":"images/z1smallkeygray.png"
+			},
+			{
+				"name": "Boss",
+				"capture_item":false,
+				"clear_as_group":false,
+				"item_count":1,
+				"access_rules":["z1sword,z1arrows2,z1bow"],
+				"chest_unopened_img":"images/z-ganon.png",
+				"chest_opened_img":"images/z-triforceicon.png",
+				"hosted_item":"z1ganon"
+			}
+		]
+	}
+]
+		
