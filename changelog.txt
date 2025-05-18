@@ -1,0 +1,11 @@
+0.2.1 - Fix more M1 logic bugs
+
+0.2 - 	Added Z1 dungeon locations and individual maps
+	Added Z1 bombs and bait to Z1 items and logic
+	Added Z1 combat logic - bombs-only combat will mark as sequence break in most cases
+	Added sections to dungeons on Z1 overworld map. Each dungeon has a section for items, garunteed keys, and the boss/triforce
+	Changed Objective counters to consumables, so L9 and GT entrance requirements can be read by logic. This also improved that section of the broadcast layout
+	Set Take Any caves to always be marked as sequence break, with two capturable items and a unique capture grid, to reflect they are always "junk" fill
+	Fixed M1 logic bugs
+
+0.1 - 	Initial beta 
