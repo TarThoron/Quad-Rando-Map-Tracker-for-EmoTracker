@@ -118,7 +118,7 @@
     "content":{
       "type":"itemgrid",
       "rows":[
-        ["z1arrow", "z1bomb", "z1smallheart", "z1rupee", "z1smallkey", "z1heart-icon"]
+        ["z1arrow", "z1bomb", "z1smallheart", "z1rupee", "z1smallkey"]
       ]
     }
   },  
@@ -305,18 +305,21 @@
           "dock": "left",
           "h_alignment": "bottom",
           "content": [
-		        {
-                "type": "tabbed",
-                "orientation": "vertical",
-                "background": "#101010",
-                "tabs": [
-                  {
-                    "type": "group",
-                    "title": "Items",
+            {
+              "type": "tabbed",
+              "orientation": "vertical",
+              "background": "#101010",
+              "tabs": [
+                {
+                  "type": "group",
+                  "title": "Items",
+                  "content": {
+                    "type":"scroll",
                     "content": {
                       "type": "array",
                       "orientation": "vertical",
                       "margin": "0,0",
+                      "min_height": 850,
                       "content": [
                         {
                           "type": "layout",
@@ -345,24 +348,28 @@
                         {
                           "type":"layout",
                           "key":"objectives"
-                        }
-                    ]
+                        }                    
+                      ]
+                    }
                   }
                 },
                 {
                   "type": "group",
                   "title": "Pinned Locations",
                   "content": {
-                    "min_width": "262",
-                    "type": "recentpins",
-                    "style": "stack",
-                    "h_alignment": "stretch",
-                    "v_alignment": "stretch",
-                    "compact": true
+                    "type":"scroll",
+                    "content": {
+                      "min_width": "262",
+                      "type": "recentpins",
+                      "style": "stack",
+                      "h_alignment": "stretch",
+                      "v_alignment": "stretch",
+                      "compact": true
+                    }
                   }
                 }
-			        ]
-		        }
+              ]
+            }
           ]
         },
         {
@@ -404,68 +411,79 @@
                   {
                     "title": "Vertical",
                     "content":{
-                      "type":"array",
-                      "orientation":"vertical",
-                      "content":[
-                        {
-                          "type":"map",
-                          "orientation": "horizontal",
-                          "maps":[
-                            "lightworld",
-                            "darkworld"
-                          ]
-                        },
-                        {
-                          "type":"map",
-                          "orientation":"horizontal",
-                          "maps":[
-                            "metroid",
-                            "m1-zebes"
-                          ]
-                        },
-                        {
-                          "type":"map",
-                          "orientation":"horizontal",
-                          "maps":[
-                            "hyrule"
-                          ]
-                        }              
-                      ]
+                      "type": "scroll",
+                      "content":{
+                        "type":"array",
+                        "orientation":"vertical",
+                        "max_width": 1440,
+                        "content":[
+                          {
+                            "type":"map",
+                            "orientation": "horizontal",
+                            
+                            "maps":[
+                              "lightworld",
+                              "darkworld"
+                            ]
+                          },
+                          {
+                            "type":"map",
+                            "orientation":"horizontal",
+
+                            "maps":[
+                              "metroid",
+                              "m1-zebes"
+                            ]
+                          },
+                          {
+                            "type":"map",
+                            "orientation":"horizontal",
+                            
+                            "maps":[
+                              "hyrule"
+                            ]
+                          }              
+                        ]
+                      }
                     }
                   },
                   {
                     "title": "Horizontal",
                     "content":{
-                      "type":"array",
-                      "orientation":"horizontal",
-                      "content":[
-                        {
-                          "type":"map",
-                          "orientation": "vertical",
-                          "maps":[
-                            "lightworld",
-                            "darkworld"
-                          ]
-                        },
-                        {
-                          "type":"map",
-                          "orientation":"vertical",
-                          "maps":[
-                            "metroid",
-                            "m1-zebes"
-                          ]
-                        },
-                        {
-                          "type":"map",
-                          "orientation":"vertical",
-                          "maps":[
-                            "hyrule",
-                            "dungeons1",
-                            "dungeons2"
-                          ]
-                        }              
-                      ]
-                    }
+                      "type":"scroll",
+                      "content":{
+                        "type":"array",
+                        "orientation":"horizontal",
+                        "max_height": 900,
+                        "content":[
+                          {
+                            "type":"map",
+                            "orientation": "vertical",
+                            "maps":[
+                              "lightworld",
+                              "darkworld"
+                            ]
+                          },
+                          {
+                            "type":"map",
+                            "orientation":"vertical",
+                            "maps":[
+                              "metroid",
+                              "m1-zebes"
+                            ]
+                          },
+                          {
+                            "type":"map",
+                            "orientation":"vertical",
+                            "maps":[
+                              "hyrule",
+                              "dungeons1",
+                              "dungeons2"
+                            ]
+                          }              
+                        ]
+                      }
+                    }  
                   }
                 ]
               }

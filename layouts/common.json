@@ -111,27 +111,10 @@
         "title": "Full",
         "content": 
         {
-          "type": "array",
+          "type": "map",
           "orientation": "vertical",
-          "content":[
-            {
-              "type": "map",
-              "maps": [
-                "hyrule"
-              ]
-            },
-            {
-              "type": "map",
-              "maps": [
-                "dungeons1"
-              ]
-            },
-            {
-              "type":"map",
-              "maps":[
-                "dungeons2"
-              ]
-            }
+          "maps": [
+            "hyrule", "dungeons1", "dungeons2"
           ]
         }        
       },

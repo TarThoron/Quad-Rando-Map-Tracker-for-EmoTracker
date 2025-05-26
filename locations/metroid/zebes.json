@@ -96,7 +96,7 @@
                     "name": "Varia Suit",
                     "item_count": 1,
                     "access_rules":
-                        [ "m1missile,m1bombs,m1jump"]
+                        [ "m1morph,m1missile,m1bombs,[m1jump]","m1morph,m1wave,m1missile,m1jump","m1morph,m1wave,m1missile,[m1jump],m1ice"]
                     }
                 ]
             },     
@@ -116,7 +116,7 @@
                         "item_count": 1,
                         "capturable":true,
                         "access_rules":
-                            ["m1morph,m1ice","{m1morph,m1missile}","{m1morph,m1long}"]
+                            ["m1morph,m1ice","m1morph,[m1ice],m1bombs","{m1morph,m1missile}","{m1morph,m1long}"]
                     }
                 ]
             },
@@ -152,7 +152,7 @@
                     "name": "Top Right Corridor Etank",
                     "item_count": 1,
                     "access_rules":
-                        ["m1morph,m1bombs"]
+                        ["m1morph,m1bombs","m1ice","m1morph,[m1bombs],m1wave"] //sequence break is logic bug in beta, remove later
                     }
                 ]
             },
@@ -188,7 +188,7 @@
                     "name": "Triple Lava Pillar Missile",
                     "item_count": 1,
                     "access_rules":
-                        ["m1morph,m1bombs"]
+                        ["m1morph,m1bombs","m1morph,m1wave"]
                     }
                 ]
             }
@@ -252,7 +252,7 @@
                     "name": "Bottom Left Missile",
                     "item_count": 1,
                     "access_rules":
-                        ["m1missile"]
+                        ["m1missile","[]"]
                     }
                 ]
             },
@@ -269,7 +269,9 @@
                 "sections": [
                     {
                     "name": "Middle Missile",
-                    "item_count": 1
+                    "item_count": 1,
+                    "access_rules":
+                        ["m1missile,[m1ice]"]
                     }
                 ]
             },
@@ -307,7 +309,7 @@
                     "name": "Kraid Etank",
                     "item_count": 1,
                     "access_rules":
-                        ["m1missile"]
+                        ["m1missile,[m1ice]"]
                     }
                 ]
             }
@@ -353,7 +355,7 @@
                     "name": "Norfair Ice Beam",
                     "item_count": 1,
                     "access_rules":
-                        ["m1morph,m1bombs,m1ice","m1morph,m1bombs,m1jump"]
+                        ["m1morph,m1bombs"]
                     }
                 ]
             },
@@ -372,7 +374,7 @@
                     "name": "Screw Attack",
                     "item_count": 1,
                     "access_rules":
-                        ["m1morph,m1bombs"]
+                        ["m1morph,m1bombs,m1missile,[m1ice]"]
                     }
                 ]
             },
@@ -391,7 +393,7 @@
                     "name": "Wave Beam",
                     "item_count": 1,
                     "access_rules":
-                        ["m1missile,m1morph,m1bombs"]
+                        ["m1missile,m1morph,m1bombs,[m1ice]"]
                     }
                 ]
             },
@@ -410,7 +412,7 @@
                     "name": "Top Missile Left",
                     "item_count": 1,
                     "access_rules":
-                        ["m1missile,m1morph,m1bombs,m1ice","m1missile,m1morph,m1bombs,m1jump"]
+                        ["m1jump","m1ice","m1morph,m1bombs"]
                     }
                 ]
             },
@@ -429,7 +431,7 @@
                     "name": "Top Missile Right",
                     "item_count": 1,
                     "access_rules":
-                        ["m1missile,m1morph,m1bombs,m1ice","m1missile,m1morph,m1bombs,m1jump"]
+                        ["m1jump","m1ice","m1morph,m1bombs"]
                     }
                 ]
             },
@@ -448,7 +450,7 @@
                     "name": "Triple Missile Left",
                     "item_count": 1,
                     "access_rules":
-                        ["m1jump","m1ice"]
+                        ["m1jump","m1ice","m1morph,m1bombs"]
                     }
                 ]
             },
@@ -467,7 +469,7 @@
                     "name": "Triple Missile Middle",
                     "item_count": 1,
                     "access_rules":
-                        ["m1jump","m1ice"]
+                        ["m1jump","m1ice","m1morph,m1bombs"]
                     }
                 ]
             },
@@ -486,7 +488,7 @@
                     "name": "Triple Missile Right",
                     "item_count": 1,
                     "access_rules":
-                        ["m1jump","m1ice"]
+                        ["m1jump","m1ice","m1morph,m1bombs"]
                     }
                 ]
             },
@@ -543,7 +545,7 @@
                     "name": "Orange Corridor Left Missile",
                     "item_count": 1,
                     "access_rules":
-                        ["m1morph,m1bombs,m1ice"]
+                        ["m1morph,m1bombs,[m1ice]"]
                     }
                 ]
             },
@@ -562,7 +564,7 @@
                     "name": "Orange Corridor Right Missile",
                     "item_count": 1,
                     "access_rules":
-                        ["m1morph,m1bombs,m1ice"]
+                        ["m1morph,m1bombs,[m1ice]"]
                     }
                 ]
             },
@@ -581,7 +583,7 @@
                     "name": "Right Eyes Missile",
                     "item_count": 1,
                     "access_rules":
-                        ["m1missile,m1morph,m1bombs"]
+                        ["m1missile,m1morph,m1bombs,[m1ice]"]
                     }
                 ]
             },
@@ -600,7 +602,7 @@
                     "name": "Bottom Eyes Missile Left",
                     "item_count": 1,
                     "access_rules":
-                        ["m1missile,m1morph,m1bombs"]
+                        ["m1missile,m1morph,m1bombs,[m1ice]"]
                     }
                 ]
             },
@@ -619,7 +621,7 @@
                     "name": "Bottom Eyes Missile Right",
                     "item_count": 1,
                     "access_rules":
-                        ["m1missile,m1morph,m1bombs"]
+                        ["m1missile,m1morph,m1bombs,[m1ice]"]
                     }
                 ]
             },
@@ -638,7 +640,7 @@
                     "name": "",
                     "item_count": 1,
                     "access_rules":
-                        ["m1missile,m1morph,m1bombs"]
+                        ["m1missile,m1morph,m1bombs,[m1ice]"]
                     }
                 ]
             }
@@ -666,7 +668,7 @@
                     "name": "Top Purple Missile",
                     "item_count": 1,
                     "access_rules":
-                        [""]
+                        ["[m1jump]"]
                     }
                 ]
             },
@@ -742,7 +744,7 @@
                     "name": "Ridley Etank",
                     "item_count": 1,
                     "access_rules":
-                        ["m1missile:2"]
+                        ["m1missile:10"]
                     }
                 ]
             }
