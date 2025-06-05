@@ -1052,13 +1052,13 @@
     "codes": "m1ice"
   },
   {
-    "name": "Missile",
+    "name": "Missiles",
     "type": "consumable",
+    "img": "images/m-missile.png",
     "max_quantity": 255,
     "increment": 5,
-    "img": "images/m-missile.png",
     "codes": "m1missile"
-  },
+},
   {
     "name": "Missile",
     "type": "toggle",
@@ -1079,18 +1079,18 @@
     "codes": "m1etank-icon"
   },
   {
-    "name": "M1Kraid",
+    "name": "M1 Kraid",
     "type": "toggle",
-    "loop": "true",
+    "loop": true,
     "img": "images/m-kraid.png",
     "codes": "m1kraid"
-  },
+},
   {
-    "name": "M1Ridley",
+    "name": "M1 Ridley",
     "type": "toggle",
-    "loop": "true",
+    "loop": true,
     "img": "images/m-ridley.png",
-    "codes": "m1ridley"
+    "codes": "m1ridley,example_toggle_2"
   },
   {
     "name": "Mother Brain",

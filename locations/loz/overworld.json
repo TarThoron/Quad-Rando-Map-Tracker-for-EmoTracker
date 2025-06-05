@@ -1,8 +1,8 @@
 
 [
 	{
-		"name": "H8 - Wood Sword",
-		"short_name": "H8",
+		"name": "Map 77 - Cave 10 - Wood Sword",
+		"short_name": "77",
 		"map_locations": 
 		[
 			{
@@ -24,8 +24,8 @@
 		]
 	},
 	{
-		"name": "K1 - White Sword",
-		"short_name": "K1",
+		"name": "Map 0A - Cave 12 - White Sword",
+		"short_name": "0A",
 		"map_locations": 
 		[
 			{
@@ -48,8 +48,8 @@
 		]
 	},
 	{
-		"name": "B3 - Magic Sword",
-		"short_name": "B3",
+		"name": "Map 21 - Cave 13 - Magic Sword",
+		"short_name": "21",
 		"map_locations": 
 		[
 			{
@@ -71,8 +71,8 @@
 		]
 	},
 	{
-		"name": "E3 - Graveyard Armos",
-		"short_name": "E3",
+		"name": "Map 24 - Armos Knight",
+		"short_name": "24",
 		"map_locations": 
 		[
 			{
@@ -93,8 +93,8 @@
 		]
 	},
 	{
-		"name": "P6 - Overworld Item",
-		"short_name": "P6",
+		"name": "Map 5F - Overworld Item",
+		"short_name": "5F",
 		"map_locations": 
 		[
 			{
@@ -117,8 +117,8 @@
 		]
 	},
 	{
-		"name": "O1 - First Quest Letter",
-		"short_name": "O1",
+		"name": "Map 0E - Cave 18 - First Quest Letter",
+		"short_name": "0E",
 		"map_locations": 
 		[
 			{
@@ -139,7 +139,7 @@
 		]
 	},
 	{
-		"name": "M3 - Monocle Rock Take Any",
+		"name": "Map 2C - Monocle Rock Take Any",
 		"short_name": "Monocle Rock",
 		"access_rules": [ "z1bomb,[takeany]" ],
 		"map_locations": 
@@ -172,8 +172,8 @@
 		]
 	},
 	{
-		"name": "P3 - Raft Spot Take Any",
-		"short_name": "P3",
+		"name": "Map 2F - Raft Spot Take Any",
+		"short_name": "2F",
 		"access_rules": [ "z1raft,[takeany]" ],
 		"map_locations": 
 		[
@@ -205,8 +205,8 @@
 		]
 	},
 	{
-		"name": "L8 - South Shore Take Any",
-		"short_name": "L8",
+		"name": "Map 7B - South Shore Take Any",
+		"short_name": "7B",
 		"access_rules": [ "z1bomb,[takeany]" ],
 		"map_locations": 
 		[
@@ -238,8 +238,8 @@
 		]
 	},
 	{
-		"name": "H5 - Burn Bush Take Any",
-		"short_name": "H5",
+		"name": "Map 47 - Burn Bush Take Any",
+		"short_name": "47",
 		"access_rules": [ "z1candle,[takeany]" ],
 		"map_locations": 
 		[
@@ -271,7 +271,7 @@
 		]
 	},
 	{
-		"name": "H4 - Level 1",
+		"name": "Map 37 - Level 1",
 		"short_name": "Level 1",
 		"map_locations": 
 		[
@@ -311,7 +311,7 @@
 		]
 	},
 	{
-		"name": "M4 - Level 2",
+		"name": "Map 3C - Level 2",
 		"short_name": "Level 2",
 		"map_locations": 
 		[
@@ -351,7 +351,7 @@
 		]
 	},
 	{
-		"name": "E8 - Level 3",
+		"name": "Map 74 - Level 3",
 		"short_name": "Level 3",
 		"map_locations": 
 		[
@@ -391,7 +391,7 @@
 		]
 	},
 	{
-		"name": "F5 - Level 4",
+		"name": "Map 45 - Level 4",
 		"short_name": "Level 4",
 		"access_rules": [ "z1raft" ],
 		"map_locations": 
@@ -432,7 +432,7 @@
 		]
 	},
 	{
-		"name": "L1 - Level 5",
+		"name": "Map 0B - Level 5",
 		"short_name": "Level 5",
 		"map_locations": 
 		[
@@ -472,7 +472,7 @@
 		]
 	},
 	{
-		"name": "C3 - Level 6",
+		"name": "Map 22 - Level 6",
 		"short_name": "Level 6",
 		"map_locations": 
 		[
@@ -512,7 +512,7 @@
 		]
 	},
 	{
-		"name": "C5 - Level 7",
+		"name": "Map 42 - Level 7",
 		"short_name": "Level 7",
 		"access_rules": [ "z1recorder" ],
 		"map_locations": 
@@ -553,7 +553,7 @@
 		]
 	},
 	{
-		"name": "N7 - Level 8",
+		"name": "Map 6D - Level 8",
 		"short_name": "Level 8",
 		"access_rules": [ "z1candle" ],
 		"map_locations": 
@@ -594,7 +594,7 @@
 		]
 	},
 	{
-		"name": "F1 - Level 9 - Spectacle Rock",
+		"name": "Map 05 - Level 9 - Spectacle Rock",
 		"short_name": "Spectacle Rock",
 		"access_rules": [ "z1bomb,$L9TriforceCount" ],
 		"map_locations": 

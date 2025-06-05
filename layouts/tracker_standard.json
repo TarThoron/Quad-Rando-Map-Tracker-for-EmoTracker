@@ -91,7 +91,7 @@
     "margin": "0,4",
     "item_margin": "3,3",
     "rows":[
-      ["m1morph",  "m1bombs", "m1long", "m1wave", "m1ice", "m1kraid" ],
+      ["m1morph",  "m1bombs", "m1long", "m1wave", "m1ice", "m1kraid"],
       ["m1varia", "m1jump", "m1screw", "m1missile", "m1etank", "m1ridley"]
     ]
   },
@@ -376,38 +376,48 @@
           "type": "tabbed",
           "tabs": [
             {
-              "title": "Super Metroid",
-              "content": {
-                "type": "layout",
-                "key": "sm_maps"
-              }
-            },
-            {
-              "title": "Link to the Past",
-              "content": {
-                "type": "layout",
-                "key": "alttp_maps"
-              }
-            },
-            {
-              "title": "Metroid",
-              "content":{
-                "type": "layout",
-                "key": "m1_map"
-              }
-            },
-            {
-              "title": "Legend of Zelda",
-              "content":{
-                "type":"layout",
-                "key": "z1_map"
-              }
-            },
-            {
               "title": "All",
               "content":{
                 "type":"tabbed",
                 "tabs":[
+                  {
+                    "title": "Horizontal",
+                    "content":{
+                      "type":"scroll",
+                      "content":{
+                        "type":"array",
+                        "orientation":"horizontal",
+                        "max_height": 900,
+                        "content":[
+                          {
+                            "type":"map",
+                            "orientation": "vertical",
+                            "maps":[
+                              "lightworld",
+                              "darkworld"
+                            ]
+                          },
+                          {
+                            "type":"map",
+                            "orientation":"vertical",
+                            "maps":[
+                              "metroid",
+                              "m1-zebes"
+                            ]
+                          },
+                          {
+                            "type":"map",
+                            "orientation":"vertical",
+                            "maps":[
+                              "hyrule",
+                              "dungeons1",
+                              "dungeons2"
+                            ]
+                          }              
+                        ]
+                      }
+                    }  
+                  },
                   {
                     "title": "Vertical",
                     "content":{
@@ -446,48 +456,38 @@
                         ]
                       }
                     }
-                  },
-                  {
-                    "title": "Horizontal",
-                    "content":{
-                      "type":"scroll",
-                      "content":{
-                        "type":"array",
-                        "orientation":"horizontal",
-                        "max_height": 900,
-                        "content":[
-                          {
-                            "type":"map",
-                            "orientation": "vertical",
-                            "maps":[
-                              "lightworld",
-                              "darkworld"
-                            ]
-                          },
-                          {
-                            "type":"map",
-                            "orientation":"vertical",
-                            "maps":[
-                              "metroid",
-                              "m1-zebes"
-                            ]
-                          },
-                          {
-                            "type":"map",
-                            "orientation":"vertical",
-                            "maps":[
-                              "hyrule",
-                              "dungeons1",
-                              "dungeons2"
-                            ]
-                          }              
-                        ]
-                      }
-                    }  
-                  }
+                  }                  
                 ]
               }
-            }
+            },
+            {
+              "title": "Super Metroid",
+              "content": {
+                "type": "layout",
+                "key": "sm_maps"
+              }
+            },
+            {
+              "title": "Link to the Past",
+              "content": {
+                "type": "layout",
+                "key": "alttp_maps"
+              }
+            },
+            {
+              "title": "Metroid",
+              "content":{
+                "type": "layout",
+                "key": "m1_map"
+              }
+            },
+            {
+              "title": "Legend of Zelda",
+              "content":{
+                "type":"layout",
+                "key": "z1_map"
+              }
+            }            
           ]
         }
       ]

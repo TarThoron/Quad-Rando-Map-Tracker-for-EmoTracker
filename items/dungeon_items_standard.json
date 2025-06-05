@@ -5,6 +5,10 @@
     "capturable": false,
     "stages": [
       {
+        "img": "images/EPUnknown.png",
+        "codes": "ep,easternpalace"
+      },
+      {
         "img": "images/0105.png",
         "codes": "ep,easternpalace,crystal,allcrystals"
       },
@@ -20,10 +24,10 @@
         "img": "images/0108.png",
         "codes": "ep,easternpalace,greenpendant,allpendants"
       },
-      {
-        "img": "images/EPG4.png",
-        "codes": "ep,easternpalace,g4"
-      }
+      //{
+      //  "img": "images/EPG4.png",
+      //  "codes": "ep1,easternpalace,g4"
+      //}
     ]
   },
   {
@@ -31,6 +35,10 @@
     "capturable": false,
     "type": "progressive_toggle",
     "stages": [
+      {
+        "img": "images/DPUnknown.png",
+        "codes": "dp,desertpalace"
+      },
       {
         "img": "images/0109.png",
         "codes": "dp,desertpalace,crystal,allcrystals"
@@ -47,10 +55,10 @@
         "img": "images/0112.png",
         "codes": "dp,desertpalace,greenpendant,allpendants"
       },
-      {
-        "img": "images/DPG4.png",
-        "codes": "dp,desertpalace,g4"
-      }
+      //{
+      //  "img": "images/DPG4.png",
+      //  "codes": "dp,desertpalace,g4"
+      //}
     ]
   },
   {
@@ -58,6 +66,10 @@
     "capturable": false,
     "type": "progressive_toggle",
     "stages": [
+      {
+        "img": "images/TOHUnknown.png",
+        "codes": "toh,towerofhera"
+      },
       {
         "img": "images/0113.png",
         "codes": "toh,towerofhera,crystal,allcrystals"
@@ -74,10 +86,10 @@
         "img": "images/0116.png",
         "codes": "toh,towerofhera,greenpendant,allpendants"
       },
-      {
-        "img": "images/TOHG4.png",
-        "codes": "toh,towerofhera,g4"
-      }
+      //{
+      //  "img": "images/TOHG4.png",
+      //  "codes": "toh,towerofhera,g4"
+      //}
     ]
   },
   {
@@ -85,6 +97,10 @@
     "capturable": false,
     "type": "progressive_toggle",
     "stages": [
+      {
+        "img": "images/PODUnknown.png",
+        "codes": "pod,palaceofdarkness"
+      },
       {
         "img": "images/0077.png",
         "codes": "pod,palaceofdarkness,crystal,allcrystals"
@@ -101,10 +117,10 @@
         "img": "images/0080.png",
         "codes": "pod,palaceofdarkness,greenpendant,allpendants"
       },
-      {
-        "img": "images/PODG4.png",
-        "codes": "pod,palaceofdarkness,g4"
-      }
+      //{
+      //  "img": "images/PODG4.png",
+      //  "codes": "pod,palaceofdarkness,g4"
+      //}
     ]
   },
   {
@@ -112,6 +128,10 @@
     "capturable": false,
     "type": "progressive_toggle",
     "stages": [
+      {
+        "img": "images/SPUnknown.png",
+        "codes": "sp,swamppalace"
+      },
       {
         "img": "images/0081.png",
         "codes": "sp,swamppalace,crystal,allcrystals"
@@ -128,10 +148,10 @@
         "img": "images/0084.png",
         "codes": "sp,swamppalace,greenpendant,allpendants"
       },
-      {
-        "img": "images/SPG4.png",
-        "codes": "sp,swamppalace,g4"
-      }
+      //{
+      //  "img": "images/SPG4.png",
+      //  "codes": "sp,swamppalace,g4"
+      //}
     ]
   },
   {
@@ -139,6 +159,10 @@
     "capturable": false,
     "type": "progressive_toggle",
     "stages": [
+      {
+        "img": "images/SWUnknown.png",
+        "codes": "sw,skullwoods"
+      },
       {
         "img": "images/0085.png",
         "codes": "sw,skullwoods,crystal,allcrystals"
@@ -155,10 +179,10 @@
         "img": "images/0088.png",
         "codes": "sw,skullwoods,greenpendant,allpendants"
       },
-      {
-        "img": "images/SWG4.png",
-        "codes": "sw,skullwoods,g4"
-      }
+      //{
+      //  "img": "images/SWG4.png",
+      //  "codes": "sw,skullwoods,g4"
+      //}
     ]
   },
   {
@@ -166,6 +190,10 @@
     "capturable": false,
     "type": "progressive_toggle",
     "stages": [
+      {
+        "img": "images/TTUnknown.png",
+        "codes": "tt,thievestown"
+      },
       {
         "img": "images/0089.png",
         "codes": "tt,thievestown,crystal,allcrystals"
@@ -182,10 +210,10 @@
         "img": "images/0092.png",
         "codes": "tt,thievestown,greenpendant,allpendants"
       },
-      {
-        "img": "images/TTG4.png",
-        "codes": "tt,thievestown,g4"
-      }
+      //{
+      //  "img": "images/TTG4.png",
+      //  "codes": "tt,thievestown,g4"
+      //}
     ]
   },
   {
@@ -193,6 +221,10 @@
     "capturable": false,
     "type": "progressive_toggle",
     "stages": [
+      {
+        "img": "images/IPUnknown.png",
+        "codes": "ip,icepalace"
+      },
       {
         "img": "images/0093.png",
         "codes": "ip,icepalace,crystal,allcrystals"
@@ -209,10 +241,10 @@
         "img": "images/0096.png",
         "codes": "ip,icepalace,greenpendant,allpendants"
       },
-      {
-        "img": "images/IPG4.png",
-        "codes": "ip,icepalace,g4"
-      }
+      //{
+      //  "img": "images/IPG4.png",
+      //  "codes": "ip,icepalace,g4"
+      //}
     ]
   },
   {
@@ -220,6 +252,10 @@
     "capturable": false,
     "type": "progressive_toggle",
     "stages": [
+      {
+        "img": "images/MMUnknown.png",
+        "codes": "mm,miserymire"
+      },
       {
         "img": "images/0097.png",
         "codes": "mm,miserymire,crystal,allcrystals"
@@ -236,10 +272,10 @@
         "img": "images/0100.png",
         "codes": "mm,miserymire,greenpendant,allpendants"
       },
-      {
-        "img": "images/MMG4.png",
-        "codes": "mm,miserymire,g4"
-      }
+      //{
+      //  "img": "images/MMG4.png",
+      //  "codes": "mm,miserymire,g4"
+      //}
     ]
   },
   {
@@ -247,6 +283,10 @@
     "capturable": false,
     "type": "progressive_toggle",
     "stages": [
+      {
+        "img": "images/TRUnknown.png",
+        "codes": "tr,turtlerock"
+      },
       {
         "img": "images/0101.png",
         "codes": "tr,turtlerock,crystal,allcrystals"
@@ -263,10 +303,10 @@
         "img": "images/0104.png",
         "codes": "tr,turtlerock,greenpendant,allpendants"
       },
-      {
-        "img": "images/TRG4.png",
-        "codes": "tr,turtlerock,g4"
-      }
+      //{
+      //  "img": "images/TRG4.png",
+      //  "codes": "tr,turtlerock,g4"
+      //}
     ]
   }
 ]

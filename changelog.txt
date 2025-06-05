@@ -1,3 +1,16 @@
+0.3 -	Match M1 logic to beta data, including known bugs (marked as sequence break)
+	Add M1 IBJ as sequence break
+	Fix Z1 - Full map scaling
+	Add scroll bars for small windows and All Maps tabs
+	Remove Heart Container from Take Any items
+	Add Unknown LttP dungeon prizes, disable G4 tokens
+	Change Z1 Overworld map coordinates and labeling to match spoiler/quad data
+	Add icons to all cross game portal locations
+	Move Lumberjack location marker to minimize overlap with M1 portal icon
+	Set All - Horizontal to default map tab on load
+	Seting M1 Kraid or Ridley to defeated automatically adds 75 to M1 Missile count
+		-Magic key infinity symbol disabled due to conflict in code. Hopefully fix later.
+
 0.2.1 - Fix more M1 logic bugs
 
 0.2 - 	Added Z1 dungeon locations and individual maps
