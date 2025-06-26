@@ -2,7 +2,7 @@
     {
         "name": "Level 2 - The Moon",
         "color": "#2038ec",
-        "chest_opened_img": "images/getitem.png",
+        "chest_opened_img": "images/LoZ/getitem.png",
         "children":[
             {
                 "name": "Map 7E - Kill Ropes",
@@ -262,7 +262,7 @@
                         "name": "Kill Boss",
                         "item_count": 1,
                         "access_rules":["z1bomb"],
-                        "chest_unopened_img": "images/leveltwoboss.png"
+                        "chest_unopened_img": "images/LoZ/leveltwoboss.png"
                     }
                 ]
             },
@@ -287,7 +287,7 @@
                         "name": "Triforce",
                         "item_count": 1,
                         "access_rules":["z1bomb"],
-                        "chest_unopened_img": "images/z-triforceicon.png",
+                        "chest_unopened_img": "images/LoZ/z-triforceicon.png",
                         "hosted_item":"z1tri2"
                     }
                 ]

@@ -109,7 +109,7 @@
         [ "lift1", "boots", "flippers", "halfmagic", "owsword", "shield", "armor", "heartcontainer_icon", "missile_icon", "super_icon", "pb_icon"],
         [ "z1woodsword", "z1boomerang", "z1magicboom", "z1silver", "z1bow", "z1ladder", "z1letter", "m1bombs", "m1long", "m1wave", "m1ice"],
         [ "z1whitesword", "z1bluering", "z1redring", "z1recorder", "z1bracelet", "z1raft", "z1heart-icon", "m1morph", "m1varia", "m1jump", "m1screw"],
-        [ "z1magicsword", "z1bluecandle", "z1redcandle", "z1rod", "z1book", "z1smallkey", "z1magickey", "triforce-icon", "", "m1missile-icon", "m1etank-icon"]
+        [ "z1magicsword", "z1bluecandle", "z1redcandle", "z1rod", "z1book", "z1bomb", "z1smallkey", "z1magickey", "triforce-icon", "m1missile-icon", "m1etank-icon"]
       ]
     }
   },

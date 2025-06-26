@@ -5,28 +5,28 @@
     "capturable": false,
     "stages": [
       {
-        "img": "images/EPUnknown.png",
+        "img": "images/ALttP/Dungeons/EPUnknown.png",
         "codes": "ep,easternpalace"
       },
       {
-        "img": "images/0105.png",
+        "img": "images/ALttP/Dungeons/EPCrystal.png",
         "codes": "ep,easternpalace,crystal,allcrystals"
       },
       {
-        "img": "images/0106.png",
+        "img": "images/ALttP/Dungeons/EPRedCrystal.png",
         "codes": "ep,easternpalace,crystal56,allcrystals"
       },
       {
-        "img": "images/0107.png",
+        "img": "images/ALttP/Dungeons/EPPendant.png",
         "codes": "ep,easternpalace,pendant,allpendants"
       },
       {
-        "img": "images/0108.png",
+        "img": "images/ALttP/Dungeons/EPGreenPendant.png",
         "codes": "ep,easternpalace,greenpendant,allpendants"
       },
       //{
-      //  "img": "images/EPG4.png",
-      //  "codes": "ep1,easternpalace,g4"
+      //  "img": "images/ALttP/Dungeons/EPG4.png",
+      //  "codes": "ep,easternpalace,g4"
       //}
     ]
   },
@@ -36,27 +36,27 @@
     "type": "progressive_toggle",
     "stages": [
       {
-        "img": "images/DPUnknown.png",
+        "img": "images/ALttP/Dungeons/DPUnknown.png",
         "codes": "dp,desertpalace"
       },
       {
-        "img": "images/0109.png",
+        "img": "images/ALttP/Dungeons/DPCrystal.png",
         "codes": "dp,desertpalace,crystal,allcrystals"
       },
       {
-        "img": "images/0110.png",
+        "img": "images/ALttP/Dungeons/DPRedCrystal.png",
         "codes": "dp,desertpalace,crystal56,allcrystals"
       },
       {
-        "img": "images/0111.png",
+        "img": "images/ALttP/Dungeons/DPPendant.png",
         "codes": "dp,desertpalace,pendant,allpendants"
       },
       {
-        "img": "images/0112.png",
+        "img": "images/ALttP/Dungeons/DPGreenPendant.png",
         "codes": "dp,desertpalace,greenpendant,allpendants"
       },
       //{
-      //  "img": "images/DPG4.png",
+      //  "img": "images/ALttP/Dungeons/DPG4.png",
       //  "codes": "dp,desertpalace,g4"
       //}
     ]
@@ -67,27 +67,27 @@
     "type": "progressive_toggle",
     "stages": [
       {
-        "img": "images/TOHUnknown.png",
+        "img": "images/ALttP/Dungeons/TOHUnknown.png",
         "codes": "toh,towerofhera"
       },
       {
-        "img": "images/0113.png",
+        "img": "images/ALttP/Dungeons/TOHCrystal.png",
         "codes": "toh,towerofhera,crystal,allcrystals"
       },
       {
-        "img": "images/0114.png",
+        "img": "images/ALttP/Dungeons/TOHRedCrystal.png",
         "codes": "toh,towerofhera,crystal56,allcrystals"
       },
       {
-        "img": "images/0115.png",
+        "img": "images/ALttP/Dungeons/TOHPendant.png",
         "codes": "toh,towerofhera,pendant,allpendants"
       },
       {
-        "img": "images/0116.png",
+        "img": "images/ALttP/Dungeons/TOHGreenPendant.png",
         "codes": "toh,towerofhera,greenpendant,allpendants"
       },
       //{
-      //  "img": "images/TOHG4.png",
+      //  "img": "images/ALttP/Dungeons/TOHG4.png",
       //  "codes": "toh,towerofhera,g4"
       //}
     ]
@@ -98,27 +98,27 @@
     "type": "progressive_toggle",
     "stages": [
       {
-        "img": "images/PODUnknown.png",
+        "img": "images/ALttP/Dungeons/PODUnknown.png",
         "codes": "pod,palaceofdarkness"
       },
       {
-        "img": "images/0077.png",
+        "img": "images/ALttP/Dungeons/PODCrystal.png",
         "codes": "pod,palaceofdarkness,crystal,allcrystals"
       },
       {
-        "img": "images/0078.png",
+        "img": "images/ALttP/Dungeons/PODRedCrystal.png",
         "codes": "pod,palaceofdarkness,crystal56,allcrystals"
       },
       {
-        "img": "images/0079.png",
+        "img": "images/ALttP/Dungeons/PODPendant.png",
         "codes": "pod,palaceofdarkness,pendant,allpendants"
       },
       {
-        "img": "images/0080.png",
+        "img": "images/ALttP/Dungeons/PODGreenPendant.png",
         "codes": "pod,palaceofdarkness,greenpendant,allpendants"
       },
       //{
-      //  "img": "images/PODG4.png",
+      //  "img": "images/ALttP/Dungeons/PODG4.png",
       //  "codes": "pod,palaceofdarkness,g4"
       //}
     ]
@@ -129,27 +129,27 @@
     "type": "progressive_toggle",
     "stages": [
       {
-        "img": "images/SPUnknown.png",
+        "img": "images/ALttP/Dungeons/SPUnknown.png",
         "codes": "sp,swamppalace"
       },
       {
-        "img": "images/0081.png",
+        "img": "images/ALttP/Dungeons/SPCrystal.png",
         "codes": "sp,swamppalace,crystal,allcrystals"
       },
       {
-        "img": "images/0082.png",
+        "img": "images/ALttP/Dungeons/SPRedCrystal.png",
         "codes": "sp,swamppalace,crystal56,allcrystals"
       },
       {
-        "img": "images/0083.png",
+        "img": "images/ALttP/Dungeons/SPPendant.png",
         "codes": "sp,swamppalace,pendant,allpendants"
       },
       {
-        "img": "images/0084.png",
+        "img": "images/ALttP/Dungeons/SPGreenPendant.png",
         "codes": "sp,swamppalace,greenpendant,allpendants"
       },
       //{
-      //  "img": "images/SPG4.png",
+      //  "img": "images/ALttP/Dungeons/SPG4.png",
       //  "codes": "sp,swamppalace,g4"
       //}
     ]
@@ -160,27 +160,27 @@
     "type": "progressive_toggle",
     "stages": [
       {
-        "img": "images/SWUnknown.png",
+        "img": "images/ALttP/Dungeons/SWUnknown.png",
         "codes": "sw,skullwoods"
       },
       {
-        "img": "images/0085.png",
+        "img": "images/ALttP/Dungeons/SWCrystal.png",
         "codes": "sw,skullwoods,crystal,allcrystals"
       },
       {
-        "img": "images/0086.png",
+        "img": "images/ALttP/Dungeons/SWRedCrystal.png",
         "codes": "sw,skullwoods,crystal56,allcrystals"
       },
       {
-        "img": "images/0087.png",
+        "img": "images/ALttP/Dungeons/SWPendant.png",
         "codes": "sw,skullwoods,pendant,allpendants"
       },
       {
-        "img": "images/0088.png",
+        "img": "images/ALttP/Dungeons/SWGreenPendant.png",
         "codes": "sw,skullwoods,greenpendant,allpendants"
       },
       //{
-      //  "img": "images/SWG4.png",
+      //  "img": "images/ALttP/Dungeons/SWG4.png",
       //  "codes": "sw,skullwoods,g4"
       //}
     ]
@@ -191,23 +191,23 @@
     "type": "progressive_toggle",
     "stages": [
       {
-        "img": "images/TTUnknown.png",
+        "img": "images/ALttP/Dungeons/TTUnknown.png",
         "codes": "tt,thievestown"
       },
       {
-        "img": "images/0089.png",
+        "img": "images/ALttP/Dungeons/TTCrystal.png",
         "codes": "tt,thievestown,crystal,allcrystals"
       },
       {
-        "img": "images/0090.png",
+        "img": "images/ALttP/Dungeons/TTRedCrystal.png",
         "codes": "tt,thievestown,crystal56,allcrystals"
       },
       {
-        "img": "images/0091.png",
+        "img": "images/ALttP/Dungeons/TTPendant.png",
         "codes": "tt,thievestown,pendant,allpendants"
       },
       {
-        "img": "images/0092.png",
+        "img": "images/ALttP/Dungeons/TTGreenPendant.png",
         "codes": "tt,thievestown,greenpendant,allpendants"
       },
       //{
@@ -222,27 +222,27 @@
     "type": "progressive_toggle",
     "stages": [
       {
-        "img": "images/IPUnknown.png",
+        "img": "images/ALttP/Dungeons/IPUnknown.png",
         "codes": "ip,icepalace"
       },
       {
-        "img": "images/0093.png",
+        "img": "images/ALttP/Dungeons/IPCrystal.png",
         "codes": "ip,icepalace,crystal,allcrystals"
       },
       {
-        "img": "images/0094.png",
+        "img": "images/ALttP/Dungeons/IPRedCrystal.png",
         "codes": "ip,icepalace,crystal56,allcrystals"
       },
       {
-        "img": "images/0095.png",
+        "img": "images/ALttP/Dungeons/IPPendant.png",
         "codes": "ip,icepalace,pendant,allpendants"
       },
       {
-        "img": "images/0096.png",
+        "img": "images/ALttP/Dungeons/IPGreenPendant.png",
         "codes": "ip,icepalace,greenpendant,allpendants"
       },
       //{
-      //  "img": "images/IPG4.png",
+      //  "img": "images/ALttP/Dungeons/IPG4.png",
       //  "codes": "ip,icepalace,g4"
       //}
     ]
@@ -253,27 +253,27 @@
     "type": "progressive_toggle",
     "stages": [
       {
-        "img": "images/MMUnknown.png",
+        "img": "images/ALttP/Dungeons/MMUnknown.png",
         "codes": "mm,miserymire"
       },
       {
-        "img": "images/0097.png",
+        "img": "images/ALttP/Dungeons/MMCrystal.png",
         "codes": "mm,miserymire,crystal,allcrystals"
       },
       {
-        "img": "images/0098.png",
+        "img": "images/ALttP/Dungeons/MMRedCrystal.png",
         "codes": "mm,miserymire,crystal56,allcrystals"
       },
       {
-        "img": "images/0099.png",
+        "img": "images/ALttP/Dungeons/MMPendant.png",
         "codes": "mm,miserymire,pendant,allpendants"
       },
       {
-        "img": "images/0100.png",
+        "img": "images/ALttP/Dungeons/MMGreenPendant.png",
         "codes": "mm,miserymire,greenpendant,allpendants"
       },
       //{
-      //  "img": "images/MMG4.png",
+      //  "img": "images/ALttP/Dungeons/MMG4.png",
       //  "codes": "mm,miserymire,g4"
       //}
     ]
@@ -284,27 +284,27 @@
     "type": "progressive_toggle",
     "stages": [
       {
-        "img": "images/TRUnknown.png",
+        "img": "images/ALttP/Dungeons/TRUnknown.png",
         "codes": "tr,turtlerock"
       },
       {
-        "img": "images/0101.png",
+        "img": "images/ALttP/Dungeons/TRCrystal.png",
         "codes": "tr,turtlerock,crystal,allcrystals"
       },
       {
-        "img": "images/0102.png",
+        "img": "images/ALttP/Dungeons/TRRedCrystal.png",
         "codes": "tr,turtlerock,crystal56,allcrystals"
       },
       {
-        "img": "images/0103.png",
+        "img": "images/ALttP/Dungeons/TRPendant.png",
         "codes": "tr,turtlerock,pendant,allpendants"
       },
       {
-        "img": "images/0104.png",
+        "img": "images/ALttP/Dungeons/TRGreenPendant.png",
         "codes": "tr,turtlerock,greenpendant,allpendants"
       },
       //{
-      //  "img": "images/TRG4.png",
+      //  "img": "images/ALttP/Dungeons/TRG4.png",
       //  "codes": "tr,turtlerock,g4"
       //}
     ]

@@ -18,8 +18,8 @@
 				"name": "Open Cave",
 				"capture_item": false,
 				"item_count": 1,
-				"chest_unopened_img": "images/sections/opencave.png",
-				"chest_opened_img": "images/sections/opencave.png"
+				"chest_unopened_img": "images/LoZ/opencave.png",
+				"chest_opened_img": "images/LoZ/opencave.png"
 			}
 		]
 	},
@@ -42,8 +42,8 @@
 				"capture_item": true,
 				"item_count": 1,
 				"access_rules": [ "z1heart:2", "{}" ],
-				"chest_unopened_img": "images/sections/opencave.png",
-				"chest_opened_img": "images/sections/opencave.png"
+				"chest_unopened_img": "images/LoZ/opencave.png",
+				"chest_opened_img": "images/LoZ/opencave.png"
 			}
 		]
 	},
@@ -66,7 +66,7 @@
 				"capture_item": true,
 				"item_count": 1,
 				"access_rules": [ "z1heart:9", "{}" ],
-                "chest_unopened_img": "images/sections/grave.png"
+                "chest_unopened_img": "images/LoZ/grave.png"
 			}
 		]
 	},
@@ -88,7 +88,7 @@
 				"name": "Under Armos",
 				"capture_item": false,
 				"item_count": 1,
-				"chest_unopened_img": "images/sections/armos.png"
+				"chest_unopened_img": "images/LoZ/armos.png"
 			}
 		]
 	},
@@ -111,8 +111,8 @@
 				"capture_item": true,
 				"item_count": 1,
 				"access_rules": [ "z1ladder", "{}" ],
-				"chest_unopened_img": "images/sections/ladderwater.png",
-				"chest_opened_img": "images/sections/bridge.png"
+				"chest_unopened_img": "images/LoZ/ladderwater.png",
+				"chest_opened_img": "images/LoZ/bridge.png"
 			}
 		]
 	},
@@ -134,7 +134,7 @@
 				"name": "Open Cave",
 				"capture_item": false,
 				"item_count": 1,
-				"chest_unopened_img": "images/sections/opencave.png"
+				"chest_unopened_img": "images/LoZ/opencave.png"
 			}
 		]
 	},
@@ -158,16 +158,16 @@
 				"capture_item": true,
 				"capture_item_layout": "take_any_capture_item",
 				"item_count": 1,
-				"chest_unopened_img": "images/sections/oldman.png",
-				"chest_opened_img": "images/sections/opencave.png"
+				"chest_unopened_img": "images/LoZ/oldman.png",
+				"chest_opened_img": "images/LoZ/opencave.png"
 			},
 			{
 				"name": "Right Item",
 				"capture_item": true,
 				"capture_item_layout": "take_any_capture_item",
 				"item_count": 1,
-				"chest_unopened_img": "images/sections/oldman.png",
-				"chest_opened_img": "images/sections/opencave.png"
+				"chest_unopened_img": "images/LoZ/oldman.png",
+				"chest_opened_img": "images/LoZ/opencave.png"
 			}
 		]
 	},
@@ -191,16 +191,16 @@
 				"capture_item": true,
 				"capture_item_layout": "take_any_capture_item",
 				"item_count": 1,
-				"chest_unopened_img": "images/sections/oldman.png",
-				"chest_opened_img": "images/sections/opencave.png"
+				"chest_unopened_img": "images/LoZ/oldman.png",
+				"chest_opened_img": "images/LoZ/opencave.png"
 			},
 			{
 				"name": "Right Item",
 				"capture_item": true,
 				"capture_item_layout": "take_any_capture_item",
 				"item_count": 1,
-				"chest_unopened_img": "images/sections/oldman.png",
-				"chest_opened_img": "images/sections/opencave.png"
+				"chest_unopened_img": "images/LoZ/oldman.png",
+				"chest_opened_img": "images/LoZ/opencave.png"
 			}
 		]
 	},
@@ -224,16 +224,16 @@
 				"capture_item": true,
 				"capture_item_layout": "take_any_capture_item",
 				"item_count": 1,
-				"chest_unopened_img": "images/sections/oldman.png",
-				"chest_opened_img": "images/sections/opencave.png"
+				"chest_unopened_img": "images/LoZ/oldman.png",
+				"chest_opened_img": "images/LoZ/opencave.png"
 			},
 			{
 				"name": "Right Item",
 				"capture_item": true,
 				"capture_item_layout": "take_any_capture_item",
 				"item_count": 1,
-				"chest_unopened_img": "images/sections/oldman.png",
-				"chest_opened_img": "images/sections/opencave.png"
+				"chest_unopened_img": "images/LoZ/oldman.png",
+				"chest_opened_img": "images/LoZ/opencave.png"
 			}
 		]
 	},
@@ -257,16 +257,16 @@
 				"capture_item": true,
 				"capture_item_layout": "take_any_capture_item",
 				"item_count": 1,
-				"chest_unopened_img": "images/sections/oldman.png",
-				"chest_opened_img": "images/sections/opencave.png"
+				"chest_unopened_img": "images/LoZ/oldman.png",
+				"chest_opened_img": "images/LoZ/opencave.png"
 			},
 			{
 				"name": "Right Item",
 				"capture_item": true,
 				"capture_item_layout": "take_any_capture_item",
 				"item_count": 1,
-				"chest_unopened_img": "images/sections/oldman.png",
-				"chest_opened_img": "images/sections/opencave.png"
+				"chest_unopened_img": "images/LoZ/oldman.png",
+				"chest_opened_img": "images/LoZ/opencave.png"
 			}
 		]
 	},
@@ -295,8 +295,8 @@
 				"capture_item":false,
 				"clear_as_group":false,
 				"item_count":4,
-				"chest_unopened_img":"images/z1smallkey.png",
-				"chest_opened_img":"images/z1smallkeygray.png"
+				"chest_unopened_img":"images/LoZ/z1smallkey.png",
+				"chest_opened_img":"images/LoZ/z1smallkeygray.png"
 			},
 			{
 				"name": "Boss",
@@ -304,8 +304,8 @@
 				"clear_as_group":false,
 				"item_count":1,
 				"access_rules":["@CanKillBosses"],
-				"chest_unopened_img":"images/leveloneboss.png",
-				"chest_opened_img":"images/z-triforceicon.png",
+				"chest_unopened_img":"images/LoZ/leveloneboss.png",
+				"chest_opened_img":"images/LoZ/z-triforceicon.png",
 				"hosted_item":"z1tri1"
 			}
 		]
@@ -335,8 +335,8 @@
 				"capture_item":false,
 				"clear_as_group":false,
 				"item_count":3,
-				"chest_unopened_img":"images/z1smallkey.png",
-				"chest_opened_img":"images/z1smallkeygray.png"
+				"chest_unopened_img":"images/LoZ/z1smallkey.png",
+				"chest_opened_img":"images/LoZ/z1smallkeygray.png"
 			},
 			{
 				"name": "Boss",
@@ -344,8 +344,8 @@
 				"clear_as_group":false,
 				"item_count":1,
 				"access_rules":["z1bomb"],
-				"chest_unopened_img":"images/leveltwoboss.png",
-				"chest_opened_img":"images/z-triforceicon.png",
+				"chest_unopened_img":"images/LoZ/leveltwoboss.png",
+				"chest_opened_img":"images/LoZ/z-triforceicon.png",
 				"hosted_item":"z1tri2"
 			}
 		]
@@ -375,8 +375,8 @@
 				"capture_item":false,
 				"clear_as_group":false,
 				"item_count":4,
-				"chest_unopened_img":"images/z1smallkey.png",
-				"chest_opened_img":"images/z1smallkeygray.png"
+				"chest_unopened_img":"images/LoZ/z1smallkey.png",
+				"chest_opened_img":"images/LoZ/z1smallkeygray.png"
 			},
 			{
 				"name": "Boss",
@@ -384,8 +384,8 @@
 				"clear_as_group":false,
 				"item_count":1,
 				"access_rules":["@CanKillDarknuts"],
-				"chest_unopened_img":"images/levelthreeboss.png",
-				"chest_opened_img":"images/z-triforceicon.png",
+				"chest_unopened_img":"images/LoZ/levelthreeboss.png",
+				"chest_opened_img":"images/LoZ/z-triforceicon.png",
 				"hosted_item":"z1tri3"
 			}
 		]
@@ -416,8 +416,8 @@
 				"capture_item":false,
 				"clear_as_group":false,
 				"item_count":3,
-				"chest_unopened_img":"images/z1smallkey.png",
-				"chest_opened_img":"images/z1smallkeygray.png"
+				"chest_unopened_img":"images/LoZ/z1smallkey.png",
+				"chest_opened_img":"images/LoZ/z1smallkeygray.png"
 			},
 			{
 				"name": "Boss",
@@ -425,8 +425,8 @@
 				"clear_as_group":false,
 				"item_count":1,
 				"access_rules":["z1ladder,@CanKillGleeok"],
-				"chest_unopened_img":"images/levelfourboss.png",
-				"chest_opened_img":"images/z-triforceicon.png",
+				"chest_unopened_img":"images/LoZ/levelfourboss.png",
+				"chest_opened_img":"images/LoZ/z-triforceicon.png",
 				"hosted_item":"z1tri4"
 			}
 		]
@@ -456,8 +456,8 @@
 				"capture_item":false,
 				"clear_as_group":false,
 				"item_count":5,
-				"chest_unopened_img":"images/z1smallkey.png",
-				"chest_opened_img":"images/z1smallkeygray.png"
+				"chest_unopened_img":"images/LoZ/z1smallkey.png",
+				"chest_opened_img":"images/LoZ/z1smallkeygray.png"
 			},
 			{
 				"name": "Boss",
@@ -465,8 +465,8 @@
 				"clear_as_group":false,
 				"item_count":1,
 				"access_rules":["z1ladder,z1recorder,@CanKillBosses"],
-				"chest_unopened_img":"images/levelfiveboss.png",
-				"chest_opened_img":"images/z-triforceicon.png",
+				"chest_unopened_img":"images/LoZ/levelfiveboss.png",
+				"chest_opened_img":"images/LoZ/z-triforceicon.png",
 				"hosted_item":"z1tri5"
 			}
 		]
@@ -496,8 +496,8 @@
 				"capture_item":false,
 				"clear_as_group":false,
 				"item_count":4,
-				"chest_unopened_img":"images/z1smallkey.png",
-				"chest_opened_img":"images/z1smallkeygray.png"
+				"chest_unopened_img":"images/LoZ/z1smallkey.png",
+				"chest_opened_img":"images/LoZ/z1smallkeygray.png"
 			},
 			{
 				"name": "Boss",
@@ -505,8 +505,8 @@
 				"clear_as_group":false,
 				"item_count":1,
 				"access_rules":["z1ladder,z1bow,z1arrows"],
-				"chest_unopened_img":"images/levelsixboss.png",
-				"chest_opened_img":"images/z-triforceicon.png",
+				"chest_unopened_img":"images/LoZ/levelsixboss.png",
+				"chest_opened_img":"images/LoZ/z-triforceicon.png",
 				"hosted_item":"z1tri6"
 			}
 		]
@@ -537,8 +537,8 @@
 				"capture_item":false,
 				"clear_as_group":false,
 				"item_count":3,
-				"chest_unopened_img":"images/z1smallkey.png",
-				"chest_opened_img":"images/z1smallkeygray.png"
+				"chest_unopened_img":"images/LoZ/z1smallkey.png",
+				"chest_opened_img":"images/LoZ/z1smallkeygray.png"
 			},
 			{
 				"name": "Boss",
@@ -546,8 +546,8 @@
 				"clear_as_group":false,
 				"item_count":1,
 				"access_rules":["z1ladder,@CanKillBosses"],
-				"chest_unopened_img":"images/leveloneboss.png",
-				"chest_opened_img":"images/z-triforceicon.png",
+				"chest_unopened_img":"images/LoZ/leveloneboss.png",
+				"chest_opened_img":"images/LoZ/z-triforceicon.png",
 				"hosted_item":"z1tri7"
 			}
 		]
@@ -578,8 +578,8 @@
 				"capture_item":false,
 				"clear_as_group":false,
 				"item_count":4,
-				"chest_unopened_img":"images/z1smallkey.png",
-				"chest_opened_img":"images/z1smallkeygray.png"
+				"chest_unopened_img":"images/LoZ/z1smallkey.png",
+				"chest_opened_img":"images/LoZ/z1smallkeygray.png"
 			},
 			{
 				"name": "Boss",
@@ -587,8 +587,8 @@
 				"clear_as_group":false,
 				"item_count":1,
 				"access_rules":["z1bomb,z1sword","z1bomb,z1rod"],
-				"chest_unopened_img":"images/leveleightboss.png",
-				"chest_opened_img":"images/z-triforceicon.png",
+				"chest_unopened_img":"images/LoZ/leveleightboss.png",
+				"chest_opened_img":"images/LoZ/z-triforceicon.png",
 				"hosted_item":"z1tri8"
 			}
 		]
@@ -619,8 +619,8 @@
 				"capture_item":false,
 				"clear_as_group":false,
 				"item_count":3,
-				"chest_unopened_img":"images/z1smallkey.png",
-				"chest_opened_img":"images/z1smallkeygray.png"
+				"chest_unopened_img":"images/LoZ/z1smallkey.png",
+				"chest_opened_img":"images/LoZ/z1smallkeygray.png"
 			},
 			{
 				"name": "Boss",
@@ -628,8 +628,8 @@
 				"clear_as_group":false,
 				"item_count":1,
 				"access_rules":["z1sword,z1arrows2,z1bow"],
-				"chest_unopened_img":"images/z-ganon.png",
-				"chest_opened_img":"images/z-triforceicon.png",
+				"chest_unopened_img":"images/LoZ/z-ganon.png",
+				"chest_opened_img":"images/LoZ/zelda.png",
 				"hosted_item":"z1ganon"
 			}
 		]

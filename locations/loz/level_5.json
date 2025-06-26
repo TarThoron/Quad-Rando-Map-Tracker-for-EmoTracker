@@ -2,7 +2,7 @@
     {
         "name":"Level 5 - The Lizard",
         "color": "#00a800",
-        "chest_opened_img": "images/getitem.png",
+        "chest_opened_img": "images/LoZ/getitem.png",
         "children":[
             {
                 "name": "Front",
@@ -347,7 +347,7 @@
                                 "name":"Kill Boss",
                                 "item_count":1,
                                 "access_rules":["z1recorder,@CanKillBosses"],
-                                "chest_unopened_img":"images/levelfiveboss.png"
+                                "chest_unopened_img":"images/LoZ/levelfiveboss.png"
                             }
                         ]
                     },
@@ -372,7 +372,7 @@
                                 "name":"Triforce",
                                 "item_count":1,
                                 "access_rules":["z1recorder,@CanKillBosses"],
-                                "chest_unopened_img":"images/z-triforceicon.png",
+                                "chest_unopened_img":"images/LoZ/z-triforceicon.png",
                                 "hosted_item": "z1tri5"
                             }
                         ]

@@ -114,117 +114,117 @@
   },
 
 
-  //SUper Metroid
+  //Super Metroid
   {
     "name": "Charge Beam",
     "type": "toggle",
     "loop": "true",
-    "img": "images/charge.png",
+    "img": "images/SM/charge.png",
     "codes": "charge"
   },
   {
     "name": "Ice Beam",
     "type": "toggle",
     "loop": "true",
-    "img": "images/ice.png",
+    "img": "images/SM/ice.png",
     "codes": "ice"
   },
   {
     "name": "Wave Beam",
     "type": "toggle",
     "loop": "true",
-    "img": "images/wave.png",
+    "img": "images/SM/wave.png",
     "codes": "wave"
   },
   {
     "name": "Spazer Beam",
     "type": "toggle",
     "loop": "true",
-    "img": "images/spazer.png",
+    "img": "images/SM/spazer.png",
     "codes": "spazer"
   },
   {
     "name": "Plasma Beam",
     "type": "toggle",
     "loop": "true",
-    "img": "images/plasma.png",
+    "img": "images/SM/plasma.png",
     "codes": "plasma"
   },
   {
     "name": "Varia Suit",
     "type": "toggle",
     "loop": "true",
-    "img": "images/varia.png",
+    "img": "images/SM/varia.png",
     "codes": "varia"
   },
   {
     "name": "Gravity Suit",
     "type": "toggle",
     "loop": "true",
-    "img": "images/gravity.png",
+    "img": "images/SM/gravity.png",
     "codes": "gravity"
   },
   {
     "name": "Morph Ball",
     "type": "toggle",
     "loop": "true",
-    "img": "images/morph.png",
+    "img": "images/SM/morph.png",
     "codes": "morph"
   },
   {
     "name": "Bomb",
     "type": "toggle",
     "loop": "true",
-    "img": "images/bomb.png",
+    "img": "images/SM/bomb.png",
     "codes": "bomb"
   },
   {
     "name": "Spring Ball",
     "type": "toggle",
     "loop": "true",
-    "img": "images/springball.png",
+    "img": "images/SM/springball.png",
     "codes": "spring"
   },
   {
     "name": "Screw Attack",
     "type": "toggle",
     "loop": "true",
-    "img": "images/screw.png",
+    "img": "images/SM/screw.png",
     "codes": "screw"
   },
   {
     "name": "High Jump",
     "type": "toggle",
     "loop": "true",
-    "img": "images/hijump.png",
+    "img": "images/SM/hijump.png",
     "codes": "hijump"
   },
   {
     "name": "Space Jump",
     "type": "toggle",
     "loop": "true",
-    "img": "images/space.png",
+    "img": "images/SM/space.png",
     "codes": "space"
   },
   {
     "name": "Speed Booster",
     "type": "toggle",
     "loop": "true",
-    "img": "images/speed.png",
+    "img": "images/SM/speed.png",
     "codes": "speed"
   },
   {
     "name": "Grapple",
     "type": "toggle",
     "loop": "true",
-    "img": "images/grapple.png",
+    "img": "images/SM/grapple.png",
     "codes": "grapple"
   },
   {
     "name": "Xray",
     "type": "toggle",
     "loop": "true",
-    "img": "images/xray.png",
+    "img": "images/SM/xray.png",
     "codes": "xray"
   },
   {
@@ -232,31 +232,31 @@
     "type": "progressive_toggle",
     "stages":[
       {
-        "img": "images/Boss2.png",
+        "img": "images/SM/Boss2.png",
         "codes": "kraid"
       },
       {
-        "img": "images/KraidCrystal.png",
+        "img": "images/SM/KraidCrystal.png",
         "codes": "kraid,crystal,allcrystals"
       },
       {
-        "img": "images/KraidRedCrystal.png",
-        "disabled_img": "images/KraidRedCrystalOff.png",
+        "img": "images/SM/KraidRedCrystal.png",
+        "disabled_img": "images/SM/KraidRedCrystalOff.png",
         "disabled_img_mods": "",
         "codes": "kraid,crystal56,allcrystals"
       },
       {
-        "img": "images/KraidPendant.png",
+        "img": "images/SM/KraidPendant.png",
         "codes": "kraid,pendant,allpendants"
       },
       {
-        "img": "images/KraidGreenPendant.png",
-        "disabled_img": "images/KraidGreenPendantOff.png",
+        "img": "images/SM/KraidGreenPendant.png",
+        "disabled_img": "images/SM/KraidGreenPendantOff.png",
         "disabled_img_mods": "",
         "codes": "kraid,greenpendant,allpendants"
       },
       {
-        "img": "images/KraidG4.png",
+        "img": "images/SM/KraidG4.png",
         "codes": "kraid,g4"
       }
     ]
@@ -266,31 +266,31 @@
     "type": "progressive_toggle",
     "stages":[
       {
-        "img": "images/Boss3.png",
+        "img": "images/SM/Boss3.png",
         "codes": "phantoon"
       },
       {
-        "img": "images/PhantoonCrystal.png",
+        "img": "images/SM/PhantoonCrystal.png",
         "codes": "phantoon,crystal,allcrystals"
       },
       {
-        "img": "images/PhantoonRedCrystal.png",
-        "disabled_img": "images/PhantoonRedCrystalOff.png",
+        "img": "images/SM/PhantoonRedCrystal.png",
+        "disabled_img": "images/SM/PhantoonRedCrystalOff.png",
         "disabled_img_mods": "",
         "codes": "phantoon,crystal56,allcrystals"
       },
       {
-        "img": "images/PhantoonPendant.png",
+        "img": "images/SM/PhantoonPendant.png",
         "codes": "phantoon,pendant,allpendants"
       },
       {
-        "img": "images/PhantoonGreenPendant.png",
-        "disabled_img": "images/PhantoonGreenPendantOff.png",
+        "img": "images/SM/PhantoonGreenPendant.png",
+        "disabled_img": "images/SM/PhantoonGreenPendantOff.png",
         "disabled_img_mods": "",
         "codes": "phantoon,greenpendant,allpendants"
       },
       {
-        "img": "images/PhantoonG4.png",
+        "img": "images/SM/PhantoonG4.png",
         "codes": "phantoon,g4"
       }
     ]
@@ -300,31 +300,31 @@
     "type": "progressive_toggle",
     "stages": [
       {
-        "img": "images/Boss4.png",
+        "img": "images/SM/Boss4.png",
         "codes": "draygon"
       },
       {
-        "img": "images/DraygonCrystal.png",
+        "img": "images/SM/DraygonCrystal.png",
         "codes": "draygon,crystal,allcrystals"
       },
       {
-        "img": "images/DraygonRedCrystal.png",
-        "disabled_img": "images/DraygonRedCrystalOff.png",
+        "img": "images/SM/DraygonRedCrystal.png",
+        "disabled_img": "images/SM/DraygonRedCrystalOff.png",
         "disabled_img_mods": "",
         "codes": "draygon,crystal56,allcrystals"
       },
       {
-        "img": "images/DraygonPendant.png",
+        "img": "images/SM/DraygonPendant.png",
         "codes": "draygon,pendant,allpendants"
       },
       {
-        "img": "images/DraygonGreenPendant.png",
-        "disabled_img": "images/DraygonGreenPendantOff.png",
+        "img": "images/SM/DraygonGreenPendant.png",
+        "disabled_img": "images/SM/DraygonGreenPendantOff.png",
         "disabled_img_mods": "",
         "codes": "draygon,greenpendant,allpendants"
       },
       {
-        "img": "images/DraygonG4.png",
+        "img": "images/SM/DraygonG4.png",
         "codes": "draygon,g4"
       }
     ]
@@ -334,31 +334,31 @@
     "type": "progressive_toggle",
     "stages": [
       {
-        "img": "images/Boss1.png",
+        "img": "images/SM/Boss1.png",
         "codes": "ridley"
       },
       {
-        "img": "images/RidleyCrystal.png",
+        "img": "images/SM/RidleyCrystal.png",
         "codes": "ridley,crystal,allcrystals"
       },
       {
-        "img": "images/RidleyRedCrystal.png",
-        "disabled_img": "images/RidleyRedCrystalOff.png",
+        "img": "images/SM/RidleyRedCrystal.png",
+        "disabled_img": "images/SM/RidleyRedCrystalOff.png",
         "disabled_img_mods": "",
         "codes": "ridley,crystal56,allcrystals"
       },
       {
-        "img": "images/RidleyPendant.png",
+        "img": "images/SM/RidleyPendant.png",
         "codes": "ridley,pendant,allpendants"
       },
       {
-        "img": "images/RidleyGreenPendant.png",
-        "disabled_img": "images/RidleyGreenPendantOff.png",
+        "img": "images/SM/RidleyGreenPendant.png",
+        "disabled_img": "images/SM/RidleyGreenPendantOff.png",
         "disabled_img_mods": "",
         "codes": "ridley,greenpendant,allpendants"
       },
       {
-        "img": "images/RidleyG4.png",
+        "img": "images/SM/RidleyG4.png",
         "codes": "ridley,g4"
       }
     ]
@@ -367,9 +367,9 @@
     "name": "Mother Brain",
     "type": "consumable",
     "swap_actions": true,
-    "img": "images/mbrain_token.png",
+    "img": "images/SM/mbrain_token.png",
     "max_quantity":4,
-    "disabled_img_mods":"overlay|images/mbrain_token0.png",
+    "disabled_img_mods":"overlay|images/SM/mbrain_token0.png",
     "initial_quantity":4,
     "codes": "brain,mother,mb,metroid,sm"
   },
@@ -377,39 +377,39 @@
     "name": "SM Mother Brain",
     "type": "toggle",
     "loop":"true",
-    "img": "images/mbrain.png",
+    "img": "images/SM/mbrain.png",
     "codes": "mbrain"
   },
   {
     "name": "Etanks",
     "type": "consumable",
-    "img": "images/etank.png",
+    "img": "images/SM/etank.png",
     "max_quantity": 14,
     "codes": "etank,alltanks"
   },
   {
 	"name": "Etank",
 	"type": "toggle",
-	"img": "images/etank.png",
+	"img": "images/SM/etank.png",
 	"codes": "etank_icon"
   },
   {
     "name": "Reserve Tanks",
     "type": "consumable",
-    "img": "images/reservetank.png",
+    "img": "images/SM/reservetank.png",
     "max_quantity": 4,
     "codes": "reservetank,alltanks"
   },
   {
 	"name": "Reserve Tank",
 	"type": "toggle",
-	"img": "images/reservetank.png",
+	"img": "images/SM/reservetank.png",
 	"codes": "reservetank_icon"
   },
   {
     "name": "Missile Capacity",
     "type": "consumable",
-    "img": "images/missile.png",
+    "img": "images/SM/missile.png",
     "max_quantity": 200,
     "increment": 5,
     "codes": "missile"
@@ -417,13 +417,13 @@
   {
 	"name": "Missiles",
 	"type": "toggle",
-	"img": "images/missile.png",
+	"img": "images/SM/missile.png",
 	"codes": "missile_icon"
   },
   {
     "name": "Super Missile Capacity",
     "type": "consumable",
-    "img": "images/super.png",
+    "img": "images/SM/super.png",
     "max_quantity": 80,
     "increment": 5,
     "codes": "supermissile,super"
@@ -431,13 +431,13 @@
   {
 	"name": "Super Missiles",
 	"type": "toggle",
-	"img": "images/super.png",
+	"img": "images/SM/super.png",
 	"codes": "super_icon"
   },
   {
     "name": "Power Bomb Capacity",
     "type": "consumable",
-    "img": "images/powerbomb.png",
+    "img": "images/SM/powerbomb.png",
     "max_quantity": 50,
     "increment": 5,
     "codes": "powerbomb,pb"
@@ -445,7 +445,7 @@
   {
 	"name": "Power Bombs",
 	"type": "toggle",
-	"img": "images/powerbomb.png",
+	"img": "images/SM/powerbomb.png",
 	"codes": "pb_icon"
   },
   //ALTTP
@@ -453,14 +453,14 @@
     "name": "Bow",
     "type": "toggle",
     "loop": "true",
-    "img": "images/0000.png",
+    "img": "images/AlttP/bowvert.png",
     "codes": "bow"
   },
   {
     "name": "Silver Arrows",
     "type": "toggle",
     "loop": "true",
-    "img": "images/silver_arrow.png",
+    "img": "images/AlttP/silver_arrow.png",
     "codes": "silverarrows,silvers"
   },
   {
@@ -473,23 +473,23 @@
       {
         "left": false,
         "right": false,
-        "img": "images/bow.png",
+        "img": "images/AlttP/bow.png",
         "img_mods": "@disabled"
       },
       {
         "left": true,
         "right": false,
-        "img": "images/bow.png"
+        "img": "images/AlttP/bow.png"
       },
       {
         "left": false,
         "right": true,
-        "img": "images/bowandsilverarrowdisabled.png"
+        "img": "images/AlttP/bowandsilverarrowdisabled.png"
       },
       {
         "left": true,
         "right": true,
-        "img": "images/bowandsilverarrow.png"
+        "img": "images/AlttP/bowandsilverarrow.png"
       }
     ]
   },
@@ -498,12 +498,12 @@
     "type": "progressive_toggle",
     "stages": [
       {
-        "img": "images/0003.png",
+        "img": "images/AlttP/bombs.png",
         "codes": "bombs"
       },
       {
-        "img": "images/0003withbigbomb.png",
-        "disabled_img": "images/0003withbigbombdisabled.png",
+        "img": "images/AlttP/bombswithbigbomb.png",
+        "disabled_img": "images/AlttP/bombswithbigbombdisabled.png",
         "disabled_img_mods": "",
         "codes": "bombs",
         "secondary_codes": "bigbomb,superbomb"
@@ -514,14 +514,14 @@
     "name": "Blue Boomerang",
     "type": "toggle",
     "loop": "true",
-    "img": "images/boomerang_blue.png",
+    "img": "images/AlttP/boomerang_blue.png",
     "codes": "blueboomerang,bluemarang"
   },
   {
     "name": "Red Boomerang",
     "type": "toggle",
     "loop": "true",
-    "img": "images/boomerang_red.png",
+    "img": "images/AlttP/boomerang_red.png",
     "codes": "redboomerang,redmarang"
   },
   {
@@ -534,23 +534,23 @@
       {
         "left": false,
         "right": false,
-        "img": "images/boomerangs.png",
+        "img": "images/AlttP/boomerangs.png",
         "img_mods": "@disabled"
       },
       {
         "left": true,
         "right": false,
-        "img": "images/boomerangsblue.png"
+        "img": "images/AlttP/boomerangsblue.png"
       },
       {
         "left": false,
         "right": true,
-        "img": "images/boomerangsdisabled.png"
+        "img": "images/AlttP/boomerangsdisabled.png"
       },
       {
         "left": true,
         "right": true,
-        "img": "images/boomerangs.png"
+        "img": "images/AlttP/boomerangs.png"
       }
     ]
   },
@@ -558,7 +558,7 @@
     "name": "Hookshot",
     "type": "toggle",
     "loop": "true",
-    "img": "images/0002.png",
+    "img": "images/AlttP/hookshot.png",
     "codes": "hookshot,hs"
   },
   {
@@ -566,12 +566,12 @@
     "type": "progressive_toggle",
     "stages": [
       {
-        "img": "images/0046.png",
+        "img": "images/AlttP/powder.png",
         "codes": "powder"
       },
       {
-        "img": "images/0046withbat.png",
-        "disabled_img": "images/0046withbatdisabled.png",
+        "img": "images/AlttP/powderwithbat.png",
+        "disabled_img": "images/AlttP/powderwithbatdisabled.png",
         "disabled_img_mods": "",
         "codes": "powder",
         "secondary_codes": "bat"
@@ -583,15 +583,15 @@
     "type": "progressive_toggle",
     "stages": [
       {
-        "img": "images/0004.png",
+        "img": "images/AlttP/mushroom.png",
         "codes": "mushroom",
         "secondary_codes": "none,default,clear"
       },
       {
-        "img": "images/0004.png",
-        "img_mods": "overlay|images/overlay_witch.png",
-        "disabled_img": "images/0004.png",
-        "disabled_img_mods": "@disabled,overlay|images/overlay_witch.png",
+        "img": "images/AlttP/mushroom.png",
+        "img_mods": "overlay|images/AlttP/overlay_witch.png",
+        "disabled_img": "images/AlttP/0004.png",
+        "disabled_img_mods": "@disabled,overlay|images/AlttP/overlay_witch.png",
         "codes": "mushroom",
         "secondary_codes": "witch,used"
       }
@@ -601,14 +601,14 @@
     "name": "Fire Rod",
     "type": "toggle",
     "loop": "true",
-    "img": "images/0005.png",
+    "img": "images/AlttP/firerod.png",
     "codes": "firerod,firesource"
   },
   {
     "name": "Ice Rod",
     "type": "toggle",
     "loop": "true",
-    "img": "images/0006.png",
+    "img": "images/AlttP/icerod.png",
     "codes": "icerod"
   },
   {
@@ -616,22 +616,22 @@
     "type": "progressive_toggle",
     "stages": [
       {
-        "img": "images/0007.png",
+        "img": "images/AlttP/bombos.png",
         "codes": "bombos",
         "secondary_codes": "none"
       },
       {
-        "img": "images/0117.png",
+        "img": "images/AlttP/bombosMM.png",
         "codes": "bombos,mm_medallion,bombos_mm",
         "secondary_codes": "mm"
       },
       {
-        "img": "images/0120.png",
+        "img": "images/AlttP/bombosTR.png",
         "codes": "bombos,tr_medallion,bombos_tr",
         "secondary_codes": "tr"
       },
       {
-        "img": "images/0123.png",
+        "img": "images/AlttP/bombosBOTH.png",
         "codes": "bombos,mm_medallion,tr_medallion,bombos_both",
         "secondary_codes": "both"
       }
@@ -642,22 +642,22 @@
     "type": "progressive_toggle",
     "stages": [
       {
-        "img": "images/0008.png",
+        "img": "images/AlttP/ether.png",
         "codes": "ether",
         "secondary_codes": "none"
       },
       {
-        "img": "images/0118.png",
+        "img": "images/AlttP/etherMM.png",
         "codes": "ether,mm_medallion,ether_mm",
         "secondary_codes": "mm"
       },
       {
-        "img": "images/0121.png",
+        "img": "images/AlttP/etherTR.png",
         "codes": "ether,tr_medallion,ether_tr",
         "secondary_codes": "tr"
       },
       {
-        "img": "images/0124.png",
+        "img": "images/AlttP/etherBOTH.png",
         "codes": "ether,mm_medallion,tr_medallion,ether_both",
         "secondary_codes": "both"
       }
@@ -668,22 +668,22 @@
     "type": "progressive_toggle",
     "stages": [
       {
-        "img": "images/0009.png",
+        "img": "images/AlttP/quake.png",
         "codes": "quake",
         "secondary_codes": "none"
       },
       {
-        "img": "images/0119.png",
+        "img": "images/AlttP/quakeMM.png",
         "codes": "quake,mm_medallion,quake_mm",
         "secondary_codes": "mm"
       },
       {
-        "img": "images/0122.png",
+        "img": "images/AlttP/quakeTR.png",
         "codes": "quake,tr_medallion,quake_tr",
         "secondary_codes": "tr"
       },
       {
-        "img": "images/0125.png",
+        "img": "images/AlttP/quakeBOTH.png",
         "codes": "quake,mm_medallion,tr_medallion,quake_both",
         "secondary_codes": "both"
       }
@@ -694,15 +694,15 @@
     "type": "progressive_toggle",
     "stages": [
       {
-        "img": "images/0012.png",
+        "img": "images/AlttP/shovel.png",
         "codes": "shovel",
         "secondary_codes": "none,default,clear"
       },
       {
-        "img": "images/0012.png",
-        "img_mods": "overlay|images/overlay_cross.png",
-        "disabled_img": "images/0012.png",
-        "disabled_img_mods": "@disabled,overlay|images/overlay_cross.png",
+        "img": "images/AlttP/shovel.png",
+        "img_mods": "overlay|images/AlttP/overlay_cross.png",
+        "disabled_img": "images/AlttP/shovel.png",
+        "disabled_img_mods": "@disabled,overlay|images/AlttP/overlay_cross.png",
         "codes": "shovel",
         "secondary_codes": "used"
       }
@@ -712,14 +712,14 @@
     "name": "Lamp",
     "type": "toggle",
     "loop": "true",
-    "img": "images/0010.png",
+    "img": "images/AlttP/lamp.png",
     "codes": "lamp,firesource"
   },
   {
     "name": "Hammer",
     "type": "toggle",
     "loop": "true",
-    "img": "images/0011.png",
+    "img": "images/AlttP/hammer.png",
     "codes": "hammer"
   },
   {
@@ -727,11 +727,11 @@
     "type": "progressive",
     "stages": [
       {
-        "img": "images/0047.png",
+        "img": "images/AlttP/flute.png",
         "codes": "flute,ocarina"
       },
       {
-        "img": "images/0047withduck.png"
+        "img": "images/AlttP/flutewithduck.png"
       }
     ]
   },
@@ -739,21 +739,21 @@
     "name": "Bug Catching Net",
     "type": "toggle",
     "loop": "true",
-    "img": "images/0013.png",
+    "img": "images/AlttP/net.png",
     "codes": "net"
   },
   {
     "name": "Book of Mudora",
     "type": "toggle",
     "loop": "true",
-    "img": "images/0014.png",
+    "img": "images/AlttP/mudora.png",
     "codes": "book"
   },
   {
     "name": "Moon Pearl",
     "type": "toggle",
     "loop": "true",
-    "img": "images/0022.png",
+    "img": "images/AlttP/moonpearl.png",
     "codes": "pearl,moonpearl"
   },
   {
@@ -762,23 +762,23 @@
     "allow_disabled": "false",
     "stages": [
       {
-        "img": "images/0026.png",
+        "img": "images/AlttP/bottle.png",
         "img_mods": "@disabled"
       },
       {
-        "img": "images/0070.png",
+        "img": "images/AlttP/bottle1.png",
         "codes": "bottle,bottle1"
       },
       {
-        "img": "images/0071.png",
+        "img": "images/AlttP/bottle2.png",
         "codes": "bottle2"
       },
       {
-        "img": "images/0072.png",
+        "img": "images/AlttP/bottle3.png",
         "codes": "bottle3"
       },
       {
-        "img": "images/0073.png",
+        "img": "images/AlttP/bottle4.png",
         "codes": "bottle4"
       }
     ]
@@ -787,28 +787,28 @@
     "name": "Cane of Somaria",
     "type": "toggle",
     "loop": "true",
-    "img": "images/0015.png",
+    "img": "images/AlttP/somaria.png",
     "codes": "somaria,redcane"
   },
   {
     "name": "Cane of Byrna",
     "type": "toggle",
     "loop": "true",
-    "img": "images/0016.png",
+    "img": "images/AlttP/byrna.png",
     "codes": "byrna,bluecane,sakucane,caneofsaku"
   },
   {
     "name": "Magic Cape",
     "type": "toggle",
     "loop": "true",
-    "img": "images/0017.png",
+    "img": "images/AlttP/cape.png",
     "codes": "cape"
   },
   {
     "name": "Mirror",
     "type": "toggle",
     "loop": "true",
-    "img": "images/0018.png",
+    "img": "images/AlttP/mirror.png",
     "codes": "mirror"
   },
   {
@@ -816,7 +816,7 @@
     "capturable": false,
     "type": "toggle",
     "loop": "true",
-    "img": "images/0062.png",
+    "img": "images/AlttP/Go.png",
     "codes": "gomode"
   },
   {
@@ -824,7 +824,7 @@
     "capturable": false,
     "type": "toggle",
     "loop": "true",
-    "img": "images/0055.png",
+    "img": "images/AlttP/aga.png",
     "codes": "aga1,aga,aganhim"
   },
   {
@@ -832,14 +832,14 @@
     "capturable": false,
     "type": "toggle",
     "loop": "true",
-    "img": "images/aga2.png",
+    "img": "images/AlttP/aga2.png",
     "codes": "aga2,aganhim2"
   },
   {
     "name": "Ganon",
     "type": "toggle",
     "loop": true,
-    "img": "images/ganon.png",
+    "img": "images/AlttP/ganon.png",
     "codes": "ganon,zelda,pig,z3"
   },
   {
@@ -847,11 +847,11 @@
     "type": "progressive",
     "stages": [
       {
-        "img": "images/0019.png",
+        "img": "images/AlttP/gloves.png",
         "codes": "gloves,lift1"
       },
       {
-        "img": "images/0043.png",
+        "img": "images/AlttP/mitts.png",
         "codes": "mitts,lift2"
       }
     ]
@@ -860,47 +860,47 @@
     "name": "Boots",
     "type": "toggle",
     "loop": "true",
-    "img": "images/0020.png",
+    "img": "images/AlttP/boots.png",
     "codes": "boots"
   },
   {
     "name": "Flippers",
     "type": "toggle",
     "loop": "true",
-    "img": "images/0021.png",
+    "img": "images/AlttP/flippers.png",
     "codes": "flippers"
   },
   {
     "name": "Half-Magic",
     "type": "toggle",
     "loop": "true",
-    "img": "images/0064.png",
+    "img": "images/AlttP/halfmagic.png",
     "codes": "halfmagic"
   },
   {
     "name": "Heart Container",
     "type": "toggle",
-    "img": "images/0060.png",
+    "img": "images/AlttP/fullheart.png",
     "codes": "heartcontainer_icon"
   },
   {
     "name": "Heart Piece",
     "type": "toggle",
-    "img": "images/0067.png",
+    "img": "images/AlttP/heartpiece.png",
     "codes": "heartpiece_icon"
   },
   {
     "name": "Heart Container",
     "type": "consumable",
     "max_quantity": 11,
-    "img": "images/0060.png",
+    "img": "images/AlttP/fullheart.png",
     "codes": "heartcontainer"
   },
   {
     "name": "Heart Piece",
     "type": "consumable",
     "max_quantity": 24,
-    "img": "images/0067.png",
+    "img": "images/AlttP/heartpiece.png",
     "codes": "heartpiece"
   },
   {
@@ -909,24 +909,24 @@
     "allow_disabled": false,
     "stages": [
       {
-        "img": "images/sworddisabled.png",
+        "img": "images/AlttP/sworddisabled.png",
         "img_mods": "@disabled",
         "codes": "owsword"
       },
       {
-        "img": "images/sword1.png",
+        "img": "images/AlttP/sword1.png",
         "codes": "sword,sword1,owsword"
       },
       {
-        "img": "images/sword2.png",
+        "img": "images/AlttP/sword2.png",
         "codes": "sword2,mst"
       },
       {
-        "img": "images/sword3.png",
+        "img": "images/AlttP/sword3.png",
         "codes": "sword3,tempered"
       },
       {
-        "img": "images/sword4.png",
+        "img": "images/AlttP/sword4.png",
         "codes": "sword4,butter"
       }
     ]
@@ -936,15 +936,15 @@
     "type": "progressive",
     "stages": [
       {
-        "img": "images/0024.png",
+        "img": "images/AlttP/smallshield.png",
         "codes": "shield"
       },
       {
-        "img": "images/0044.png",
+        "img": "images/AlttP/fireshield.png",
         "codes": "shield2,redshield"
       },
       {
-        "img": "images/0045.png",
+        "img": "images/AlttP/mirrorshield.png",
         "codes": "shield3,mirrorshield"
       }
     ]
@@ -955,15 +955,15 @@
     "allow_disabled": false,
     "stages": [
       {
-        "img": "images/0025.png",
+        "img": "images/AlttP/greenmail.png",
         "codes": "armor, armor1, greenmail"
       },
       {
-        "img": "images/0041.png",
+        "img": "images/AlttP/bluemail.png",
         "codes": "armor2,bluemail"
       },
       {
-        "img": "images/0042.png",
+        "img": "images/AlttP/redmail.png",
         "codes": "armor3,redmail"
       }
     ]
@@ -976,19 +976,19 @@
     "stages": [
       {
         "name": "Normal",
-        "img": "images/ganon_normal_border.png",
+        "img": "images/AlttP/ganon_normal_border.png",
         "inherit_codes": "false",
         "codes": "ganon_entry, ganon_normal"
       },
       {
         "name": "Fast",
-        "img": "images/ganon_fast_border.png",
+        "img": "images/AlttP/ganon_fast_border.png",
         "inherit_codes": "false",
         "codes": "ganon_entry, ganon_fast"
       },
       {
         "name": "All Dungeons",
-        "img": "images/ganon_all_border.png",
+        "img": "images/AlttP/ganon_all_border.png",
         "inherit_codes": "false",
         "codes": "ganon_entry, ganon_all"
       }
@@ -999,62 +999,62 @@
     "name": "Morph Ball Bombs",
     "type": "toggle",
     "loop": "true",
-    "img": "images/m-bombs.png",
+    "img": "images/Metroid/m-bombs.png",
     "codes": "m1bombs"
   },
   {
     "name": "High Jump Boots",
     "type": "toggle",
     "loop": "true",
-    "img": "images/m-jump.png",
+    "img": "images/Metroid/m-jump.png",
     "codes": "m1jump"
   },
   {
     "name": "Long Beam",
     "type": "toggle",
     "loop": "true",
-    "img": "images/m-long.png",
+    "img": "images/Metroid/m-long.png",
     "codes": "m1long"
   },
   {
     "name": "Screw Attack",
     "type": "toggle",
     "loop": "true",
-    "img": "images/m-screw.png",
+    "img": "images/Metroid/m-screw.png",
     "codes": "m1screw"
   },
   {
     "name": "Morph Ball",
     "type": "toggle",
     "loop": "true",
-    "img": "images/m-morph.png",
+    "img": "images/Metroid/m-morph.png",
     "codes": "m1morph"
   },
   {
     "name": "Varia Suit",
     "type": "toggle",
     "loop": "true",
-    "img": "images/m-varia.png",
+    "img": "images/Metroid/m-varia.png",
     "codes": "m1varia"
   },
   {
     "name": "Wave Beam",
     "type": "toggle",
     "loop": "true",
-    "img": "images/m-wave.png",
+    "img": "images/Metroid/m-wave.png",
     "codes": "m1wave"
   },
   {
     "name": "Ice Beam",
     "type": "toggle",
     "loop": "true",
-    "img": "images/m-ice.png",
+    "img": "images/Metroid/m-ice.png",
     "codes": "m1ice"
   },
   {
     "name": "Missiles",
     "type": "consumable",
-    "img": "images/m-missile.png",
+    "img": "images/Metroid/m-missile.png",
     "max_quantity": 255,
     "increment": 5,
     "codes": "m1missile"
@@ -1062,41 +1062,41 @@
   {
     "name": "Missile",
     "type": "toggle",
-    "img": "images/m-missile.png",
+    "img": "images/Metroid/m-missile.png",
     "codes": "m1missile-icon"
   },
   {
     "name": "Etanks",
     "type": "consumable",
     "max_quantity": 7,
-    "img": "images/m-etank.png",
+    "img": "images/Metroid/m-etank.png",
     "codes": "m1etank"
   },
   {
     "name": "Etank",
     "type": "toggle",
-    "img": "images/m-etank.png",
+    "img": "images/Metroid/m-etank.png",
     "codes": "m1etank-icon"
   },
   {
     "name": "M1 Kraid",
     "type": "toggle",
     "loop": true,
-    "img": "images/m-kraid.png",
+    "img": "images/Metroid/m-kraid.png",
     "codes": "m1kraid"
 },
   {
     "name": "M1 Ridley",
     "type": "toggle",
     "loop": true,
-    "img": "images/m-ridley.png",
-    "codes": "m1ridley,example_toggle_2"
+    "img": "images/Metroid/m-ridley.png",
+    "codes": "m1ridley"
   },
   {
     "name": "Mother Brain",
     "type": "toggle",
     "loop": "true",
-    "img": "images/m-brain.png",
+    "img": "images/Metroid/m-brain.png",
     "codes": "m1brain"
   },
 
@@ -1104,13 +1104,13 @@
   {
     "name": "Wood Arrows",
     "type": "toggle",
-    "img": "images/z-arrows1.png",
+    "img": "images/LoZ/z-arrows1.png",
     "codes": "z1arrow"
   },
   {
     "name": "Silver Arrows",
     "type": "toggle",
-    "img": "images/z-arrows2.png",
+    "img": "images/LoZ/z-arrows2.png",
     "codes": "z1silver"
   },
   {
@@ -1119,11 +1119,11 @@
     "allow_disabled": true,
     "stages": [
       {
-        "img": "images/z-arrows1.png",
+        "img": "images/LoZ/z-arrows1.png",
         "codes": "z1arrows,z1arrows1"
       },
       {
-        "img": "images/z-arrows2.png",
+        "img": "images/LoZ/z-arrows2.png",
         "codes": "z1arrows2"
       }
     ]
@@ -1131,19 +1131,19 @@
   {
     "name": "Wood Sword",
     "type": "toggle",
-    "img": "images/z-sword1.png",
+    "img": "images/LoZ/z-sword1.png",
     "codes": "z1woodsword"
   },
   {
     "name": "White Sword",
     "type": "toggle",
-    "img": "images/z-sword2.png",
+    "img": "images/LoZ/z-sword2.png",
     "codes": "z1whitesword"
   },
   {
     "name": "Magic Sword",
     "type": "toggle",
-    "img": "images/z-sword3.png",
+    "img": "images/LoZ/z-sword3.png",
     "codes": "z1magicsword"
   },
   {
@@ -1152,15 +1152,15 @@
     "allow_disabled": true,
     "stages": [
       {
-        "img": "images/z-sword1.png",
+        "img": "images/LoZ/z-sword1.png",
         "codes": "z1sword,z1sword1"
       },
       {
-        "img": "images/z-sword2.png",
+        "img": "images/LoZ/z-sword2.png",
         "codes": "z1sword2"
       },
       {
-        "img": "images/z-sword3.png",
+        "img": "images/LoZ/z-sword3.png",
         "codes": "z1sword3"
       }
     ]
@@ -1168,13 +1168,13 @@
   {
     "name": "Boomerang",
     "type": "toggle",
-    "img": "images/z-boom1.png",
+    "img": "images/LoZ/z-boom1.png",
     "codes": "z1boomerang"
   },
   {
     "name": "Magic Boomerang",
     "type": "toggle",
-    "img": "images/z-boom2.png",
+    "img": "images/LoZ/z-boom2.png",
     "codes": "z1magicboom"
   },
   {
@@ -1183,11 +1183,11 @@
     "allow_disabled": true,
     "stages": [
       {
-        "img": "images/z-boom1.png",
+        "img": "images/LoZ/z-boom1.png",
         "codes": "z1boom,z1boom1"
       },
       {
-        "img": "images/z-boom2.png",
+        "img": "images/LoZ/z-boom2.png",
         "codes": "z1boom2"
       }
     ]
@@ -1195,13 +1195,13 @@
   {
     "name": "Blue Candle",
     "type": "toggle",
-    "img": "images/z-candle1.png",
+    "img": "images/LoZ/z-candle1.png",
     "codes": "z1bluecandle"
   },
   {
     "name": "Red Candle",
     "type": "toggle",
-    "img": "images/z-candle2.png",
+    "img": "images/LoZ/z-candle2.png",
     "codes": "z1redcandle"
   },
   {
@@ -1210,11 +1210,11 @@
     "allow_disabled": true,
     "stages": [
       {
-        "img": "images/z-candle1.png",
+        "img": "images/LoZ/z-candle1.png",
         "codes": "z1candle,z1candle1"
       },
       {
-        "img": "images/z-candle2.png",
+        "img": "images/LoZ/z-candle2.png",
         "codes": "z1candle2"
       }
     ]
@@ -1222,13 +1222,13 @@
   {
     "name": "Blue Ring",
     "type": "toggle",
-    "img": "images/z-ring1.png",
+    "img": "images/LoZ/z-ring1.png",
     "codes": "z1bluering"
   },
   {
     "name": "Red Ring",
     "type": "toggle",
-    "img": "images/z-ring2.png",
+    "img": "images/LoZ/z-ring2.png",
     "codes": "z1redring"
   },
   {
@@ -1237,11 +1237,11 @@
     "allow_disabled": true,
     "stages": [
       {
-        "img": "images/z-ring1.png",
+        "img": "images/LoZ/z-ring1.png",
         "codes": "z1ring,z1ring1"
       },
       {
-        "img": "images/z-ring2.png",
+        "img": "images/LoZ/z-ring2.png",
         "codes": "z1ring2"
       }
     ]
@@ -1250,42 +1250,42 @@
     "name": "Bow",
     "type": "toggle",
     "loop": "true",
-    "img": "images/z-bow.png",
+    "img": "images/LoZ/z-bow.png",
     "codes": "z1bow"
   },
   {
     "name": "Bracelet",
     "type": "toggle",
     "loop": "true",
-    "img": "images/z-bracelet.png",
+    "img": "images/LoZ/z-bracelet.png",
     "codes": "z1bracelet"
   },
   {
     "name": "Stepladder",
     "type": "toggle",
     "loop": "true",
-    "img": "images/z-ladder.png",
+    "img": "images/LoZ/z-ladder.png",
     "codes": "z1ladder"
   },
   {
     "name": "Raft",
     "type": "toggle",
     "loop": "true",
-    "img": "images/z-raft.png",
+    "img": "images/LoZ/z-raft.png",
     "codes": "z1raft"
   },
   {
     "name": "Letter",
     "type": "toggle",
     "loop": "true",
-    "img": "images/z-letter.png",
+    "img": "images/LoZ/z-letter.png",
     "codes": "z1letter"
   },
   {
     "name": "Bait",
     "type": "toggle",
     "loop": "true",
-    "img": "images/z1bait.png",
+    "img": "images/LoZ/z1bait.png",
     "codes": "z1bait"
   },
   {
@@ -1298,23 +1298,23 @@
       {
         "left":false,
         "right":false,
-        "img":"images/z1baiter.png",
+        "img":"images/LoZ/z1baiter.png",
         "img_mods":"@disabled"
       },
       {
         "left": true,
         "right": false,
-        "img": "images/z-braiter-bait.png"
+        "img": "images/LoZ/z-braiter-bait.png"
       },
       {
         "left": false,
         "right": true,
-        "img": "images/z-braiter-letter.png"
+        "img": "images/LoZ/z-braiter-letter.png"
       },
       {
         "left": true,
         "right": true,
-        "img": "images/z1baiter.png"
+        "img": "images/LoZ/z1baiter.png"
       }
     ]
   },
@@ -1322,8 +1322,8 @@
     "name": "Magical Key",
     "type": "toggle",
     "loop": "true",
-    "img": "images/z-magickey.png",
-    "disabled_img": "images/smallkey.png",
+    "img": "images/LoZ/z-magickey.png",
+    "disabled_img": "images/LoZ/smallkey.png",
     "disabled_img_mods": "",
     "codes": "z1magickey"
   },
@@ -1331,29 +1331,29 @@
     "name": "Magical Key",
     "type": "toggle",
     "loop": "true",
-    "img": "images/z-anyhead.png",
-    "disabled_img": "images/smallkey.png",
+    "img": "images/LoZ/z-anyhead.png",
+    "disabled_img": "images/LoZ/smallkey.png",
     "disabled_img_mods": "",
     "codes": "z1anyhead"
   },
   {
     "name": "Small Key",
     "type": "toggle",
-    "img": "images/z1smallkey.png",
+    "img": "images/LoZ/z1smallkey.png",
     "codes": "z1smallkey"
   },
   {
     "name": "Rod",
     "type": "toggle",
     "loop": "true",
-    "img": "images/z-rod.png",
+    "img": "images/LoZ/z-rod.png",
     "codes": "z1rod"
   },
   {
     "name": "Magic Book",
     "type": "toggle",
     "loop": "true",
-    "img": "images/z-book.png",
+    "img": "images/LoZ/z-book.png",
     "codes": "z1book"
   },
   {
@@ -1366,23 +1366,23 @@
       {
         "left": false,
         "right": false,
-        "img": "images/z-brod.png",
+        "img": "images/LoZ/z-brod.png",
         "img_mods": "@disabled"
       },
       {
         "left": true,
         "right": false,
-        "img": "images/z-brod-rod.png"
+        "img": "images/LoZ/z-brod-rod.png"
       },
       {
         "left": false,
         "right": true,
-        "img": "images/z-brod-book.png"
+        "img": "images/LoZ/z-brod-book.png"
       },
       {
         "left": true,
         "right": true,
-        "img": "images/z-brod.png"
+        "img": "images/LoZ/z-brod.png"
       }
     ]
   },
@@ -1390,40 +1390,40 @@
     "name": "Recorder",
     "type": "toggle",
     "loop": "true",
-    "img": "images/z-recorder.png",
+    "img": "images/LoZ/z-recorder.png",
     "codes": "z1recorder"
   },
   {
     "name": "Heart Containers",
     "type": "consumable",
-    "img": "images/z1heart.png",
+    "img": "images/LoZ/z1heart.png",
     "max_quantity": 13,
     "codes": "z1heart"
   },
   {
     "name": "Heart Container",
     "type": "toggle",
-    "img": "images/z1heart.png",
+    "img": "images/LoZ/z1heart.png",
     "codes": "z1heart-icon"
   },
   {
     "name": "Rupee",
     "type": "toggle",
     "loop":"true",
-    "img": "images/z1rupee.png",
+    "img": "images/LoZ/z1rupee.png",
     "codes": "z1rupee"
   },
   {
     "name": "Bomb",
     "type": "toggle",
     "loop":"true",
-    "img": "images/z1bomb.png",
+    "img": "images/LoZ/z1bomb.png",
     "codes": "z1bomb"
   },
   {
     "name": "Recovery Heart",
     "type": "toggle",
-    "img": "images/z1recoveryheart.png",
+    "img": "images/LoZ/z1recoveryheart.png",
     "codes": "z1smallheart"
   },
   {
@@ -1435,56 +1435,56 @@
     "name": "Triforce 1",
     "type": "toggle",
     "loop": "true",
-    "img": "images/z-tri1.png",
+    "img": "images/LoZ/z-tri1.png",
     "codes": "z1tri1,alltriforces"
   },
   {
     "name": "Triforce 2",
     "type": "toggle",
     "loop": "true",
-    "img": "images/z-tri2.png",
+    "img": "images/LoZ/z-tri2.png",
     "codes": "z1tri2,alltriforces"
   },
   {
     "name": "Triforce 3",
     "type": "toggle",
     "loop": "true",
-    "img": "images/z-tri3.png",
+    "img": "images/LoZ/z-tri3.png",
     "codes": "z1tri3,alltriforces"
   },
   {
     "name": "Triforce 4",
     "type": "toggle",
     "loop": "true",
-    "img": "images/z-tri4.png",
+    "img": "images/LoZ/z-tri4.png",
     "codes": "z1tri4,alltriforces"
   },
   {
     "name": "Triforce 5",
     "type": "toggle",
     "loop": "true",
-    "img": "images/z-tri5.png",
+    "img": "images/LoZ/z-tri5.png",
     "codes": "z1tri5,alltriforces"
   },
   {
     "name": "Triforce 6",
     "type": "toggle",
     "loop": "true",
-    "img": "images/z-tri6.png",
+    "img": "images/LoZ/z-tri6.png",
     "codes": "z1tri6,alltriforces"
   },
   {
     "name": "Triforce 7",
     "type": "toggle",
     "loop": "true",
-    "img": "images/z-tri7.png",
+    "img": "images/LoZ/z-tri7.png",
     "codes": "z1tri7,alltriforces"
   },
   {
     "name": "Triforce 8",
     "type": "toggle",
     "loop": "true",
-    "img": "images/z-tri8.png",
+    "img": "images/LoZ/z-tri8.png",
     "codes": "z1tri8,alltriforces"
   },
   {
@@ -1492,20 +1492,20 @@
     "type": "static",
     "allow_disabled": false,
     "loop": "true",
-    "img": "images/z-triforce.png",
+    "img": "images/LoZ/z-triforce.png",
     "codes": "triforcepiece"
   },
   {
     "name": "Triforce Piece",
     "type": "toggle",
-    "img": "images/z-triforceicon.png",
+    "img": "images/LoZ/z-triforceicon.png",
     "codes": "triforce-icon"
   },
   {
     "name": "Ganon",
     "type": "toggle",
     "loop": "true",
-    "img": "images/z-ganon.png",
+    "img": "images/LoZ/z-ganon.png",
     "codes": "z1ganon"
   }
 ]

@@ -2,7 +2,7 @@
     {
         "name": "Level 1 - The Eagle",
         "color": "#008088",
-        "chest_opened_img": "images/getitem.png",
+        "chest_opened_img": "images/LoZ/getitem.png",
         "children": [
             {
                 "name": "Map 72 - Kill Keese",
@@ -259,7 +259,7 @@
                         "name": "Kill Boss",
                         "item_count": 1,
                         "access_rules":["@CanKillBosses"],
-                        "chest_unopened_img":"images/leveloneboss.png"
+                        "chest_unopened_img":"images/LoZ/leveloneboss.png"
                     }
                 ]
             },
@@ -284,7 +284,7 @@
                         "name": "Triforce",
                         "item_count": 1,
                         "access_rules":["@CanKillBosses"],
-                        "chest_unopened_img": "images/z-triforceicon.png",
+                        "chest_unopened_img": "images/LoZ/z-triforceicon.png",
                         "hosted_item": "z1tri1"
                     }
                 ]

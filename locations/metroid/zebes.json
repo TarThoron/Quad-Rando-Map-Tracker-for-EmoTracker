@@ -1,8 +1,8 @@
 [
     {
         "name": "Brinstar",
-        "chest_unopened_img": "images/m1-chozo.png",
-        "chest_opened_img": "images/m1-chozo-empty.png",
+        "chest_unopened_img": "images/Metroid/m1-chozo.png",
+        "chest_opened_img": "images/Metroid/m1-chozo-empty.png",
         "color": "#021281",
         "children": [
             {
@@ -114,7 +114,7 @@
                     {
                         "name": "Morph Wall Etank",
                         "item_count": 1,
-                        "capturable":true,
+                        "capture_item":true,
                         "access_rules":
                             ["m1morph,m1ice","m1morph,[m1ice],m1bombs","{m1morph,m1missile}","{m1morph,m1long}"]
                     }
@@ -196,8 +196,8 @@
     },
     {
         "name":"Kraid's Hideout",
-        "chest_unopened_img":"images/m1-chozo.png",
-        "chest_opened_img":"images/m1-chozo-empty.png",
+        "chest_unopened_img":"images/Metroid/m1-chozo.png",
+        "chest_opened_img":"images/Metroid/m1-chozo-empty.png",
         "color": "#1a5c00",
         "access_rules":["m1morph,m1bombs"],
         "children":[          
@@ -308,6 +308,7 @@
                     {
                     "name": "Kraid Etank",
                     "item_count": 1,
+                    "capture_item":true,
                     "access_rules":
                         ["m1missile,[m1ice]"]
                     }
@@ -317,8 +318,8 @@
     },
     {
         "name": "Norfair",
-        "chest_unopened_img":"images/m1-chozo.png",
-        "chest_opened_img":"images/m1-chozo-empty.png",
+        "chest_unopened_img":"images/Metroid/m1-chozo.png",
+        "chest_opened_img":"images/Metroid/m1-chozo-empty.png",
         "color": "#7e0001",
         "children":[
             {
@@ -648,8 +649,8 @@
     },
     {
         "name": "Ridley's Hideout",
-        "chest_unopened_img":"images/m1-chozo.png",
-        "chest_opened_img":"images/m1-chozo-empty.png",
+        "chest_unopened_img":"images/Metroid/m1-chozo.png",
+        "chest_opened_img":"images/Metroid/m1-chozo-empty.png",
         "color": "#37015d",
         "access_rules":["m1morph,m1bombs"],
         "children":[
@@ -686,6 +687,7 @@
                     {
                     "name": "Jump Missile",
                     "item_count": 1,
+                    "capture_item":true,
                     "access_rules":
                         ["m1missile"]
                     }
@@ -724,6 +726,7 @@
                     {
                     "name": "Hidden Fall Shaft Etank",
                     "item_count": 1,
+                    "capture_item":true,
                     "access_rules":
                         ["m1missile"]
                     }

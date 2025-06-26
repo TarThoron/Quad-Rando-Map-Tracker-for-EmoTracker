@@ -2,7 +2,7 @@
     {
         "name": "Level 8 - The Lion",
         "color":"#bcbcbc",
-        "chest_opened_img":"images/getitem.png",
+        "chest_opened_img":"images/LoZ/getitem.png",
         "access_rules":["z1candle"],
         "children":[
             {
@@ -413,7 +413,7 @@
                                 "name": "Kill Boss",
                                 "item_count": 1,
                                 "access_rules":["@CanKillGleeok"],
-                                "chest_unopened_img":"images/leveleightboss.png"
+                                "chest_unopened_img":"images/LoZ/leveleightboss.png"
                             }
                         ]
                     },
@@ -438,7 +438,7 @@
                                 "name": "Triforce",
                                 "item_count": 1,
                                 "access_rules":["@CanKillGleeok"],
-                                "chest_opened_img":"images/z-triforceicon.png",
+                                "chest_unopened_img":"images/LoZ/z-triforceicon.png",
                                 "hosted_item":"z1tri8"
                             }
                         ]

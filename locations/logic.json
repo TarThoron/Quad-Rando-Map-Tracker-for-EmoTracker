@@ -163,11 +163,13 @@
   {
     "name": "CanKillMostZ1Things",
     "access_rules":[
-      "[],z1bomb",
+      "[],z1candle1",
+      "[z1boom],z1bomb",
+      "[z1candle1],z1bomb",
       "z1sword",
       "z1rod",
       "z1bow,z1arrows",
-      "z1candle"
+      "z1candle2"
     ]
   },
   {

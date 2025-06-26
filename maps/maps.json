@@ -3,96 +3,96 @@
     "name": "metroid",
     "location_size": 40,
     "location_border_thickness": 5,
-    "img": "images/map_full.png"
+    "img": "images/Maps/map_full.png"
   },
   {
     "name": "crateria",
     "location_size": 40,
     "location_border_thickness": 5,
-    "img": "images/map_crateria.png"
+    "img": "images/Maps/map_crateria.png"
   },
   {
     "name": "norfair",
     "location_size": 40,
     "location_border_thickness": 5,
-    "img": "images/map_norfair.png"
+    "img": "images/Maps/map_norfair.png"
   },
    {
     "name": "wreckedship",
     "location_size": 40,
     "location_border_thickness": 5,
-    "img": "images/map_ws.png"
+    "img": "images/Maps/map_ws.png"
   },
    {
     "name": "brinstar",
     "location_size": 40,
     "location_border_thickness": 5,
-    "img": "images/map_brinstar.png"
+    "img": "images/Maps/map_brinstar.png"
   },
    {
     "name": "maridia",
     "location_size": 40,
     "location_border_thickness": 5,
-    "img": "images/map_maridia.png"
+    "img": "images/Maps/map_maridia.png"
   },  
   {
     "name": "lightworld",
-    "img": "images/lttp_lightworld.png"
+    "img": "images/Maps/lttp_lightworld.png"
   },
   {
     "name": "darkworld",
-    "img": "images/lttp_darkworld.png"
+    "img": "images/Maps/lttp_darkworld.png"
   },
   {
     "name": "m1-zebes",
-    "img": "images/M1-Zebes.png"    
+    "img": "images/Maps/M1-Zebes.png"    
   },
   {
     "name": "hyrule",
-    "img": "images/z1overworld.png"
+    "img": "images/Maps/z1overworld.png"
   },
   {
     "name": "dungeons1",
-    "img": "images/z1level1-6.png"
+    "img": "images/Maps/z1level1-6.png"
   },
   {
     "name": "dungeons2",
-    "img": "images/z1level7-9.png"
+    "img": "images/Maps/z1level7-9.png"
   },
   {
     "name":"level1",
-    "img":"images/level-1.png"
+    "img":"images/Maps/level-1.png"
   },
   {
     "name":"level2",
-    "img":"images/level-2.png"
+    "img":"images/Maps/level-2.png"
   },
   {
     "name":"level3",
-    "img":"images/level-3.png"
+    "img":"images/Maps/level-3.png"
   },
   {
     "name":"level4",
-    "img":"images/level-4.png"
+    "img":"images/Maps/level-4.png"
   },
   {
     "name":"level5",
-    "img":"images/level-5.png"
+    "img":"images/Maps/level-5.png"
   },
   {
     "name":"level6",
-    "img":"images/level-6.png"
+    "img":"images/Maps/level-6.png"
   },
   {
     "name":"level7",
-    "img":"images/level-7.png"
+    "img":"images/Maps/level-7.png"
   },
   {
     "name":"level8",
-    "img":"images/level-8.png"
+    "img":"images/Maps/level-8.png"
   },
   {
     "name":"level9",
-    "img":"images/level-9.png"
+    "img":"images/Maps/level-9.png"
   }
 ]

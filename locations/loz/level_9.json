@@ -507,8 +507,8 @@
                                 "name": "Kill Ganon",
                                 "item_count": 1,
                                 "access_rules":["z1sword,z1bow,z1arrows2"],
-                                "chest_unopened_img":"images/z-ganon.png",
-                                "chest_opened_img":"images/zelda.png",
+                                "chest_unopened_img":"images/LoZ/z-ganon.png",
+                                "chest_opened_img":"images/LoZ/zelda.png",
                                 "hosted_item":"z1ganon"
                             }
                         ]
