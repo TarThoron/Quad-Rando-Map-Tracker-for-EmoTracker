@@ -2,12 +2,15 @@
   "name": "Super Metroid, ALTTP, LoZ, Metroid Quad Randomizer Map Tracker",
   "game_name": "Quad Randomizer",
   "platform": "snes",
-  "package_version": "0.3",
+  "package_version": "0.4",
   "package_uid": "tarthoron_z1m1smz3",
   "author": "TarThoron",
   "variants": {
     "standard": {
       "display_name": "Standard"
+    },
+    "z1entrance": {
+      "display_name": "Z1 Entrance"
     }
   }
 }

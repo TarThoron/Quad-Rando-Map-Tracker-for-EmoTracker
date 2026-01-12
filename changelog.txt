@@ -1,3 +1,12 @@
+0.4 - 	Reorganize image folders, remove many unused images, rename Z3 images to item names
+	Fix some locations having the wrong chest opened/unopened images
+	Set Z1 bomb combat against weak enemies as in logic if bomb farming is possible (boomerang or blue candle aquired)
+	Set blue candle-only combat to sequence break
+	Fix M1 ceiling etank capture, make Kraid Etank, Ridley Lair Fall Trap, and Jump Missile capturable.
+	Add Z1 Bombs to main item capture grid
+	Add Z1 Entrance Rando Variant
+	Fix Level 3 item count
+
 0.3 -	Match M1 logic to beta data, including known bugs (marked as sequence break)
 	Add M1 IBJ as sequence break
 	Fix Z1 - Full map scaling
@@ -8,7 +17,7 @@
 	Add icons to all cross game portal locations
 	Move Lumberjack location marker to minimize overlap with M1 portal icon
 	Set All - Horizontal to default map tab on load
-	Seting M1 Kraid or Ridley to defeated automatically adds 75 to M1 Missile count
+	Setting M1 Kraid or Ridley to defeated automatically adds 75 to M1 Missile count
 		-Magic key infinity symbol disabled due to conflict in code. Hopefully fix later.
 
 0.2.1 - Fix more M1 logic bugs
