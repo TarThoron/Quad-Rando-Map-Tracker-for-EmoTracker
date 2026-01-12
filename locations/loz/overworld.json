@@ -368,7 +368,7 @@
 				"name": "Items",
 				"capture_item": false,
 				"clear_as_group": false,
-				"item_count": 3
+				"item_count": 7
 			},
 			{
 				"name": "Keys",

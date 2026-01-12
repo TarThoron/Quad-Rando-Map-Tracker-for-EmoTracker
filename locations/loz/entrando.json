@@ -1,0 +1,2236 @@
+
+[
+	// Dungeon Access
+	{
+		"name": "Map 37 - Level 1",
+		"short_name": "Level 1",
+		"map_locations": 
+		[
+			{
+				"map": "hyrule",
+				"x": 1004,
+				"y": 328,
+				"size": 60
+			}
+		],
+		"sections":
+		[
+			{
+				"name": "Items",
+				"capture_item": false,
+				"clear_as_group": false,
+				"item_count": 5
+			},
+			{
+				"name": "Keys",
+				"capture_item":false,
+				"clear_as_group":false,
+				"item_count":4,
+				"chest_unopened_img":"images/LoZ/z1smallkey.png",
+				"chest_opened_img":"images/LoZ/z1smallkeygray.png"
+			},
+			{
+				"name": "Boss",
+				"capture_item":false,
+				"clear_as_group":false,
+				"item_count":1,
+				"access_rules":["@CanKillBosses"],
+				"chest_unopened_img":"images/LoZ/leveloneboss.png",
+				"chest_opened_img":"images/LoZ/z-triforceicon.png",
+				"hosted_item":"z1tri1"
+			}
+		]
+	},
+	{
+		"name": "Map 3C - Level 2",
+		"short_name": "Level 2",
+		"map_locations": 
+		[
+			{
+				"map": "hyrule",
+				"x": 1644,
+				"y": 328,
+				"size": 60
+			}
+		],
+		"sections":
+		[
+			{
+				"name": "Items",
+				"capture_item": false,
+				"clear_as_group": false,
+				"item_count": 6
+			},
+			{
+				"name": "Keys",
+				"capture_item":false,
+				"clear_as_group":false,
+				"item_count":3,
+				"chest_unopened_img":"images/LoZ/z1smallkey.png",
+				"chest_opened_img":"images/LoZ/z1smallkeygray.png"
+			},
+			{
+				"name": "Boss",
+				"capture_item":false,
+				"clear_as_group":false,
+				"item_count":1,
+				"access_rules":["z1bomb"],
+				"chest_unopened_img":"images/LoZ/leveltwoboss.png",
+				"chest_opened_img":"images/LoZ/z-triforceicon.png",
+				"hosted_item":"z1tri2"
+			}
+		]
+	},
+	{
+		"name": "Level 3",
+		"short_name": "Level 3",
+		"map_locations": 
+		[
+			{
+				"map": "hyrule",
+				"x": 628,
+				"y": 680,
+				"size": 60
+			}
+		],
+		"sections":
+		[
+			{
+				"name": "Items",
+				"capture_item": false,
+				"clear_as_group": false,
+				"item_count": 7
+			},
+			{
+				"name": "Keys",
+				"capture_item":false,
+				"clear_as_group":false,
+				"item_count":4,
+				"chest_unopened_img":"images/LoZ/z1smallkey.png",
+				"chest_opened_img":"images/LoZ/z1smallkeygray.png"
+			},
+			{
+				"name": "Boss",
+				"capture_item":false,
+				"clear_as_group":false,
+				"item_count":1,
+				"access_rules":["@CanKillDarknuts"],
+				"chest_unopened_img":"images/LoZ/levelthreeboss.png",
+				"chest_opened_img":"images/LoZ/z-triforceicon.png",
+				"hosted_item":"z1tri3"
+			}
+		]
+	},
+	{
+		"name": "Map 45 - Level 4",
+		"short_name": "Level 4",
+		"map_locations": 
+		[
+			{
+				"map": "hyrule",
+				"x": 756,
+				"y": 416,
+				"size": 60
+			}
+		],
+		"sections":
+		[
+			{
+				"name": "Items",
+				"capture_item": false,
+				"clear_as_group": false,
+				"item_count": 3
+			},
+			{
+				"name": "Keys",
+				"capture_item":false,
+				"clear_as_group":false,
+				"item_count":3,
+				"chest_unopened_img":"images/LoZ/z1smallkey.png",
+				"chest_opened_img":"images/LoZ/z1smallkeygray.png"
+			},
+			{
+				"name": "Boss",
+				"capture_item":false,
+				"clear_as_group":false,
+				"item_count":1,
+				"access_rules":["z1ladder,@CanKillGleeok"],
+				"chest_unopened_img":"images/LoZ/levelfourboss.png",
+				"chest_opened_img":"images/LoZ/z-triforceicon.png",
+				"hosted_item":"z1tri4"
+			}
+		]
+	},
+	{
+		"name": "Level 5",
+		"short_name": "Level 5",
+		"map_locations": 
+		[
+			{
+				"map": "hyrule",
+				"x": 1516,
+				"y": 64,
+				"size": 60
+			}
+		],
+		"sections":
+		[
+			{
+				"name": "Items",
+				"capture_item": false,
+				"clear_as_group": false,
+				"item_count": 7
+			},
+			{
+				"name": "Keys",
+				"capture_item":false,
+				"clear_as_group":false,
+				"item_count":5,
+				"chest_unopened_img":"images/LoZ/z1smallkey.png",
+				"chest_opened_img":"images/LoZ/z1smallkeygray.png"
+			},
+			{
+				"name": "Boss",
+				"capture_item":false,
+				"clear_as_group":false,
+				"item_count":1,
+				"access_rules":["z1ladder,z1recorder,@CanKillBosses"],
+				"chest_unopened_img":"images/LoZ/levelfiveboss.png",
+				"chest_opened_img":"images/LoZ/z-triforceicon.png",
+				"hosted_item":"z1tri5"
+			}
+		]
+	},
+	{
+		"name": "Map 22 - Level 6",
+		"short_name": "Level 6",
+		"map_locations": 
+		[
+			{
+				"map": "hyrule",
+				"x": 368,
+				"y": 240,
+				"size": 60
+			}
+		],
+		"sections":
+		[
+			{
+				"name": "Items",
+				"capture_item": false,
+				"clear_as_group": false,
+				"item_count": 6
+			},
+			{
+				"name": "Keys",
+				"capture_item":false,
+				"clear_as_group":false,
+				"item_count":4,
+				"chest_unopened_img":"images/LoZ/z1smallkey.png",
+				"chest_opened_img":"images/LoZ/z1smallkeygray.png"
+			},
+			{
+				"name": "Boss",
+				"capture_item":false,
+				"clear_as_group":false,
+				"item_count":1,
+				"access_rules":["z1ladder,z1bow,z1arrows"],
+				"chest_unopened_img":"images/LoZ/levelsixboss.png",
+				"chest_opened_img":"images/LoZ/z-triforceicon.png",
+				"hosted_item":"z1tri6"
+			}
+		]
+	},
+	{
+		"name": "Map 42 - Level 7",
+		"short_name": "Level 7",
+		"map_locations": 
+		[
+			{
+				"map": "hyrule",
+				"x": 368,
+				"y": 420,
+				"size": 60
+			}
+		],
+		"sections":
+		[
+			{
+				"name": "Items",
+				"capture_item": false,
+				"clear_as_group": false,
+				"item_count": 13
+			},
+			{
+				"name": "Keys",
+				"capture_item":false,
+				"clear_as_group":false,
+				"item_count":3,
+				"chest_unopened_img":"images/LoZ/z1smallkey.png",
+				"chest_opened_img":"images/LoZ/z1smallkeygray.png"
+			},
+			{
+				"name": "Boss",
+				"capture_item":false,
+				"clear_as_group":false,
+				"item_count":1,
+				"access_rules":["z1ladder,@CanKillBosses"],
+				"chest_unopened_img":"images/LoZ/leveloneboss.png",
+				"chest_opened_img":"images/LoZ/z-triforceicon.png",
+				"hosted_item":"z1tri7"
+			}
+		]
+	},
+	{
+		"name": "Map 6D - Level 8",
+		"short_name": "Level 8",
+		"map_locations": 
+		[
+			{
+				"map": "hyrule",
+				"x": 1796,
+				"y": 576,
+				"size": 60
+			}
+		],
+		"sections":
+		[
+			{
+				"name": "Items",
+				"capture_item": false,
+				"clear_as_group": false,
+				"item_count": 11
+			},
+			{
+				"name": "Keys",
+				"capture_item":false,
+				"clear_as_group":false,
+				"item_count":4,
+				"chest_unopened_img":"images/LoZ/z1smallkey.png",
+				"chest_opened_img":"images/LoZ/z1smallkeygray.png"
+			},
+			{
+				"name": "Boss",
+				"capture_item":false,
+				"clear_as_group":false,
+				"item_count":1,
+				"access_rules":["z1bomb,z1sword","z1bomb,z1rod"],
+				"chest_unopened_img":"images/LoZ/leveleightboss.png",
+				"chest_opened_img":"images/LoZ/z-triforceicon.png",
+				"hosted_item":"z1tri8"
+			}
+		]
+	},
+	{
+		"name": "Level 9 - Spectacle Rock",
+		"short_name": "Spectacle Rock",
+		"access_rules": [ "$L9TriforceCount" ],
+		"map_locations": 
+			[
+			{
+				"map": "hyrule",
+				"x": 732,
+				"y": 80,
+				"size": 60
+			}
+		],
+		"sections":
+		[
+			{
+				"name": "Items",
+				"capture_item": false,
+				"clear_as_group": false,
+				"item_count": 15
+			},
+			{
+				"name": "Keys",
+				"capture_item":false,
+				"clear_as_group":false,
+				"item_count":3,
+				"chest_unopened_img":"images/LoZ/z1smallkey.png",
+				"chest_opened_img":"images/LoZ/z1smallkeygray.png"
+			},
+			{
+				"name": "Boss",
+				"capture_item":false,
+				"clear_as_group":false,
+				"item_count":1,
+				"access_rules":["z1sword,z1arrows2,z1bow"],
+				"chest_unopened_img":"images/LoZ/z-ganon.png",
+				"chest_opened_img":"images/LoZ/zelda.png",
+				"hosted_item":"z1ganon"
+			}
+		]
+	},
+
+	//Entrances
+	{
+		"name": "Map 01 - Bomb Wall",
+		"short_name": "01",
+		"map_locations": 
+		[
+			{
+				"map": "hyrule",
+				"x": 252,
+				"y": 60,
+				"size": 48,
+				"badge_size": 48
+			}
+		],
+		"sections":
+		[
+			{
+				"name": "Bomb Wall",
+				"capture_item": true,
+				"capture_item_layout": "Z1_entrance_capture_item",
+				"item_count": 1,
+				"access_rules": [ "z1bomb"],
+                "chest_unopened_img": "images/LoZ/bombwall.png",
+				"chest_opened_img": "images/LoZ/opencave.png"
+			}
+		]
+	},
+	{
+		"name": "Map 03 - Bomb Wall",
+		"short_name": "03",
+		"map_locations": 
+		[
+			{
+				"map": "hyrule",
+				"x": 492,
+				"y": 84,
+				"size": 48,
+				"badge_size": 48
+			}
+		],
+		"sections":
+		[
+			{
+				"name": "Bomb Wall",
+				"capture_item": true,
+				"capture_item_layout": "Z1_entrance_capture_item",
+				"item_count": 1,
+				"access_rules": [ "z1bomb"],
+                "chest_unopened_img": "images/LoZ/bombwall.png",
+				"chest_opened_img": "images/LoZ/opencave.png"
+			}
+		]
+	},
+	{
+		"name": "Map 04 - Open Cave",
+		"short_name": "04",
+		"map_locations": 
+		[
+			{
+				"map": "hyrule",
+				"x": 660,
+				"y": 60,
+				"size": 48,
+				"badge_size": 48
+			}
+		],
+		"sections":
+		[
+			{
+				"name": "Open Cave",
+				"capture_item": true,
+				"capture_item_layout": "Z1_entrance_capture_item",
+				"item_count": 1,
+                "chest_unopened_img": "images/LoZ/opencave.png",
+				"chest_opened_img": "images/LoZ/opencave.png"
+			}
+		]
+	},
+	{
+		"name": "Map 05 - Spectacle Rock Entrance",
+		"short_name": "05",
+		"map_locations": 
+		[
+			{
+				"map": "hyrule",
+				"x": 732,
+				"y": 120,
+				"size": 48,
+				"badge_size": 48
+			}
+		],
+		"sections":
+		[
+			{
+				"name": "Bomb Wall",
+				"capture_item": true,
+				"capture_item_layout": "Z1_entrance_capture_item",
+				"item_count": 1,
+				"access_rules": [ "z1bomb"],
+                "chest_unopened_img": "images/LoZ/bombwall.png",
+				"chest_opened_img": "images/LoZ/opencave.png"
+			}
+		]
+	},
+	{
+		"name": "Map 07 - Bomb Wall",
+		"short_name": "07",
+		"map_locations": 
+		[
+			{
+				"map": "hyrule",
+				"x": 1028,
+				"y": 84,
+				"size": 48,
+				"badge_size": 48
+			}
+		],
+		"sections":
+		[
+			{
+				"name": "Bomb Wall",
+				"capture_item": true,
+				"capture_item_layout": "Z1_entrance_capture_item",
+				"item_count": 1,
+				"access_rules": [ "z1bomb"],
+                "chest_unopened_img": "images/LoZ/bombwall.png",
+				"chest_opened_img": "images/LoZ/opencave.png"
+			}
+		]
+	},
+	{
+		"name": "Map 0A - Cave 12 - White Sword",
+		"short_name": "0A",
+		"map_locations": 
+		[
+			{
+				"map": "hyrule",
+				"x": 1348,
+				"y": 60,
+				"size": 48,
+				"badge_size": 48
+			}
+		],
+		"sections":
+		[
+			{
+				"name": "Open Cave",
+				"capture_item": true,
+				"capture_item_layout": "Z1_entrance_capture_item",
+				"item_count": 1,
+				"chest_unopened_img": "images/LoZ/opencave.png",
+				"chest_opened_img": "images/LoZ/opencave.png"
+			}
+		]
+	},
+	{
+		"name": "Map 0B - Level 5 Entrance",
+		"short_name": "05",
+		"map_locations": 
+		[
+			{
+				"map": "hyrule",
+				"x": 1516,
+				"y": 104,
+				"size": 48,
+				"badge_size": 48
+			}
+		],
+		"sections":
+		[
+			{
+				"name": "Open Cave",
+				"capture_item": true,
+				"capture_item_layout": "Z1_entrance_capture_item",
+				"item_count": 1,
+                "chest_unopened_img": "images/LoZ/opencave.png",
+				"chest_opened_img": "images/LoZ/opencave.png"
+			}
+		]
+	},
+	{
+		"name": "Map 0C - Lost Hills Shop",
+		"short_name": "0C",
+		"map_locations": 
+		[
+			{
+				"map": "hyrule",
+				"x": 1652,
+				"y": 60,
+				"size": 48,
+				"badge_size": 48
+			}
+		],
+		"sections":
+		[
+			{
+				"name": "Open Cave",
+				"capture_item": true,
+				"capture_item_layout": "Z1_entrance_capture_item",
+				"item_count": 1,
+				"chest_unopened_img": "images/LoZ/opencave.png",
+				"chest_opened_img": "images/LoZ/opencave.png"
+			}
+		]
+	},
+	{
+		"name": "Map 0D - Bomb Wall",
+		"short_name": "0D",
+		"map_locations": 
+		[
+			{
+				"map": "hyrule",
+				"x": 1788,
+				"y": 60,
+				"size": 48,
+				"badge_size": 48
+			}
+		],
+		"sections":
+		[
+			{
+				"name": "Bomb Wall",
+				"capture_item": true,
+				"capture_item_layout": "Z1_entrance_capture_item",
+				"item_count": 1,
+				"access_rules": ["z1bomb"],
+				"chest_unopened_img": "images/LoZ/bombwall.png",
+				"chest_opened_img": "images/LoZ/opencave.png"
+			}
+		]
+	},
+	{
+		"name": "Map 0E - Cave 18 - Letter Cave",
+		"short_name": "0E",
+		"map_locations": 
+		[
+			{
+				"map": "hyrule",
+				"x": 1884,
+				"y": 84,
+				"size": 48,
+				"badge_size": 48
+			}
+		],
+		"sections":
+		[
+			{
+				"name": "Open Cave",
+				"capture_item": true,
+				"capture_item_layout": "Z1_entrance_capture_item",
+				"item_count": 1,
+				"chest_unopened_img": "images/LoZ/opencave.png",
+				"chest_opened_img": "images/LoZ/opencave.png"
+			}
+		]
+	},
+	{
+		"name": "Map 0F - Corner Secret",
+		"short_name": "0E",
+		"map_locations": 
+		[
+			{
+				"map": "hyrule",
+				"x": 2036,
+				"y": 84,
+				"size": 48,
+				"badge_size": 48
+			}
+		],
+		"sections":
+		[
+			{
+				"name": "Open Cave",
+				"capture_item": true,
+				"capture_item_layout": "Z1_entrance_capture_item",
+				"item_count": 1,
+				"chest_unopened_img": "images/LoZ/opencave.png",
+				"chest_opened_img": "images/LoZ/opencave.png"
+			}
+		]
+	},
+	{
+		"name": "Map 10 - Bomb Wall",
+		"short_name": "10",
+		"map_locations": 
+		[
+			{
+				"map": "hyrule",
+				"x": 124,
+				"y": 148,
+				"size": 48,
+				"badge_size": 48
+			}
+		],
+		"sections":
+		[
+			{
+				"name": "Bomb Wall",
+				"capture_item": true,
+				"capture_item_layout": "Z1_entrance_capture_item",
+				"item_count": 1,
+				"access_rules": ["z1bomb"],
+				"chest_unopened_img": "images/LoZ/bombwall.png",
+				"chest_opened_img": "images/LoZ/opencave.png"
+			}
+		]
+	},
+	{
+		"name": "Map 12 - Bomb Wall",
+		"short_name": "12",
+		"map_locations": 
+		[
+			{
+				"map": "hyrule",
+				"x": 372,
+				"y": 148,
+				"size": 48,
+				"badge_size": 48
+			}
+		],
+		"sections":
+		[
+			{
+				"name": "Bomb Wall",
+				"capture_item": true,
+				"capture_item_layout": "Z1_entrance_capture_item",
+				"item_count": 1,
+				"access_rules": ["z1bomb"],
+				"chest_unopened_img": "images/LoZ/bombwall.png",
+				"chest_opened_img": "images/LoZ/opencave.png"
+			}
+		]
+	},
+	{
+		"name": "Map 13 - Bomb Wall",
+		"short_name": "13",
+		"map_locations": 
+		[
+			{
+				"map": "hyrule",
+				"x": 452,
+				"y": 148,
+				"size": 48,
+				"badge_size": 48
+			}
+		],
+		"sections":
+		[
+			{
+				"name": "Bomb Wall",
+				"capture_item": true,
+				"capture_item_layout": "Z1_entrance_capture_item",
+				"item_count": 1,
+				"access_rules": ["z1bomb"],
+				"chest_unopened_img": "images/LoZ/bombwall.png",
+				"chest_opened_img": "images/LoZ/opencave.png"
+			}
+		]
+	},
+	{
+		"name": "Map 14 - Bomb Wall",
+		"short_name": "14",
+		"map_locations": 
+		[
+			{
+				"map": "hyrule",
+				"x": 660,
+				"y": 148,
+				"size": 48,
+				"badge_size": 48
+			}
+		],
+		"sections":
+		[
+			{
+				"name": "Bomb Wall",
+				"capture_item": true,
+				"capture_item_layout": "Z1_entrance_capture_item",
+				"item_count": 1,
+				"access_rules": ["z1bomb"],
+				"chest_unopened_img": "images/LoZ/bombwall.png",
+				"chest_opened_img": "images/LoZ/opencave.png"
+			}
+		]
+	},
+	{
+		"name": "Map 16 - Bomb Wall",
+		"short_name": "16",
+		"map_locations": 
+		[
+			{
+				"map": "hyrule",
+				"x": 868,
+				"y": 148,
+				"size": 48,
+				"badge_size": 48
+			}
+		],
+		"sections":
+		[
+			{
+				"name": "Bomb Wall",
+				"capture_item": true,
+				"capture_item_layout": "Z1_entrance_capture_item",
+				"item_count": 1,
+				"access_rules": ["z1bomb"],
+				"chest_unopened_img": "images/LoZ/bombwall.png",
+				"chest_opened_img": "images/LoZ/opencave.png"
+			}
+		]
+	},
+	{
+		"name": "Map 1A - Waterfall",
+		"short_name": "1A",
+		"map_locations": 
+		[
+			{
+				"map": "hyrule",
+				"x": 1380,
+				"y": 172,
+				"size": 48,
+				"badge_size": 48
+			}
+		],
+		"sections":
+		[
+			{
+				"name": "Enter Waterfall",
+				"capture_item": true,
+				"capture_item_layout": "Z1_entrance_capture_item",
+				"item_count": 1,
+				"chest_unopened_img": "images/LoZ/waterfall.png",
+				"chest_opened_img": "images/LoZ/waterfall.png"
+			}
+		]
+	},
+	{
+		"name": "Map 1C - Lost Hills Armos",
+		"short_name": "1C",
+		"map_locations": 
+		[
+			{
+				"map": "hyrule",
+				"x": 1668,
+				"y": 172,
+				"size": 48,
+				"badge_size": 48
+			}
+		],
+		"sections":
+		[
+			{
+				"name": "Under Armos",
+				"capture_item": true,
+				"capture_item_layout": "Z1_entrance_capture_item",
+				"item_count": 1,
+				"chest_unopened_img": "images/LoZ/armos.png",
+				"chest_opened_img": "images/LoZ/stairs.png"
+			}
+		]
+	},
+	{
+		"name": "Map 1D - Lost Hills Warp",
+		"short_name": "1D",
+		"map_locations": 
+		[
+			{
+				"map": "hyrule",
+				"x": 1740,
+				"y": 180,
+				"size": 48,
+				"badge_size": 48
+			}
+		],
+		"sections":
+		[
+			{
+				"name": "Push Rock",
+				"capture_item": true,
+				"capture_item_layout": "Z1_entrance_capture_item",
+				"item_count": 1,
+				"access_rules": ["z1bracelet"],
+				"chest_unopened_img": "images/LoZ/pushrock.png",
+				"chest_opened_img": "images/LoZ/stairs.png"
+			}
+		]
+	},
+	{
+		"name": "Map 1E - Bomb Wall",
+		"short_name": "1E",
+		"map_locations": 
+		[
+			{
+				"map": "hyrule",
+				"x": 1940,
+				"y": 148,
+				"size": 48,
+				"badge_size": 48
+			}
+		],
+		"sections":
+		[
+			{
+				"name": "Bomb Wall",
+				"capture_item": true,
+				"capture_item_layout": "Z1_entrance_capture_item",
+				"item_count": 1,
+				"access_rules": ["z1bomb"],
+				"chest_unopened_img": "images/LoZ/bombwall.png",
+				"chest_opened_img": "images/LoZ/opencave.png"
+			}
+		]
+	},
+	{
+		"name": "Map 1F - Coast Gamble",
+		"short_name": "1F",
+		"map_locations": 
+		[
+			{
+				"map": "hyrule",
+				"x": 2020,
+				"y": 172,
+				"size": 48,
+				"badge_size": 48
+			}
+		],
+		"sections":
+		[
+			{
+				"name": "Open Cave",
+				"capture_item": true,
+				"capture_item_layout": "Z1_entrance_capture_item",
+				"item_count": 1,
+				"chest_unopened_img": "images/LoZ/opencave.png",
+				"chest_opened_img": "images/LoZ/opencave.png"
+			}
+		]
+	},
+	{
+		"name": "Map 21 - Cave 13 - Magic Sword",
+		"short_name": "21",
+		"map_locations": 
+		[
+			{
+				"map": "hyrule",
+				"x": 252,
+				"y": 268,
+				"size": 48,
+				"badge_size": 48
+			}
+		],
+		"sections":
+		[
+			{
+				"name": "Push Grave",
+				"capture_item": true,
+				"capture_item_layout": "Z1_entrance_capture_item",
+				"item_count": 1,
+                "chest_unopened_img": "images/LoZ/grave.png",
+				"chest_opened_img": "images/LoZ/stairs.png"
+			}
+		]
+	},
+	{
+		"name": "Map 22 - Level 6 Entrance",
+		"short_name": "22",
+		"map_locations": 
+		[
+			{
+				"map": "hyrule",
+				"x": 368,
+				"y": 280,
+				"size": 48,
+				"badge_size": 48
+			}
+		],
+		"sections":
+		[
+			{
+				"name": "Open Cave",
+				"capture_item": true,
+				"capture_item_layout": "Z1_entrance_capture_item",
+				"item_count": 1,
+				"chest_unopened_img": "images/LoZ/opencave.png",
+				"chest_opened_img": "images/LoZ/opencave.png"
+			}
+		]
+	},
+	{
+		"name": "Map 23 - Graveyard Warp",
+		"short_name": "23",
+		"map_locations": 
+		[
+			{
+				"map": "hyrule",
+				"x": 460,
+				"y": 268,
+				"size": 48,
+				"badge_size": 48
+			}
+		],
+		"sections":
+		[
+			{
+				"name": "Push Rock",
+				"capture_item": true,
+				"capture_item_layout": "Z1_entrance_capture_item",
+				"item_count": 1,
+				"access_rules": ["z1bracelet"],
+				"chest_unopened_img": "images/LoZ/pushrock.png",
+				"chest_opened_img": "images/LoZ/stairs.png"
+			}
+		]
+	},
+	{
+		"name": "Map 24 - Armos Knight",
+		"short_name": "24",
+		"map_locations": 
+		[
+			{
+				"map": "hyrule",
+				"x": 628,
+				"y": 260,
+				"size": 48,
+				"badge_size": 48
+			}
+		],
+		"sections":
+		[
+			{
+				"name": "Under Armos",
+				"capture_item": false,
+				"item_count": 1,
+				"chest_unopened_img": "images/LoZ/armos.png"
+			}
+		]
+	},
+	{
+		"name": "Map 25 - Graveyard Shop",
+		"short_name": "25",
+		"map_locations": 
+		[
+			{
+				"map": "hyrule",
+				"x": 772,
+				"y": 236,
+				"size": 48,
+				"badge_size": 48
+			}
+		],
+		"sections":
+		[
+			{
+				"name": "Open Cave",
+				"capture_item": true,
+				"capture_item_layout": "Z1_entrance_capture_item",
+				"item_count": 1,
+				"chest_unopened_img": "images/LoZ/opencave.png",
+				"chest_opened_img": "images/LoZ/opencave.png"
+			}
+		]
+	},
+	{
+		"name": "Map 26 - Bomb Wall",
+		"short_name": "26",
+		"map_locations": 
+		[
+			{
+				"map": "hyrule",
+				"x": 844,
+				"y": 236,
+				"size": 48,
+				"badge_size": 48
+			}
+		],
+		"sections":
+		[
+			{
+				"name": "Bomb Wall",
+				"capture_item": true,
+				"capture_item_layout": "Z1_entrance_capture_item",
+				"item_count": 1,
+				"access_rules": ["z1bomb"],
+				"chest_unopened_img": "images/LoZ/bombwall.png",
+				"chest_opened_img": "images/LoZ/opencave.png"
+			}
+		]
+	},
+	{
+		"name": "Map 27 - Bomb Wall",
+		"short_name": "27",
+		"map_locations": 
+		[
+			{
+				"map": "hyrule",
+				"x": 1060,
+				"y": 236,
+				"size": 48,
+				"badge_size": 48
+			}
+		],
+		"sections":
+		[
+			{
+				"name": "Bomb Wall",
+				"capture_item": true,
+				"capture_item_layout": "Z1_entrance_capture_item",
+				"item_count": 1,
+				"access_rules": ["z1bomb"],
+				"chest_unopened_img": "images/LoZ/bombwall.png",
+				"chest_opened_img": "images/LoZ/opencave.png"
+			}
+		]
+	},
+	{
+		"name": "Map 28 - Burn Bush",
+		"short_name": "28",
+		"map_locations": 
+		[
+			{
+				"map": "hyrule",
+				"x": 1180,
+				"y": 276,
+				"size": 48,
+				"badge_size": 48
+			}
+		],
+		"sections":
+		[
+			{
+				"name": "Burn Bush",
+				"capture_item": true,
+				"capture_item_layout": "Z1_entrance_capture_item",
+				"item_count": 1,
+				"access_rules": ["z1candle"],
+				"chest_unopened_img": "images/LoZ/burnbush.png",
+				"chest_opened_img": "images/LoZ/stairs.png"
+			}
+		]
+	},
+	{
+		"name": "Map 2C - Monocle Rock Take Any",
+		"short_name": "Monocle Rock",
+		"map_locations": 
+		[
+			{
+				"map": "hyrule",
+				"x": 1660,
+				"y": 276,
+				"size": 48,
+				"badge_size": 48
+			}
+		],
+		"sections":
+		[
+			{
+				"name": "Bomb Wall",
+				"capture_item": true,
+				"capture_item_layout": "Z1_entrance_capture_item",
+				"item_count": 1,
+				"access_rules": ["z1bomb"],
+				"chest_unopened_img": "images/LoZ/bombwall.png",
+				"chest_opened_img": "images/LoZ/opencave.png"
+			}
+		]
+	},
+	{
+		"name": "Map 2D - Bomb Wall",
+		"short_name": "2D",
+		"map_locations": 
+		[
+			{
+				"map": "hyrule",
+				"x": 1756,
+				"y": 236,
+				"size": 48,
+				"badge_size": 48
+			}
+		],
+		"sections":
+		[
+			{
+				"name": "Bomb Wall",
+				"capture_item": true,
+				"capture_item_layout": "Z1_entrance_capture_item",
+				"item_count": 1,
+				"access_rules": ["z1bomb"],
+				"chest_unopened_img": "images/LoZ/bombwall.png",
+				"chest_opened_img": "images/LoZ/opencave.png"
+			}
+		]
+	},
+	{
+		"name": "Map 2F - Raft Spot Take Any",
+		"short_name": "2F",
+		"map_locations": 
+		[
+			{
+				"map": "hyrule",
+				"x": 2020,
+				"y": 268,
+				"size": 48,
+				"badge_size": 48
+			}
+		],
+		"sections":
+		[
+			{
+				"name": "Open Cave",
+				"capture_item": true,
+				"capture_item_layout": "Z1_entrance_capture_item",
+				"item_count": 1,
+				"access_rules": ["z1raft"],
+				"chest_unopened_img": "images/LoZ/opencave.png",
+				"chest_opened_img": "images/LoZ/opencave.png"
+			}
+		]
+	},
+	{
+		"name": "Map 33 - Bomb Wall",
+		"short_name": "33",
+		"map_locations": 
+		[
+			{
+				"map": "hyrule",
+				"x": 516,
+				"y": 324,
+				"size": 48,
+				"badge_size": 48
+			}
+		],
+		"sections":
+		[
+			{
+				"name": "Bomb Wall",
+				"capture_item": true,
+				"capture_item_layout": "Z1_entrance_capture_item",
+				"item_count": 1,
+				"access_rules": ["z1bomb"],
+				"chest_unopened_img": "images/LoZ/bombwall.png",
+				"chest_opened_img": "images/LoZ/opencave.png"
+			}
+		]
+	},
+	{
+		"name": "Map 34 - Armos Shop",
+		"short_name": "34",
+		"map_locations": 
+		[
+			{
+				"map": "hyrule",
+				"x": 596,
+				"y": 348,
+				"size": 48,
+				"badge_size": 48
+			}
+		],
+		"sections":
+		[
+			{
+				"name": "Under Armos",
+				"capture_item": true,
+				"capture_item_layout": "Z1_entrance_capture_item",
+				"item_count": 1,
+				"chest_unopened_img": "images/LoZ/armos.png",
+				"chest_opened_img": "images/LoZ/stairs.png"
+			}
+		]
+	},
+	{
+		"name": "Map 37 - Level 1 Entrance",
+		"short_name": "37",
+		"map_locations": 
+		[
+			{
+				"map": "hyrule",
+				"x": 1004,
+				"y": 368,
+				"size": 48,
+				"badge_size": 48
+			}
+		],
+		"sections":
+		[
+			{
+				"name": "Open Cave",
+				"capture_item": true,
+				"capture_item_layout": "Z1_entrance_capture_item",
+				"item_count": 1,
+				"chest_unopened_img": "images/LoZ/opencave.png",
+				"chest_opened_img": "images/LoZ/opencave.png"
+			}
+		]
+	},
+	{
+		"name": "Map 3C - Level 2 Entrance",
+		"short_name": "3C",
+		"map_locations": 
+		[
+			{
+				"map": "hyrule",
+				"x": 1644,
+				"y": 368,
+				"size": 48,
+				"badge_size": 48
+			}
+		],
+		"sections":
+		[
+			{
+				"name": "Open Cave",
+				"capture_item": true,
+				"capture_item_layout": "Z1_entrance_capture_item",
+				"item_count": 1,
+				"chest_unopened_img": "images/LoZ/opencave.png",
+				"chest_opened_img": "images/LoZ/opencave.png"
+			}
+		]
+	},
+	{
+		"name": "Map 3D - Upper Forest Armos",
+		"short_name": "3D",
+		"map_locations": 
+		[
+			{
+				"map": "hyrule",
+				"x": 1776,
+				"y": 348,
+				"size": 48,
+				"badge_size": 48
+			}
+		],
+		"sections":
+		[
+			{
+				"name": "Under Armos",
+				"capture_item": true,
+				"capture_item_layout": "Z1_entrance_capture_item",
+				"item_count": 1,
+				"chest_unopened_img": "images/LoZ/armos.png",
+				"chest_opened_img": "images/LoZ/stairs.png"
+			}
+		]
+	},
+	{
+		"name": "Map 42 - Level 7 Entrance",
+		"short_name": "42",
+		"map_locations": 
+		[
+			{
+				"map": "hyrule",
+				"x": 368,
+				"y": 460,
+				"size": 48,
+				"badge_size": 48
+			}
+		],
+		"sections":
+		[
+			{
+				"name": "Use Recorder",
+				"capture_item": true,
+				"capture_item_layout": "Z1_entrance_capture_item",
+				"item_count": 1,
+				"access_rules": ["z1recorder"],
+				"chest_unopened_img": "images/LoZ/recorderwater.png",
+				"chest_opened_img": "images/LoZ/opencave.png"
+			}
+		]
+	},
+	{
+		"name": "Map 44 - Lake Shop",
+		"short_name": "44",
+		"map_locations": 
+		[
+			{
+				"map": "hyrule",
+				"x": 596,
+				"y": 412,
+				"size": 48,
+				"badge_size": 48
+			}
+		],
+		"sections":
+		[
+			{
+				"name": "Open Cave",
+				"capture_item": true,
+				"capture_item_layout": "Z1_entrance_capture_item",
+				"item_count": 1,
+				"chest_unopened_img": "images/LoZ/opencave.png",
+				"chest_opened_img": "images/LoZ/opencave.png"
+			}
+		]
+	},
+	{
+		"name": "Map 45 - Level 4 Entrance",
+		"short_name": "45",
+		"map_locations": 
+		[
+			{
+				"map": "hyrule",
+				"x": 756,
+				"y": 456,
+				"size": 48,
+				"badge_size": 48
+			}
+		],
+		"sections":
+		[
+			{
+				"name": "Open Cave",
+				"capture_item": true,
+				"capture_item_layout": "Z1_entrance_capture_item",
+				"item_count": 1,
+				"access_rules": ["z1raft"],
+				"chest_unopened_img": "images/LoZ/opencave.png",
+				"chest_opened_img": "images/LoZ/opencave.png"
+			}
+		]
+	},
+	{
+		"name": "Map 46 - Burn Bush",
+		"short_name": "46",
+		"map_locations": 
+		[
+			{
+				"map": "hyrule",
+				"x": 892,
+				"y": 460,
+				"size": 48,
+				"badge_size": 48
+			}
+		],
+		"sections":
+		[
+			{
+				"name": "Burn Bush",
+				"capture_item": true,
+				"capture_item_layout": "Z1_entrance_capture_item",
+				"item_count": 1,
+				"access_rules": ["z1candle"],
+				"chest_unopened_img": "images/LoZ/burnbush.png",
+				"chest_opened_img": "images/LoZ/stairs.png"
+			}
+		]
+	},
+	{
+		"name": "Map 47 - Burn Bush Take Any",
+		"short_name": "47",
+		"map_locations": 
+		[
+			{
+				"map": "hyrule",
+				"x": 1036,
+				"y": 460,
+				"size": 48,
+				"badge_size": 48
+			}
+		],
+		"sections":
+		[
+			{
+				"name": "Burn Bush",
+				"capture_item": true,
+				"capture_item_layout": "Z1_entrance_capture_item",
+				"item_count": 1,
+				"access_rules": ["z1candle"],
+				"chest_unopened_img": "images/LoZ/burnbush.png",
+				"chest_opened_img": "images/LoZ/stairs.png"
+			}
+		]
+	},
+	{
+		"name": "Map 48 - Burn Bush",
+		"short_name": "48",
+		"map_locations": 
+		[
+			{
+				"map": "hyrule",
+				"x": 1180,
+				"y": 420,
+				"size": 48,
+				"badge_size": 48
+			}
+		],
+		"sections":
+		[
+			{
+				"name": "Burn Bush",
+				"capture_item": true,
+				"capture_item_layout": "Z1_entrance_capture_item",
+				"item_count": 1,
+				"access_rules": ["z1candle"],
+				"chest_unopened_img": "images/LoZ/burnbush.png",
+				"chest_opened_img": "images/LoZ/stairs.png"
+			}
+		]
+	},
+	{
+		"name": "Map 49 - Desert Warp",
+		"short_name": "49",
+		"map_locations": 
+		[
+			{
+				"map": "hyrule",
+				"x": 1228,
+				"y": 444,
+				"size": 48,
+				"badge_size": 48
+			}
+		],
+		"sections":
+		[
+			{
+				"name": "Push Rock",
+				"capture_item": true,
+				"capture_item_layout": "Z1_entrance_capture_item",
+				"item_count": 1,
+				"access_rules": ["z1bracelet"],
+				"chest_unopened_img": "images/LoZ/pushrock.png",
+				"chest_opened_img": "images/LoZ/stairs.png"
+			}
+		]
+	},
+	{
+		"name": "Map 4A - Desert Shop",
+		"short_name": "4A",
+		"map_locations": 
+		[
+			{
+				"map": "hyrule",
+				"x": 1420,
+				"y": 412,
+				"size": 48,
+				"badge_size": 48
+			}
+		],
+		"sections":
+		[
+			{
+				"name": "Open Cave",
+				"capture_item": true,
+				"capture_item_layout": "Z1_entrance_capture_item",
+				"item_count": 1,
+				"chest_unopened_img": "images/LoZ/opencave.png",
+				"chest_opened_img": "images/LoZ/opencave.png"
+			}
+		]
+	},
+	{
+		"name": "Map 4B - Burn Bush",
+		"short_name": "4B",
+		"map_locations": 
+		[
+			{
+				"map": "hyrule",
+				"x": 1548,
+				"y": 420,
+				"size": 48,
+				"badge_size": 48
+			}
+		],
+		"sections":
+		[
+			{
+				"name": "Burn Bush",
+				"capture_item": true,
+				"capture_item_layout": "Z1_entrance_capture_item",
+				"item_count": 1,
+				"access_rules": ["z1candle"],
+				"chest_unopened_img": "images/LoZ/burnbush.png",
+				"chest_opened_img": "images/LoZ/stairs.png"
+			}
+		]
+	},
+	{
+		"name": "Map 4D - Burn Bush",
+		"short_name": "4D",
+		"map_locations": 
+		[
+			{
+				"map": "hyrule",
+				"x": 1822,
+				"y": 452,
+				"size": 48,
+				"badge_size": 48
+			}
+		],
+		"sections":
+		[
+			{
+				"name": "Burn Bush",
+				"capture_item": true,
+				"capture_item_layout": "Z1_entrance_capture_item",
+				"item_count": 1,
+				"access_rules": ["z1candle"],
+				"chest_unopened_img": "images/LoZ/burnbush.png",
+				"chest_opened_img": "images/LoZ/stairs.png"
+			}
+		]
+	},
+	{
+		"name": "Map 4E - Lower Forest Armos",
+		"short_name": "4E",
+		"map_locations": 
+		[
+			{
+				"map": "hyrule",
+				"x": 1904,
+				"y": 436,
+				"size": 48,
+				"badge_size": 48
+			}
+		],
+		"sections":
+		[
+			{
+				"name": "Under Armos",
+				"capture_item": true,
+				"capture_item_layout": "Z1_entrance_capture_item",
+				"item_count": 1,
+				"chest_unopened_img": "images/LoZ/armos.png",
+				"chest_opened_img": "images/LoZ/stairs.png"
+			}
+		]
+	},
+	{
+		"name": "Map 51 - Burn Bush",
+		"short_name": "51",
+		"map_locations": 
+		[
+			{
+				"map": "hyrule",
+				"x": 252,
+				"y": 540,
+				"size": 48,
+				"badge_size": 48
+			}
+		],
+		"sections":
+		[
+			{
+				"name": "Burn Bush",
+				"capture_item": true,
+				"capture_item_layout": "Z1_entrance_capture_item",
+				"item_count": 1,
+				"access_rules": ["z1candle"],
+				"chest_unopened_img": "images/LoZ/burnbush.png",
+				"chest_opened_img": "images/LoZ/stairs.png"
+			}
+		]
+	},
+	{
+		"name": "Map 56 - Burn Bush",
+		"short_name": "56",
+		"map_locations": 
+		[
+			{
+				"map": "hyrule",
+				"x": 900,
+				"y": 540,
+				"size": 48,
+				"badge_size": 48
+			}
+		],
+		"sections":
+		[
+			{
+				"name": "Burn Bush",
+				"capture_item": true,
+				"capture_item_layout": "Z1_entrance_capture_item",
+				"item_count": 1,
+				"access_rules": ["z1candle"],
+				"chest_unopened_img": "images/LoZ/burnbush.png",
+				"chest_opened_img": "images/LoZ/stairs.png"
+			}
+		]
+	},
+	{
+		"name": "Map 5B - Burn Bush",
+		"short_name": "5B",
+		"map_locations": 
+		[
+			{
+				"map": "hyrule",
+				"x": 1476,
+				"y": 540,
+				"size": 48,
+				"badge_size": 48
+			}
+		],
+		"sections":
+		[
+			{
+				"name": "Burn Bush",
+				"capture_item": true,
+				"capture_item_layout": "Z1_entrance_capture_item",
+				"item_count": 1,
+				"access_rules": ["z1candle"],
+				"chest_unopened_img": "images/LoZ/burnbush.png",
+				"chest_opened_img": "images/LoZ/stairs.png"
+			}
+		]
+	},
+	{
+		"name": "Map 5E - Forest Shop",
+		"short_name": "5E",
+		"map_locations": 
+		[
+			{
+				"map": "hyrule",
+				"x": 1900,
+				"y": 500,
+				"size": 48,
+				"badge_size": 48
+			}
+		],
+		"sections":
+		[
+			{
+				"name": "Open Cave",
+				"capture_item": true,
+				"capture_item_layout": "Z1_entrance_capture_item",
+				"item_count": 1,
+				"chest_unopened_img": "images/LoZ/opencave.png",
+				"chest_opened_img": "images/LoZ/opencave.png"
+			}
+		]
+	},
+	{
+		"name": "Map 5F - Overworld Item",
+		"short_name": "5F",
+		"map_locations": 
+		[
+			{
+				"map": "hyrule",
+				"x": 2068,
+				"y": 532,
+				"size": 48,
+				"badge_size": 48
+			}
+		],
+		"sections":
+		[
+			{
+				"name": "Use Ladder",
+				"capture_item": true,
+				"item_count": 1,
+				"access_rules": [ "z1ladder", "{}" ],
+				"chest_unopened_img": "images/LoZ/ladderwater.png",
+				"chest_opened_img": "images/LoZ/bridge.png"
+			}
+		]
+	},
+	{
+		"name": "Map 62 - Burn Bush",
+		"short_name": "62",
+		"map_locations": 
+		[
+			{
+				"map": "hyrule",
+				"x": 372,
+				"y": 596,
+				"size": 48,
+				"badge_size": 48
+			}
+		],
+		"sections":
+		[
+			{
+				"name": "Burn Bush",
+				"capture_item": true,
+				"capture_item_layout": "Z1_entrance_capture_item",
+				"item_count": 1,
+				"access_rules": ["z1candle"],
+				"chest_unopened_img": "images/LoZ/burnbush.png",
+				"chest_opened_img": "images/LoZ/stairs.png"
+			}
+		]
+	},
+	{
+		"name": "Map 63 - Burn Bush",
+		"short_name": "63",
+		"map_locations": 
+		[
+			{
+				"map": "hyrule",
+				"x": 484,
+				"y": 628,
+				"size": 48,
+				"badge_size": 48
+			}
+		],
+		"sections":
+		[
+			{
+				"name": "Burn Bush",
+				"capture_item": true,
+				"capture_item_layout": "Z1_entrance_capture_item",
+				"item_count": 1,
+				"access_rules": ["z1candle"],
+				"chest_unopened_img": "images/LoZ/burnbush.png",
+				"chest_opened_img": "images/LoZ/stairs.png"
+			}
+		]
+	},
+	{
+		"name": "Map 64 - Dead Woods Shop",
+		"short_name": "64",
+		"map_locations": 
+		[
+			{
+				"map": "hyrule",
+				"x": 620,
+				"y": 584,
+				"size": 48,
+				"badge_size": 48
+			}
+		],
+		"sections":
+		[
+			{
+				"name": "Open Cave",
+				"capture_item": true,
+				"capture_item_layout": "Z1_entrance_capture_item",
+				"item_count": 1,
+				"chest_unopened_img": "images/LoZ/opencave.png",
+				"chest_opened_img": "images/LoZ/opencave.png"
+			}
+		]
+	},
+	{
+		"name": "Map 67 - Bomb Wall",
+		"short_name": "67",
+		"map_locations": 
+		[
+			{
+				"map": "hyrule",
+				"x": 1008,
+				"y": 588,
+				"size": 48,
+				"badge_size": 48
+			}
+		],
+		"sections":
+		[
+			{
+				"name": "Bomb Wall",
+				"capture_item": true,
+				"capture_item_layout": "Z1_entrance_capture_item",
+				"item_count": 1,
+				"access_rules": [ "z1bomb"],
+                "chest_unopened_img": "images/LoZ/bombwall.png",
+				"chest_opened_img": "images/LoZ/opencave.png"
+			}
+		]
+	},
+	{
+		"name": "Map 68 - Burn Bush",
+		"short_name": "8",
+		"map_locations": 
+		[
+			{
+				"map": "hyrule",
+				"x": 1092,
+				"y": 628,
+				"size": 48,
+				"badge_size": 48
+			}
+		],
+		"sections":
+		[
+			{
+				"name": "Burn Bush",
+				"capture_item": true,
+				"capture_item_layout": "Z1_entrance_capture_item",
+				"item_count": 1,
+				"access_rules": ["z1candle"],
+				"chest_unopened_img": "images/LoZ/burnbush.png",
+				"chest_opened_img": "images/LoZ/stairs.png"
+			}
+		]
+	},
+	{
+		"name": "Map 6A - Burn Bush",
+		"short_name": "6A",
+		"map_locations": 
+		[
+			{
+				"map": "hyrule",
+				"x": 1428,
+				"y": 628,
+				"size": 48,
+				"badge_size": 48
+			}
+		],
+		"sections":
+		[
+			{
+				"name": "Burn Bush",
+				"capture_item": true,
+				"capture_item_layout": "Z1_entrance_capture_item",
+				"item_count": 1,
+				"access_rules": ["z1candle"],
+				"chest_unopened_img": "images/LoZ/burnbush.png",
+				"chest_opened_img": "images/LoZ/stairs.png"
+			}
+		]
+	},
+	{
+		"name": "Map 6B - Burn Bush",
+		"short_name": "6B",
+		"map_locations": 
+		[
+			{
+				"map": "hyrule",
+				"x": 1524,
+				"y": 628,
+				"size": 48,
+				"badge_size": 48
+			}
+		],
+		"sections":
+		[
+			{
+				"name": "Burn Bush",
+				"capture_item": true,
+				"capture_item_layout": "Z1_entrance_capture_item",
+				"item_count": 1,
+				"access_rules": ["z1candle"],
+				"chest_unopened_img": "images/LoZ/burnbush.png",
+				"chest_opened_img": "images/LoZ/stairs.png"
+			}
+		]
+	},
+	{
+		"name": "Map 6D - Level 8 Entrance",
+		"short_name": "6D",
+		"map_locations": 
+		[
+			{
+				"map": "hyrule",
+				"x": 1796,
+				"y": 616,
+				"size": 48,
+				"badge_size": 48
+			}
+		],
+		"sections":
+		[
+			{
+				"name": "Burn Bush",
+				"capture_item": true,
+				"capture_item_layout": "Z1_entrance_capture_item",
+				"item_count": 1,
+				"access_rules": ["z1candle"],
+				"chest_unopened_img": "images/LoZ/burnbush.png",
+				"chest_opened_img": "images/LoZ/stairs.png"
+			}
+		]
+	},
+	{
+		"name": "Map 6F - Coast Shop",
+		"short_name": "6F",
+		"map_locations": 
+		[
+			{
+				"map": "hyrule",
+				"x": 1996,
+				"y": 588,
+				"size": 48,
+				"badge_size": 48
+			}
+		],
+		"sections":
+		[
+			{
+				"name": "Open Cave",
+				"capture_item": true,
+				"capture_item_layout": "Z1_entrance_capture_item",
+				"item_count": 1,
+				"chest_unopened_img": "images/LoZ/opencave.png",
+				"chest_opened_img": "images/LoZ/opencave.png"
+			}
+		]
+	},
+	{
+		"name": "Map 70 - Hint Shop",
+		"short_name": "70",
+		"map_locations": 
+		[
+			{
+				"map": "hyrule",
+				"x": 140,
+				"y": 676,
+				"size": 48,
+				"badge_size": 48
+			}
+		],
+		"sections":
+		[
+			{
+				"name": "Open Cave",
+				"capture_item": true,
+				"capture_item_layout": "Z1_entrance_capture_item",
+				"item_count": 1,
+				"chest_unopened_img": "images/LoZ/opencave.png",
+				"chest_opened_img": "images/LoZ/opencave.png"
+			}
+		]
+	},
+	{
+		"name": "Map 71 - Bomb Wall",
+		"short_name": "71",
+		"map_locations": 
+		[
+			{
+				"map": "hyrule",
+				"x": 220,
+				"y": 676,
+				"size": 48,
+				"badge_size": 48
+			}
+		],
+		"sections":
+		[
+			{
+				"name": "Bomb Wall",
+				"capture_item": true,
+				"capture_item_layout": "Z1_entrance_capture_item",
+				"item_count": 1,
+				"access_rules": [ "z1bomb"],
+                "chest_unopened_img": "images/LoZ/bombwall.png",
+				"chest_opened_img": "images/LoZ/opencave.png"
+			}
+		]
+	},
+	{
+		"name": "Map 74 - Level 3 Entrance",
+		"short_name": "74",
+		"map_locations": 
+		[
+			{
+				"map": "hyrule",
+				"x": 628,
+				"y": 720,
+				"size": 48,
+				"badge_size": 48
+			}
+		],
+		"sections":
+		[
+			{
+				"name": "Open Cave",
+				"capture_item": true,
+				"capture_item_layout": "Z1_entrance_capture_item",
+				"item_count": 1,
+				"chest_unopened_img": "images/LoZ/opencave.png",
+				"chest_opened_img": "images/LoZ/opencave.png"
+			}
+		]
+	},
+	{
+		"name": "Map 75 - Hint Shop",
+		"short_name": "75",
+		"map_locations": 
+		[
+			{
+				"map": "hyrule",
+				"x": 708,
+				"y": 676,
+				"size": 48,
+				"badge_size": 48
+			}
+		],
+		"sections":
+		[
+			{
+				"name": "Open Cave",
+				"capture_item": true,
+				"capture_item_layout": "Z1_entrance_capture_item",
+				"item_count": 1,
+				"chest_unopened_img": "images/LoZ/opencave.png",
+				"chest_opened_img": "images/LoZ/opencave.png"
+			}
+		]
+	},
+	{
+		"name": "Map 76 - Bomb Wall",
+		"short_name": "76",
+		"map_locations": 
+		[
+			{
+				"map": "hyrule",
+				"x": 868,
+				"y": 676,
+				"size": 48,
+				"badge_size": 48
+			}
+		],
+		"sections":
+		[
+			{
+				"name": "Bomb Wall",
+				"capture_item": true,
+				"capture_item_layout": "Z1_entrance_capture_item",
+				"item_count": 1,
+				"access_rules": [ "z1bomb"],
+                "chest_unopened_img": "images/LoZ/bombwall.png",
+				"chest_opened_img": "images/LoZ/opencave.png"
+			}
+		]
+	},
+	{
+		"name": "Map 77 - Cave 10 - Wood Sword",
+		"short_name": "77",
+		"map_locations": 
+		[
+			{
+				"map": "hyrule",
+				"x": 980,
+				"y": 676,
+				"size": 48,
+				"badge_size": 48
+			}
+		],
+		"sections":
+		[
+			{
+				"name": "Open Cave",
+				"capture_item": true,
+				"capture_item_layout": "Z1_entrance_capture_item",
+				"item_count": 1,
+				"chest_unopened_img": "images/LoZ/opencave.png",
+				"chest_opened_img": "images/LoZ/opencave.png"
+			}
+		]
+	},
+	{
+		"name": "Map 78 - Burn Bush",
+		"short_name": "78",
+		"map_locations": 
+		[
+			{
+				"map": "hyrule",
+				"x": 1108,
+				"y": 716,
+				"size": 48,
+				"badge_size": 48
+			}
+		],
+		"sections":
+		[
+			{
+				"name": "Burn Bush",
+				"capture_item": true,
+				"capture_item_layout": "Z1_entrance_capture_item",
+				"item_count": 1,
+				"access_rules": ["z1candle"],
+				"chest_unopened_img": "images/LoZ/burnbush.png",
+				"chest_opened_img": "images/LoZ/stairs.png"
+			}
+		]
+	},
+	{
+		"name": "Map 79 - South Warp",
+		"short_name": "79",
+		"map_locations": 
+		[
+			{
+				"map": "hyrule",
+				"x": 1268,
+				"y": 708,
+				"size": 48,
+				"badge_size": 48
+			}
+		],
+		"sections":
+		[
+			{
+				"name": "Push Rock",
+				"capture_item": true,
+				"capture_item_layout": "Z1_entrance_capture_item",
+				"item_count": 1,
+				"access_rules": ["z1bracelet"],
+				"chest_unopened_img": "images/LoZ/pushrock.png",
+				"chest_opened_img": "images/LoZ/stairs.png"
+			}
+		]
+	},
+	{
+		"name": "Map 7B - South Shore Take Any",
+		"short_name": "7B",
+		"map_locations": 
+		[
+			{
+				"map": "hyrule",
+				"x": 1532,
+				"y": 676,
+				"size": 48,
+				"badge_size": 48
+			}
+		],
+		"sections":
+		[
+			{
+				"name": "Bomb Wall",
+				"capture_item": true,
+				"capture_item_layout": "Z1_entrance_capture_item",
+				"item_count": 1,
+				"access_rules": [ "z1bomb"],
+                "chest_unopened_img": "images/LoZ/bombwall.png",
+				"chest_opened_img": "images/LoZ/opencave.png"
+			}
+		]
+	},
+	{
+		"name": "Map 7C - Bomb Wall",
+		"short_name": "7C",
+		"map_locations": 
+		[
+			{
+				"map": "hyrule",
+				"x": 1636,
+				"y": 676,
+				"size": 48,
+				"badge_size": 48
+			}
+		],
+		"sections":
+		[
+			{
+				"name": "Bomb Wall",
+				"capture_item": true,
+				"capture_item_layout": "Z1_entrance_capture_item",
+				"item_count": 1,
+				"access_rules": [ "z1bomb"],
+                "chest_unopened_img": "images/LoZ/bombwall.png",
+				"chest_opened_img": "images/LoZ/opencave.png"
+			}
+		]
+	},
+	{
+		"name": "Map 7D - Bomb Wall",
+		"short_name": "7D",
+		"map_locations": 
+		[
+			{
+				"map": "hyrule",
+				"x": 1764,
+				"y": 676,
+				"size": 48,
+				"badge_size": 48
+			}
+		],
+		"sections":
+		[
+			{
+				"name": "Bomb Wall",
+				"capture_item": true,
+				"capture_item_layout": "Z1_entrance_capture_item",
+				"item_count": 1,
+				"access_rules": [ "z1bomb"],
+                "chest_unopened_img": "images/LoZ/bombwall.png",
+				"chest_opened_img": "images/LoZ/opencave.png"
+			}
+		]
+	}
+]
+		
