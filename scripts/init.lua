@@ -16,6 +16,8 @@ local triforcecount = TriforceCount()
 -- Are we using a keysanity variant?
 --IS_KEYSANITY = string.find(Tracker.ActiveVariantUID, "keys") ~= nil
 
+-- Are we using Z1 Entrance varient?
+IS_Z1ENTRANCE = string.find(Tracker.ActiveVariantUID, "z1ent") ~= nil
 
 -- Items
 Tracker:AddItems("items/common.json")
@@ -63,7 +65,13 @@ Tracker:AddLocations("locations/sm/norfairupper.json")
 Tracker:AddLocations("locations/sm/norfairlower.json")
 Tracker:AddLocations("locations/sm/maridia.json")
 
-Tracker:AddLocations("locations/loz/overworld.json")
+if IS_Z1ENTRANCE then
+    Tracker:AddItems("items/entrance_badges.json")
+    Tracker:AddLocations("locations/loz/entrando.json")
+    ScriptHost:LoadScript("scripts/capturebadge.lua")
+else
+    Tracker:AddLocations("locations/loz/overworld.json")
+end
 Tracker:AddLocations("locations/loz/level_1.json")
 Tracker:AddLocations("locations/loz/level_2.json")
 Tracker:AddLocations("locations/loz/level_3.json")
