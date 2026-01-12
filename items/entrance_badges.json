@@ -1,0 +1,183 @@
+[
+	//LoZ
+    {
+		"name": "Level 1",
+		"type": "toggle",
+		"img": "images/LoZ/levelone.png",
+		"codes": "levelone"
+	},
+    {
+		"name": "Level 2",
+		"type": "toggle",
+		"img": "images/LoZ/leveltwo.png",
+		"codes": "leveltwo"
+	},
+    {
+		"name": "Level 3",
+		"type": "toggle",
+		"img": "images/LoZ/levelthree.png",
+		"codes": "levelthree"
+	},
+    {
+		"name": "Level 4",
+		"type": "toggle",
+		"img": "images/LoZ/levelfour.png",
+		"codes": "levelfour"
+	},
+	{
+		"name": "Level 5",
+		"type": "toggle",
+		"img": "images/LoZ/levelfive.png",
+		"codes": "levelfive"
+	},
+	{
+		"name": "Level 6",
+		"type": "toggle",
+		"img": "images/LoZ/levelsix.png",
+		"codes": "levelsix"
+	},
+	{
+		"name": "Level 7",
+		"type": "toggle",
+		"img": "images/LoZ/levelseven.png",
+		"codes": "levelseven"
+	},
+	{
+		"name": "Level 8",
+		"type": "toggle",
+		"img": "images/LoZ/leveleight.png",
+		"codes": "leveleight"
+	},
+	{
+		"name": "Level 9",
+		"type": "toggle",
+		"img": "images/LoZ/levelnine.png",
+		"codes": "levelnine"
+	},
+    {
+		"name": "Hint Shop",
+		"type": "toggle",
+		"img": "images/LoZ/oldwoman.png",
+		"codes": "hintshop"
+	},
+	{
+		"name": "Generic Shop",
+		"type": "toggle",
+		"img": "images/LoZ/merchant.png",
+		"codes": "genericshop"
+	},
+	{
+		"name": "Medicine Shop",
+		"type": "toggle",
+		"img": "images/LoZ/medicine.png",
+		"codes": "medicineshop"
+	},
+    {
+        "name": "Take Any Cave",
+        "type": "toggle",
+        "img": "images/LoZ/takeanycave.png",
+        "codes": "takeanycave"
+    },
+	{
+		"name": "Arrow Shop",
+		"type": "toggle",
+		"img": "images/LoZ/shoparrow.png",
+		"codes": "arrowshop"
+	},
+	{
+		"name": "Bait Shop",
+		"type": "toggle",
+		"img": "images/LoZ/shopbait.png",
+		"codes": "baitshop"
+	},
+	{
+		"name": "Key Shop",
+		"type": "toggle",
+		"img": "images/LoZ/shopkey.png",
+		"codes": "keyshop"
+	},
+	{
+		"name": "Blue Ring Shop",
+		"type": "toggle",
+		"img": "images/LoZ/shopbluering.png",
+		"codes": "blueringshop"
+	},
+	{
+		"name": "Bomb Shop",
+		"type": "toggle",
+		"img": "images/LoZ/shopbomb.png",
+		"codes": "bombshop"
+	},
+	{
+		"name": "Candle Shop",
+		"type": "toggle",
+		"img": "images/LoZ/shopcandle.png",
+		"codes": "candleshop"
+	},
+    {
+		"name": "Magic Shield Shop",
+		"type": "toggle",
+		"img": "images/LoZ/shopmagicshield.png",
+		"codes": "magicshieldshop"
+	},
+	{
+		"name": "Money Making Game",
+		"type": "toggle",
+		"img": "images/LoZ/moneymakinggame.png",
+		"codes": "moneymakinggame"
+	},
+    {
+		"name": "Warp 1",
+		"type": "toggle",
+		"img": "images/LoZ/warp1.png",
+		"codes": "warp1"
+	},
+    {
+		"name": "Warp 2",
+		"type": "toggle",
+		"img": "images/LoZ/warp2.png",
+		"codes": "warp2"
+	},
+    {
+		"name": "Warp 3",
+		"type": "toggle",
+		"img": "images/LoZ/warp3.png",
+		"codes": "warp3"
+	},
+    {
+		"name": "Warp 4",
+		"type": "toggle",
+		"img": "images/LoZ/warp4.png",
+		"codes": "warp4"
+	},
+    {
+		"name": "Wood Sword Cave",
+		"type": "toggle",
+		"img": "images/LoZ/woodswordcave.png",
+		"codes": "woodswordcave"
+	},
+    {
+		"name": "White Sword Cave",
+		"type": "toggle",
+		"img": "images/LoZ/whiteswordcave.png",
+		"codes": "whiteswordcave"
+	},
+    {
+		"name": "Magic Sword Cave",
+		"type": "toggle",
+		"img": "images/LoZ/magicswordcave.png",
+		"codes": "magicswordcave"
+	},
+    {
+		"name": "Door Repair",
+		"type": "toggle",
+		"img": "images/LoZ/rupoor.png",
+		"codes": "doorrepair"
+	},
+    {
+		"name": "Secret To Everyone",
+		"type": "toggle",
+		"img": "images/LoZ/rupees.png",
+		"codes": "secret"
+	}
+]
