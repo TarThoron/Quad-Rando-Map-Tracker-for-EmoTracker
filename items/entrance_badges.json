@@ -179,5 +179,634 @@
 		"type": "toggle",
 		"img": "images/LoZ/rupees.png",
 		"codes": "secret"
+	},
+
+	//ALttP
+	//Dropdowns
+	{
+		"name": "Lumberjack",
+		"type": "toggle",
+		"img": "images/ALttP/Badges/dropdowns/lumberjack.png",
+		"codes": "lumberjack"
+	},
+	{
+		"name": "Magic Bat",
+		"type": "toggle",
+		"img": "images/ALttP/Badges/dropdowns/bat.png",
+		"codes": "bat"
+	},
+	{
+		"name": "Fairy",
+		"type": "toggle",
+		"img": "images/ALttP/Badges/dropdowns/fairy.png",
+		"codes": "fairy"
+	},
+	{
+		"name": "Ganon Hole",
+		"type": "toggle",
+		"img": "images/ALttP/Badges/dropdowns/ganon.png",
+		"codes": "ganonhole"
+	},
+	{
+		"name": "Sanctuary",
+		"type": "toggle",
+		"img": "images/ALttP/Badges/dropdowns/sanc.png",
+		"codes": "sanc"
+	},
+	{
+		"name": "Skull Woods Big Chest",
+		"type": "toggle",
+		"img": "images/ALttP/Badges/dropdowns/sw-bigchest.png",
+		"codes": "swbigchest"
+	},
+	{
+		"name": "Skull Woods Compass",
+		"type": "toggle",
+		"img": "images/ALttP/Badges/dropdowns/sw-compass.png",
+		"codes": "swcompass"
+	},
+	{
+		"name": "Skull Woods Back",
+		"type": "toggle",
+		"img": "images/ALttP/Badges/dropdowns/sw-hazard.png",
+		"codes": "swback"
+	},
+	{
+		"name": "Skull Woods Pinball Room",
+		"type": "toggle",
+		"img": "images/ALttP/Badges/dropdowns/sw-pinball.png",
+		"codes": "swpinball"
+	},
+	{
+		"name": "Thief's Hideout",
+		"type": "toggle",
+		"img": "images/ALttP/Badges/dropdowns/thief.png",
+		"codes": "thief"
+	},
+	{
+		"name": "Uncle",
+		"type": "toggle",
+		"img": "images/ALttP/Badges/dropdowns/uncle.png",
+		"codes": "uncle"
+	},
+	{
+		"name": "Well",
+		"type": "toggle",
+		"img": "images/ALttP/Badges/dropdowns/well.png",
+		"codes": "well"
+	},
+	//Dungeons
+	{
+		"name": "Aga Tower",
+		"type": "toggle",
+		"img": "images/ALttP/Badges/dungeons/at.png",
+		"codes": "atbadge"
+	},
+	{
+		"name": "Desert Palace Back",
+		"type": "toggle",
+		"img": "images/ALttP/Badges/dungeons/dp-back.png",
+		"codes": "dpback"
+	},
+	{
+		"name": "Desert Palace Front",
+		"type": "toggle",
+		"img": "images/ALttP/Badges/dungeons/dp-front.png",
+		"codes": "dpfront"
+	},
+	{
+		"name": "Desert Palace Left",
+		"type": "toggle",
+		"img": "images/ALttP/Badges/dungeons/dp-left.png",
+		"codes": "dpleft"
+	},
+	{
+		"name": "Desert Palace Right",
+		"type": "toggle",
+		"img": "images/ALttP/Badges/dungeons/dp-right.png",
+		"codes": "dpright"
+	},
+	{
+		"name": "Eastern Palace",
+		"type": "toggle",
+		"img": "images/ALttP/Badges/dungeons/ep.png",
+		"codes": "epbadge"
+	},
+	{
+		"name": "Ganon's Tower",
+		"type": "toggle",
+		"img": "images/ALttP/Badges/dungeons/gt.png",
+		"codes": "gtbadge"
+	},
+	{
+		"name": "Hyrule Castle Front",
+		"type": "toggle",
+		"img": "images/ALttP/Badges/dungeons/hc-front.png",
+		"codes": "hcfront"
+	},
+	{
+		"name": "Hyrule Castle Left",
+		"type": "toggle",
+		"img": "images/ALttP/Badges/dungeons/hc-left.png",
+		"codes": "hcleft"
+	},
+	{
+		"name": "Hyrule Castle Right",
+		"type": "toggle",
+		"img": "images/ALttP/Badges/dungeons/hc-right.png",
+		"codes": "hcright"
+	},
+	{
+		"name": "Ice Palace",
+		"type": "toggle",
+		"img": "images/ALttP/Badges/dungeons/ip.png",
+		"codes": "ipbadge"
+	},
+	{
+		"name": "Misery Mire",
+		"type": "toggle",
+		"img": "images/ALttP/Badges/dungeons/mm.png",
+		"codes": "mmbadge"
+	},
+	{
+		"name": "Palace of Darkness",
+		"type": "toggle",
+		"img": "images/ALttP/Badges/dungeons/pod.png",
+		"codes": "podbadge"
+	},
+	{
+		"name": "Swamp Palace",
+		"type": "toggle",
+		"img": "images/ALttP/Badges/dungeons/sp.png",
+		"codes": "spbadge"
+	},
+	{
+		"name": "Skull Woods Boss",
+		"type": "toggle",
+		"img": "images/ALttP/Badges/dungeons/sw.png",
+		"codes": "swbadge"
+	},
+	{
+		"name": "Skull Woods Middle Left",
+		"type": "toggle",
+		"img": "images/ALttP/Badges/dungeons/sw-back.png",
+		"codes": "swmidleft"
+	},
+	{
+		"name": "Skull Woods Middle Right",
+		"type": "toggle",
+		"img": "images/ALttP/Badges/dungeons/sw-backsouth.png",
+		"codes": "swmidright"
+	},
+	{
+		"name": "Skull Woods Front",
+		"type": "toggle",
+		"img": "images/ALttP/Badges/dungeons/sw-front.png",
+		"codes": "swfront"
+	},
+	{
+		"name": "Tower of Hera",
+		"type": "toggle",
+		"img": "images/ALttP/Badges/dungeons/toh.png",
+		"codes": "tohbadge"
+	},
+	
+	{
+		"name": "Laser Bridge",
+		"type": "toggle",
+		"img": "images/ALttP/Badges/dungeons/tr-boss.png",
+		"codes": "laserbridge"
+	},
+	{
+		"name": "Turtle Rock",
+		"type": "toggle",
+		"img": "images/ALttP/Badges/dungeons/tr-front.png",
+		"codes": "trfront"
+	},
+	{
+		"name": "Turtle Rock Eye Door",
+		"type": "toggle",
+		"img": "images/ALttP/Badges/dungeons/tr-left.png",
+		"codes": "trleft"
+	},
+	{
+		"name": "Turtle Rock Big Chest",
+		"type": "toggle",
+		"img": "images/ALttP/Badges/dungeons/tr-right.png",
+		"codes": "trright"
+	},
+	
+	{
+		"name": "Thieves Town",
+		"type": "toggle",
+		"img": "images/ALttP/Badges/dungeons/tt.png",
+		"codes": "ttbadge"
+	},
+	//Special Locations
+	{
+		"name": "Library",
+		"type": "toggle",
+		"img": "images/ALttP/Badges/locations/library.png",
+		"codes": "library"
+	},
+	{
+		"name": "Dam",
+		"type": "toggle",
+		"img": "images/ALttP/Badges/locations/dam.png",
+		"codes": "dam"
+	},
+	{
+		"name": "Dam Drained",
+		"type": "toggle",
+		"img": "images/ALttP/Badges/locations/dam-drained.png",
+		"disabled_img": "images/ALttP/Badges/locations/dam-flooded.png",
+		"disabled_img_mods": "",
+		"codes": "drain"
+	},
+	{
+		"name": "Mimic Cave",
+		"type": "toggle",
+		"img": "images/ALttP/Badges/locations/mimic.png",
+		"codes": "mimic"
+	},
+	{
+		"name": "Potion Shop",
+		"type": "toggle",
+		"img": "images/ALttP/Badges/locations/potionshop.png",
+		"codes": "potion"
+	},
+	{
+		"name": "Bomb Shop",
+		"type": "toggle",
+		"img": "images/ALttP/Badges/locations/redbomb.png",
+		"codes": "bigbomb"
+	},
+	{
+		"name": "Sahasrala",
+		"type": "toggle",
+		"img": "images/ALttP/Badges/locations/sah.png",
+		"codes": "saha"
+	},
+	{
+		"name": "Sick Kid",
+		"type": "toggle",
+		"img": "images/ALttP/Badges/locations/sickkid.png",
+		"codes": "sickkid"
+	},
+	{
+		"name": "Smith",
+		"type": "toggle",
+		"img": "images/ALttP/Badges/locations/smith.png",
+		"codes": "smith"
+	},
+	{
+		"name": "Spike Cave",
+		"type": "toggle",
+		"img": "images/ALttP/Badges/locations/spike.png",
+		"codes": "spike"
+	},
+	{
+		"name": "Brothers",
+		"type": "toggle",
+		"img": "images/ALttP/Badges/connectors/brother.png",
+		"codes": "brother"
+	},
+	{
+		"name": "Bumper Cave Top",
+		"type": "toggle",
+		"img": "images/ALttP/Badges/connectors/bumper.png",
+		"codes": "bumpertop"
+	},
+	{
+		"name": "Bumper Cave Bottom",
+		"type": "toggle",
+		"img": "images/ALttP/Badges/connectors/bumper-hook.png",
+		"codes": "bumperbottom"
+	},
+	{
+		"name": "Super Bunny Top",
+		"type": "toggle",
+		"img": "images/ALttP/Badges/connectors/bunny-top.png",
+		"codes": "bunnytop"
+	},
+	{
+		"name": "Super Bunny Bottom",
+		"type": "toggle",
+		"img": "images/ALttP/Badges/connectors/bunny-bottom.png",
+		"codes": "bunnybottom"
+	},
+	{
+		"name": "Unknown Dark Cave",
+		"type": "toggle",
+		"img": "images/ALttP/Badges/connectors/dark-unknown.png",
+		"codes": "dark"
+	},
+	{
+		"name": "Saha's Wife",
+		"type": "toggle",
+		"img": "images/ALttP/Badges/connectors/granny.png",
+		"codes": "granny"
+	},
+	{
+		"name": "Mountain Cave",
+		"type": "toggle",
+		"img": "images/ALttP/Badges/connectors/mountaincave.png",
+		"codes": "mtcave"
+	},
+	{
+		"name": "Dark Mopuntian Cave",
+		"type": "toggle",
+		"img": "images/ALttP/Badges/connectors/mountaincave-back.png",
+		"codes": "mtcavedark"
+	},
+	{
+		"name": "Old Man",
+		"type": "toggle",
+		"img": "images/ALttP/Badges/connectors/oldman.png",
+		"codes": "oldman"
+	},
+	{
+		"name": "Paradox Cave Bottom",
+		"type": "toggle",
+		"img": "images/ALttP/Badges/connectors/paradox-bottom.png",
+		"codes": "paradoxb"
+	},
+	{
+		"name": "Paradox Cave Middle",
+		"type": "toggle",
+		"img": "images/ALttP/Badges/connectors/paradox-middle.png",
+		"codes": "paradoxm"
+	},
+	{
+		"name": "Paradox Cave Top",
+		"type": "toggle",
+		"img": "images/ALttP/Badges/connectors/paradox-top.png",
+		"codes": "paradoxt"
+	},
+	{
+		"name": "Spectacle Rock Cave Bottom",
+		"type": "toggle",
+		"img": "images/ALttP/Badges/connectors/spec-bottom.png",
+		"codes": "specb"
+	},
+	{
+		"name": "Spectacle Rock Cave Left",
+		"type": "toggle",
+		"img": "images/ALttP/Badges/connectors/spec-left.png",
+		"codes": "specl"
+	},
+	{
+		"name": "Spectacle Rock Cave Top",
+		"type": "toggle",
+		"img": "images/ALttP/Badges/connectors/spec-top.png",
+		"codes": "spect"
+	},
+	{
+		"name": "Spiral Cave Bottom",
+		"type": "toggle",
+		"img": "images/ALttP/Badges/connectors/spiral-bottom.png",
+		"codes": "spiralb"
+	},
+	{
+		"name": "Spiral Cave Top",
+		"type": "toggle",
+		"img": "images/ALttP/Badges/connectors/spiral-top.png",
+		"codes": "spiralt"
+	},
+	{
+		"name": "Fairy Fountain",
+		"type": "toggle",
+		"img": "images/ALttP/Badges/misc/fairy.png",
+		"codes": "fairyfountain"
+	},
+	{
+		"name": "Shop",
+		"type": "toggle",
+		"img": "images/ALttP/Badges/misc/rupee.png",
+		"codes": "shop"
+	},
+	// Regions
+	{
+		"name": "Castle Second Floor",
+		"capturable": false,
+		"type": "toggle",
+		"img": "images/door_open.png",
+		"disabled_img": "images/door_closed.png",
+		"disabled_img_mods": "",
+		"codes": "castle_top"
+	},
+	{
+		"name": "Desert Ledge",
+		"capturable": false,
+		"type": "toggle",
+		"img": "images/door_open.png",
+		"disabled_img": "images/door_closed.png",
+		"disabled_img_mods": "",
+		"codes": "desert_ledge"
+	},
+	{
+		"name": "Desert Back",
+		"capturable": false,
+		"type": "toggle",
+		"img": "images/door_open.png",
+		"disabled_img": "images/door_closed.png",
+		"disabled_img_mods": "",
+		"codes": "desert_back"
+	},
+	{
+		"name": "Mire Area",
+		"capturable": false,
+		"type": "toggle",
+		"img": "images/door_open.png",
+		"disabled_img": "images/door_closed.png",
+		"disabled_img_mods": "",
+		"codes": "mire_area"
+	},
+	{
+		"name": "Northwest Dark World",
+		"capturable": false,
+		"type": "toggle",
+		"img": "images/door_open.png",
+		"disabled_img": "images/door_closed.png",
+		"disabled_img_mods": "",
+		"codes": "dw_west"
+	},
+	{
+		"name": "Skull Woods Back",
+		"capturable":false,
+		"type":"toggle",
+		"img": "images/door_open.png",
+		"disabled_img": "images/door_closed.png",
+		"disabled_img_mods": "",
+		"codes": "sw_back"
+	},
+	{
+		"name": "South Dark World",
+		"capturable": false,
+		"type": "toggle",
+		"img": "images/door_open.png",
+		"disabled_img": "images/door_closed.png",
+		"disabled_img_mods": "",
+		"codes": "dw_south"
+	},
+	{
+		"name": "East Dark World",
+		"capturable": false,
+		"type": "toggle",
+		"img": "images/door_open.png",
+		"disabled_img": "images/door_closed.png",
+		"disabled_img_mods": "",
+		"codes": "dw_east"
+	},
+	{
+		"name": "Southeast Dark World",
+		"capturable": false,
+		"type": "toggle",
+		"img": "images/door_open.png",
+		"disabled_img": "images/door_closed.png",
+		"disabled_img_mods": "",
+		"codes": "dw_southeast"
+	},
+	{
+		"name": "Dark Witch Hut",
+		"capturable": false,
+		"type": "toggle",
+		"img": "images/door_open.png",
+		"disabled_img": "images/door_closed.png",
+		"disabled_img_mods": "",
+		"codes": "dw_witch"
+	},
+	{
+		"name": "Hammer House",
+		"capturable": false,
+		"type": "toggle",
+		"img": "images/door_open.png",
+		"disabled_img": "images/door_closed.png",
+		"disabled_img_mods": "",
+		"codes": "hammer_house"
+	},
+	{
+		"name": "Bumper Cave",
+		"capturable": false,
+		"type": "toggle",
+		"img": "images/door_open.png",
+		"disabled_img": "images/door_closed.png",
+		"disabled_img_mods": "",
+		"codes": "bumper_cave"
+	},
+	{
+		"name": "Ice Palace Area",
+		"capturable": false,
+		"type": "toggle",
+		"img": "images/door_open.png",
+		"disabled_img": "images/door_closed.png",
+		"disabled_img_mods": "",
+		"codes": "ip_area"
+	},
+	{
+		"name": "Death Mountain West Bottom",
+		"capturable": false,
+		"type": "toggle",
+		"img": "images/door_open.png",
+		"disabled_img": "images/door_closed.png",
+		"disabled_img_mods": "",
+		"codes": "dm_west_bottom"
+	},
+	{
+		"name": "Death Mountain West Top",
+		"capturable": false,
+		"type": "toggle",
+		"img": "images/door_open.png",
+		"disabled_img": "images/door_closed.png",
+		"disabled_img_mods": "",
+		"codes": "dm_west_top"
+	},
+	{
+		"name": "Death Mountain East Bottom",
+		"capturable": false,
+		"type": "toggle",
+		"img": "images/door_open.png",
+		"disabled_img": "images/door_closed.png",
+		"disabled_img_mods": "",
+		"codes": "dm_east_bottom"
+	},
+	{
+		"name": "Death Mountain East Top",
+		"capturable": false,
+		"type": "toggle",
+		"img": "images/door_open.png",
+		"disabled_img": "images/door_closed.png",
+		"disabled_img_mods": "",
+		"codes": "dm_east_top"
+	},
+	{
+		"name": "Death Mountain East Connector Top",
+		"capturable": false,
+		"type": "toggle",
+		"img": "images/door_open.png",
+		"disabled_img": "images/door_closed.png",
+		"disabled_img_mods": "",
+		"codes": "dm_east_connect_top"
+	},
+	{
+		"name": "Dark Death Mountain West",
+		"capturable": false,
+		"type": "toggle",
+		"img": "images/door_open.png",
+		"disabled_img": "images/door_closed.png",
+		"disabled_img_mods": "",
+		"codes": "ddm_west"
+	},
+	{
+		"name": "Dark Death Mountain East",
+		"capturable": false,
+		"type": "toggle",
+		"img": "images/door_open.png",
+		"disabled_img": "images/door_closed.png",
+		"disabled_img_mods": "",
+		"codes": "ddm_east"
+	},
+	{
+		"name": "Dark Death Mountain Top",
+		"capturable": false,
+		"type": "toggle",
+		"img": "images/door_open.png",
+		"disabled_img": "images/door_closed.png",
+		"disabled_img_mods": "",
+		"codes": "ddm_top"
+	},
+	{
+		"name": "Dark Death Mountain Floating Island",
+		"capturable": false,
+		"type": "toggle",
+		"img": "images/door_open.png",
+		"disabled_img": "images/door_closed.png",
+		"disabled_img_mods": "",
+		"codes": "ddm_floating"
+	},
+	{
+		"name": "Dark Death Mountain TR Bridge",
+		"capturable": false,
+		"type": "toggle",
+		"img": "images/door_open.png",
+		"disabled_img": "images/door_closed.png",
+		"disabled_img_mods": "",
+		"codes": "ddm_tr_bridge"
+	},
+	{
+		"name": "Dark Death Mountain TR Safety Door",
+		"capturable": false,
+		"type": "toggle",
+		"img": "images/door_open.png",
+		"disabled_img": "images/door_closed.png",
+		"disabled_img_mods": "",
+		"codes": "ddm_tr_safety"
+	},
+	{
+		"name": "Agahnim 2",
+		"capturable": false,
+		"type": "toggle",
+		"img": "images/0055.png",
+		"codes": "aga2,gt"
 	}
 ]

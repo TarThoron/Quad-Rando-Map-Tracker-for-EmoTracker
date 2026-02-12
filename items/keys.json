@@ -4,34 +4,41 @@
     "name": "Eastern Palace Big Key",
     "type": "toggle",
     "loop": "true",
-    "img": "images/BigKey.png",
+    "img": "images/Keysanity/BigKey.png",
     "codes": "ep_bigkey"
   },
   {
     "name": "Desert Palace Big Key",
     "type": "toggle",
     "loop": "true",
-    "img": "images/BigKey.png",
+    "img": "images/Keysanity/BigKey.png",
     "codes": "dp_bigkey"
   },
   {
     "name": "Desert Palace Small Key",
     "type": "consumable",
-    "img": "images/SmallKey2.png",
+    "img": "images/Keysanity/SmallKey2.png",
     "codes": "dp_smallkey",
     "max_quantity": 1
+  },
+  {
+    "name": "Lanmolas",
+    "type": "toggle",
+    "loop": "true",
+    "img": "images/Keysanity/Lanmolas.png",
+    "codes": "lanmolas"
   },
   {
     "name": "Tower of Hera Big Key",
     "type": "toggle",
     "loop": "true",
-    "img": "images/BigKey.png",
+    "img": "images/Keysanity/BigKey.png",
     "codes": "toh_bigkey"
   },
   {
     "name": "Tower of Hera Small Key",
     "type": "consumable",
-    "img": "images/SmallKey2.png",
+    "img": "images/Keysanity/SmallKey2.png",
     "codes": "toh_smallkey",
     "max_quantity": 1
   },
@@ -39,13 +46,13 @@
     "name": "Palace of Darkness Big Key",
     "type": "toggle",
     "loop": "true",
-    "img": "images/BigKey.png",
+    "img": "images/Keysanity/BigKey.png",
     "codes": "pod_bigkey"
   },
   {
     "name": "Palace of Darkness Small Key",
     "type": "consumable",
-    "img": "images/SmallKey2.png",
+    "img": "images/Keysanity/SmallKey2.png",
     "codes": "pod_smallkey",
     "max_quantity": 6
   },
@@ -53,13 +60,13 @@
     "name": "Swamp Palace Big Key",
     "type": "toggle",
     "loop": "true",
-    "img": "images/BigKey.png",
+    "img": "images/Keysanity/BigKey.png",
     "codes": "sp_bigkey"
   },
   {
     "name": "Swamp Palace Small Key",
     "type": "consumable",
-    "img": "images/SmallKey2.png",
+    "img": "images/Keysanity/SmallKey2.png",
     "codes": "sp_smallkey",
     "max_quantity": 1
   },
@@ -67,27 +74,34 @@
     "name": "Skull Woods Big Key",
     "type": "toggle",
     "loop": "true",
-    "img": "images/BigKey.png",
+    "img": "images/Keysanity/BigKey.png",
     "codes": "sw_bigkey"
   },
   {
     "name": "Skull Woods Small Key",
     "type": "consumable",
-    "img": "images/SmallKey2.png",
+    "img": "images/Keysanity/SmallKey2.png",
     "codes": "sw_smallkey",
     "max_quantity": 3
+  },
+  {
+    "name": "Mothula",
+    "type": "toggle",
+    "loop": "true",
+    "img": "images/Keysanity/Mothula.png",
+    "codes": "mothula"
   },
   {
     "name": "Thieves Town Big Key",
     "type": "toggle",
     "loop": "true",
-    "img": "images/BigKey.png",
+    "img": "images/Keysanity/BigKey.png",
     "codes": "tt_bigkey"
   },
   {
     "name": "Thieves Town Small Key",
     "type": "consumable",
-    "img": "images/SmallKey2.png",
+    "img": "images/Keysanity/SmallKey2.png",
     "codes": "tt_smallkey",
     "max_quantity": 1
   },
@@ -95,13 +109,13 @@
     "name": "Ice Palace Big Key",
     "type": "toggle",
     "loop": "true",
-    "img": "images/BigKey.png",
+    "img": "images/Keysanity/BigKey.png",
     "codes": "ip_bigkey"
   },
   {
     "name": "Ice Palace Small Key",
     "type": "consumable",
-    "img": "images/SmallKey2.png",
+    "img": "images/Keysanity/SmallKey2.png",
     "codes": "ip_smallkey",
     "max_quantity": 2
   },
@@ -109,13 +123,13 @@
     "name": "Misery Mire Big Key",
     "type": "toggle",
     "loop": "true",
-    "img": "images/BigKey.png",
+    "img": "images/Keysanity/BigKey.png",
     "codes": "mm_bigkey"
   },
   {
     "name": "Misery Mire Small Key",
     "type": "consumable",
-    "img": "images/SmallKey2.png",
+    "img": "images/Keysanity/SmallKey2.png",
     "codes": "mm_smallkey",
     "max_quantity": 3
   },
@@ -123,34 +137,48 @@
     "name": "Turtle Rock Big Key",
     "type": "toggle",
     "loop": "true",
-    "img": "images/BigKey.png",
+    "img": "images/Keysanity/BigKey.png",
     "codes": "tr_bigkey"
   },
   {
     "name": "Turtle Rock Small Key",
     "type": "consumable",
-    "img": "images/SmallKey2.png",
+    "img": "images/Keysanity/SmallKey2.png",
     "codes": "tr_smallkey",
     "max_quantity": 4
   },
   {
+    "name": "Turtle Rock Big Chest",
+    "type": "toggle",
+    "loop": "true",
+    "img": "images/Keysanity/BigChest.png",
+    "codes": "tr_bigchest"
+  },
+  {
+    "name": "Trinex",
+    "type": "toggle",
+    "loop": "true",
+    "img": "images/Keysanity/Trinex.png",
+    "codes": "trinex"
+  },
+  {
     "name": "Hyrule Castle Small Key",
     "type": "consumable",
-    "img": "images/SmallKey2.png",
+    "img": "images/Keysanity/SmallKey2.png",
     "codes": "hc_smallkey",
     "max_quantity": 1
   },
   {
     "name": "Aganhim's Tower Small Key",
     "type": "consumable",
-    "img": "images/SmallKey2.png",
+    "img": "images/Keysanity/SmallKey2.png",
     "codes": "at_smallkey",
     "max_quantity": 2
   },
   {
     "name": "Ganon's Tower Small Key",
     "type": "consumable",
-    "img": "images/SmallKey2.png",
+    "img": "images/Keysanity/SmallKey2.png",
     "codes": "gt_smallkey",
     "max_quantity": 4
   },
@@ -158,7 +186,7 @@
     "name": "Ganon's Tower Big Key",
     "type": "toggle",
     "loop": "true",
-    "img": "images/BigKey.png",
+    "img": "images/Keysanity/BigKey.png",
     "codes": "gt_bigkey"
   },
 
@@ -167,112 +195,112 @@
     "name": "Crateria Key 1",
     "type": "toggle",
     "loop": "true",
-    "img": "images/sm_keycard_level1.png",
+    "img": "images/Keysanity/sm_keycard_level1.png",
     "codes": "crateria_key1"
   },
   {
     "name": "Crateria Key 2",
     "type": "toggle",
     "loop": "true",
-    "img": "images/sm_keycard_level2.png",
+    "img": "images/Keysanity/sm_keycard_level2.png",
     "codes": "crateria_key2"
   },
   {
     "name": "Crateria Boss Key",
     "type": "toggle",
     "loop": "true",
-    "img": "images/sm_keycard_boss.png",
+    "img": "images/Keysanity/sm_keycard_boss.png",
     "codes": "crateria_bosskey"
   },
   {
     "name": "Brinstar Key 1",
     "type": "toggle",
     "loop": "true",
-    "img": "images/sm_keycard_level1.png",
+    "img": "images/Keysanity/sm_keycard_level1.png",
     "codes": "brinstar_key1"
   },
   {
     "name": "Brinstar Key 2",
     "type": "toggle",
     "loop": "true",
-    "img": "images/sm_keycard_level2.png",
+    "img": "images/Keysanity/sm_keycard_level2.png",
     "codes": "brinstar_key2"
   },
   {
     "name": "Brinstar Boss Key",
     "type": "toggle",
     "loop": "true",
-    "img": "images/sm_keycard_boss.png",
+    "img": "images/Keysanity/sm_keycard_boss.png",
     "codes": "brinstar_bosskey"
   },
   {
     "name": "Upper Norfair Key 1",
     "type": "toggle",
     "loop": "true",
-    "img": "images/sm_keycard_level1.png",
+    "img": "images/Keysanity/sm_keycard_level1.png",
     "codes": "un_key1"
   },
   {
     "name": "Upper Norfair Key 2",
     "type": "toggle",
     "loop": "true",
-    "img": "images/sm_keycard_level2.png",
+    "img": "images/Keysanity/sm_keycard_level2.png",
     "codes": "un_key2"
   },
   {
     "name": "Upper Norfair Boss Key",
     "type": "toggle",
     "loop": "true",
-    "img": "images/sm_keycard_boss.png",
+    "img": "images/Keysanity/sm_keycard_boss.png",
     "codes": "un_bosskey"
   },
   {
     "name": "Maridia Key 1",
     "type": "toggle",
     "loop": "true",
-    "img": "images/sm_keycard_level1.png",
+    "img": "images/Keysanity/sm_keycard_level1.png",
     "codes": "maridia_key1"
   },
   {
     "name": "Maridia Key 2",
     "type": "toggle",
     "loop": "true",
-    "img": "images/sm_keycard_level2.png",
+    "img": "images/Keysanity/sm_keycard_level2.png",
     "codes": "maridia_key2"
   },
   {
     "name": "Maridia Boss Key",
     "type": "toggle",
     "loop": "true",
-    "img": "images/sm_keycard_boss.png",
+    "img": "images/Keysanity/sm_keycard_boss.png",
     "codes": "maridia_bosskey"
   },
   {
     "name": "Wrecked Ship Key 1",
     "type": "toggle",
     "loop": "true",
-    "img": "images/sm_keycard_level1.png",
+    "img": "images/Keysanity/sm_keycard_level1.png",
     "codes": "ws_key1"
   },
   {
     "name": "Wrecked Ship Boss Key",
     "type": "toggle",
     "loop": "true",
-    "img": "images/sm_keycard_boss.png",
+    "img": "images/Keysanity/sm_keycard_boss.png",
     "codes": "ws_bosskey"
   },
   {
     "name": "Lower Norfair Key 1",
     "type": "toggle",
     "loop": "true",
-    "img": "images/sm_keycard_level1.png",
+    "img": "images/Keysanity/sm_keycard_level1.png",
     "codes": "ln_key1"
   },
   {
     "name": "Lower Norfair Boss Key",
     "type": "toggle",
     "loop": "true",
-    "img": "images/sm_keycard_boss.png",
+    "img": "images/Keysanity/sm_keycard_boss.png",
     "codes": "ln_bosskey"
   },
 
@@ -280,35 +308,35 @@
   {
     "name": "Generic Small Key",
     "type": "static",
-    "img": "images/SmallKey2.png",
+    "img": "images/Keysanity/SmallKey2.png",
     "codes": "generic_smallkey",
     "capturable": true
   },
   {
     "name": "Generic Big Key",
     "type": "static",
-    "img": "images/BigKey.png",
+    "img": "images/Keysanity/BigKey.png",
     "codes": "generic_bigkey",
     "capturable": true
   },
   {
     "name": "Generic Level 1 Keycard",
     "type": "static",
-    "img": "images/sm_keycard_level1.png",
+    "img": "images/Keysanity/sm_keycard_level1.png",
     "codes": "generic_l1_keycard",
     "capturable": true
   },
   {
     "name": "Generic Level 2 Keycard",
     "type": "static",
-    "img": "images/sm_keycard_level2.png",
+    "img": "images/Keysanity/sm_keycard_level2.png",
     "codes": "generic_l2_keycard",
     "capturable": true
   },
   {
     "name": "Generic Boss Keycard",
     "type": "static",
-    "img": "images/sm_keycard_boss.png",
+    "img": "images/Keysanity/sm_keycard_boss.png",
     "codes": "generic_boss_keycard",
     "capturable": true
   }

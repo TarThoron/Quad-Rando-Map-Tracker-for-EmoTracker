@@ -66,11 +66,11 @@ function AnyKeyCount:providesCode(code)
 end
 
 
-
+--[[
 function CustomItem:propertyChanged(key, value)
 	self:SetAnyKey(true)
 end
-
+]]
 function AnyKeyCount:SetAnyKey(on)
 	if on then
 		self.infinite = true

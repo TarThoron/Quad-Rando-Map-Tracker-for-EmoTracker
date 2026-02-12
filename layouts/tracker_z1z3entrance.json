@@ -4,13 +4,237 @@
     "h_alignment": "center",
     "item_margin": "2,2",
     "rows": [
-      [ "bowandarrows", "boomerangs", "hookshot", "powder", "mushroom", "armor", "owsword"],
-      [ "firerod", "icerod", "bombos", "ether", "quake", "lift1", "shield"],
-      [ "lamp", "hammer", "ocarina", "net", "book", "shovel", "pearl"],
-      [ "bottle", "somaria", "byrna", "cape", "mirror", "flippers", "boots"],
-      [ "easternpalace", "desertpalace", "towerofhera", "aga", "halfmagic", "heartpiece", "heartcontainer"],
-      [ "palaceofdarkness", "swamppalace", "skullwoods", "thievestown", "icepalace", "miserymire", "turtlerock"]
+      [ "bowandarrows", "boomerangs", "hookshot", "powder", "mushroom", "armor", "owsword","halfmagic"],
+      [ "firerod", "icerod", "bombos", "ether", "quake", "lift1", "shield","heartpiece"],
+      [ "lamp", "hammer", "ocarina", "net", "book", "shovel", "pearl","heartcontainer"],
+      [ "bottle", "somaria", "byrna", "cape", "mirror", "flippers", "boots","aga"]
     ]
+  },
+  "dungeons_item_grid": {
+      "type": "array",
+      "orientation": "horizontal",
+      "margin": "0,0",
+      "content": [
+        {
+          "type": "array",
+          "orientation": "vertical",
+          "margin": "0,1",
+          "content": [
+            {
+              "type": "array",
+              "orientation": "horizontal",
+              "margin": "0,0,0,0",
+              "content": [
+                {
+                  "type": "item",
+                  "margin": "30,0,8,0",
+                  "item": "hc_label"
+                },
+                {
+                  "type": "item",
+                  "margin": "8,0,8,0",
+                  "item": "at_label"
+                },
+                {
+                  "type": "item",
+                  "margin": "8,0,8,0",
+                  "item": "ep_label"
+                },
+                {
+                  "type": "item",
+                  "margin": "8,0,0,0",
+                  "item": "dp_label"
+                },
+                {
+                  "type": "item",
+                  "margin": "0,0,0,0",
+                  "width": 16,
+                  "height": 16,
+                  "item": "dp_bigkey"
+                },
+                {
+                  "type": "item",
+                  "margin": "0,0,8,0",
+                  "item": "toh_label"
+                },
+                {
+                  "type": "item",
+                  "margin": "44,0,0,0",
+                  "item": "gt_label"
+                }
+              ]
+            },
+            {
+              "type": "array",
+              "orientation": "horizontal",
+              "margin": "0,0,0,1",
+              "content": [
+                {
+                  "type": "item",
+                  "margin": "30,0,8,0",
+                  "width": 16,
+                  "height": 16,
+                  "item": "sanc"
+                },
+                {
+                  "type": "item",
+                  "margin": "46,0,8,0",
+                  "width": 16,
+                  "height": 16,
+                  "item": "ep"
+                },
+                {
+                  "type": "item",
+                  "margin": "11,0,6,0",
+                  "width": 16,
+                  "height": 16,
+                  "item": "dp"
+                },
+                {
+                  "type": "item",
+                  "margin": "1,0,0,0",
+                  "width": 16,
+                  "height": 16,
+                  "item": "lanmolas"
+                },
+                {
+                  "type": "item",
+                  "margin": "0,0,8,0",
+                  "width": 16,
+                  "height": 16,
+                  "item": "toh"
+                }
+              ]
+            },
+            {
+              "type": "array",
+              "orientation": "horizontal",
+              "margin": "0,1,0,0",
+              "content": [
+                {
+                  "type": "item",
+                  "margin": "30,0,8,0",
+                  "item": "pod_label"
+                },
+                {
+                  "type": "item",
+                  "margin": "8,0,8,0",
+                  "item": "sp_label"
+                },
+                {
+                  "type": "item",
+                  "margin": "8,0,0,0",
+                  "item": "sw_label"
+                },
+                {
+                  "type": "item",
+                  "margin": "0,0,0,0",
+                  "width": 16,
+                  "height": 16,
+                  "item": "sw_bigkey"
+                },
+                {
+                  "type": "item",
+                  "margin": "0,0,8,0",
+                  "item": "tt_label"
+                },
+                {
+                  "type": "item",
+                  "margin": "8,0,8,0",
+                  "item": "ip_label"
+                },
+                {
+                  "type": "item",
+                  "margin": "8,0,8,0",
+                  "item": "mm_label"
+                },
+                {
+                  "type": "item",
+                  "margin": "8,0,0,0",
+                  "item": "tr_label"
+                },
+                {
+                  "type": "item",
+                  "margin": "0,0,8,0",
+                  "width": 16,
+                  "height": 16,
+                  "item": "tr_bigchest"
+                }
+              ]
+            },
+            {
+              "type":"array",
+              "orientation":"horizontal",
+              "margin":"0,0,0,0",
+              "content":[
+                {
+                  "type": "item",
+                  "margin": "30,0,8,0",
+                  "width": 16,
+                  "height": 16,
+                  "item": "pod"
+                },
+                {
+                  "type": "item",
+                  "margin": "8,0,12,0",
+                  "width": 16,
+                  "height": 16,
+                  "item": "sp"
+                },
+                {
+                  "type": "item",
+                  "margin": "8,0,0,0",
+                  "width": 16,
+                  "height": 16,
+                  "item": "sw"
+                },
+                {
+                  "type": "item",
+                  "margin": "8,0,0,0",
+                  "width": 16,
+                  "height": 16,
+                  "item": "mothula"
+                },
+                {
+                  "type": "item",
+                  "margin": "0,0,8,0",
+                  "width": 16,
+                  "height": 16,
+                  "item": "tt"
+                },
+                {
+                  "type": "item",
+                  "margin": "10,0,8,0",
+                  "width": 16,
+                  "height": 16,
+                  "item": "ip"
+                },
+                {
+                  "type": "item",
+                  "margin": "12,0,8,0",
+                  "width": 16,
+                  "height": 16,
+                  "item": "mm"
+                },
+                {
+                  "type": "item",
+                  "margin": "14,0,4,0",
+                  "width": 16,
+                  "height": 16,
+                  "item": "tr"
+                },
+                {
+                  "type": "item",
+                  "margin": "0,0,8,0",
+                  "width": 16,
+                  "height": 16,
+                  "item": "trinex"
+                }
+              ]
+            }
+          ]
+        }
+      ]
   },
   "sm_item_grid": {
     "type": "array",
@@ -81,9 +305,12 @@
   "triforce_pieces": {
     "type":"itemgrid",
     "margin": "0,-2",
-    "item_margin": "-3,0",
+    "item_margin": "0,0",
+    "item_width":28,
+    "item_height":28,
     "rows":[
-      ["z1tri1", "z1tri2", "z1tri3", "z1tri4", "z1tri5", "z1tri6", "z1tri7", "z1tri8"]
+      ["levelone","leveltwo","levelthree","levelfour","levelfive","levelsix","levelseven","leveleight","levelnine"],
+      ["z1tri1", "z1tri2", "z1tri3", "z1tri4", "z1tri5", "z1tri6", "z1tri7", "z1tri8",""]
     ]
   },
   "metroid_item_grid": {
@@ -248,11 +475,12 @@
       {
         "type":"array",
         "orientation":"horizontal",
-        "margin":"0,-8,0,1",
+        "h_alignment":"center",
+        "margin":"0,-10,0,0",
         "content":[
           {
             "type":"itemgrid",
-            "item_size": 48,
+            "item_size": 32,
             "rows":[
               ["ganon", "mbrain", "z1ganon", "m1brain"]
             ]
@@ -315,6 +543,10 @@
                         {
                           "type": "layout",
                           "key": "alttp_item_grid"
+                        },
+                        {
+                          "type":"layout",
+                          "key":"dungeons_item_grid"
                         },
                         {
                           "type": "layout",

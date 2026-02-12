@@ -1,0 +1,385 @@
+[
+    {
+        "name":"Level 5 - The Lizard",
+        "color": "#00a800",
+        "chest_opened_img": "images/LoZ/getitem.png",
+		"access_rules": ["levelfive"],
+        "children":[
+            {
+                "name": "Front",
+                "children":[
+                    {
+                        "name": "Map 77 - Kill Pols Voice",
+                        "map_locations":[
+                            {
+                                "map":"level5",
+                                "x": 903,
+                                "y": 1336,
+                                "size": 48
+                            },
+                            {
+                                "map":"dungeons1",
+                                "x": 963,
+                                "y": 666,
+                                "size": 48
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "name":"Kill Pols Voice",
+                                "item_count":1,
+                                "access_rules":["@CanKillPolsVoice"]
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Map 66 - Kill Gibdo",
+                        "map_locations":[
+                            {
+                                "map":"level5",
+                                "x": 612,
+                                "y": 1096,
+                                "size": 48
+                            },
+                            {
+                                "map":"dungeons1",
+                                "x": 816,
+                                "y": 550,
+                                "size": 48
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "name":"Kill Gibdo",
+                                "capture_item":true,
+                                "item_count":1,
+                                "access_rules":["[z1ladder],@CanKillMostZ1Things", "{}"]
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Map 65 - Gibdo Item",
+                        "map_locations":[
+                            {
+                                "map":"level5",
+                                "x": 311,
+                                "y": 1144,
+                                "size": 48
+                            },
+                            {
+                                "map":"dungeons1",
+                                "x": 670,
+                                "y": 571,
+                                "size": 48
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "name":"Gibdo Item",
+                                "item_count":1,
+                                "access_rules":["z1bomb,@CanKillMostZ1Things"]
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Map 16 - Keese Item",
+                        "map_locations":[
+                            {
+                                "map":"level5",
+                                "x": 647,
+                                "y": 280,
+                                "size": 48
+                            },
+                            {
+                                "map":"dungeons1",
+                                "x": 835,
+                                "y": 138,
+                                "size": 48
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "name":"Keese Item",
+                                "capture_item":true,
+                                "item_count":1,
+                                "access_rules":["z1bomb,@CanKillDarknuts,z1ladder","z1bomb,@CanKillDarknuts,{}"]
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Hidden Stairs Item",
+                        "map_locations":[
+                            {
+                                "map":"level5",
+                                "x": 136,
+                                "y": 88,
+                                "size": 48
+                            },
+                            {
+                                "map":"dungeons1",
+                                "x": 746,
+                                "y": 20,
+                                "size": 48
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "name":"Recorder",
+                                "item_count":1,
+                                "access_rules":["z1bomb,@CanKillDarknuts"]
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name":"Main",
+                "access_rules":["z1ladder"],
+                "children":[                    
+                    {
+                        "name": "Map 55 - Kill Zols",
+                        "map_locations":[
+                            {
+                                "map":"level5",
+                                "x": 391,
+                                "y": 983,
+                                "size": 48
+                            },
+                            {
+                                "map":"dungeons1",
+                                "x": 705,
+                                "y": 490,
+                                "size": 48
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "name":"Kill Zols",
+                                "item_count":1,
+                                "access_rules":["z1bomb,@CanKillMostZ1Things"]
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Map 56 - Kill Dodongos",
+                        "map_locations":[
+                            {
+                                "map":"level5",
+                                "x": 647,
+                                "y": 938,
+                                "size": 48
+                            },
+                            {
+                                "map":"dungeons1",
+                                "x": 835,
+                                "y": 469,
+                                "size": 48
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "name":"Kill Dodongos",
+                                "item_count":1,
+                                "access_rules":["z1bomb"]
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Map 57 - Kill Zols",
+                        "map_locations":[
+                            {
+                                "map":"level5",
+                                "x": 903,
+                                "y": 983,
+                                "size": 48
+                            },
+                            {
+                                "map":"dungeons1",
+                                "x": 963,
+                                "y": 490,
+                                "size": 48
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "name":"Kill Zols",
+                                "item_count":1,
+                                "access_rules":["@CanKillMostZ1Things"]
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Map 46 - Map",
+                        "map_locations":[
+                            {
+                                "map":"level5",
+                                "x": 647,
+                                "y": 808,
+                                "size": 48
+                            },
+                            {
+                                "map":"dungeons1",
+                                "x": 835,
+                                "y": 403,
+                                "size": 48
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "name":"Map",
+                                "item_count":1
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Map 47 - Kill Gibdos",
+                        "map_locations":[
+                            {
+                                "map":"level5",
+                                "x": 903,
+                                "y": 808,
+                                "size": 48
+                            },
+                            {
+                                "map":"dungeons1",
+                                "x": 963,
+                                "y": 403,
+                                "size": 48
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "name":"Kill Gibdos",
+                                "item_count":1,
+                                "access_rules":["@CanKillMostZ1Things"]
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Map 37 - Compass",
+                        "map_locations":[
+                            {
+                                "map":"level5",
+                                "x": 903,
+                                "y": 633,
+                                "size": 48
+                            },
+                            {
+                                "map":"dungeons1",
+                                "x": 963,
+                                "y": 315,
+                                "size": 48
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "name":"Compass",
+                                "item_count":1,
+                                "access_rules":["@CanKillDarknuts"]
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Map 26 - Kill Gibdos",
+                        "map_locations":[
+                            {
+                                "map":"level5",
+                                "x": 647,
+                                "y": 455,
+                                "size": 48
+                            },
+                            {
+                                "map":"dungeons1",
+                                "x": 835,
+                                "y": 227,
+                                "size": 48
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "name":"Kill Gibdos",
+                                "item_count":1,
+                                "access_rules":["@CanKillMostZ1Things"]
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Map 27 - Floor Item",
+                        "map_locations":[
+                            {
+                                "map":"level5",
+                                "x": 903,
+                                "y": 455,
+                                "size": 48
+                            },
+                            {
+                                "map":"dungeons1",
+                                "x": 963,
+                                "y": 227,
+                                "size": 48
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "name":"Floor Item",
+                                "item_count":1,
+                                "access_rules":["[],@CanKillMostZ1Things","@CanKillPolsVoice"]
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Map 24 - Kill Boss",
+                        "map_locations":[
+                            {
+                                "map":"level5",
+                                "x": 135,
+                                "y": 407,
+                                "size": 48
+                            },
+                            {
+                                "map":"dungeons1",
+                                "x": 577,
+                                "y": 203,
+                                "size": 48
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "name":"Kill Boss",
+                                "item_count":1,
+                                "access_rules":["z1recorder,@CanKillBosses"],
+                                "chest_unopened_img":"images/LoZ/levelfiveboss.png"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Level 5 Prize",
+                        "map_locations":[
+                            {
+                                "map":"level5",
+                                "x": 127,
+                                "y": 280,
+                                "size": 48
+                            },
+                            {
+                                "map":"dungeons1",
+                                "x": 575,
+                                "y": 138,
+                                "size": 48
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "name":"Triforce",
+                                "item_count":1,
+                                "access_rules":["z1recorder,@CanKillBosses"],
+                                "chest_unopened_img":"images/LoZ/z-triforceicon.png",
+                                "hosted_item": "z1tri5"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+]

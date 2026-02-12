@@ -32,6 +32,25 @@
       "byrna,@CanExtendMagic"
     ]
   },
+  {
+    "name": "CanKillLanmolas",
+    "access_rules": [
+      "sword",
+      "hammer",
+      "icerod",
+      "firerod",
+      "somaria",
+      "byrna,@CanExtendMagic"
+    ]
+  },
+  {
+    "name": "CanKillVitreous",
+    "access_rules": [
+      "sword",
+      "hammer",
+      "bow"
+    ]
+  },
 
   // SM logic
   {

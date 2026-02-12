@@ -1,3 +1,6 @@
+0.5 -	Add Z3 Entrando Variant
+	Magic Key / M1 Bosses conflict from v0.3 resolved
+
 0.4 - 	Reorganize image folders, remove many unused images, rename Z3 images to item names
 	Fix some locations having the wrong chest opened/unopened images
 	Set Z1 bomb combat against weak enemies as in logic if bomb farming is possible (boomerang or blue candle aquired)

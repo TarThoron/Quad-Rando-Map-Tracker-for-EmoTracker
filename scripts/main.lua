@@ -2,31 +2,11 @@ function init()
     if INITIALIZED == nil then
         -- Used for automatically adding/removing consumable count when a toggle is enabled/disabled, or for updating other items based on a specific item's action.
         ITEM_STATE_LIST = {
-            ["m1kraid"]   = false,
-            ["m1ridley"] = false,
-            ["example_toggle_3"] = false,
+            ["m1kraid"]  = false,
+            ["m1ridley"] = false
         }
 
         INITIALIZED = true
-    end
-end
-
-function tracker_on_accessibility_updated()
-    --[[    This is the table of item codes we care about making updates for.
-            It should ideally contain the keys from ITEM_STATE_LIST
-    ]]
-    local item_list = {
-        "m1kraid",
-        "m1ridley",
-        "example_toggle_3",
-    }
-
-    if INITIALIZED then
-        for i = 1, #item_list do
-            local item = Tracker:FindObjectForCode(item_list[i])
-            local state = ITEM_STATE_LIST[item_list[i]]
-            item_check(item,state)
-        end
     end
 end
 
@@ -64,23 +44,6 @@ function _update_m1missile_count_2(item)
     ITEM_STATE_LIST["m1ridley"] = item.Active
 end
 
----This function is unique to a specific item as defined by the first local variable.
----The consumable in this function is updated by the toggle defined by the first parameter.
----The consumable to update is hard-coded here.
----@param item any -- The item object of the togglable item
-function _update_example_consumable_count_3(item)
-    local consumable = Tracker:FindObjectForCode("example_consumable_3") -- change this to change what consumable is being updated
-
-    if item.Active then
-        debug_log("callback", "add 3 count to example_consumable_3")
-        consumable.AcquiredCount = consumable.AcquiredCount + 3
-    else
-        debug_log("callback", "subtract 3 count from example_consumable_3")
-        consumable.AcquiredCount = consumable.AcquiredCount - 3
-    end
-    ITEM_STATE_LIST["example_toggle_3"] = item.Active
-end
-
 ---Checks items listed in `item_to_update_function`
 ---@param item any -- An Item object to
 ---@param prev_state any
@@ -108,9 +71,8 @@ function item_check(item, prev_state)
         }
     ]]
     local item_to_update_function = {
-        ["M1 Kraid"]   = _update_m1missile_count,
-        ["M1 Ridley"] = _update_m1missile_count_2,
-        ["Example Toggle 3"] = _update_example_consumable_count_3,
+        ["M1 Kraid"]  = _update_m1missile_count,
+        ["M1 Ridley"] = _update_m1missile_count_2
     }
 
     local callback = item_to_update_function[item.Name]

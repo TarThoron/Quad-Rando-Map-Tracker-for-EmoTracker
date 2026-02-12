@@ -1,0 +1,4843 @@
+[
+  //  Light World
+  {
+    "name": "Light World",
+    "color": "#059134",
+    "children": [
+      {
+        "name": "Northwest Hyrule",
+        "children": [
+          //{
+          //  "name": "Lumberjack House",
+          //  "short_name": "Lumber House",
+          //  "map_locations": [
+          //    {
+          //      "map": "lightworld",
+          //      "x": 675,
+          //      "y": 120,
+          //      "size": 48,
+          //      "badge_size": 64
+          //    }
+          //  ],
+          //  "sections": [
+          //        {
+          //          "name": "Map Badge",
+          //          "item_count":1,
+          //          "chest_opened_img": "images/ALttP/Badges/map.png",
+          //          "chest_unopened_img": "images/ALttP/Badges/map.png",
+          //          "capture_item": true,
+          //          "capture_item_layout": "Z3_entrance_capture_item"    
+          //        },
+          //    {
+          //      "name": "Entrance",
+          //      "chest_unopened_img": "images/door_closed.png",
+          //      "chest_opened_img": "images/door_open.png",
+          //      "item_count": 1
+          //    }
+          //  ]
+          //},
+          {
+            "name": "Lumberjack Cave",
+            "short_name": "Lumberjacks",
+            "access_rules": [
+              "aga1,boots",
+              "{}"
+            ],
+            "map_locations": [
+              {
+                "map": "lightworld",
+                "x": 600,
+                "y": 145,
+                "size": 48,
+                "badge_size": 64
+              },
+              {
+                "map": "lightworld",
+                "x": 650,
+                "y": 50,
+                "size": 48,
+                "badge_size": 64
+              }
+            ],
+            "sections": [
+              {
+                "name": "Dropdown",
+                "chest_unopened_img":"images/door_closed.png",
+                "chest_opened_img":"images/door_open.png",
+                "item_count":1,
+                "capture_item": true,
+                "capture_item_layout": "Z3_dropdown_capture_item"
+
+              },
+              {
+                "name": "Item",
+                "item_count": 1,
+                "capture_item": true
+              }
+            ]
+          },
+          {
+            "name": "Death Mountain Entry Cave",
+            "short_name": "DM Entry",
+            "access_rules": [
+              "lift1"
+            ],
+            "map_locations": [
+              {
+                "map": "lightworld",
+                "x": 715,
+                "y": 350,
+                "size": 48,
+                "badge_size": 64
+              }
+            ],
+            "sections": [
+              {
+                "name": "Map Badge",
+                "item_count":1,
+                "chest_opened_img": "images/ALttP/Badges/map.png",
+                "chest_unopened_img": "images/ALttP/Badges/map.png",
+                "capture_item": true,
+                "capture_item_layout": "Z3_entrance_capture_item"    
+              },
+              {
+                "name": "Entrance",
+                "chest_unopened_img": "images/door_closed.png",
+                "chest_opened_img": "images/door_open.png",
+                "item_count": 1
+              }
+            ]
+          },
+          {
+            "name": "Death Mountain Exit Back",
+            "short_name": "DM Exit",
+            "access_rules": [
+              "mirror,bumper_cave"
+            ],
+            "map_locations": [
+              {
+                "map": "lightworld",
+                "x": 720,
+                "y": 305,
+                "size": 48,
+                "badge_size": 64
+              }
+            ],
+            "sections": [
+              {
+                "name": "Map Badge",
+                "item_count":1,
+                "chest_opened_img": "images/ALttP/Badges/map.png",
+                "chest_unopened_img": "images/ALttP/Badges/map.png",
+                "capture_item": true,
+                "capture_item_layout": "Z3_entrance_capture_item"    
+              },
+              {
+                "name": "Entrance",
+                "chest_unopened_img": "images/door_closede.png",
+                "chest_opened_img": "images/door_open.png",
+                "item_count": 1
+              }
+            ]
+          },
+          //{
+          //  "name": "Kakariko Fortune Teller",
+          //  "short_name": "Kak Fortune",
+          //  "map_locations": [
+          //    {
+          //      "map": "lightworld",
+          //      "x": 375,
+          //      "y": 645,
+          //      "size": 48,
+          //      "badge_size": 64
+          //    }
+          //  ],
+          //  "sections": [
+          //        {
+          //          "name": "Map Badge",
+          //          "item_count":1,
+          //          "chest_opened_img": "images/ALttP/Badges/map.png",
+          //          "chest_unopened_img": "images/ALttP/Badges/map.png",
+          //          "capture_item": true,
+          //          "capture_item_layout": "Z3_entrance_capture_item"    
+          //        },
+          //    {
+          //      "name": "Entrance",
+          //      "chest_unopened_img": "images/door_closed.png",
+          //      "chest_opened_img": "images/door_open.png",
+          //      "item_count": 1
+          //    }
+          //  ]
+          //},
+          
+          {
+            "name": "Kakariko Village",
+            "children": [
+              {
+                "name": "Woman Left Door",
+                "short_name": "Woman Left",
+                "map_locations": [
+                  {
+                    "map": "lightworld",
+                    "x": 303,
+                    "y": 840,
+                    "size": 48,
+                    "badge_size": 64
+                  }
+                ],
+                "sections": [
+                  {
+                    "name": "Map Badge",
+                    "item_count":1,
+                    "chest_opened_img": "images/ALttP/Badges/map.png",
+                    "chest_unopened_img": "images/ALttP/Badges/map.png",
+                    "capture_item": true,
+                    "capture_item_layout": "Z3_entrance_capture_item"    
+                  },
+                  {
+                    "name": "Entrance",
+                    "chest_unopened_img": "images/door_closed.png",
+                    "chest_opened_img": "images/door_open.png",
+                    "item_count": 1
+                  }
+                ]
+              },
+              {
+                "name": "Woman Right Door",
+                "short_name": "Woman Right",
+                "map_locations": [
+                  {
+                    "map": "lightworld",
+                    "x": 351,
+                    "y": 840,
+                    "size": 48,
+                    "badge_size": 64
+                  }
+                ],
+                "sections": [
+                  {
+                    "name": "Map Badge",
+                    "item_count":1,
+                    "chest_opened_img": "images/ALttP/Badges/map.png",
+                    "chest_unopened_img": "images/ALttP/Badges/map.png",
+                    "capture_item": true,
+                    "capture_item_layout": "Z3_entrance_capture_item"    
+                  },
+                  {
+                    "name": "Entrance",
+                    "chest_unopened_img": "images/door_closed.png",
+                    "chest_opened_img": "images/door_open.png",
+                    "item_count": 1
+                  }
+                ]
+              },
+              {
+                "name": "Left Snitch House",
+                "short_name": "Left Snitch",
+                "map_locations": [
+                  {
+                    "map": "lightworld",
+                    "x": 100,
+                    "y": 940,
+                    "size": 48,
+                    "badge_size": 64
+                  }
+                ],
+                "sections": [
+                  {
+                    "name": "Map Badge",
+                    "item_count":1,
+                    "chest_opened_img": "images/ALttP/Badges/map.png",
+                    "chest_unopened_img": "images/ALttP/Badges/map.png",
+                    "capture_item": true,
+                    "capture_item_layout": "Z3_entrance_capture_item"    
+                  },
+                  {
+                    "name": "House",
+                    "chest_unopened_img": "images/door_closed.png",
+                    "chest_opened_img": "images/door_open.png",
+                    "item_count": 1
+                  }
+                ]
+              },
+              {
+                "name": "Right Snitch House",
+                "short_name": "Right Snitch",
+                "map_locations": [
+                  {
+                    "map": "lightworld",
+                    "x": 415,
+                    "y": 965,
+                    "size": 48,
+                    "badge_size": 64
+                  }
+                ],
+                "sections": [
+                  {
+                    "name": "Map Badge",
+                    "item_count":1,
+                    "chest_opened_img": "images/ALttP/Badges/map.png",
+                    "chest_unopened_img": "images/ALttP/Badges/map.png",
+                    "capture_item": true,
+                    "capture_item_layout": "Z3_entrance_capture_item"    
+                  },
+                  {
+                    "name": "Entrance",
+                    "chest_unopened_img": "images/door_closed.png",
+                    "chest_opened_img": "images/door_open.png",
+                    "item_count": 1
+                  }
+                ]
+              },
+              {
+                "name": "Blind's House",
+                "map_locations": [
+                  {
+                    "map": "lightworld",
+                    "x": 255,
+                    "y": 840,
+                    "size": 48,
+                    "badge_size": 64
+                  }
+                ],
+                "sections": [
+                  {
+                    "name": "Map Badge",
+                    "item_count":1,
+                    "chest_opened_img": "images/ALttP/Badges/map.png",
+                    "chest_unopened_img": "images/ALttP/Badges/map.png",
+                    "capture_item": true,
+                    "capture_item_layout": "Z3_entrance_capture_item"    
+                  },
+                  {
+                    "name": "Entrance",
+                    "chest_unopened_img": "images/door_closed.png",
+                    "chest_opened_img": "images/door_open.png",
+                    "item_count": 1
+                  }
+                ]
+              },
+              {
+                "name": "The Well",
+                "map_locations": [
+                  {
+                    "map": "lightworld",
+                    "x": 47,
+                    "y": 833,
+                    "size": 48,
+                    "badge_size": 64
+                  }
+                ],
+                "sections": [
+                  {
+                    "name": "Dropdown",
+                    "chest_unopened_img": "images/door_closed.png",
+                    "chest_opened_img": "images/door_open.png",
+                    "item_count": 1,
+                    "capture_item": true,
+                    "capture_item_layout": "Z3_dropdown_capture_item"
+                  }
+                ]
+              },
+              {
+                "name": "Bottle Vendor",
+                "map_locations": [
+                  {
+                    "map": "lightworld",
+                    "x": 190,
+                    "y": 933
+                  }
+                ],
+                "sections": [
+                  {
+                    "name": "This Jerk",
+                    "item_count": 1
+                  }
+                ]
+              },
+              {
+                "name": "Chicken House",
+                "map_locations": [
+                  {
+                    "map": "lightworld",
+                    "x": 197,
+                    "y": 1066,
+                    "size": 48,
+                    "badge_size": 64
+                  }
+                ],
+                "sections": [
+                  {
+                    "name": "Map Badge",
+                    "item_count":1,
+                    "chest_opened_img": "images/ALttP/Badges/map.png",
+                    "chest_unopened_img": "images/ALttP/Badges/map.png",
+                    "capture_item": true,
+                    "capture_item_layout": "Z3_entrance_capture_item"    
+                  },
+                  {
+                    "name": "House",
+                    "chest_unopened_img": "images/door_closed.png",
+                    "chest_opened_img": "images/door_open.png",
+                    "item_count": 1
+                  }
+                ]
+              },
+              {
+                "name": "Grass House",
+                "map_locations": [
+                  {
+                    "map": "lightworld",
+                    "x": 410,
+                    "y": 1075,
+                    "size": 48,
+                    "badge_size": 64
+                  }
+                ],
+                "sections": [
+                  {
+                    "name": "Map Badge",
+                    "item_count":1,
+                    "chest_opened_img": "images/ALttP/Badges/map.png",
+                    "chest_unopened_img": "images/ALttP/Badges/map.png",
+                    "capture_item": true,
+                    "capture_item_layout": "Z3_entrance_capture_item"    
+                  },
+                  {
+                    "name": "Entrance",
+                    "chest_unopened_img": "images/door_closed.png",
+                    "chest_opened_img": "images/door_open.png",
+                    "item_count": 1
+                  }
+                ]
+              },
+              {
+                "name": "Tavern",
+                "map_locations": [
+                  {
+                    "map": "lightworld",
+                    "x": 320,
+                    "y": 1125
+                  }
+                ],
+                "sections": [
+                  {
+                    "name": "Back Room",
+                    "item_count": 1
+                  }
+                ]
+              },
+              {
+                "name": "Front Tavern",
+                "map_locations": [
+                  {
+                    "map": "lightworld",
+                    "x": 320,
+                    "y": 1195,
+                    "size": 48,
+                    "badge_size": 64
+                  }
+                ],
+                "sections": [
+                  {
+                    "name": "Map Badge",
+                    "item_count":1,
+                    "chest_opened_img": "images/ALttP/Badges/map.png",
+                    "chest_unopened_img": "images/ALttP/Badges/map.png",
+                    "capture_item": true,
+                    "capture_item_layout": "Z3_entrance_capture_item"    
+                  },
+                  {
+                    "name": "Entrance",
+                    "chest_unopened_img": "images/door_closed.png",
+                    "chest_opened_img": "images/door_open.png",
+                    "item_count": 1
+                  }
+                ]
+              },
+              {
+                "name": "Kakariko Shop",
+                "map_locations": [
+                  {
+                    "map": "lightworld",
+                    "x": 220,
+                    "y": 1175,
+                    "size": 48,
+                    "badge_size": 64
+                  }
+                ],
+                "sections": [
+                  {
+                    "name": "Map Badge",
+                    "item_count":1,
+                    "chest_opened_img": "images/ALttP/Badges/map.png",
+                    "chest_unopened_img": "images/ALttP/Badges/map.png",
+                    "capture_item": true,
+                    "capture_item_layout": "Z3_entrance_capture_item"    
+                  },
+                  {
+                    "name": "House",
+                    "chest_unopened_img": "images/door_closed.png",
+                    "chest_opened_img": "images/door_open.png",
+                    "item_count": 1
+                  }
+                ]
+              },
+              {
+                "name": "Bomb Hut",
+                "map_locations": [
+                  {
+                    "map": "lightworld",
+                    "x": 55,
+                    "y": 1195,
+                    "size": 48,
+                    "badge_size": 64
+                  }
+                ],
+                "sections": [
+                  {
+                    "name": "Map Badge",
+                    "item_count":1,
+                    "chest_opened_img": "images/ALttP/Badges/map.png",
+                    "chest_unopened_img": "images/ALttP/Badges/map.png",
+                    "capture_item": true,
+                    "capture_item_layout": "Z3_entrance_capture_item"    
+                  },
+                  {
+                    "name": "Entrance",
+                    "chest_unopened_img": "images/door_closed.png",
+                    "chest_opened_img": "images/door_open.png",
+                    "item_count": 1
+                  }
+                ]
+              },
+              {
+                "name": "Sick Kid",
+                "map_locations": [
+                  {
+                    "map": "lightworld",
+                    "x": 314,
+                    "y": 1060,
+                    "size": 48,
+                    "badge_size": 64
+                  }
+                ],
+                "sections": [
+                  {
+                    "name": "Map Badge",
+                    "item_count":1,
+                    "chest_opened_img": "images/ALttP/Badges/map.png",
+                    "chest_unopened_img": "images/ALttP/Badges/map.png",
+                    "capture_item": true,
+                    "capture_item_layout": "Z3_entrance_capture_item"    
+                  },
+                  {
+                    "name": "Entrance",
+                    "chest_unopened_img": "images/door_closed.png",
+                    "chest_opened_img": "images/door_opene.png",
+                    "item_count": 1
+                  }
+                ]
+              },
+              {
+                "name": "Smiths House",
+                "sections": [
+                  {
+                    "name": "Map Badge",
+                    "item_count":1,
+                    "chest_opened_img": "images/ALttP/Badges/map.png",
+                    "chest_unopened_img": "images/ALttP/Badges/map.png",
+                    "capture_item": true,
+                    "capture_item_layout": "Z3_entrance_capture_item"    
+                  },
+                  {
+                    "name": "Entrance",
+                    "chest_unopened_img": "images/door_closed.png",
+                    "chest_opened_img": "images/door_open.png",
+                    "item_count": 1
+                  }
+                ],
+                "map_locations": [
+                  {
+                    "map": "lightworld",
+                    "x": 615,
+                    "y": 1055,
+                    "size": 48,
+                    "badge_size": 64
+                  }
+                ]
+              },
+              {
+                "name": "Magic Bat",
+                "map_locations": [
+                  {
+                    "map": "lightworld",
+                    "x": 650,
+                    "y": 1127,
+                    "size": 48,
+                    "badge_size": 64
+                  }
+                ],
+                "access_rules": [
+                  "hammer",
+                  "lift2,moonpearl,mirror",
+                  "{}"
+                ],
+                "sections": [
+                  {
+                    "name": "Dropdown",
+                    "chest_unopened_img": "images/door_closed.png",
+                    "chest_opened_img": "images/door_open.png",
+                    "item_count": 1,
+                    "capture_item": true,
+                    "capture_item_layout": "Z3_dropdown_capture_item"
+                  }
+                ]
+              },
+              {
+                "name": "Chest Game",
+                "map_locations": [
+                  {
+                    "map": "lightworld",
+                    "x": 425,
+                    "y": 1410,
+                    "size": 48,
+                    "badge_size": 64
+                  }
+                ],
+                "sections": [
+                  {
+                    "name": "Map Badge",
+                    "item_count":1,
+                    "chest_opened_img": "images/ALttP/Badges/map.png",
+                    "chest_unopened_img": "images/ALttP/Badges/map.png",
+                    "capture_item": true,
+                    "capture_item_layout": "Z3_entrance_capture_item"    
+                  },
+                  {
+                    "name": "Entrance",
+                    "chest_unopened_img": "images/door_closed.png",
+                    "chest_opened_img": "images/door_open.png",
+                    "item_count": 1
+                  }
+                ]
+              },
+              {
+                "name": "Race House Right",
+                "map_locations": [
+                  {
+                    "map": "lightworld",
+                    "x": 280,
+                    "y": 1435,
+                    "size": 48,
+                    "badge_size": 64
+                  }
+                ],
+                "sections": [
+                  {
+                    "name": "Map Badge",
+                    "item_count":1,
+                    "chest_opened_img": "images/ALttP/Badges/map.png",
+                    "chest_unopened_img": "images/ALttP/Badges/map.png",
+                    "capture_item": true,
+                    "capture_item_layout": "Z3_entrance_capture_item"    
+                  },
+                  {
+                    "name": "Entrance",
+                    "chest_unopened_img": "images/door_closed.png",
+                    "chest_opened_img": "images/door_open.png",
+                    "item_count": 1
+                  }
+                ]
+              },
+              {
+                "name": "Race Game",
+                "map_locations": [
+                  {
+                    "map": "lightworld",
+                    "x": 111,
+                    "y": 1354
+                  }
+                ],
+                "sections": [
+                  {
+                    "name": "Take This Trash",
+                    "access_rules": [
+                      "aga1,hammer,moonpearl,mirror",
+                      "aga1,hookshot,lift1,moonpearl,mirror",
+                      "aga1,hookshot,flippers,moonpearl,mirror",
+                      "lift1,hammer,moonpearl,mirror",
+                      "lift2,moonpearl,mirror",
+                      "dw_west,mirror",
+                      "bumper_cave,mirror",
+                      "hammer_house,hammer,moonpearl,mirror",
+                      "dw_south,mirror",
+                      "dw_east,pearl,hammer,mirror",
+                      "dw_witch,pearl,hammer,mirror",
+                      "{}"
+                    ],
+                    "capture_item": true,
+                    "item_count": 1
+                  }
+                ]
+              },
+              {
+                "name": "Library",
+                "map_locations": [
+                  {
+                    "map": "lightworld",
+                    "x": 313,
+                    "y": 1310,
+                    "size": 48,
+                    "badge_size": 64
+                  }
+                ],
+                "sections": [
+                  {
+                    "name": "Map Badge",
+                    "item_count":1,
+                    "chest_opened_img": "images/ALttP/Badges/map.png",
+                    "chest_unopened_img": "images/ALttP/Badges/map.png",
+                    "capture_item": true,
+                    "capture_item_layout": "Z3_entrance_capture_item"    
+                  },
+                  {
+                    "name": "Entrance",
+                    "chest_unopened_img": "images/door_closed.png",
+                    "chest_opened_img": "images/door_open.png",
+                    "item_count": 1
+                  }
+                ]
+              },
+              {
+                "name":"Library Item",
+                "sections":[
+                  {
+                    "name": "Shelf Item",
+                    "item_count":1,
+                    "capture_item": true,
+                    "access_rules": [
+                      "boots",
+                      "{}"
+                    ]
+                  }
+                ],
+                "map_locations":[
+                  {
+                    "map": "lightworld",
+                    "x": 265,
+                    "y": 1310
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Master Sword Pedestal",
+            "short_name": "Pedestal",
+            "map_locations": [
+              {
+                "map": "lightworld",
+                "x": 83,
+                "y": 101
+              }
+            ],
+            "sections": [
+              {
+                "name": "Pedestal",
+                "capture_item": true,
+                "access_rules": [
+                  "greenpendant,pendant:2",
+                  "{book}"
+                ],
+                "item_count": 1
+              }
+            ]
+          },
+          {
+            "name": "Lost Woods",
+            "map_locations": [
+              {
+                "map": "lightworld",
+                "x": 320,
+                "y": 260
+              }
+            ],
+            "sections": [
+              {
+                "name": "Mushroom Spot",
+                "short_name": "Shroom",
+                "item_count": 1
+              }
+            ]
+          },
+          {
+            "name": "Forest Hideout",
+            "map_locations": [
+              {
+                "map": "lightworld",
+                "x": 370,
+                "y": 260,
+                "size": 48,
+                "badge_size": 64
+              }
+            ],
+            "sections": [
+              {
+                "name": "Dropdown",
+                "chest_unopened_img": "images/door_closed.png",
+                "chest_opened_img": "images/door_open.png",
+                "item_count": 1,
+                "capture_item": true,
+                "capture_item_layout": "Z3_dropdown_capture_item"
+              }
+            ]
+          },
+          {
+            "name": "Forest Chest Game",
+            "map_locations": [
+              {
+                "map": "lightworld",
+                "x": 370,
+                "y": 40,
+                "size": 48,
+                "badge_size": 64
+              }
+            ],
+            "sections": [
+              {
+                "name": "Map Badge",
+                "item_count":1,
+                "chest_opened_img": "images/ALttP/Badges/map.png",
+                "chest_unopened_img": "images/ALttP/Badges/map.png",
+                "capture_item": true,
+                "capture_item_layout": "Z3_entrance_capture_item"
+              },
+              {
+                "name": "Entrance",
+                "chest_unopened_img": "images/door_closed.png",
+                "chest_opened_img": "images/door_open.png",
+                "short_name": "Entrance",
+                "item_count": 1
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Central Hyrule",
+        "children": [
+          {
+            "name": "Castle Secret Entrance",
+            "short_name": "Uncle",
+            "color": "#701d43",
+            "map_locations": [
+              {
+                "map": "lightworld",
+                "x": 1196,
+                "y": 834,
+                "size": 48,
+                "badge_size": 64
+              },
+              {
+                "map": "lightworld",
+                "x": 1105,
+                "y": 857,
+                "size": 48,
+                "badge_size": 64
+              }
+            ],
+            "sections": [
+              {
+                "name": "Dropdown",
+                "chest_unopened_img": "images/door_closed.png",
+                "chest_opened_img": "images/door_open.png",
+                "item_count": 1,
+                "capture_item": true,
+                "capture_item_layout": "Z3_dropdown_capture_item"
+              }
+            ]
+          },
+          {
+            "name": "Castle Main Entrance",
+            "map_locations": [
+              {
+                "map": "lightworld",
+                "x": 1000,
+                "y": 880,
+                "size": 48,
+                "badge_size": 64
+              }
+            ],
+            "sections": [
+              {
+                "name": "Map Badge",
+                "item_count":1,
+                "chest_opened_img": "images/ALttP/Badges/map.png",
+                "chest_unopened_img": "images/ALttP/Badges/map.png",
+                "capture_item": true,
+                "capture_item_layout": "Z3_entrance_capture_item"
+              },
+              {
+                "name": "Entrance",
+                "chest_unopened_img": "images/door_closed.png",
+                "chest_opened_img": "images/door_open.png",
+                "item_count": 1
+              }
+            ]
+          },
+          {
+            "name": "Castle Second Floor",
+            "access_rules": [
+              "castle_top",
+              "aga1,mirror",
+              "pearl,lift1,hammer,mirror",
+              "pearl,lift2,flippers,mirror",
+              "dw_east,mirror",
+              "dw_south,pearl,hammer,mirror",
+              "dw_south,pearl,flippers,mirror",
+              "dw_west,pearl,hammer,mirror",
+              "dw_west,pearl,flippers,mirror"
+            ],
+            "children": [
+              {
+                "name": "Castle Left Entrance",
+                "map_locations": [
+                  {
+                    "map": "lightworld",
+                    "x": 900,
+                    "y": 780,
+                    "size": 48,
+                    "badge_size": 64
+                  }
+                ],
+                "sections": [
+                  {
+                    "name": "Map Badge",
+                    "item_count":1,
+                    "chest_opened_img": "images/ALttP/Badges/map.png",
+                    "chest_unopened_img": "images/ALttP/Badges/map.png",
+                    "capture_item": true,
+                    "capture_item_layout": "Z3_entrance_capture_item"
+                  },
+                  {
+                    "name": "Entrance",
+                    "chest_unopened_img": "images/green-square.png",
+                    "chest_opened_img": "images/gray-square.png",
+                    "item_count": 1,
+                    "hosted_item": "castle_top"
+                  }
+                ]
+              },
+              {
+                "name": "Castle Right Entrance",
+                "map_locations": [
+                  {
+                    "map": "lightworld",
+                    "x": 1105,
+                    "y": 780,
+                    "size": 48,
+                    "badge_size": 64
+                  }
+                ],
+                "sections": [
+                  {
+                    "name": "Map Badge",
+                    "item_count":1,
+                    "chest_opened_img": "images/ALttP/Badges/map.png",
+                    "chest_unopened_img": "images/ALttP/Badges/map.png",
+                    "capture_item": true,
+                    "capture_item_layout": "Z3_entrance_capture_item"
+                  },
+                  {
+                    "name": "Entrance",
+                    "chest_unopened_img": "images/green-square.png",
+                    "chest_opened_img": "images/gray-square.png",
+                    "item_count": 1,
+                    "hosted_item": "castle_top"
+                  }
+                ]
+              },
+              {
+                "name": "Castle Tower Entrance",
+                "access_rules":[
+                  "sword2",
+                  "cape"
+                ],
+                "map_locations": [
+                  {
+                    "map": "lightworld",
+                    "x": 1000,
+                    "y": 800,
+                    "size": 48,
+                    "badge_size": 64
+                  }
+                ],
+                "sections": [
+                  {
+                    "name": "Map Badge",
+                    "item_count":1,
+                    "chest_opened_img": "images/ALttP/Badges/map.png",
+                    "chest_unopened_img": "images/ALttP/Badges/map.png",
+                    "capture_item": true,
+                    "capture_item_layout": "Z3_entrance_capture_item"
+                  },
+                  {
+                    "name": "Entrance",
+                    "chest_unopened_img": "images/green-square.png",
+                    "chest_opened_img": "images/gray-square.png",
+                    "item_count": 1,
+                    "hosted_item": "castle_top"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Link's House",
+            "map_locations": [
+              {
+                "map": "lightworld",
+                "x": 1097,
+                "y": 1366
+              }
+            ],
+            "sections": [
+              {
+                "name": "Home",
+                "item_count": 1
+              }
+            ]
+          },
+          {
+            "name": "Dam",
+            "sections": [
+              {
+                "name": "Map Badge",
+                "item_count":1,
+                "chest_opened_img": "images/ALttP/Badges/map.png",
+                "chest_unopened_img": "images/ALttP/Badges/map.png",
+                "capture_item": true,
+                "capture_item_layout": "Z3_entrance_capture_item"    
+              },
+              {
+                "name": "Entrance",
+                "chest_unopened_img": "images/door_closed.png",
+                "chest_opened_img": "images/door_open.png",
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "lightworld",
+                "x": 940,
+                "y": 1885,
+                "size": 48,
+                "badge_size": 64
+              }
+            ]
+          },
+          {
+            "name": "Dam Exterior",
+            "access_rules":[
+              "drain"
+            ],
+            "sections": [
+              {
+                "name": "Item",
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "lightworld",
+                "x": 890,
+                "y": 1835
+              }
+            ]
+          },
+          {
+            "name":"Dam Drained",
+            "sections":[
+              {
+                "name": "Empty The Swamp",
+                "hosted_item":"drain"
+              }
+            ],
+            "map_locations":[
+              {
+                "map":"lightworld",
+                "x": 892,
+                "y": 1885,
+                "size":48
+              }
+            ]
+          },
+          {
+            "name": "Central Bonk Rocks",
+            "access_rules": [
+              "boots"
+            ],
+            "map_locations": [
+              {
+                "map": "lightworld",
+                "x": 945,
+                "y": 1310,
+                "size": 48,
+                "badge_size": 64
+              }
+            ],
+            "sections": [
+              {
+                "name": "Map Badge",
+                "item_count":1,
+                "chest_opened_img": "images/ALttP/Badges/map.png",
+                "chest_unopened_img": "images/ALttP/Badges/map.png",
+                "capture_item": true,
+                "capture_item_layout": "Z3_entrance_capture_item"    
+              },
+              {
+                "name": "Entrance",
+                "chest_unopened_img": "images/door_closed.png",
+                "chest_opened_img": "images/door_open.png",
+                "item_count": 1
+              }
+            ]
+          },
+          {
+            "name": "Flute Spot",
+            "short_name": "Dig Spot",
+            "map_locations": [
+              {
+                "map": "lightworld",
+                "x": 600,
+                "y": 1350
+              }
+            ],
+            "access_rules": [
+              "shovel"
+            ],
+            "sections": [
+              {
+                "name": "Hidden Treasure",
+                "item_count": 1
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Northeast Hyrule",
+        "group": "Northeast Hyrule",
+        "children": [
+          {
+            "name": "Witch's Hut",
+            "map_locations": [
+              {
+                "map": "lightworld",
+                "x": 1607,
+                "y": 670,
+                "size": 48,
+                "badge_size": 64
+              }
+            ],
+            "sections": [
+              {
+                "name": "Map Badge",
+                "item_count":1,
+                "chest_opened_img": "images/ALttP/Badges/map.png",
+                "chest_unopened_img": "images/ALttP/Badges/map.png",
+                "capture_item": true,
+                "capture_item_layout": "Z3_entrance_capture_item"    
+              },
+              {
+                "name": "Entrance",
+                "chest_unopened_img": "images/door_closed.png",
+                "chest_opened_img": "images/door_open.png",
+                "item_count": 1
+              }
+            ]
+          },
+          {
+            "name": "Zora Area",
+            "color": "#345a99",
+            "access_rules": [
+              "lift1",
+              "[flippers]"
+            ],
+            "children": [
+              {
+                "name": "Waterfall Fairy",
+                "access_rules": [
+                  "[flippers]"
+                ],
+                "sections": [
+                  {
+                    "name": "Map Badge",
+                    "item_count":1,
+                    "chest_opened_img": "images/ALttP/Badges/map.png",
+                    "chest_unopened_img": "images/ALttP/Badges/map.png",
+                    "capture_item": true,
+                    "capture_item_layout": "Z3_entrance_capture_item"    
+                  },
+                  {
+                    "name": "Entrance",
+                    "chest_unopened_img": "images/door_closed.png",
+                    "chest_opened_img": "images/door_open.png",
+                    "item_count": 1
+                  }
+                ],
+                "map_locations": [
+                  {
+                    "map": "lightworld",
+                    "x": 1806,
+                    "y": 286,
+                    "size": 48,
+                    "badge_size": 64
+                  }
+                ]
+              },
+              {
+                "name": "Zora Area",
+                "map_locations": [
+                  {
+                    "map": "lightworld",
+                    "x": 1920,
+                    "y": 273
+                  }
+                ],
+                "sections": [
+                  {
+                    "name": "King Zora",
+                    "item_count": 1
+                  },
+                  {
+                    "name": "Ledge",
+                    "capture_item": true,
+                    "access_rules": [
+                      "flippers",
+                      "[flippers],boots",
+                      "{lift1}",
+                      "{[flippers]}"
+                    ],
+                    "item_count": 1
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Catfish",
+            "color": "#35046b",
+            "access_rules": [
+              "pearl,lift2,flippers",
+              "pearl,lift1,hammer",
+              "pearl,aga1,lift1",
+              "pearl,lift2,boots,[flippers]",
+              "dw_witch,pearl,lift1",
+              "dw_east,pearl,lift1",
+              "dw_west,pearl,lift1,flippers",
+              "pearl,@CanAccessDarkWorldPortal,lift1,[flippers]"
+            ],
+            "sections": [
+              {
+                "name": "Ring of Stones",
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "darkworld",
+                "x": 1813,
+                "y": 347
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Eastern Hyrule",
+        "group": "Eastern Hyrule",
+        "color": "#059134",
+        "children": [
+          {
+            "name": "Sahasrala's Hut",
+            "short_name": "Sahash's Hut",
+            "map_locations": [
+              {
+                "map": "lightworld",
+                "x": 1625,
+                "y": 900,
+                "size": 48,
+                "badge_size": 64
+              }
+            ],
+            "sections": [
+              {
+                "name": "Map Badge",
+                "item_count":1,
+                "chest_opened_img": "images/ALttP/Badges/map.png",
+                "chest_unopened_img": "images/ALttP/Badges/map.png",
+                "capture_item": true,
+                "capture_item_layout": "Z3_entrance_capture_item"    
+              },
+              {
+                "name": "Entrance",
+                "chest_unopened_img": "images/door_closed.png",
+                "chest_opened_img": "images/door_open.png",
+                "item_count": 1
+              }
+            ]
+          },
+          {
+            "name": "Trees Fairy Cave",
+            "map_locations": [
+              {
+                "map": "lightworld",
+                "x": 1650,
+                "y": 1295,
+                "size": 48,
+                "badge_size": 64
+              }
+            ],
+            "sections": [
+              {
+                "name": "Map Badge",
+                "item_count":1,
+                "chest_opened_img": "images/ALttP/Badges/map.png",
+                "chest_unopened_img": "images/ALttP/Badges/map.png",
+                "capture_item": true,
+                "capture_item_layout": "Z3_entrance_capture_item"    
+              },
+              {
+                "name": "Entrance",
+                "chest_unopened_img": "images/door_closed.png",
+                "chest_opened_img": "images/door_open.png",
+                "item_count": 1
+              }
+            ]
+          },
+          {
+            "name": "Pegs Fairy Cave",
+            "map_locations": [
+              {
+                "map": "lightworld",
+                "x": 1970,
+                "y": 1405,
+                "size": 48,
+                "badge_size": 64
+              }
+            ],
+            "sections": [
+              {
+                "name": "Map Badge",
+                "item_count":1,
+                "chest_opened_img": "images/ALttP/Badges/map.png",
+                "chest_unopened_img": "images/ALttP/Badges/map.png",
+                "capture_item": true,
+                "capture_item_layout": "Z3_entrance_capture_item"    
+              },
+              {
+                "name": "Entrance",
+                "chest_unopened_img": "images/door_closed.png",
+                "chest_opened_img": "images/door_open.png",
+                "item_count": 1
+              }
+            ]
+          },
+          {
+            "name": "Eastern Palace Entrance",
+            "map_locations": [
+              {
+                "map": "lightworld",
+                "x": 1925,
+                "y": 830,
+                "size": 48,
+                "badge_size": 64
+              }
+            ],
+            "sections": [
+              {
+                "name": "Map Badge",
+                "item_count":1,
+                "chest_opened_img": "images/ALttP/Badges/map.png",
+                "chest_unopened_img": "images/ALttP/Badges/map.png",
+                "capture_item": true,
+                "capture_item_layout": "Z3_entrance_capture_item"    
+              },
+              {
+                "name": "Entrance",
+                "chest_unopened_img": "images/door_closed.png",
+                "chest_opened_img": "images/door_open.png",
+                "item_count": 1
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "North Hyrule",
+        "group": "North Hyrule",
+        "color": "#059134",
+        "children": [
+          {
+            "name": "Houlihan Hole",
+            "map_locations": [
+              {
+                "map": "lightworld",
+                "x": 1290,
+                "y": 625,
+                "size": 48,
+                "badge_size": 64
+              },
+              {
+                "map": "lightworld",
+                "x": 1350,
+                "y": 549,
+                "size": 48,
+                "badge_size": 64
+              }
+            ],
+            "sections": [
+              {
+                "name": "Dropdown",
+                "chest_unopened_img": "images/door_closed.png",
+                "chest_opened_img": "images/door_open.png",
+                "item_count": 1,
+                "capture_item":true,
+                "capture_item_layout":"Z3_dropdown_capture_item"
+              }
+            ]
+          },
+          {
+            "name": "Sanctuary Grave",
+            "map_locations": [
+              {
+                "map": "lightworld",
+                "x": 1040,
+                "y": 590,
+                "size": 48,
+                "badge_size": 64
+              },
+              {
+                "map": "lightworld",
+                "x": 920,
+                "y": 540,
+                "size": 48,
+                "badge_size": 64
+              }
+            ],
+            "sections": [
+              {
+                "name": "Dropdown",
+                "access_rules": [
+                  "lift1",
+                  "{}"
+                ],
+                "chest_unopened_img": "images/door_closed.png",
+                "chest_opened_img": "images/door_open.png",
+                "item_count": 1,
+                "capture_item":true,
+                "capture_item_layout":"Z3_dropdown_capture_item"
+              }
+            ]
+          },
+          {
+            "name": "North Bonk Rocks",
+            "access_rules": [
+              "boots"
+            ],
+            "map_locations": [
+              {
+                "map": "lightworld",
+                "x": 777,
+                "y": 590,
+                "size": 48,
+                "badge_size": 64
+              }
+            ],
+            "sections": [
+              {
+                "name": "Map Badge",
+                "item_count":1,
+                "chest_opened_img": "images/ALttP/Badges/map.png",
+                "chest_unopened_img": "images/ALttP/Badges/map.png",
+                "capture_item": true,
+                "capture_item_layout": "Z3_entrance_capture_item"    
+              },
+              {
+                "name": "Entrance",
+                "chest_unopened_img": "images/door_closed.png",
+                "chest_opened_img": "images/door_open.png",
+                "item_count": 1
+              }
+            ]
+          },
+          {
+            "name": "King's Tomb",
+            "access_rules": [
+              "lift2",
+              "pearl,aga1,flippers,hookshot,mirror",
+              "pearl,aga1,hammer,hookshot,mirror",
+              "pearl,aga1,lift1,hookshot,mirror",
+              "pearl,lift1,hammer,mirror",
+              "dw_west,pearl,mirror",
+              "dw_east,flippers,hookshot,mirror",
+              "dw_east,lift1,hookshot,mirror",
+              "dw_east,hammer,hookshot,mirror",
+              "dw_south,flippers,hookshot,mirror",
+              "dw_south,hammer,hookshot,mirror",
+              "dw_witch,pearl,hookshot,mirror"
+            ],
+            "sections": [
+              {
+                "name": "Map Badge",
+                "access_rules": [
+                  "boots"
+                ],
+                "item_count":1,
+                "chest_opened_img": "images/ALttP/Badges/map.png",
+                "chest_unopened_img": "images/ALttP/Badges/map.png",
+                "capture_item": true,
+                "capture_item_layout": "Z3_entrance_capture_item"    
+              },
+              {
+                "name": "Entrance",
+                "access_rules": [
+                  "boots"
+                ],
+                "chest_unopened_img": "images/door_closed.png",
+                "chest_opened_img": "images/door_open.png",
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "lightworld",
+                "x": 1207,
+                "y": 598,
+                "size": 48,
+                "badge_size": 64
+              }
+            ]
+          },
+          {
+            "name": "Dark Northern",
+            "access_rules": [
+              "pearl,lift2",
+              "pearl,aga1,hammer,hookshot",
+              "pearl,aga1,lift1,hookshot",
+              "pearl,aga1,flippers,hookshot",
+              "pearl,lift1,hammer",
+              "dw_west,pearl",
+              "dw_east,flippers,hookshot",
+              "dw_east,lift1,hookshot",
+              "dw_east,hammer,hookshot",
+              "dw_south,flippers,hookshot",
+              "dw_south,hammer,hookshot",
+              "dw_witch,pearl,hookshot"
+            ],
+            "children": [
+              {
+                "name": "Graveyard Ledge",
+                "access_rules": [
+                  "mirror"
+                ],
+                "sections": [
+                  {
+                    "name": "Map Badge",
+                    "item_count":1,
+                    "chest_opened_img": "images/ALttP/Badges/map.png",
+                    "chest_unopened_img": "images/ALttP/Badges/map.png",
+                    "capture_item": true,
+                    "capture_item_layout": "Z3_entrance_capture_item"    
+                  },
+                  {
+                    "name": "Entrance",
+                    "chest_unopened_img": "images/door_closed.png",
+                    "chest_opened_img": "images/door_open.png",
+                    "item_count": 1
+                  }
+                ],
+                "map_locations": [
+                  {
+                    "map": "lightworld",
+                    "x": 1132,
+                    "y": 549,
+                    "size": 48,
+                    "badge_size": 64
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Desert Area",
+        "group": "Desert Area",
+        "color": "#aa860d",
+        "children": [
+          {
+            "name": "Desert Ledge Area",
+            "group": "Desert Ledge Area",
+            "color": "#aa860d",
+            "access_rules": [
+              "lift2,ocarina,mirror",
+              "desert_ledge",
+              "desert_back,lift1",
+              "mire_area,mirror",
+              "@CanAccessMiseryMirePortal,mirror"
+            ],
+            "children": [
+              {
+                "name": "Desert Left Entrance",
+                "map_locations": [
+                  {
+                    "map": "lightworld",
+                    "x": 70,
+                    "y": 1590,
+                    "size": 48,
+                    "badge_size": 64
+                  }
+                ],
+                "sections": [
+                  {
+                    "name": "Map Badge",
+                    "item_count":1,
+                    "chest_opened_img": "images/ALttP/Badges/map.png",
+                    "chest_unopened_img": "images/ALttP/Badges/map.png",
+                    "capture_item": true,
+                    "capture_item_layout": "Z3_entrance_capture_item"    
+                  },
+                  {
+                    "name": "Entrance",
+                    "chest_unopened_img": "images/green-square.png",
+                    "chest_opened_img": "images/gray-square.png",
+                    "item_count": 1,
+                    "hosted_item": "desert_ledge"
+                  }
+                ]
+              },
+              {
+                "name": "Desert Back Entrance",
+                "access_rules": [
+                  "mire_area,mirror",
+                  "lift1"
+                ],
+                "map_locations": [
+                  {
+                    "map": "lightworld",
+                    "x": 150,
+                    "y": 1540,
+                    "size": 48,
+                    "badge_size": 64
+                  }
+                ],
+                "sections": [
+                  {
+                    "name": "Map Badge",
+                    "item_count":1,
+                    "chest_opened_img": "images/ALttP/Badges/map.png",
+                    "chest_unopened_img": "images/ALttP/Badges/map.png",
+                    "capture_item": true,
+                    "capture_item_layout": "Z3_entrance_capture_item"    
+                  },
+                  {
+                    "name": "Entrance",
+                    "chest_unopened_img": "images/green-square.png",
+                    "chest_opened_img": "images/gray-square.png",
+                    "item_count": 1,
+                    "hosted_item": "desert_back"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Desert Ledge",
+            "color": "#aa860d",
+            "sections": [
+              {
+                "name": "Ledge",
+                "access_rules": [
+                  "lift2,ocarina,mirror",
+                  "@CanAccessMiseryMirePortal,mirror",
+                  "desert_ledge",
+                  "desert_back,lift1",
+                  "{}"
+                ],
+                "capture_item": true,
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "lightworld",
+                "x": 40,
+                "y": 1835
+              }
+            ]
+          },
+          {
+            "name": "Desert Right Entrance",
+            "access_rules":["dpright"],
+            "map_locations": [
+              {
+                "map": "lightworld",
+                "x": 225,
+                "y": 1590,
+                "size": 48,
+                "badge_size": 64
+              }
+            ],
+            "sections": [
+              {
+                "name": "Map Badge",
+                "item_count":1,
+                "chest_opened_img": "images/ALttP/Badges/map.png",
+                "chest_unopened_img": "images/ALttP/Badges/map.png",
+                "capture_item": true,
+                "capture_item_layout": "Z3_entrance_capture_item"    
+              },
+              {
+                "name": "Exit Only",
+                "chest_unopened_img": "images/green-square.png",
+                "chest_opened_img": "images/gray-square.png",
+                "item_count": 1,
+                "hosted_item":"dpright"
+              }
+            ]
+          },
+          {
+            "name": "Desert Front Entrance",
+            "access_rules": [
+              "book",
+              "mire_area, mirror",
+              "@CanAccessMiseryMirePortal,mirror"
+            ],
+            "map_locations": [
+              {
+                "map": "lightworld",
+                "x": 150,
+                "y": 1600,
+                "size": 48,
+                "badge_size": 64
+              }
+            ],
+            "sections": [
+              {
+                "name": "Map Badge",
+                "item_count":1,
+                "chest_opened_img": "images/ALttP/Badges/map.png",
+                "chest_unopened_img": "images/ALttP/Badges/map.png",
+                "capture_item": true,
+                "capture_item_layout": "Z3_entrance_capture_item"    
+              },
+              {
+                "name": "Entrance",
+                "chest_unopened_img": "images/door_closed.png",
+                "chest_opened_img": "images/door_open.png",
+                "item_count": 1
+              }
+            ]
+          },
+          {
+            "name": "Aginah's Cave",
+            "sections": [
+              {
+                "name": "Map Badge",
+                "item_count":1,
+                "chest_opened_img": "images/ALttP/Badges/map.png",
+                "chest_unopened_img": "images/ALttP/Badges/map.png",
+                "capture_item": true,
+                "capture_item_layout": "Z3_entrance_capture_item"    
+              },
+              {
+                "name": "Entrance",
+                "chest_unopened_img": "images/door_closed.png",
+                "chest_opened_img": "images/door_open.png",
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "lightworld",
+                "x": 400,
+                "y": 1655,
+                "size": 48,
+                "badge_size": 64
+              }
+            ]
+          },
+          {
+            "name": "Thief Cave",
+            "map_locations": [
+              {
+                "map": "lightworld",
+                "x": 555,
+                "y": 1790,
+                "size": 48,
+                "badge_size": 64
+              }
+            ],
+            "sections": [
+              {
+                "name": "Map Badge",
+                "item_count":1,
+                "chest_opened_img": "images/ALttP/Badges/map.png",
+                "chest_unopened_img": "images/ALttP/Badges/map.png",
+                "capture_item": true,
+                "capture_item_layout": "Z3_entrance_capture_item"    
+              },
+              {
+                "name": "Entrance",
+                "chest_unopened_img": "images/door_closed.png",
+                "chest_opened_img": "images/door_open.png",
+                "item_count": 1
+              }
+            ]
+          },
+          {
+            "name": "Rupee Cave",
+            "access_rules": [
+              "lift1"
+            ],
+            "map_locations": [
+              {
+                "map": "lightworld",
+                "x": 625,
+                "y": 1920,
+                "size": 48,
+                "badge_size": 64
+              }
+            ],
+            "sections": [
+              {
+                "name": "Map Badge",
+                "item_count":1,
+                "chest_opened_img": "images/ALttP/Badges/map.png",
+                "chest_unopened_img": "images/ALttP/Badges/map.png",
+                "capture_item": true,
+                "capture_item_layout": "Z3_entrance_capture_item"    
+              },
+              {
+                "name": "Entrance",
+                "chest_unopened_img": "images/door_closed.png",
+                "chest_opened_img": "images/door_open.png",
+                "item_count": 1
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  //  Dark World
+  {
+    "name": "Skull Woods Back Area",
+    "color": "#35046b",
+    "access_rules":[
+      "sw_back"
+    ],
+    "children":[
+      {
+        "name": "Skull Woods Back",
+        "access_rules": [
+          "firerod,pearl"
+        ],
+        "sections": [
+          {
+            "name": "Map Badge",
+            "item_count":1,
+            "chest_opened_img": "images/ALttP/Badges/map.png",
+            "chest_unopened_img": "images/ALttP/Badges/map.png",
+            "capture_item": true,
+            "capture_item_layout": "Z3_entrance_capture_item"    
+          },
+          {
+            "name": "Entrance",
+            "chest_unopened_img": "images/green-square.png",
+            "chest_opened_img": "images/gray-square.png",
+            "item_count": 1,
+            "hosted_item": "sw_back"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "darkworld",
+            "x": 80,
+            "y": 100,
+            "size": 48,
+            "badge_size": 64
+          }
+        ]
+      },
+      {
+        "name": "Skull Woods Mid Left",
+        "sections":[
+          {
+            "name": "Map Badge",
+            "item_count":1,
+            "chest_opened_img": "images/ALttP/Badges/map.png",
+            "chest_unopened_img": "images/ALttP/Badges/map.png",
+            "capture_item": true,
+            "capture_item_layout": "Z3_entrance_capture_item"    
+          },
+          {
+            "name": "Entrance",
+            "chest_unopened_img": "images/green-square.png",
+            "chest_opened_img": "images/gray-square.png",
+            "item_count": 1,
+            "hosted_item": "sw_back"
+          }
+        ],
+        "map_locations":[
+          {
+            "map":"darkworld",
+            "x": 118,
+            "y": 256,
+            "size":48,
+            "badge_size":64            
+          }
+        ]
+      },
+      {
+        "name":"Skull Woods Back Hole",
+        "access_rules":[
+          "pearl"
+        ],
+        "sections":[
+          {
+            "name": "Dropdown",
+            "chest_unopened_img": "images/door_closed.png",
+            "chest_opened_img": "images/door_open.png",
+            "item_count": 1,
+            "capture_item":true,
+            "capture_item_layout":"Skull_woods_dropdowns"
+          }
+        ],
+        "map_locations":[
+          {
+            "map":"darkworld",
+            "x": 242,
+            "y": 180,
+            "size":48,
+            "badge_size":64
+          }
+        ]
+      }
+    ]    
+  },
+  {
+    "name": "Northwest Dark World",
+    "color": "#35046b",
+    "access_rules": [
+      "aga1,hookshot,flippers,moonpearl",
+      "aga1,hookshot,lift1,moonpearl",
+      "aga1,hookshot,hammer,moonpearl",
+      "lift1,hammer,moonpearl",
+      "lift2,moonpearl",
+      "@CanAccessDarkWorldPortal,pearl,hookshot,[flippers]",
+      "dw_west",
+      "bumper_cave",
+      "hammer_house,hammer,moonpearl",
+      "dw_east,pearl,lift1,hookshot",
+      "dw_east,pearl,flippers,hookshot",
+      "dw_east,pearl,hammer,hookshot",
+      "dw_witch,pearl,hookshot"
+    ],
+    "sections": [
+      {
+        "name": "Region",
+        "hosted_item": "dw_west"
+      }
+    ],
+    "children": [      
+      {
+        "name": "Skull Woods Mid Right",
+        "sections":[
+          {
+            "name": "Map Badge",
+            "item_count":1,
+            "chest_opened_img": "images/ALttP/Badges/map.png",
+            "chest_unopened_img": "images/ALttP/Badges/map.png",
+            "capture_item": true,
+            "capture_item_layout": "Z3_entrance_capture_item"    
+          },
+          {
+            "name": "Entrance",
+            "chest_unopened_img": "images/green-square.png",
+            "chest_opened_img": "images/gray-square.png",
+            "item_count": 1,
+            "hosted_item": "dw_west"
+          }
+        ],
+        "map_locations":[
+          {
+            "map":"darkworld",
+            "x": 290,
+            "y": 290,
+            "size":48,
+            "badge_size":64            
+          }
+        ]
+      },      
+      {
+        "name": "Skull Woods Front",
+        "sections":[
+          {
+            "name": "Map Badge",
+            "item_count":1,
+            "chest_opened_img": "images/ALttP/Badges/map.png",
+            "chest_unopened_img": "images/ALttP/Badges/map.png",
+            "capture_item": true,
+            "capture_item_layout": "Z3_entrance_capture_item"    
+          },
+          {
+            "name": "Entrance",
+            "chest_unopened_img": "images/green-square.png",
+            "chest_opened_img": "images/gray-square.png",
+            "item_count": 1,
+            "hosted_item": "dw_west"
+          }
+        ],
+        "map_locations":[
+          {
+            "map":"darkworld",
+            "x": 369,
+            "y": 300,
+            "size":48,
+            "badge_size":64            
+          }
+        ]
+      },
+      {
+        "name":"Skull Woods Bush Hole",
+        "access_rules":[
+          "pearl"
+        ],
+        "sections":[
+          {
+            "name": "Dropdown",
+            "chest_unopened_img": "images/green-square.png",
+            "chest_opened_img": "images/gray-square.png",
+            "item_count": 1,
+            "capture_item":true,
+            "capture_item_layout":"Skull_woods_dropdowns"
+          }
+        ],
+        "map_locations":[
+          {
+            "map":"darkworld",
+            "x": 380,
+            "y": 263,
+            "size":48,
+            "badge_size":64
+          }
+        ]
+      },
+      {
+        "name":"Skull Woods Left Hole",
+        "sections":[
+          {
+            "name": "Dropdown",
+            "chest_unopened_img": "images/door_closed.png",
+            "chest_opened_img": "images/door_open.png",
+            "item_count": 1,
+            "capture_item":true,
+            "capture_item_layout":"Skull_woods_dropdowns"
+          }
+        ],
+        "map_locations":[
+          {
+            "map":"darkworld",
+            "x": 314,
+            "y": 354,
+            "size":48,
+            "badge_size":64
+          }
+        ]
+      },
+      {
+        "name":"Skull Woods Right Hole",
+        "sections":[
+          {
+            "name": "Dropdown",
+            "chest_unopened_img": "images/door_closed.png",
+            "chest_opened_img": "images/door_open.png",
+            "item_count": 1,
+            "capture_item":true,
+            "capture_item_layout":"Skull_woods_dropdowns"
+          }
+        ],
+        "map_locations":[
+          {
+            "map":"darkworld",
+            "x": 392,
+            "y": 338,
+            "size":48,
+            "badge_size":64
+          }
+        ]
+      },
+      {
+        "name": "Village of Outcasts",
+        "group": "Kakariko Area",
+        "children": [
+          {
+            "name": "Thieves Town Entrance",
+            "access_rules": [
+              "pearl"
+            ],
+            "sections": [
+              {
+                "name": "Map Badge",
+                "item_count":1,
+                "chest_opened_img": "images/ALttP/Badges/map.png",
+                "chest_unopened_img": "images/ALttP/Badges/map.png",
+                "capture_item": true,
+                "capture_item_layout": "Z3_entrance_capture_item"    
+              },
+              {
+                "name": "Entrance",
+                "chest_unopened_img": "images/green-square.png",
+                "chest_opened_img": "images/gray-square.png",
+                "item_count": 1,
+                "hosted_item": "dw_west"
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "darkworld",
+                "x": 255,
+                "y": 985,
+                "size": 48,
+                "badge_size": 64
+              }
+            ]
+          },
+          {
+            "name": "C-Shaped House",
+            "sections": [
+              {
+                "name": "Map Badge",
+                "item_count":1,
+                "chest_opened_img": "images/ALttP/Badges/map.png",
+                "chest_unopened_img": "images/ALttP/Badges/map.png",
+                "capture_item": true,
+                "capture_item_layout": "Z3_entrance_capture_item"    
+              },
+              {
+                "name": "Entrance",
+                "chest_unopened_img": "images/green-square.png",
+                "chest_opened_img": "images/gray-square.png",
+                "item_count": 1,
+                "hosted_item": "dw_west"
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "darkworld",
+                "x": 414,
+                "y": 969,
+                "size": 48,
+                "badge_size": 64
+              }
+            ]
+          },
+          {
+            "name": "Hammer House",
+            "access_rules": [
+              "hammer,pearl"
+            ],
+            "sections": [
+              {
+                "name": "Map Badge",
+                "item_count":1,
+                "chest_opened_img": "images/ALttP/Badges/map.png",
+                "chest_unopened_img": "images/ALttP/Badges/map.png",
+                "capture_item": true,
+                "capture_item_layout": "Z3_entrance_capture_item"    
+              },
+              {
+                "name": "Entrance",
+                "chest_unopened_img": "images/green-square.png",
+                "chest_opened_img": "images/gray-square.png",
+                "item_count": 1,
+                "hosted_item": "hammer_house"
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "darkworld",
+                "x": 408,
+                "y": 1069,
+                "size": 48,
+                "badge_size": 64
+              }
+            ]
+          },
+          {
+            "name": "Dark Village Fortune Teller",
+            "sections": [
+              {
+                "name": "Map Badge",
+                "item_count":1,
+                "chest_opened_img": "images/ALttP/Badges/map.png",
+                "chest_unopened_img": "images/ALttP/Badges/map.png",
+                "capture_item": true,
+                "capture_item_layout": "Z3_entrance_capture_item"    
+              },
+              {
+                "name": "Entrance",
+                "chest_unopened_img": "images/green-square.png",
+                "chest_opened_img": "images/gray-square.png",
+                "item_count": 1,
+                "hosted_item": "dw_west"
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "darkworld",
+                "x": 377,
+                "y": 647,
+                "size": 48,
+                "badge_size": 64
+              }
+            ]
+          },
+          {
+            "name": "Dark Sanctuary",
+            "sections": [
+              {
+                "name": "Map Badge",
+                "item_count":1,
+                "chest_opened_img": "images/ALttP/Badges/map.png",
+                "chest_unopened_img": "images/ALttP/Badges/map.png",
+                "capture_item": true,
+                "capture_item_layout": "Z3_entrance_capture_item"    
+              },
+              {
+                "name": "Entrance",
+                "chest_unopened_img": "images/green-square.png",
+                "chest_opened_img": "images/gray-square.png",
+                "item_count": 1,
+                "hosted_item": "dw_west"
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "darkworld",
+                "x": 924,
+                "y": 551,
+                "size": 48,
+                "badge_size": 64
+              }
+            ]
+          },
+          {
+            "name": "Shield Shop",
+            "sections": [
+              {
+                "name": "Map Badge",
+                "item_count":1,
+                "chest_opened_img": "images/ALttP/Badges/map.png",
+                "chest_unopened_img": "images/ALttP/Badges/map.png",
+                "capture_item": true,
+                "capture_item_layout": "Z3_entrance_capture_item"    
+              },
+              {
+                "name": "Entrance",
+                "chest_unopened_img": "images/green-square.png",
+                "chest_opened_img": "images/gray-square.png",
+                "item_count": 1,
+                "hosted_item": "dw_west"
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "darkworld",
+                "x": 665,
+                "y": 922,
+                "size": 48,
+                "badge_size": 64
+              }
+            ]
+          },
+          {
+            "name": "Dark Lumberjack",
+            "sections": [
+              {
+                "name": "Map Badge",
+                "item_count":1,
+                "chest_opened_img": "images/ALttP/Badges/map.png",
+                "chest_unopened_img": "images/ALttP/Badges/map.png",
+                "capture_item": true,
+                "capture_item_layout": "Z3_entrance_capture_item"    
+              },
+              {
+                "name": "Entrance",
+                "chest_unopened_img": "images/green-square.png",
+                "chest_opened_img": "images/gray-square.png",
+                "item_count": 1,
+                "hosted_item": "dw_west"
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "darkworld",
+                "x": 675,
+                "y": 115,
+                "size": 48,
+                "badge_size": 64
+              }
+            ]
+          },
+          {
+            "name": "Treasure Game",
+            "sections": [
+              {
+                "name": "Map Badge",
+                "item_count":1,
+                "chest_opened_img": "images/ALttP/Badges/map.png",
+                "chest_unopened_img": "images/ALttP/Badges/map.png",
+                "capture_item": true,
+                "capture_item_layout": "Z3_entrance_capture_item"    
+              },
+              {
+                "name": "Entrance",
+                "chest_unopened_img": "images/green-square.png",
+                "chest_opened_img": "images/gray-square.png",
+                "item_count": 1,
+                "hosted_item": "dw_west"
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "darkworld",
+                "x": 100,
+                "y": 936,
+                "size": 48,
+                "badge_size": 64
+              }
+            ]
+          },
+          {
+            "name": "Brewery",
+            "access_rules": [
+              "pearl"
+            ],
+            "sections": [
+              {
+                "name": "Map Badge",
+                "item_count":1,
+                "chest_opened_img": "images/ALttP/Badges/map.png",
+                "chest_unopened_img": "images/ALttP/Badges/map.png",
+                "capture_item": true,
+                "capture_item_layout": "Z3_entrance_capture_item"    
+              },
+              {
+                "name": "Entrance",
+                "chest_unopened_img": "images/green-square.png",
+                "chest_opened_img": "images/gray-square.png",
+                "item_count": 1,
+                "hosted_item": "dw_west"
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "darkworld",
+                "x": 219,
+                "y": 1171,
+                "size": 48,
+                "badge_size": 64
+              }
+            ]
+          },
+          {
+            "name": "Jeremiah",
+            "short_name": "Smiths",
+            "access_rules": [
+              "lift2"
+            ],
+            "sections": [
+              {
+                "name": "Bring Him Home",
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "darkworld",
+                "x": 295,
+                "y": 1325
+              }
+            ]
+          },
+          {
+            "name": "Purple Chest",
+            "access_rules": [
+              "lift2"
+            ],
+            "sections": [
+              {
+                "name": "Show To Gary",
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "lightworld",
+                "x": 680,
+                "y": 1805
+              },
+              {
+                "map": "darkworld",
+                "x": 601,
+                "y": 1050
+              }
+            ]
+          },
+          {
+            "name": "Hammer Pegs",
+            "access_rules": [
+              "lift2,hammer"
+            ],
+            "sections": [
+              {
+                "name": "Map Badge",
+                "item_count":1,
+                "chest_opened_img": "images/ALttP/Badges/map.png",
+                "chest_unopened_img": "images/ALttP/Badges/map.png",
+                "capture_item": true,
+                "capture_item_layout": "Z3_entrance_capture_item"    
+              },
+              {
+                "name": "Entrance",
+                "chest_unopened_img": "images/door_closed.png",
+                "chest_opened_img": "images/door_open.png",
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "darkworld",
+                "x": 636,
+                "y": 1214,
+                "size": 48,
+                "badge_size": 64
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Bumper Cave Exit",
+        "sections": [
+          {
+            "name": "Map Badge",
+            "item_count":1,
+            "chest_opened_img": "images/ALttP/Badges/map.png",
+            "chest_unopened_img": "images/ALttP/Badges/map.png",
+            "capture_item": true,
+            "capture_item_layout": "Z3_entrance_capture_item"    
+          },
+          {
+            "name": "Exit Only",
+            "access_rules": [
+              "bumper_cave"
+            ],
+            "chest_unopened_img": "images/green-square.png",
+            "chest_opened_img": "images/gray-square.png",
+            "item_count": 1,
+            "hosted_item": "bumper_cave"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "darkworld",
+            "x": 720,
+            "y": 310,
+            "size": 48,
+            "badge_size": 64
+          }
+        ]
+      },
+      {
+        "name": "Bumper Cave Entry",
+        "access_rules": [
+          "bumper_cave",
+          "pearl,lift1"
+        ],
+        "sections": [
+          {
+            "name": "Map Badge",
+            "item_count":1,
+            "chest_opened_img": "images/ALttP/Badges/map.png",
+            "chest_unopened_img": "images/ALttP/Badges/map.png",
+            "capture_item": true,
+            "capture_item_layout": "Z3_entrance_capture_item"    
+          },
+          {
+            "name": "Entrance",
+            "chest_unopened_img": "images/green-square.png",
+            "chest_opened_img": "images/gray-square.png",
+            "item_count": 1,
+            "hosted_item": "dw_west"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "darkworld",
+            "x": 715,
+            "y": 355,
+            "size": 48,
+            "badge_size": 64
+          }
+        ]
+      },
+      {
+        "name": "Bumper Cave",
+        "sections": [
+          {
+            "name": "Ledge",
+            "capture_item": true,
+            "access_rules": [
+              "bumper_cave",
+              "{}"
+            ],
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "darkworld",
+            "x": 650,
+            "y": 315
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "South Dark World",
+    "color": "#35046b",
+    "group": "South Dark World",
+    "access_rules": [
+      "aga1,hammer,moonpearl",
+      "aga1,hookshot,lift1,moonpearl",
+      "aga1,hookshot,flippers,moonpearl",
+      "lift1,hammer,moonpearl",
+      "lift2,moonpearl",
+      "@CanAccessDarkWorldPortal,pearl,hookshot,[flippers]",
+      "@CanAccessDarkWorldPortal,pearl,hammer,[flippers]",
+      "dw_west",
+      "bumper_cave",
+      "hammer_house,hammer,moonpearl",
+      "dw_south",
+      "dw_east,pearl,hammer",
+      "dw_east,pearl,lift1,hookshot",
+      "dw_east,pearl,flippers,hookshot",
+      "dw_witch,pearl,hammer",
+      "dw_witch,pearl,hookshot"
+    ],
+    "children": [
+      {
+        "name": "Haunted Grove",
+        "access_rules": [
+          "pearl"
+        ],
+        "sections": [
+          {
+            "name": "Stumpy",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "darkworld",
+            "x": 620,
+            "y": 1371
+          }
+        ]
+      },
+      {
+        "name": "Hype Cave",
+        "color": "#35046b",
+        "access_rules": [
+          "moonpearl"
+        ],
+        "sections": [
+          {
+            "name": "Map Badge",
+            "item_count":1,
+            "chest_opened_img": "images/ALttP/Badges/map.png",
+            "chest_unopened_img": "images/ALttP/Badges/map.png",
+            "capture_item": true,
+            "capture_item_layout": "Z3_entrance_capture_item"    
+          },
+          {
+            "name": "Entrance",
+            "chest_unopened_img": "images/green-square.png",
+            "chest_opened_img": "images/gray-square.png",
+            "item_count": 1,
+            "hosted_item": "dw_south"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "darkworld",
+            "x": 1200,
+            "y": 1560,
+            "size": 48,
+            "badge_size": 64
+          }
+        ]
+      },
+      {
+        "name": "Swamp Palace Entrance",
+        "color": "#35046b",
+        "sections": [
+          {
+            "name": "Map Badge",
+            "item_count":1,
+            "chest_opened_img": "images/ALttP/Badges/map.png",
+            "chest_unopened_img": "images/ALttP/Badges/map.png",
+            "capture_item": true,
+            "capture_item_layout": "Z3_entrance_capture_item"    
+          },
+          {
+            "name": "Entrance",
+            "chest_unopened_img": "images/green-square.png",
+            "chest_opened_img": "images/gray-square.png",
+            "item_count": 1,
+            "hosted_item": "dw_south"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "darkworld",
+            "x": 940,
+            "y": 1885,
+            "size": 48,
+            "badge_size": 64
+          }
+        ]
+      },
+      {
+        "name": "Bombos Tablet",
+        "group": "Desert Area",
+        "color": "#aa860d",
+        "sections": [
+          {
+            "name": "Tablet",
+            "access_rules": [
+              "mirror,book,sword2",
+              "{mirror,book}"
+            ],
+            "capture_item": true,
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "lightworld",
+            "x": 440,
+            "y": 1845
+          }
+        ]
+      },
+      {
+        "name": "Dark Central Bonk Rocks",
+        "short_name": "Bonk Rocks",
+        "access_rules": [
+          "boots,pearl"
+        ],
+        "map_locations": [
+          {
+            "map": "darkworld",
+            "x": 945,
+            "y": 1310,
+            "size": 48,
+            "badge_size": 64
+          }
+        ],
+        "sections": [
+          {
+            "name": "Map Badge",
+            "item_count":1,
+            "chest_opened_img": "images/ALttP/Badges/map.png",
+            "chest_unopened_img": "images/ALttP/Badges/map.png",
+            "capture_item": true,
+            "capture_item_layout": "Z3_entrance_capture_item"    
+          },
+          {
+            "name": "Entrance",
+            "chest_unopened_img": "images/green-square.png",
+            "chest_opened_img": "images/gray-square.png",
+            "item_count": 1,
+            "hosted_item": "dw_south"
+          }
+        ]
+      },
+      {
+        "name": "South of Grove",
+        "access_rules": [
+          "mirror"
+        ],
+        "sections": [
+          {
+            "name": "Map Badge",
+            "item_count":1,
+            "chest_opened_img": "images/ALttP/Badges/map.png",
+            "chest_unopened_img": "images/ALttP/Badges/map.png",
+            "capture_item": true,
+            "capture_item_layout": "Z3_entrance_capture_item"    
+          },
+          {
+            "name": "Entrance",
+            "chest_unopened_img": "images/door_closed.png",
+            "chest_opened_img": "images/door_open.png",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "lightworld",
+            "x": 552,
+            "y": 1693,
+            "size": 48,
+                "badge_size": 64
+          }
+        ]
+      },
+      {
+        "name": "Digging Game",
+        "access_rules": [
+          "moonpearl"
+        ],
+        "sections": [
+          {
+            "name": "Dig For Treasure",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "darkworld",
+            "x": 100,
+            "y": 1385
+          }
+        ]
+      },
+      {
+        "name": "Bomb Shop",
+        "sections": [
+          {
+            "name": "Map Badge",
+            "item_count":1,
+            "chest_opened_img": "images/ALttP/Badges/map.png",
+            "chest_unopened_img": "images/ALttP/Badges/map.png",
+            "capture_item": true,
+            "capture_item_layout": "Z3_entrance_capture_item"    
+          },
+          {
+            "name": "Entrance",
+            "chest_unopened_img": "images/green-square.png",
+            "chest_opened_img": "images/gray-square.png",
+            "item_count": 1,
+            "hosted_item": "dw_south"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "darkworld",
+            "x": 1098,
+            "y": 1382,
+            "size": 48,
+            "badge_size": 64
+          }
+        ]
+      },
+      {
+        "name": "Arrow Game",
+        "sections": [
+          {
+            "name": "Map Badge",
+            "item_count":1,
+            "chest_opened_img": "images/ALttP/Badges/map.png",
+            "chest_unopened_img": "images/ALttP/Badges/map.png",
+            "capture_item": true,
+            "capture_item_layout": "Z3_entrance_capture_item"    
+          },
+          {
+            "name": "Entrance",
+            "chest_unopened_img": "images/green-square.png",
+            "chest_opened_img": "images/gray-square.png",
+            "item_count": 1,
+            "hosted_item": "dw_south"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "darkworld",
+            "x": 431,
+            "y": 1409,
+            "size": 48,
+            "badge_size": 64
+          }
+        ]
+      },
+      {
+        "name": "Race House Left",
+        "map_locations": [
+          {
+            "map": "lightworld",
+            "x": 220,
+            "y": 1435,
+            "size": 48,
+            "badge_size": 64
+          }
+        ],
+        "access_rules": [
+          "mirror"
+        ],
+        "sections": [
+          {
+            "name": "Map Badge",
+            "item_count":1,
+            "chest_opened_img": "images/ALttP/Badges/map.png",
+            "chest_unopened_img": "images/ALttP/Badges/map.png",
+            "capture_item": true,
+            "capture_item_layout": "Z3_entrance_capture_item"    
+          },
+          {
+            "name": "Entrance",
+            "chest_unopened_img": "images/door_closed.png",
+            "chest_opened_img": "images/door_open.png",
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Dark Hylia Fortune Teller",
+        "sections": [
+          {
+            "name": "Map Badge",
+            "item_count":1,
+            "chest_opened_img": "images/ALttP/Badges/map.png",
+            "chest_unopened_img": "images/ALttP/Badges/map.png",
+            "capture_item": true,
+            "capture_item_layout": "Z3_entrance_capture_item"    
+          },
+          {
+            "name": "Entrance",
+            "chest_unopened_img": "images/green-square.png",
+            "chest_opened_img": "images/gray-square.png",
+            "item_count": 1,
+            "hosted_item": "dw_south"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "darkworld",
+            "x": 1300,
+            "y": 1615,
+            "size": 48,
+            "badge_size": 64
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "East Dark World",
+    "color": "#35046b",
+    "group": "East Dark World",
+    "access_rules": [
+      "lift1,hammer,pearl",
+      "aga1",
+      "lift2,flippers,pearl",
+      "lift2,boots,pearl,[hammer]",
+      "@CanAccessDarkWorldPortal,pearl,[flippers]",
+      "dw_west,pearl,flippers",
+      "dw_west,boots,pearl,[hammer]",
+      "bumper_cave,pearl,flippers",
+      "bumper_cave,boots,pearl,[hammer]",
+      "hammer_house,hammer,moonpearl",
+      "dw_south,pearl,hammer",
+      "dw_south,pearl,flippers",
+      "dw_east",
+      "dw_witch,pearl,lift1",
+      "dw_witch,pearl,hammer",
+      "dw_witch,pearl,flippers"
+    ],
+    "children": [
+      {
+        "name": "Pyramid Ledge",
+        "sections": [
+          {
+            "name": "Ledge",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "darkworld",
+            "x": 1164,
+            "y": 922
+          }
+        ]
+      },
+      {
+        "name": "Dark Trees Fairy Cave",
+        "sections": [
+          {
+            "name": "Map Badge",
+            "item_count":1,
+            "chest_opened_img": "images/ALttP/Badges/map.png",
+            "chest_unopened_img": "images/ALttP/Badges/map.png",
+            "capture_item": true,
+            "capture_item_layout": "Z3_entrance_capture_item"    
+          },
+          {
+            "name": "Entrance",
+            "chest_unopened_img": "images/green-square.png",
+            "chest_opened_img": "images/gray-square.png",
+            "item_count": 1,
+            "hosted_item": "dw_east"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "darkworld",
+            "x": 1656,
+            "y": 1296,
+            "size": 48,
+            "badge_size": 64
+          }
+        ]
+      },
+      {
+        "name": "Dark Saha",
+        "sections": [
+          {
+            "name": "Map Badge",
+            "item_count":1,
+            "chest_opened_img": "images/ALttP/Badges/map.png",
+            "chest_unopened_img": "images/ALttP/Badges/map.png",
+            "capture_item": true,
+            "capture_item_layout": "Z3_entrance_capture_item"    
+          },
+          {
+            "name": "Entrance",
+            "chest_unopened_img": "images/green-square.png",
+            "chest_opened_img": "images/gray-square.png",
+            "item_count": 1,
+            "hosted_item": "dw_east"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "darkworld",
+            "x": 1706,
+            "y": 1008,
+            "size": 48,
+            "badge_size": 64
+          }
+        ]
+      },
+      {
+        "name": "Palace of Darkness Entrance",
+        "access_rules": [
+          "pearl"
+        ],
+        "sections": [
+          {
+            "name": "Map Badge",
+            "item_count":1,
+            "chest_opened_img": "images/ALttP/Badges/map.png",
+            "chest_unopened_img": "images/ALttP/Badges/map.png",
+            "capture_item": true,
+            "capture_item_layout": "Z3_entrance_capture_item"    
+          },
+          {
+            "name": "Entrance",
+            "chest_unopened_img": "images/green-square.png",
+            "chest_opened_img": "images/gray-square.png",
+            "item_count": 1,
+            "hosted_item": "dw_east"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "darkworld",
+            "x": 1925,
+            "y": 830,
+            "size": 48,
+            "badge_size": 64
+          }
+        ]
+      },
+      {
+        "name": "Dark Witch's Hut",
+        "access_rules": [
+          "pearl,hammer",
+          "pearl,lift1",
+          "pearl,flippers",
+          "@CanAccessDarkWorldPortal,pearl,[flippers]"
+        ],
+        "sections": [
+          {
+            "name": "Map Badge",
+            "item_count":1,
+            "chest_opened_img": "images/ALttP/Badges/map.png",
+            "chest_unopened_img": "images/ALttP/Badges/map.png",
+            "capture_item": true,
+            "capture_item_layout": "Z3_entrance_capture_item"    
+          },
+          {
+            "name": "Entrance",
+            "chest_unopened_img": "images/green-square.png",
+            "chest_opened_img": "images/gray-square.png",
+            "item_count": 1,
+            "hosted_item": "dw_witch"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "darkworld",
+            "x": 1616,
+            "y": 678,
+            "size": 48,
+            "badge_size": 64
+          }
+        ]
+      },
+      {
+        "name": "Dark Pegs Cave",
+        "sections": [
+          {
+            "name": "Map Badge",
+            "item_count":1,
+            "chest_opened_img": "images/ALttP/Badges/map.png",
+            "chest_unopened_img": "images/ALttP/Badges/map.png",
+            "capture_item": true,
+            "capture_item_layout": "Z3_entrance_capture_item"    
+          },
+          {
+            "name": "Entrance",
+            "chest_unopened_img": "images/green-square.png",
+            "chest_opened_img": "images/gray-square.png",
+            "item_count": 1,
+            "hosted_item": "dw_east"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "darkworld",
+            "x": 1968,
+            "y": 1405,
+            "size": 48,
+            "badge_size": 64
+          }
+        ]
+      },
+      {
+        "name": "Pyramid Fairy",
+        "color": "#35046b",
+        "access_rules": [
+          "pearl,crystal56:2"
+        ],
+        "sections": [
+          {
+            "name": "Map Badge",
+            "item_count":1,
+            "chest_opened_img": "images/ALttP/Badges/map.png",
+            "chest_unopened_img": "images/ALttP/Badges/map.png",
+            "capture_item": true,
+            "capture_item_layout": "Z3_entrance_capture_item"    
+          },
+          {
+            "name": "Entrance",
+            "chest_unopened_img": "images/green-square.png",
+            "chest_opened_img": "images/gray-square.png",
+            "item_count": 1,
+            "hosted_item": "dw_east"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "darkworld",
+            "x": 940,
+            "y": 976,
+            "size": 48,
+            "badge_size": 64
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Ganon Hole",
+    "color": "#35046b",
+    "access_rules": [
+      "aga2"
+    ],
+    "sections": [
+      {
+        "name": "Dropdown",
+        "chest_unopened_img": "images/door_closed.png",
+        "chest_opened_img": "images/door_open.png",
+        "item_count": 1,
+        "capture_item":true,
+        "capture_item_layout":"Z3_dropdown_capture_item",
+        "hosted_item": "dw_east"
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "darkworld",
+        "x": 1000,
+        "y": 820,
+        "size": 48,
+        "badge_size": 64
+      },
+      {
+        "map":"darkworld",
+        "x": 860,
+        "y": 976,
+        "size":48
+      }
+    ]
+  },
+  {
+    "name": "Southeast Dark World",
+    "group": "Southeast Dark World",
+    "access_rules": [
+      "@CanAccessDarkWorldPortal",
+      "pearl, lift2, flippers",
+      "pearl, hammer,lift1, [flippers]",
+      "pearl,aga1,[flippers]",
+      "dw_south,pearl,flippers",
+      "dw_east,pearl,flippers",
+      "dw_witch,pearl,flippers",
+      "dw_west,pearl,flippers",
+      "dw_southeast"
+    ],
+    "color": "#0d8452",
+    "children": [
+      {
+        "name": "Dark Ice Rod Cave",
+        "access_rules": [
+          "pearl"
+        ],
+        "sections": [
+          {
+            "name": "Map Badge",
+            "item_count":1,
+            "chest_opened_img": "images/ALttP/Badges/map.png",
+            "chest_unopened_img": "images/ALttP/Badges/map.png",
+            "capture_item": true,
+            "capture_item_layout": "Z3_entrance_capture_item"    
+          },
+          {
+            "name": "Entrance",
+            "chest_unopened_img": "images/green-square.png",
+            "chest_opened_img": "images/gray-square.png",
+            "item_count": 1,
+            "hosted_item": "dw_southeast"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "darkworld",
+            "x": 1795,
+            "y": 1545,
+            "size": 48,
+            "badge_size": 64
+          }
+        ]
+      },
+      //{
+      //  "name": "Dark Fake Ice Rod Cave",
+      //  "sections": [
+      //            {
+      //              "name": "Map Badge",
+      //              "item_count":1,
+      //              "chest_opened_img": "images/ALttP/Badges/map.png",
+      //              "chest_unopened_img": "images/ALttP/Badges/map.png",
+      //              "capture_item": true,
+      //              "capture_item_layout": "Z3_entrance_capture_item"    
+      //            },
+      //    {
+      //      "name": "Entrance",
+      //      "chest_unopened_img": "images/green-square.png",
+      //      "chest_opened_img": "images/gray-square.png",
+      //      "item_count": 1,
+      //      "hosted_item": "dw_southeast"
+      //    }
+      //  ],
+      //  "map_locations": [
+      //    {
+      //      "map": "darkworld",
+      //      "x": 1835,
+      //      "y": 1545,
+      //      "size": 48,
+      //      "badge_size": 64
+      //    }
+      //  ]
+      //},
+      {
+        "name": "Dark Ice Rod Rock",
+        "access_rules": [
+          "lift1,pearl"
+        ],
+        "sections": [
+          {
+            "name": "Map Badge",
+            "item_count":1,
+            "chest_opened_img": "images/ALttP/Badges/map.png",
+            "chest_unopened_img": "images/ALttP/Badges/map.png",
+            "capture_item": true,
+            "capture_item_layout": "Z3_entrance_capture_item"    
+          },
+          {
+            "name": "Entrance",
+            "chest_unopened_img": "images/green-square.png",
+            "chest_opened_img": "images/gray-square.png",
+            "item_count": 1,
+            "hosted_item": "dw_southeast"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "darkworld",
+            "x": 1810,
+            "y": 1585,
+            "size": 48,
+            "badge_size": 64
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Lake Hylia",
+    "color": "#345a99",
+    "group": "Lake Hylia",
+    "children": [
+      {
+        "name": "Hype Fairy Cave",
+        "map_locations": [
+          {
+            "map": "lightworld",
+            "x": 1200,
+            "y": 1565,
+            "size": 48,
+            "badge_size": 64
+          }
+        ],
+        "sections": [
+          {
+            "name": "Map Badge",
+            "item_count":1,
+            "chest_opened_img": "images/ALttP/Badges/map.png",
+            "chest_unopened_img": "images/ALttP/Badges/map.png",
+            "capture_item": true,
+            "capture_item_layout": "Z3_entrance_capture_item"    
+          },
+          {
+            "name": "Entrance",
+            "chest_unopened_img": "images/door_closed.png",
+            "chest_opened_img": "images/door_open.png",
+            "item_count": 1
+          }
+        ]
+      },
+      //{
+      //  "name": "Fortune Teller",
+      //  "map_locations": [
+      //    {
+      //      "map": "lightworld",
+      //      "x": 1300,
+      //      "y": 1615,
+      //      "size": 48,
+      //      "badge_size": 64
+      //    }
+      //  ],
+      //  "sections": [
+      //            {
+      //              "name": "Map Badge",
+      //              "item_count":1,
+      //              "chest_opened_img": "images/ALttP/Badges/map.png",
+      //              "chest_unopened_img": "images/ALttP/Badges/map.png",
+      //              "capture_item": true,
+      //              "capture_item_layout": "Z3_entrance_capture_item"    
+      //            },
+      //    {
+      //      "name": "Entrance",
+      //      "chest_unopened_img": "images/green-square.png",
+      //      "chest_opened_img": "images/gray-square.png",
+      //      "item_count": 1
+      //    }
+      //  ]
+      //},
+      {
+        "name": "Lake Shop",
+        "map_locations": [
+          {
+            "map": "lightworld",
+            "x": 1460,
+            "y": 1540,
+            "size": 48,
+            "badge_size": 64
+          }
+        ],
+        "sections": [
+          {
+            "name": "Map Badge",
+            "item_count":1,
+            "chest_opened_img": "images/ALttP/Badges/map.png",
+            "chest_unopened_img": "images/ALttP/Badges/map.png",
+            "capture_item": true,
+            "capture_item_layout": "Z3_entrance_capture_item"    
+          },
+          {
+            "name": "Entrance",
+            "chest_unopened_img": "images/door_closed.png",
+            "chest_opened_img": "images/door_open.png",
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Upgrade Fairy",
+        "access_rules": [
+          "[flippers]",
+          "ip_area, mirror"
+        ],
+        "map_locations": [
+          {
+            "map": "lightworld",
+            "x": 1590,
+            "y": 1710,
+            "size": 48,
+            "badge_size": 64
+          }
+        ],
+        "sections": [
+          {
+            "name": "Map Badge",
+            "item_count":1,
+            "chest_opened_img": "images/ALttP/Badges/map.png",
+            "chest_unopened_img": "images/ALttP/Badges/map.png",
+            "capture_item": true,
+            "capture_item_layout": "Z3_entrance_capture_item"    
+          },
+          {
+            "name": "Entrance",
+            "chest_unopened_img": "images/door_closed.png",
+            "chest_opened_img": "images/door_open.png",
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Mini Moldorm Cave",
+        "short_name": "Mini-Moldorm",
+        "color": "#158134",
+        "sections": [
+          {
+            "name": "Map Badge",
+            "item_count":1,
+            "chest_opened_img": "images/ALttP/Badges/map.png",
+            "chest_unopened_img": "images/ALttP/Badges/map.png",
+            "capture_item": true,
+            "capture_item_layout": "Z3_entrance_capture_item"    
+          },
+          {
+            "name": "Entrance",
+            "chest_unopened_img": "images/door_closed.png",
+            "chest_opened_img": "images/door_open.png",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "lightworld",
+            "x": 1309,
+            "y": 1887,
+            "size": 48,
+            "badge_size": 64
+          }
+        ]
+      },
+      {
+        "name": "Ice Rod Cave",
+        "color": "#158134",
+        "sections": [
+          {
+            "name": "Map Badge",
+            "item_count":1,
+            "chest_opened_img": "images/ALttP/Badges/map.png",
+            "chest_unopened_img": "images/ALttP/Badges/map.png",
+            "capture_item": true,
+            "capture_item_layout": "Z3_entrance_capture_item"    
+          },
+          {
+            "name": "Entrance",
+            "chest_unopened_img": "images/door_closed.png",
+            "chest_opened_img": "images/door_open.png",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "lightworld",
+            "x": 1795,
+            "y": 1545,
+            "size": 48,
+            "badge_size": 64
+          }
+        ]
+      },
+      {
+        "name": "Good Bee Cave",
+        "map_locations": [
+          {
+            "map": "lightworld",
+            "x": 1835,
+            "y": 1545,
+            "size": 48,
+            "badge_size": 64
+          }
+        ],
+        "sections": [
+          {
+            "name": "Map Badge",
+            "item_count":1,
+            "chest_opened_img": "images/ALttP/Badges/map.png",
+            "chest_unopened_img": "images/ALttP/Badges/map.png",
+            "capture_item": true,
+            "capture_item_layout": "Z3_entrance_capture_item"    
+          },
+          {
+            "name": "Entrance",
+            "chest_unopened_img": "images/door_closed.png",
+            "chest_opened_img": "images/door_open.png",
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Ice Thief Cave",
+        "access_rules": [
+          "lift1"
+        ],
+        "map_locations": [
+          {
+            "map": "lightworld",
+            "x": 1810,
+            "y": 1585,
+            "size": 48,
+            "badge_size": 64
+          }
+        ],
+        "sections": [
+          {
+            "name": "Map Badge",
+            "item_count":1,
+            "chest_opened_img": "images/ALttP/Badges/map.png",
+            "chest_unopened_img": "images/ALttP/Badges/map.png",
+            "capture_item": true,
+            "capture_item_layout": "Z3_entrance_capture_item"    
+          },
+          {
+            "name": "Entrance",
+            "chest_unopened_img": "images/door_closed.png",
+            "chest_opened_img": "images/door_open.png",
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Lake Hylia Island",
+        "sections": [
+          {
+            "name": "Island",
+            "access_rules": [
+              "flippers,pearl,mirror,hammer,lift1",
+              "flippers,pearl,mirror,lift2",
+              "flippers,mirror,aga1,[pearl]",
+              "dw_south,pearl,flippers,mirror",
+              "dw_witch,pearl,flippers,mirror",
+              "dw_east,pearl,flippers,mirror",
+              "{[flippers]}"
+            ],
+            "capture_item": true,
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "lightworld",
+            "x": 1450,
+            "y": 1666
+          },
+          {
+            "map": "darkworld",
+            "x": 1450,
+            "y": 1666
+          }
+        ]
+      },
+      {
+        "name": "Hobo",
+        "access_rules": [
+          "[flippers]"
+        ],
+        "sections": [
+          {
+            "name": "Under The Bridge",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "lightworld",
+            "x": 1390,
+            "y": 1390
+          }
+        ]
+      },
+      {
+        "name": "Ice Palace Entrance",
+        "access_rules": [
+          "lift2,[flippers]",
+          "ip_area"
+        ],
+        "sections": [
+          {
+            "name": "Map Badge",
+            "item_count":1,
+            "chest_opened_img": "images/ALttP/Badges/map.png",
+            "chest_unopened_img": "images/ALttP/Badges/map.png",
+            "capture_item": true,
+            "capture_item_layout": "Z3_entrance_capture_item"    
+          },
+          {
+            "name": "Entrance",
+            "chest_unopened_img": "images/green-square.png",
+            "chest_opened_img": "images/gray-square.png",
+            "item_count": 1,
+            "hosted_item": "ip_area"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "darkworld",
+            "x": 1600,
+            "y": 1745,
+            "size": 48,
+            "badge_size": 64
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Mire Area",
+    "color": "#02473f",
+    "group": "Desert Area",
+    "access_rules": [
+      "ocarina,lift2",
+      "@CanAccessMiseryMirePortal",
+      "mire_area"
+    ],
+    "children": [
+      {
+        "name": "Misery Mire Entrance",
+        "color": "#35046b",
+        "access_rules": [
+          "pearl,mm_medallion,sword",
+          "pearl,bombos,ether,quake,sword"
+        ],
+        "sections": [
+          {
+            "name": "Map Badge",
+            "item_count":1,
+            "chest_opened_img": "images/ALttP/Badges/map.png",
+            "chest_unopened_img": "images/ALttP/Badges/map.png",
+            "capture_item": true,
+            "capture_item_layout": "Z3_entrance_capture_item"    
+          },
+          {
+            "name": "Entrance",
+            "chest_unopened_img": "images/green-square.png",
+            "chest_opened_img": "images/gray-square.png",
+            "item_count": 1,
+            "hosted_item": "mire_area"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "darkworld",
+            "x": 150,
+            "y": 1650,
+            "size": 48,
+            "badge_size": 64
+          }
+        ]
+      },
+      {
+        "name": "Left Mire Shack",
+        "sections": [
+          {
+            "name": "Map Badge",
+            "item_count":1,
+            "chest_opened_img": "images/ALttP/Badges/map.png",
+            "chest_unopened_img": "images/ALttP/Badges/map.png",
+            "capture_item": true,
+            "capture_item_layout": "Z3_entrance_capture_item"    
+          },
+          {
+            "name": "Entrance",
+            "chest_unopened_img": "images/green-square.png",
+            "chest_opened_img": "images/gray-square.png",
+            "item_count": 1,
+            "hosted_item": "mire_area"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "darkworld",
+            "x": 77,
+            "y": 1600,
+            "size": 48,
+            "badge_size": 64
+          }
+        ]
+      },
+      //{
+      //  "name": "Right Mire Shack",
+      //  "sections": [
+      //            {
+      //              "name": "Map Badge",
+      //              "item_count":1,
+      //              "chest_opened_img": "images/ALttP/Badges/map.png",
+      //              "chest_unopened_img": "images/ALttP/Badges/map.png",
+      //              "capture_item": true,
+      //              "capture_item_layout": "Z3_entrance_capture_item"    
+      //            },
+      //    {
+      //      "name": "Entrance",
+      //      "chest_unopened_img": "images/green-square.png",
+      //      "chest_opened_img": "images/gray-square.png",
+      //      "item_count": 1,
+      //      "hosted_item": "mire_area"
+      //    }
+      //  ],
+      //  "map_locations": [
+      //    {
+      //      "map": "darkworld",
+      //      "x": 220,
+      //      "y": 1610,
+      //      "size": 48,
+      //      "badge_size": 64
+      //    }
+      //  ]
+      //},
+      {
+        "name": "Mire Cave",
+        "sections": [
+          {
+            "name": "Map Badge",
+            "item_count":1,
+            "chest_opened_img": "images/ALttP/Badges/map.png",
+            "chest_unopened_img": "images/ALttP/Badges/map.png",
+            "capture_item": true,
+            "capture_item_layout": "Z3_entrance_capture_item"    
+          },
+          {
+            "name": "Entrance",
+            "chest_unopened_img": "images/green-square.png",
+            "chest_opened_img": "images/gray-square.png",
+            "item_count": 1,
+            "hosted_item": "mire_area"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "darkworld",
+            "x": 400,
+            "y": 1655,
+            "size": 48,
+            "badge_size": 64
+          }
+        ]
+      },
+      {
+        "name": "Checkerboard Cave",
+        "short_name": "Checkerboard",
+        "color": "#aa860d",
+        "access_rules": [
+          "mirror,lift1"
+        ],
+        "sections": [
+          {
+            "name": "Map Badge",
+            "item_count":1,
+            "chest_opened_img": "images/ALttP/Badges/map.png",
+            "chest_unopened_img": "images/ALttP/Badges/map.png",
+            "capture_item": true,
+            "capture_item_layout": "Z3_entrance_capture_item"    
+          },
+          {
+            "name": "Entrance",
+            "chest_unopened_img": "images/door_closed.png",
+            "chest_opened_img": "images/door_open.png",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "lightworld",
+            "x": 354,
+            "y": 1560,
+            "size": 48,
+            "badge_size": 64
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Death Mountain",
+    "group": "Death Mountain",
+    "color": "#934f17",
+    "children": [
+      {
+        "name": "Death Mountain West Bottom",
+        "access_rules": [
+          "flute",
+          "@CanAccessDeathMountainPortal",
+          "dm_west_bottom",
+          "dm_west_top",
+          "dm_east_bottom,hookshot",
+          "dm_east_top,hookshot",
+          "dm_east_top,hammer",
+          "dm_east_connect_top,hookshot",
+          "ddm_west,mirror",
+          "ddm_top,mirror",
+          "ddm_east,mirror,hookshot",
+          "ddm_floating,mirror",
+          "ddm_tr_bridge,mirror,hookshot",
+          "ddm_tr_safety,mirror,hookshot"
+        ],
+        "children": [
+          {
+            "name": "Death Moutain Entrance",
+            "sections": [
+              {
+                "name": "Map Badge",
+                "item_count":1,
+                "chest_opened_img": "images/ALttP/Badges/map.png",
+                "chest_unopened_img": "images/ALttP/Badges/map.png",
+                "capture_item": true,
+                "capture_item_layout": "Z3_entrance_capture_item"    
+              },
+              {
+                "name": "Entrance",
+                "chest_unopened_img": "images/green-square.png",
+                "chest_opened_img": "images/gray-square.png",
+                "item_count": 1,
+                "hosted_item": "dm_west_bottom"
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "lightworld",
+                "x": 816,
+                "y": 378,
+                "size": 48,
+                "badge_size": 64
+              }
+            ]
+          },
+          {
+            "name": "Old Man Residence",
+            "sections": [
+              {
+                "name": "Map Badge",
+                "item_count":1,
+                "chest_opened_img": "images/ALttP/Badges/map.png",
+                "chest_unopened_img": "images/ALttP/Badges/map.png",
+                "capture_item": true,
+                "capture_item_layout": "Z3_entrance_capture_item"    
+              },
+              {
+                "name": "Entrance",
+                "chest_unopened_img": "images/green-square.png",
+                "chest_opened_img": "images/gray-square.png",
+                "item_count": 1,
+                "hosted_item": "dm_west_bottom"
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "lightworld",
+                "x": 900,
+                "y": 470,
+                "size": 48,
+                "badge_size": 64
+              }
+            ]
+          },
+          //{
+          //  "name": "Old Man Back Residence",
+          //  "map_locations": [
+          //    {
+          //      "map": "lightworld",
+          //      "x": 1075,
+          //      "y": 325,
+          //      "size": 48,
+          //      "badge_size": 64
+          //    }
+          //  ],
+          //  "sections": [
+          //        {
+          //          "name": "Map Badge",
+          //          "item_count":1,
+          //          "chest_opened_img": "images/ALttP/Badges/map.png",
+          //          "chest_unopened_img": "images/ALttP/Badges/map.png",
+          //          "capture_item": true,
+          //          "capture_item_layout": "Z3_entrance_capture_item"    
+          //        },
+          //    {
+          //      "name": "Entrance",
+          //      "chest_unopened_img": "images/green-square.png",
+          //      "chest_opened_img": "images/gray-square.png",
+          //      "item_count": 1,
+          //      "hosted_item": "dm_west_bottom"
+          //    }
+          //  ]
+          //},
+          {
+            "name": "Death Mountain Exit Front",
+            "map_locations": [
+              {
+                "map": "lightworld",
+                "x": 790,
+                "y": 275,
+                "size": 48,
+                "badge_size": 64
+              }
+            ],
+            "sections": [
+              {
+                "name": "Map Badge",
+                "item_count":1,
+                "chest_opened_img": "images/ALttP/Badges/map.png",
+                "chest_unopened_img": "images/ALttP/Badges/map.png",
+                "capture_item": true,
+                "capture_item_layout": "Z3_entrance_capture_item"    
+              },
+              {
+                "name": "Entrance",
+                "chest_unopened_img": "images/green-square.png",
+                "chest_opened_img": "images/gray-square.png",
+                "item_count": 1,
+                "hosted_item": "dm_west_bottom"
+              }
+            ]
+          },
+          {
+            "name": "Spectacle Rock",
+            "sections": [
+              {
+                "name": "Up On top",
+                "capture_item": true,
+                "access_rules": [
+                  "mirror",
+                  "{}"
+                ],
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "lightworld",
+                "x": 1020,
+                "y": 170
+              }
+            ]
+          },
+          {
+            "name": "Spectacle Rock Left",
+            "map_locations": [
+              {
+                "map": "lightworld",
+                "x": 920,
+                "y": 280,
+                "size": 48,
+                "badge_size": 64
+              }
+            ],
+            "sections": [
+              {
+                "name": "Map Badge",
+                "item_count":1,
+                "chest_opened_img": "images/ALttP/Badges/map.png",
+                "chest_unopened_img": "images/ALttP/Badges/map.png",
+                "capture_item": true,
+                "capture_item_layout": "Z3_entrance_capture_item"    
+              },
+              {
+                "name": "Entrance",
+                "chest_unopened_img": "images/green-square.png",
+                "chest_opened_img": "images/gray-square.png",
+                "item_count": 1,
+                "hosted_item": "dm_west_bottom"
+              }
+            ]
+          },
+          {
+            "name": "Spectacle Rock Right",
+            "map_locations": [
+              {
+                "map": "lightworld",
+                "x": 980,
+                "y": 290,
+                "size": 48,
+                "badge_size": 64
+              }
+            ],
+            "sections": [
+              {
+                "name": "Map Badge",
+                "item_count":1,
+                "chest_opened_img": "images/ALttP/Badges/map.png",
+                "chest_unopened_img": "images/ALttP/Badges/map.png",
+                "capture_item": true,
+                "capture_item_layout": "Z3_entrance_capture_item"    
+              },
+              {
+                "name": "Entrance",
+                "chest_unopened_img": "images/green-square.png",
+                "chest_opened_img": "images/gray-square.png",
+                "item_count": 1,
+                "hosted_item": "dm_west_bottom"
+              }
+            ]
+          },
+          {
+            "name": "Spectacle Rock Top",
+            "map_locations": [
+              {
+                "map": "lightworld",
+                "x": 980,
+                "y": 205,
+                "size": 48,
+                "badge_size": 64
+              }
+            ],
+            "sections": [
+              {
+                "name": "Map Badge",
+                "item_count":1,
+                "chest_opened_img": "images/ALttP/Badges/map.png",
+                "chest_unopened_img": "images/ALttP/Badges/map.png",
+                "capture_item": true,
+                "capture_item_layout": "Z3_entrance_capture_item"    
+              },
+              {
+                "name": "Entrance",
+                "chest_unopened_img": "images/green-square.png",
+                "chest_opened_img": "images/gray-square.png",
+                "item_count": 1,
+                "hosted_item": "dm_west_bottom"
+              },
+              {
+                "name": "Item",
+                "item_count":1,
+                "capture_item": true
+              }
+            ]
+          }
+        ]
+      },      
+      {
+        "name": "Death Mountain West Top",
+        "access_rules": [
+          "flute,mirror",
+          "@CanAccessDeathMountainPortal,mirror",
+          "dm_west_bottom,mirror",
+          "dm_west_top",
+          "dm_east_bottom,hookshot,mirror",
+          "dm_east_top,hookshot,mirror",
+          "dm_east_top,hammer",
+          "dm_east_connect_top,hookshot,mirror",
+          "ddm_west,mirror",
+          "ddm_top,mirror",
+          "ddm_east,mirror,hookshot",
+          "ddm_floating,mirror",
+          "ddm_tr_bridge,mirror,hookshot",
+          "ddm_tr_safety,mirror,hookshot"
+        ],
+        "children": [
+          {
+            "name": "Ether Tablet",
+            "sections": [
+              {
+                "name": "Tablet",
+                "capture_item": true,
+                "access_rules": [
+                  "book,sword2",
+                  "{book}"
+                ],
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "lightworld",
+                "x": 844,
+                "y": 38
+              }
+            ]
+          },
+          {
+            "name": "Tower of Hera Entrance",
+            "map_locations": [
+              {
+                "map": "lightworld",
+                "x": 1125,
+                "y": 75,
+                "size": 48,
+                "badge_size": 64
+              }
+            ],
+            "sections": [
+              {
+                "name": "Map Badge",
+                "item_count":1,
+                "chest_opened_img": "images/ALttP/Badges/map.png",
+                "chest_unopened_img": "images/ALttP/Badges/map.png",
+                "capture_item": true,
+                "capture_item_layout": "Z3_entrance_capture_item"    
+              },
+              {
+                "name": "Entrance",
+                "chest_unopened_img": "images/green-square.png",
+                "chest_opened_img": "images/gray-square.png",
+                "item_count": 1,
+                "hosted_item": "dm_west_top"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Death Mountain East Bottom",
+        "access_rules": [
+          "flute,hookshot",
+          "flute,mirror,hammer",
+          "@CanAccessDeathMountainPortal,hookshot",
+          "@CanAccessDeathMountainPortal,mirror,hammer",
+          "dm_west_bottom,hookshot",
+          "dm_west_bottom,mirror,hammer",
+          "dm_west_top,hookshot",
+          "dm_west_top,hammer",
+          "dm_east_bottom",
+          "dm_east_top",
+          "dm_east_connect_top",
+          "ddm_west,mirror,hookshot",
+          "ddm_west,mirror,hammer",
+          "ddm_top,mirror",
+          "ddm_east,mirror",
+          "ddm_floating,mirror",
+          "ddm_tr_bridge,mirror",
+          "ddm_tr_safety,mirror"
+        ],
+        "children": [
+          {
+            "name": "Spiral Cave Bottom",
+            "map_locations": [
+              {
+                "map": "lightworld",
+                "x": 1605,
+                "y": 260,
+                "size": 48,
+                "badge_size": 64
+              }
+            ],
+            "sections": [
+              {
+                "name": "Map Badge",
+                "item_count":1,
+                "chest_opened_img": "images/ALttP/Badges/map.png",
+                "chest_unopened_img": "images/ALttP/Badges/map.png",
+                "capture_item": true,
+                "capture_item_layout": "Z3_entrance_capture_item"    
+              },
+              {
+                "name": "Entrance",
+                "chest_unopened_img": "images/green-square.png",
+                "chest_opened_img": "images/gray-square.png",
+                "item_count": 1,
+                "hosted_item": "dm_east_bottom"
+              }
+            ]
+          },
+          {
+            "name": "EDM Fairy Cave",
+            "map_locations": [
+              {
+                "map": "lightworld",
+                "x": 1695,
+                "y": 290,
+                "size": 48,
+                "badge_size": 64
+              }
+            ],
+            "sections": [
+              {
+                "name": "Map Badge",
+                "item_count":1,
+                "chest_opened_img": "images/ALttP/Badges/map.png",
+                "chest_unopened_img": "images/ALttP/Badges/map.png",
+                "capture_item": true,
+                "capture_item_layout": "Z3_entrance_capture_item"    
+              },
+              {
+                "name": "Entrance",
+                "chest_unopened_img": "images/green-square.png",
+                "chest_opened_img": "images/gray-square.png",
+                "item_count": 1,
+                "hosted_item": "dm_east_bottom"
+              }
+            ]
+          },
+          {
+            "name": "Paradox Cave Middle",
+            "map_locations": [
+              {
+                "map": "lightworld",
+                "x": 1735,
+                "y": 290,
+                "size": 48,
+                "badge_size": 64
+              }
+            ],
+            "sections": [
+              {
+                "name": "Map Badge",
+                "item_count":1,
+                "chest_opened_img": "images/ALttP/Badges/map.png",
+                "chest_unopened_img": "images/ALttP/Badges/map.png",
+                "capture_item": true,
+                "capture_item_layout": "Z3_entrance_capture_item"    
+              },
+              {
+                "name": "Entrance",
+                "chest_unopened_img": "images/green-square.png",
+                "chest_opened_img": "images/gray-square.png",
+                "item_count": 1,
+                "hosted_item": "dm_east_bottom"
+              }
+            ]
+          },
+          {
+            "name": "Paradox Cave Bottom",
+            "map_locations": [
+              {
+                "map": "lightworld",
+                "x": 1731,
+                "y": 434,
+                "size": 48,
+                "badge_size": 64
+              }
+            ],
+            "sections": [
+              {
+                "name": "Map Badge",
+                "item_count":1,
+                "chest_opened_img": "images/ALttP/Badges/map.png",
+                "chest_unopened_img": "images/ALttP/Badges/map.png",
+                "capture_item": true,
+                "capture_item_layout": "Z3_entrance_capture_item"    
+              },
+              {
+                "name": "Entrance",
+                "chest_unopened_img": "images/green-square.png",
+                "chest_opened_img": "images/gray-square.png",
+                "item_count": 1,
+                "hosted_item": "dm_east_bottom"
+              }
+            ]
+          },
+          {
+            "name": "EDM Connector Bottom",
+            "access_rules": [
+              "lift2",
+              "dm_west_bottom,mirror,hammer",
+              "dm_west_top,hammer",
+              "dm_east_top",
+              "dm_east_connect_top",
+              "ddm_west,mirror,hammer",
+              "ddm_top,mirror",
+              "ddm_east,mirror",
+              "ddm_floating,mirror",
+              "ddm_tr_safety,mirror"
+            ],
+            "map_locations": [
+              {
+                "map": "lightworld",
+                "x": 1645,
+                "y": 275,
+                "size": 48,
+                "badge_size": 64
+              }
+            ],
+            "sections": [
+              {
+                "name": "Map Badge",
+                "item_count":1,
+                "chest_opened_img": "images/ALttP/Badges/map.png",
+                "chest_unopened_img": "images/ALttP/Badges/map.png",
+                "capture_item": true,
+                "capture_item_layout": "Z3_entrance_capture_item"    
+              },
+              {
+                "name": "Entrance",
+                "chest_unopened_img": "images/green-square.png",
+                "chest_opened_img": "images/gray-square.png",
+                "item_count": 1,
+                "hosted_item": "dm_east_bottom"
+              }
+            ]
+          },
+          {
+            "name": "Spiral Cave Top",
+            "access_rules": [
+              "flute,mirror,hammer",
+              "dm_west_bottom,mirror,hammer",
+              "dm_west_top,hammer",
+              "dm_east_top",
+              "ddm_west,mirror,hammer",
+              "ddm_top,mirror",
+              "ddm_floating,mirror",
+              "ddm_tr_bridge,mirror"
+            ],
+            "map_locations": [
+              {
+                "map": "lightworld",
+                "x": 1600,
+                "y": 180,
+                "size": 48,
+                "badge_size": 64
+              }
+            ],
+            "sections": [
+              {
+                "name": "Map Badge",
+                "item_count":1,
+                "chest_opened_img": "images/ALttP/Badges/map.png",
+                "chest_unopened_img": "images/ALttP/Badges/map.png",
+                "capture_item": true,
+                "capture_item_layout": "Z3_entrance_capture_item"    
+              },
+              {
+                "name": "Entrance",
+                "chest_unopened_img": "images/green-square.png",
+                "chest_opened_img": "images/gray-square.png",
+                "item_count": 1,
+                "hosted_item": "dm_east_bottom"
+              }
+            ]
+          },
+          {
+            "name": "Mimic Cave",
+            "access_rules": [
+              "ddm_tr_bridge,mirror"
+            ],
+            "map_locations": [
+              {
+                "map": "lightworld",
+                "x": 1695,
+                "y": 180,
+                "size": 48,
+                "badge_size": 64
+              }
+            ],
+            "sections": [
+              {
+                "name": "Map Badge",
+                "item_count":1,
+                "chest_opened_img": "images/ALttP/Badges/map.png",
+                "chest_unopened_img": "images/ALttP/Badges/map.png",
+                "capture_item": true,
+                "capture_item_layout": "Z3_entrance_capture_item"    
+              },
+              {
+                "name": "Entrance",
+                "chest_unopened_img": "images/door_closed.png",
+                "chest_opened_img": "images/door_open.png",
+                "item_count": 1
+              }
+            ]
+          },
+          {
+            "name": "EDM Connector Top",
+            "access_rules": [
+              "flute,mirror,hammer",
+              "dm_west_bottom,mirror,hammer",
+              "dm_west_top,hammer",
+              "dm_east_top",
+              "ddm_west,mirror,hammer",
+              "ddm_top,mirror",
+              "ddm_floating,mirror",
+              "ddm_tr_safety,mirror"
+            ],
+            "map_locations": [
+              {
+                "map": "lightworld",
+                "x": 1645,
+                "y": 230,
+                "size": 48,
+                "badge_size": 64
+              }
+            ],
+            "sections": [
+              {
+                "name": "Map Badge",
+                "item_count":1,
+                "chest_opened_img": "images/ALttP/Badges/map.png",
+                "chest_unopened_img": "images/ALttP/Badges/map.png",
+                "capture_item": true,
+                "capture_item_layout": "Z3_entrance_capture_item"    
+              },
+              {
+                "name": "Entrance",
+                "chest_unopened_img": "images/green-square.png",
+                "chest_opened_img": "images/gray-square.png",
+                "item_count": 1,
+                "hosted_item": "dm_east_connect_top"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Death Mountain East Top",
+        "access_rules": [
+          "flute,mirror,hammer",
+          "@CanAccessDeathMountainPortal,mirror,hammer",
+          "dm_west_bottom,mirror,hammer",
+          "dm_west_top,hammer",
+          "dm_east_bottom,hookshot,mirror,hammer",
+          "dm_east_top",
+          "dm_east_connect_top,hookshot,mirror,hammer",
+          "ddm_west,mirror,hammer",
+          "ddm_top,mirror",
+          "ddm_east,mirror,hookshot,hammer",
+          "ddm_floating,mirror",
+          "ddm_tr_bridge,mirror,hookshot,hammer",
+          "ddm_tr_safety,mirror,hookshot,hammer"
+        ],
+        "children": [
+          {
+            "name": "Paradox Cave Top",
+            "sections": [
+              {
+                "name": "Map Badge",
+                "item_count":1,
+                "chest_opened_img": "images/ALttP/Badges/map.png",
+                "chest_unopened_img": "images/ALttP/Badges/map.png",
+                "capture_item": true,
+                "capture_item_layout": "Z3_entrance_capture_item"    
+              },
+              {
+                "name": "Entrance",
+                "chest_unopened_img": "images/green-square.png",
+                "chest_opened_img": "images/gray-square.png",
+                "item_count": 1,
+                "hosted_item": "dm_east_top"
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "lightworld",
+                "x": 1725,
+                "y": 125,
+                "size": 48,
+                "badge_size": 64
+              }
+            ]
+          },
+          {
+            "name": "Floating Island",
+            "color": "#934f17",
+            "sections": [
+              {
+                "name": "Island",
+                "capture_item": true,
+                "access_rules": [
+                  "{}",
+                  "ddm_floating,mirror"
+                ],
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "lightworld",
+                "x": 1627,
+                "y": 40
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Dark Death Mountain West",
+        "access_rules": [
+          "flute",
+          "@CanAccessDeathMountainPortal",
+          "dm_west_bottom",
+          "dm_west_top",
+          "dm_east_bottom,hookshot",
+          "dm_east_top,hammer",
+          "dm_east_top,hookshot",
+          "ddm_floating",
+          "ddm_top",
+          "ddm_east,mirror,hookshot",
+          "ddm_tr_safety,mirror,hookshot",
+          "ddm_tr_bridge,mirror,hookshot"
+        ],
+        "children":[
+          {
+            "name": "Spike Cave",
+            "color": "#35046b",
+            "sections": [
+              {
+                "name": "Map Badge",
+                "item_count":1,
+                "chest_opened_img": "images/ALttP/Badges/map.png",
+                "chest_unopened_img": "images/ALttP/Badges/map.png",
+                "capture_item": true,
+                "capture_item_layout": "Z3_entrance_capture_item"    
+              },
+              {
+                "name": "Entrance",
+                "chest_unopened_img": "images/green-square.png",
+                "chest_opened_img": "images/gray-square.png",
+                "item_count": 1,
+                "hosted_item": "ddm_west"
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "darkworld",
+                "x": 1151,
+                "y": 294,
+                "size": 48,
+                "badge_size": 64
+              }
+            ]
+          },
+          {
+            "name": "Dark Mountain Fairy",
+            "color": "#35046b",
+            "sections": [
+              {
+                "name": "Map Badge",
+                "item_count":1,
+                "chest_opened_img": "images/ALttP/Badges/map.png",
+                "chest_unopened_img": "images/ALttP/Badges/map.png",
+                "capture_item": true,
+                "capture_item_layout": "Z3_entrance_capture_item"    
+              },
+              {
+                "name": "Entrance",
+                "chest_unopened_img": "images/green-square.png",
+                "chest_opened_img": "images/gray-square.png",
+                "item_count": 1,
+                "hosted_item": "ddm_west"
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "darkworld",
+                "x": 815,
+                "y": 376,
+                "size": 48,
+                "badge_size": 64
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Dark Death Mountain East",
+        "access_rules": [
+          "flute,hookshot,lift2",
+          "flute,mirror,hammer,lift2",
+          "@CanAccessDeathMountainPortal,hookshot,lift2",
+          "@CanAccessDeathMountainPortal,mirror,hammer,lift2",
+          "dm_west_bottom,hookshot,lift2",
+          "dm_west_bottom,mirror,hammer,lift2",
+          "dm_west_top,hammer,lift2",
+          "dm_east_bottom,lift2",
+          "dm_east_top,lift2",
+          "dm_east_connect_top,lift2",
+          "ddm_west,mirror,hookshot,lift2",
+          "ddm_west,mirror,hammer,lift2",
+          "ddm_top",
+          "ddm_east",
+          "ddm_floating",
+          "ddm_tr_bridge,mirror,lift2",
+          "ddm_tr_safety,mirror,lift2"
+        ],
+        "children": [
+          {
+            "name": "Super-Bunny Cave Bottom",
+            "sections": [
+              {
+                "name": "Map Badge",
+                "item_count":1,
+                "chest_opened_img": "images/ALttP/Badges/map.png",
+                "chest_unopened_img": "images/ALttP/Badges/map.png",
+                "capture_item": true,
+                "capture_item_layout": "Z3_entrance_capture_item"    
+              },
+              {
+                "name": "Entrance",
+                "chest_unopened_img": "images/green-square.png",
+                "chest_opened_img": "images/gray-square.png",
+                "item_count": 1,
+                "hosted_item": "ddm_east"
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "darkworld",
+                "x": 1685,
+                "y": 295,
+                "size": 48,
+                "badge_size": 64
+              }
+            ]
+          },
+          {
+            "name": "Death Mountain Shop",
+            "sections": [
+              {
+                "name": "Map Badge",
+                "item_count":1,
+                "chest_opened_img": "images/ALttP/Badges/map.png",
+                "chest_unopened_img": "images/ALttP/Badges/map.png",
+                "capture_item": true,
+                "capture_item_layout": "Z3_entrance_capture_item"    
+              },
+              {
+                "name": "Entrance",
+                "chest_unopened_img": "images/green-square.png",
+                "chest_opened_img": "images/gray-square.png",
+                "item_count": 1,
+                "hosted_item": "ddm_east"
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "darkworld",
+                "x": 1725,
+                "y": 295,
+                "size": 48,
+                "badge_size": 64
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Dark Death Mountain Top",
+        "access_rules": [
+          "flute,mirror,hammer,lift2",
+          "@CanAccessDeathMountainPortal,mirror,hammer,lift2",
+          "dm_west_bottom,mirror,hammer,lift2",
+          "dm_west_top,hammer,lift2",
+          "dm_east_bottom,hookshot,mirror,hammer,lift2",
+          "dm_east_top,lift2",
+          "dm_east_connect_top,hookshot,mirror,hammer,lift2",
+          "ddm_west,mirror,hammer,lift2",
+          "ddm_top",
+          "ddm_east,mirror,hookshot,hammer,lift2",
+          "ddm_floating",
+          "ddm_tr_bridge,mirror,hookshot,hammer,lift2",
+          "ddm_tr_safety,mirror,hookshot,hammer,lift2"
+        ],
+        "children": [
+          {
+            "name": "Super-Bunny Cave Top",
+            "sections": [
+              {
+                "name": "Map Badge",
+                "item_count":1,
+                "chest_opened_img": "images/ALttP/Badges/map.png",
+                "chest_unopened_img": "images/ALttP/Badges/map.png",
+                "capture_item": true,
+                "capture_item_layout": "Z3_entrance_capture_item"    
+              },
+              {
+                "name": "Entrance",
+                "chest_unopened_img": "images/green-square.png",
+                "chest_opened_img": "images/gray-square.png",
+                "item_count": 1,
+                "hosted_item": "ddm_top"
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "darkworld",
+                "x": 1725,
+                "y": 128,
+                "size": 48,
+                "badge_size": 64
+              }
+            ]
+          },
+          {
+            "name": "Hookshot Cave",
+            "access_rules": [
+              "pearl,lift1"
+            ],
+            "sections": [
+              {
+                "name": "Map Badge",
+                "item_count":1,
+                "chest_opened_img": "images/ALttP/Badges/map.png",
+                "chest_unopened_img": "images/ALttP/Badges/map.png",
+                "capture_item": true,
+                "capture_item_layout": "Z3_entrance_capture_item"    
+              },
+              {
+                "name": "Entrance",
+                "chest_unopened_img": "images/green-square.png",
+                "chest_opened_img": "images/gray-square.png",
+                "item_count": 1,
+                "hosted_item": "ddm_top"
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "darkworld",
+                "x": 1670,
+                "y": 126,
+                "size": 48,
+                "badge_size": 64
+              }
+            ]
+          },
+          {
+            "name": "Turtle Rock Entrance",
+            "access_rules": [
+              "sword,pearl,hammer,lift2,tr_medallion",
+              "sword,pearl,hammer,lift2,bombos,ether,quake"
+            ],
+            "sections": [
+              {
+                "name": "Map Badge",
+                "item_count":1,
+                "chest_opened_img": "images/ALttP/Badges/map.png",
+                "chest_unopened_img": "images/ALttP/Badges/map.png",
+                "capture_item": true,
+                "capture_item_layout": "Z3_entrance_capture_item"    
+              },
+              {
+                "name": "Entrance",
+                "chest_unopened_img": "images/green-square.png",
+                "chest_opened_img": "images/gray-square.png",
+                "item_count": 1,
+                "hosted_item": "ddm_top"
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "darkworld",
+                "x": 1890,
+                "y": 175,
+                "size": 48,
+                "badge_size": 64
+              }
+            ]
+          },
+          {
+            "name": "Ganon's Tower Entrance",
+            "color": "#af0000",
+            "access_rules": [
+              "$gtCrystalCount"
+            ],
+            "sections": [
+              {
+                "name": "Map Badge",
+                "item_count":1,
+                "chest_opened_img": "images/ALttP/Badges/map.png",
+                "chest_unopened_img": "images/ALttP/Badges/map.png",
+                "capture_item": true,
+                "capture_item_layout": "Z3_entrance_capture_item"    
+              },
+              {
+                "name": "Entrance",
+                "chest_unopened_img": "images/green-square.png",
+                "chest_opened_img": "images/gray-square.png",
+                "item_count": 1,
+                "hosted_item": "ddm_top"
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "darkworld",
+                "x": 1125,
+                "y": 70,
+                "size": 48,
+                "badge_size": 64
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "TR Ledge Left",
+        "access_rules": [
+          "ddm_tr_bridge"
+        ],
+        "sections": [
+          {
+            "name": "Map Badge",
+            "item_count":1,
+            "chest_opened_img": "images/ALttP/Badges/map.png",
+            "chest_unopened_img": "images/ALttP/Badges/map.png",
+            "capture_item": true,
+            "capture_item_layout": "Z3_entrance_capture_item"    
+          },
+          {
+            "name": "Entrance",
+            "chest_unopened_img": "images/green-square.png",
+            "chest_opened_img": "images/gray-square.png",
+            "item_count": 1,
+            "hosted_item": "ddm_tr_bridge"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "darkworld",
+            "x": 1598,
+            "y": 182,
+            "size": 48,
+            "badge_size": 64
+          }
+        ]
+      },
+      {
+        "name": "TR Ledge Right",
+        "access_rules": [
+          "ddm_tr_bridge"
+        ],
+        "sections": [
+          {
+            "name": "Map Badge",
+            "item_count":1,
+            "chest_opened_img": "images/ALttP/Badges/map.png",
+            "chest_unopened_img": "images/ALttP/Badges/map.png",
+            "capture_item": true,
+            "capture_item_layout": "Z3_entrance_capture_item"    
+          },
+          {
+            "name": "Entrance",
+            "chest_unopened_img": "images/green-square.png",
+            "chest_opened_img": "images/gray-square.png",
+            "item_count": 1,
+            "hosted_item": "ddm_tr_bridge"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "darkworld",
+            "x": 1694,
+            "y": 182,
+            "size": 48,
+            "badge_size": 64
+          }
+        ]
+      },
+      {
+        "name": "TR Safety Door",
+        "access_rules": [
+          "ddm_tr_safety"
+        ],
+        "sections": [
+          {
+            "name": "Map Badge",
+            "item_count":1,
+            "chest_opened_img": "images/ALttP/Badges/map.png",
+            "chest_unopened_img": "images/ALttP/Badges/map.png",
+            "capture_item": true,
+            "capture_item_layout": "Z3_entrance_capture_item"    
+          },
+          {
+            "name": "Exit Only",
+            "chest_unopened_img": "images/green-square.png",
+            "chest_opened_img": "images/gray-square.png",
+            "item_count": 1,
+            "hosted_item": "ddm_tr_safety"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "darkworld",
+            "x": 1648,
+            "y": 229,
+            "size": 48,
+            "badge_size": 64
+          }
+        ]
+      },
+      {
+        "name": "Hookshot Cave Top",
+        "access_rules": [
+          "ddm_floating"
+        ],
+        "sections": [
+          {
+            "name": "Map Badge",
+            "item_count":1,
+            "chest_opened_img": "images/ALttP/Badges/map.png",
+            "chest_unopened_img": "images/ALttP/Badges/map.png",
+            "capture_item": true,
+            "capture_item_layout": "Z3_entrance_capture_item"    
+          },
+          {
+            "name": "Exit Only",
+            "chest_unopened_img": "images/green-square.png",
+            "chest_opened_img": "images/gray-square.png",
+            "item_count": 1,
+            "hosted_item": "ddm_floating"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "darkworld",
+            "x": 1627,
+            "y": 40,
+            "size": 48,
+            "badge_size": 64
+          }
+        ]
+      }
+    ]
+  }
+]
+    

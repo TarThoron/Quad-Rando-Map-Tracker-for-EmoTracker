@@ -1,0 +1,298 @@
+[
+    {
+        "name": "Level 2 - The Moon",
+        "color": "#2038ec",
+        "chest_opened_img": "images/LoZ/getitem.png",
+		"access_rules": ["leveltwo"],
+        "children":[
+            {
+                "name": "Map 7E - Kill Ropes",
+                "map_locations":[
+                    {
+                        "map":"level2",
+                        "x": 647,
+                        "y": 1320,
+                        "size": 48
+                    },
+                    {
+                        "map":"dungeons1",
+                        "x": 1908,
+                        "y": 658,
+                        "size": 48
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Kill Ropes",
+                        "item_count": 1,
+                        "access_rules":["@CanKillMostZ1Things"]
+                    }
+                ]
+            },
+            {
+                "name": "Map 6C - Ropes Item",
+                "map_locations":[
+                    {
+                        "map":"level2",
+                        "x": 135,
+                        "y": 1134,
+                        "size": 48
+                    },
+                    {
+                        "map":"dungeons1",
+                        "x": 1650,
+                        "y": 571,
+                        "size": 48
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Ropes Item",
+                        "item_count": 1,
+                        "access_rules":["@CanKillMostZ1Things"]
+                    }
+                ]
+            },
+            {
+                "name": "Map 6F - Compass",
+                "map_locations":[
+                    {
+                        "map":"level2",
+                        "x": 982,
+                        "y": 1096,
+                        "size": 48
+                    },
+                    {
+                        "map":"dungeons1",
+                        "x": 2075,
+                        "y": 546,
+                        "size": 48
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Compass",
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Map 5F - Map",
+                "map_locations":[
+                    {
+                        "map":"level2",
+                        "x": 903,
+                        "y": 969,
+                        "size": 48
+                    },
+                    {
+                        "map":"dungeons1",
+                        "x": 2034,
+                        "y": 481,
+                        "size": 48
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Map",
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Map 4E - Kill Ropes",
+                "map_locations":[
+                    {
+                        "map":"level2",
+                        "x": 648,
+                        "y": 791,
+                        "size": 48
+                    },
+                    {
+                        "map":"dungeons1",
+                        "x": 1906,
+                        "y": 394,
+                        "size": 48
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Kill Ropes",
+                        "item_count": 1,
+                        "access_rules":["@CanKillMostZ1Things"]
+                    }
+                ]
+            },
+            {
+                "name": "Map 4F - Magic Boomerang",
+                "map_locations":[
+                    {
+                        "map":"level2",
+                        "x": 903,
+                        "y": 791,
+                        "size": 48
+                    },
+                    {
+                        "map":"dungeons1",
+                        "x": 2034,
+                        "y": 394,
+                        "size": 48
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Kill Goriya",
+                        "item_count": 1,
+                        "access_rules":["@CanKillMostZ1Things"]
+                    }
+                ]
+            },
+            {
+                "name": "Map 3E - Kill Moldorms",
+                "map_locations":[
+                    {
+                        "map":"level2",
+                        "x": 648,
+                        "y": 615,
+                        "size": 48
+                    },
+                    {
+                        "map":"dungeons1",
+                        "x": 1906,
+                        "y": 306,
+                        "size": 48
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Kill Moldorms",
+                        "item_count": 1,
+                        "access_rules":["@CanKillMostZ1Things"]
+                    }
+                ]
+            },
+            {
+                "name": "Map 3F - Keese Item",
+                "map_locations":[
+                    {
+                        "map":"level2",
+                        "x": 903,
+                        "y": 615,
+                        "size": 48
+                    },
+                    {
+                        "map":"dungeons1",
+                        "x": 2034,
+                        "y": 306,
+                        "size": 48
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Keese Item",
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Map 2F - Kill Gel",
+                "map_locations":[
+                    {
+                        "map":"level2",
+                        "x": 903,
+                        "y": 442,
+                        "size": 48
+                    },
+                    {
+                        "map":"dungeons1",
+                        "x": 2034,
+                        "y": 218,
+                        "size": 48
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Kill Gel",
+                        "item_count": 1,
+                        "access_rules":["z1boom","@CanKillMostZ1Things"]
+                    }
+                ]
+            },
+            {
+                "name": "Map 1E - Kill Goriya",
+                "map_locations":[
+                    {
+                        "map":"level2",
+                        "x": 729,
+                        "y": 216,
+                        "size": 48
+                    },
+                    {
+                        "map":"dungeons1",
+                        "x": 1948,
+                        "y": 106,
+                        "size": 48
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Kill Goriya",
+                        "item_count": 1,
+                        "access_rules":["@CanKillMostZ1Things"]
+                    }
+                ]
+            },
+            {
+                "name": "Map 0E - Kill Boss",
+                "map_locations":[
+                    {
+                        "map":"level2",
+                        "x": 648,
+                        "y": 88,
+                        "size": 48
+                    },
+                    {
+                        "map":"dungeons1",
+                        "x": 1906,
+                        "y": 44,
+                        "size": 48
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Kill Boss",
+                        "item_count": 1,
+                        "access_rules":["z1bomb"],
+                        "chest_unopened_img": "images/LoZ/leveltwoboss.png"
+                    }
+                ]
+            },
+            {
+                "name": "Level 2 Prize",
+                "map_locations":[
+                    {
+                        "map":"level2",
+                        "x": 383,
+                        "y": 88,
+                        "size": 48
+                    },
+                    {
+                        "map":"dungeons1",
+                        "x": 1774,
+                        "y": 44,
+                        "size": 48
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Triforce",
+                        "item_count": 1,
+                        "access_rules":["z1bomb"],
+                        "chest_unopened_img": "images/LoZ/z-triforceicon.png",
+                        "hosted_item":"z1tri2"
+                    }
+                ]
+            }
+        ]
+    }
+]

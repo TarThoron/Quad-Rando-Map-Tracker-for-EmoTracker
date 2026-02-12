@@ -44,7 +44,6 @@ function TriforceCount:init()
     self:setProperty("active", true)
 	self.currentImage = middleDigitImage[1]
 	self.count = 0
-	self.infinite = false
 	self.ItemInstance.PotentialIcon = ImageReference:FromPackRelativePath(self.currentImage)
 	self.currentOverlay = "null"
 	self:updateIcon()
@@ -66,19 +65,11 @@ function TriforceCount:providesCode(code)
 end
 
 
-
---function CustomItem:propertyChanged(key, value)
---	self:SetTriforce(true)
---end
-
---function TriforceCount:SetTriforce(on)
---	if on then
---		self.infinite = true
---	else
---		self.infinite = false
---	end
---	self:updateIcon()
---end
+--[[
+function CustomItem:propertyChanged(triforce, value)
+	self:SetTriforce(true)
+end
+]]
 
 function TriforceCount:onLeftClick()
 	if self.count > 99 then
@@ -99,10 +90,7 @@ function TriforceCount:onRightClick()
 end
 
 function TriforceCount:updateIcon()
-	if self.infinite then
-		self.currentImage = "images/infinite.png"
-		self.currentOverlay = "null"
-	elseif self.count < 10 then
+	if self.count < 10 then
 		self.currentImage = middleDigitImage[self.count+1]
 		self.currentOverlay = "null"
 	elseif self.count > 99 then

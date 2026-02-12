@@ -1,0 +1,450 @@
+[
+    {
+        "name": "Level 8 - The Lion",
+        "color":"#bcbcbc",
+        "chest_opened_img":"images/LoZ/getitem.png",
+        "access_rules":["leveleight"],
+        "children":[
+            {
+                "name":"Front",
+                "children":[
+                    {
+                        "name":"Map FF - Floor Item",
+                        "map_locations":[
+                            {
+                                "map":"level8",
+                                "x": 1160,
+                                "y": 1320,
+                                "size": 48
+                            },
+                            {
+                                "map":"dungeons2",
+                                "x": 962,
+                                "y": 658,
+                                "size":48
+                            }
+                        ],
+                        "sections":[
+                            {
+                                "name": "Floor Item",
+                                "item_count": 1,
+                                "capture_item":true,
+                                "access_rules":["{}","z1ladder"]
+                            }
+                        ]
+                    },
+                    {
+                        "name":"Map DF - Compass",
+                        "map_locations":[
+                            {
+                                "map":"level8",
+                                "x": 1160,
+                                "y": 968,
+                                "size": 48
+                            },
+                            {
+                                "map":"dungeons2",
+                                "x": 962,
+                                "y": 484,
+                                "size":48
+                            }
+                        ],
+                        "sections":[
+                            {
+                                "name": "Floor Item",
+                                "item_count": 1,
+                                "access_rules":["z1bomb"]
+                            }
+                        ]
+                    },
+                    {
+                        "name":"Map FD - Kill Manhandla",
+                        "map_locations":[
+                            {
+                                "map":"level8",
+                                "x": 648,
+                                "y": 1320,
+                                "size": 48
+                            },
+                            {
+                                "map":"dungeons2",
+                                "x": 708,
+                                "y": 658,
+                                "size":48
+                            }
+                        ],
+                        "sections":[
+                            {
+                                "name": "Kill Manhandla",
+                                "item_count": 1,
+                                "access_rules":["@CanKillDarknuts"]
+                            }
+                        ]
+                    },
+                    {
+                        "name":"Hidden Stairs 1 - Magic Book",
+                        "map_locations":[
+                            {
+                                "map":"level8",
+                                "x": 135,
+                                "y": 1320,
+                                "size": 48
+                            },
+                            {
+                                "map":"dungeons2",
+                                "x": 578,
+                                "y": 658,
+                                "size":48
+                            }
+                        ],
+                        "sections":[
+                            {
+                                "name": "Magic Book",
+                                "item_count": 1,
+                                "access_rules":["@CanKillDarknuts"]
+                            }
+                        ]
+                    },
+                    {
+                        "name":"Map EE - Kill Manhandla",
+                        "map_locations":[
+                            {
+                                "map":"level8",
+                                "x": 904,
+                                "y": 1144,
+                                "size": 48
+                            },
+                            {
+                                "map":"dungeons2",
+                                "x": 834,
+                                "y": 572,
+                                "size":48
+                            }
+                        ],
+                        "sections":[
+                            {
+                                "name": "Kill Manhandla",
+                                "item_count": 1,
+                                "access_rules":["@CanKillDarknuts"]
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name":"Main",
+                "access_rules":["z1bomb,@CanKillDarknuts"],
+                "children":[
+                    {
+                        "name":"Map DE - Kill Darknuts",
+                        "map_locations":[
+                            {
+                                "map":"level8",
+                                "x": 904,
+                                "y": 968,
+                                "size": 48
+                            },
+                            {
+                                "map":"dungeons2",
+                                "x": 834,
+                                "y": 484,
+                                "size":48
+                            }
+                        ],
+                        "sections":[
+                            {
+                                "name": "Kill Darknuts",
+                                "item_count": 1
+                            }
+                        ]
+                    },
+                    {
+                        "name":"Map DD - Floor Item",
+                        "map_locations":[
+                            {
+                                "map":"level8",
+                                "x": 648,
+                                "y": 968,
+                                "size": 48
+                            },
+                            {
+                                "map":"dungeons2",
+                                "x": 708,
+                                "y": 484,
+                                "size":48
+                            }
+                        ],
+                        "sections":[
+                            {
+                                "name": "Floor Item",
+                                "item_count": 1
+                            }
+                        ]
+                    },
+                    {
+                        "name":"Map DC - Kill Darknuts",
+                        "map_locations":[
+                            {
+                                "map":"level8",
+                                "x": 392,
+                                "y": 968,
+                                "size": 48
+                            },
+                            {
+                                "map":"dungeons2",
+                                "x": 578,
+                                "y": 484,
+                                "size":48
+                            }
+                        ],
+                        "sections":[
+                            {
+                                "name": "Kill Darknuts",
+                                "item_count": 1
+                            }
+                        ]
+                    },
+                    {
+                        "name":"Map CB - Kill Darknuts",
+                        "map_locations":[
+                            {
+                                "map":"level8",
+                                "x": 135,
+                                "y": 790,
+                                "size": 48
+                            },
+                            {
+                                "map":"dungeons2",
+                                "x": 451,
+                                "y": 395,
+                                "size":48
+                            }
+                        ],
+                        "sections":[
+                            {
+                                "name": "Kill Darknuts",
+                                "item_count": 1
+                            }
+                        ]
+                    },
+                    {
+                        "name":"Map CC - Kill Pols Voice",
+                        "map_locations":[
+                            {
+                                "map":"level8",
+                                "x": 471,
+                                "y": 743,
+                                "size": 48
+                            },
+                            {
+                                "map":"dungeons2",
+                                "x": 619,
+                                "y": 370,
+                                "size":48
+                            }
+                        ],
+                        "sections":[
+                            {
+                                "name": "Kill Pols Voice",
+                                "item_count": 1,
+                                "access_rules":["@CanKillPolsVoice"]
+                            }
+                        ]
+                    },
+                    {
+                        "name":"Map CE - Kill Enemies",
+                        "map_locations":[
+                            {
+                                "map":"level8",
+                                "x": 904,
+                                "y": 790,
+                                "size": 48
+                            },
+                            {
+                                "map":"dungeons2",
+                                "x": 834,
+                                "y": 395,
+                                "size":48
+                            }
+                        ],
+                        "sections":[
+                            {
+                                "name": "Kill Enemies",
+                                "item_count": 1
+                            }
+                        ]
+                    },
+                    {
+                        "name":"Map BF - Kill Enemies",
+                        "map_locations":[
+                            {
+                                "map":"level8",
+                                "x": 1160,
+                                "y": 616,
+                                "size": 48
+                            },
+                            {
+                                "map":"dungeons2",
+                                "x": 962,
+                                "y": 308,
+                                "size":48
+                            }
+                        ],
+                        "sections":[
+                            {
+                                "name": "Kill Enemies",
+                                "item_count": 1
+                            }
+                        ]
+                    },
+                    {
+                        "name":"Map AE - Map",
+                        "map_locations":[
+                            {
+                                "map":"level8",
+                                "x": 904,
+                                "y": 440,
+                                "size": 48
+                            },
+                            {
+                                "map":"dungeons2",
+                                "x": 834,
+                                "y": 220,
+                                "size":48
+                            }
+                        ],
+                        "sections":[
+                            {
+                                "name": "Kill Manhandla",
+                                "item_count": 1
+                            }
+                        ]
+                    },
+                    {
+                        "name":"Map 9D - Kill Pols Voice",
+                        "map_locations":[
+                            {
+                                "map":"level8",
+                                "x": 648,
+                                "y": 262,
+                                "size": 48
+                            },
+                            {
+                                "map":"dungeons2",
+                                "x": 708,
+                                "y": 131,
+                                "size":48
+                            }
+                        ],
+                        "sections":[
+                            {
+                                "name": "Kill Pols Voice",
+                                "item_count": 1,
+                                "access_rules":["@CanKillPolsVoice"]
+                            }
+                        ]
+                    },
+                    {
+                        "name":"Map 8E - Kill Darknuts",
+                        "map_locations":[
+                            {
+                                "map":"level8",
+                                "x": 904,
+                                "y": 90,
+                                "size": 48
+                            },
+                            {
+                                "map":"dungeons2",
+                                "x": 834,
+                                "y": 45,
+                                "size":48
+                            }
+                        ],
+                        "sections":[
+                            {
+                                "name": "Kill Darknuts",
+                                "item_count": 1,
+                                "access_rules":["z1bow,z1arrows"]
+                            }
+                        ]
+                    },
+                    {
+                        "name":"Hidden Stairs 2 - Magic Key",
+                        "map_locations":[
+                            {
+                                "map":"level8",
+                                "x": 1160,
+                                "y": 440,
+                                "size": 48
+                            },
+                            {
+                                "map":"dungeons2",
+                                "x": 962,
+                                "y": 131,
+                                "size":48
+                            }
+                        ],
+                        "sections":[
+                            {
+                                "name": "Magic Key",
+                                "item_count": 1,
+                                "access_rules":["z1bow,z1arrows"]
+                            }
+                        ]
+                    },
+                    {
+                        "name":"Map BC - Kill Boss",
+                        "map_locations":[
+                            {
+                                "map":"level8",
+                                "x": 295,
+                                "y": 664,
+                                "size": 48
+                            },
+                            {
+                                "map":"dungeons2",
+                                "x": 530,
+                                "y": 332,
+                                "size":48
+                            }
+                        ],
+                        "sections":[
+                            {
+                                "name": "Kill Boss",
+                                "item_count": 1,
+                                "access_rules":["@CanKillGleeok"],
+                                "chest_unopened_img":"images/LoZ/leveleightboss.png"
+                            }
+                        ]
+                    },
+                    {
+                        "name":"Level 8 Prize",
+                        "map_locations":[
+                            {
+                                "map":"level8",
+                                "x": 383,
+                                "y": 444,
+                                "size": 48
+                            },
+                            {
+                                "map":"dungeons2",
+                                "x": 574,
+                                "y": 222,
+                                "size":48
+                            }
+                        ],
+                        "sections":[
+                            {
+                                "name": "Triforce",
+                                "item_count": 1,
+                                "access_rules":["@CanKillGleeok"],
+                                "chest_unopened_img":"images/LoZ/z-triforceicon.png",
+                                "hosted_item":"z1tri8"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+]

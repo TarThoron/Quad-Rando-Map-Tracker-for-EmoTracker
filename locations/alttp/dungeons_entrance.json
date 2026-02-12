@@ -1,0 +1,436 @@
+[
+  {
+    "name": "Hyrule Castle & Sanctuary",
+    "short_name": "Castle Escape",
+    "color": "#701d43",
+    "access_rules":[
+      "hc_label",
+      "sanc"
+    ],
+    "map_locations": [
+      {
+        "map": "lightworld",
+        "x": 1000,
+        "y": 945
+      }
+    ],
+    "sections": [
+      {
+        "name": "Escape",
+        "short_name": "",
+        "clear_as_group": false,
+        "access_rules": [
+          "[hc_label],[lamp],[sanc]"
+        ],
+        "item_count": 6
+      }
+    ]
+  },
+  {
+    "name": "Agahnim",
+    "color": "#701d43",
+    "access_rules":[
+      "at_label"
+    ],
+    "map_locations": [
+      {
+        "map": "lightworld",
+        "x": 1000,
+        "y": 745
+      }
+    ],
+    "sections": [
+      {
+        "name": "Agahnim",
+        "access_rules": [
+          "[lamp],sword"
+        ],
+        "hosted_item": "aga1"
+      }
+    ]
+  },
+  {
+    "name": "Eastern Palace",
+    "color": "#af0000",
+    "access_rules": [
+      "ep_label"
+    ],
+    "sections": [
+      {
+        "name": "Dungeon",
+        "clear_as_group": false,
+        "access_rules": [
+          "[lamp]"
+        ],
+        "item_count": 3
+      },
+      {
+        "name": "Armos",
+        "access_rules": [
+          "bow,[lamp]"
+        ],
+        "hosted_item": "easternpalace"
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "lightworld",
+        "x": 1925,
+        "y": 770
+      }
+    ]
+  },
+  {
+    "name": "Desert Palace",
+    "color": "#af0000",
+    "completion_rules": [
+      "@CanLightTorches,boots"
+    ],
+    "sections": [
+      {
+        "name": "Dungeon",
+        "clear_as_group": false,
+        "capture_item": true,
+        "access_rules": [
+          "dp_label,[dp_bigkey],[boots]",
+          "[dp_label],dp_bigkey,[boots]"
+        ],
+        "item_count": 2
+      },
+      {
+        "name": "Lanmolas",
+        "short_name": "Lanmo",
+        "access_rules": [
+          "dp_bigkey,lanmolas,@CanLightTorches,[boots],[@CanKillLanmolas]"
+        ],
+        "hosted_item": "desertpalace"
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "lightworld",
+        "x": 150,
+        "y": 1700
+      }
+    ]
+  },
+  {
+    "name": "Palace of Darkness",
+    "short_name": "POD",
+    "color": "#af0000",
+    "access_rules":[
+      "pod_label"
+    ],
+    "sections": [
+      {
+        "name": "Dungeon",
+        "clear_as_group": false,
+        "access_rules": [
+          "[bow],[lamp]"
+        ],
+        "item_count": 5
+      },
+      {
+        "name": "Helmasaur King",
+        "short_name": "Helma",
+        "access_rules": [
+          "bow,hammer,[lamp]"
+        ],
+        "hosted_item": "palaceofdarkness"
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "darkworld",
+        "x": 1925,
+        "y": 775
+      }
+    ]
+  },
+  {
+    "name": "Swamp Area",
+    "group": "Swamp Area",
+    "color": "#0d8452",
+    "access_rules":[
+      "sp_label,drain"
+    ],
+    "children": [
+      {
+        "name": "Dark Swamp Area",
+        "group": "Swamp Area",
+        "children": [
+          {
+            "name": "Swamp Palace",
+            "color": "#af0000",
+            "access_rules": [
+              "flippers"
+            ],
+            "sections": [
+              {
+                "name": "Dungeon",
+                "clear_as_group": false,
+                "access_rules": [
+                  "[hammer],[hookshot]"
+                ],
+                "item_count": 6
+              },
+              {
+                "name": "Arrgus",
+                "access_rules": [
+                  "[hammer],hookshot"
+                ],
+                "hosted_item": "swamppalace"
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "darkworld",
+                "x": 940,
+                "y": 1820
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Northwest Dark World",
+    "color": "#35046b",
+    "group": "Lost Woods",
+    "children": [
+      {
+        "name": "Skull Woods",
+        "color": "#af0000",
+        "sections": [
+          {
+            "name": "Dungeon",
+            "clear_as_group": false,
+            "item_count": 2,
+            "access_rules":[
+              "sw_label,[sw_bigkey],[mothula]",
+              "[sw_label],sw_bigkey,[mothula]",
+              "[sw_label],[sw_bigkey],mothula"
+            ]
+          },
+          {
+            "name": "Mothula",
+            "access_rules": [
+              "mothula,firerod,sword"
+            ],
+            "hosted_item": "skullwoods"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "darkworld",
+            "x": 80,
+            "y": 45
+          }
+        ]
+      },
+      {
+        "name": "Thieves Town",
+        "color": "#af0000",
+        "access_rules":[
+          "tt_label"
+        ],
+        "sections": [
+          {
+            "name": "Dungeon",
+            "clear_as_group": false,
+            "access_rules": [
+              "[hammer]"
+            ],
+            "item_count": 4
+          },
+          {
+            "name": "Blind",
+            "hosted_item": "thievestown",
+            "access_rules": [
+              "sword",
+              "hammer",
+              "somaria",
+              "byrna"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "darkworld",
+            "x": 255,
+            "y": 915
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Ice Palace",
+    "color": "#af0000",
+    "access_rules": [
+      "ip_label,firerod",
+      "ip_label,bombos,sword"
+    ],
+    "sections": [
+      {
+        "name": "Dungeon",
+        "clear_as_group": false,
+        "access_rules": [
+          "[hammer],[hookshot],[somaria]"
+        ],
+        "item_count": 3
+      },
+      {
+        "name": "Khold",
+        "access_rules": [
+          "hammer,bombos,sword",
+          "hammer,firerod"
+        ],
+        "hosted_item": "icepalace"
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "darkworld",
+        "x": 1600,
+        "y": 1685
+      }
+    ]
+  },
+  {
+    "name": "Misery Mire",
+    "color": "#af0000",
+    "access_rules": [
+      "mm_label,hookshot",
+      "mm_label,boots"
+    ],
+    "sections": [
+      {
+        "name": "Dungeon",
+        "clear_as_group": false,
+        "access_rules": [
+          "[@CanLightTorches]"
+        ],
+        "item_count": 2
+      },
+      {
+        "name": "Vitreous",
+        "access_rules": [
+          "somaria,[lamp],@CanKillVitreous"
+        ],
+        "hosted_item": "miserymire"
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "darkworld",
+        "x": 150,
+        "y": 1595
+      }
+    ]
+  },
+  {
+    "name": "Death Mountain",
+    "group": "Death Mountain",
+    "color": "#934f17",
+    "children": [
+      {
+        "name": "Tower of Hera",
+        "color": "#af0000",
+        "access_rules":[
+          "toh_label"
+        ],
+        "sections": [
+          {
+            "name": "Dungeon",
+            "clear_as_group": false,
+            "access_rules": [
+              "[@CanLightTorches]"
+            ],
+            "item_count": 2
+          },
+          {
+            "name": "Moldorm",
+            "access_rules": [
+              "sword,[@CanLightTorches]",
+              "hammer,[@CanLightTorches]"
+            ],
+            "hosted_item": "towerofhera"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "lightworld",
+            "x": 1125,
+            "y": 20
+          }
+        ]
+      },
+      {
+        "name": "Turtle Rock",
+        "color": "#af0000",
+        "sections": [
+          {
+            "name": "Dungeon",
+            "clear_as_group": false,
+            "access_rules": [
+              "tr_label,somaria,[firerod],[lamp]",
+              "tr_bigchest,[somaria],[firerod],[lamp]",
+              "trinex,[somaria],[firerod],[lamp]"
+            ],
+            "item_count": 5
+          },
+          {
+            "name": "Trinexx",
+            "access_rules": [
+              "trinex,somaria,firerod,icerod",
+              "tr_bigchest,somaria,[lamp],firerod,icerod",
+              "tr_label,somaria,[lamp],firerod,icerod"
+            ],
+            "hosted_item": "turtlerock"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "darkworld",
+            "x": 1890,
+            "y": 115
+          }
+        ]
+      },
+      {
+        "name": "Ganon's Tower",
+        "color": "#af0000",
+        "access_rules":[
+          "gt_label"
+        ],
+        "sections": [
+          {
+            "name": "Dungeon",
+            "clear_as_group": false,
+            "access_rules": [
+              "[firerod],[hookshot],[boots],[somaria],[bow],[@CanLightTorches]"
+            ],
+            "item_count": 20
+          },
+          {
+            "name": "Agahnim 2",
+            "clear_as_group": false,
+            "access_rules": [
+              "bow,@CanLightTorches,[hookshot]"
+            ],
+            "hosted_item": "aga2"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "darkworld",
+            "x": 1125,
+            "y": 20
+          }
+        ]
+      }
+    ]
+  }
+]

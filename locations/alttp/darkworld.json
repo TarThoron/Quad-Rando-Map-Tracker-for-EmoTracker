@@ -391,7 +391,7 @@
                 "y": 1600
               }
             ]
-          },
+          }
         ]
       },
       {
@@ -409,7 +409,7 @@
                 "name": "Spike Cave",
                 "access_rules": [
                   "pearl,hammer,lift1,[@CanExtendMagic],[cape]",
-                  "pearl,hammer,lift1,[@CanExtendMagic],[byrna]",
+                  "pearl,hammer,lift1,[@CanExtendMagic],[byrna]"
                 ],
                 "item_count": 1
               }
@@ -453,7 +453,7 @@
           {
             "name": "Hookshot Cave",
             "access_rules": [
-              "pearl",
+              "pearl"
             ],
             "sections": [
               {

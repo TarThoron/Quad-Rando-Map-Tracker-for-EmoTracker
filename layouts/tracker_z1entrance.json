@@ -81,9 +81,12 @@
   "triforce_pieces": {
     "type":"itemgrid",
     "margin": "0,-2",
-    "item_margin": "-3,0",
+    "item_margin": "0,0",
+    "item_width":28,
+    "item_height":28,
     "rows":[
-      ["z1tri1", "z1tri2", "z1tri3", "z1tri4", "z1tri5", "z1tri6", "z1tri7", "z1tri8"]
+      ["levelone","leveltwo","levelthree","levelfour","levelfive","levelsix","levelseven","leveleight","levelnine"],
+      ["z1tri1", "z1tri2", "z1tri3", "z1tri4", "z1tri5", "z1tri6", "z1tri7", "z1tri8",""]
     ]
   },
   "metroid_item_grid": {
@@ -248,11 +251,12 @@
       {
         "type":"array",
         "orientation":"horizontal",
-        "margin":"0,-8,0,1",
+        "h_alignment":"center",
+        "margin":"0,-10,0,0",
         "content":[
           {
             "type":"itemgrid",
-            "item_size": 48,
+            "item_size": 32,
             "rows":[
               ["ganon", "mbrain", "z1ganon", "m1brain"]
             ]

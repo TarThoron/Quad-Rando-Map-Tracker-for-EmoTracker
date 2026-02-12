@@ -1,0 +1,318 @@
+[
+    {
+        "name": "Level 6 - The Dragon",
+        "color": "#887000",
+        "chest_opened_img":"images/LoZ/getitem.png",
+		"access_rules": ["levelsix"],
+        "children":[
+            {
+                "name":"Front",
+                "children":[
+                    {
+                        "name": "Map 7A - Kill Wizzrobes",
+                        "map_locations":[
+                            {
+                                "map":"level6",
+                                "x": 647,
+                                "y": 1320,
+                                "size": 48
+                            },
+                            {
+                                "map":"dungeons1",
+                                "x": 1395,
+                                "y": 660,
+                                "size": 48
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "name":"Kill Wizzrobes",
+                                "item_count":1,
+                                "access_rules":["@CanKillWizzrobes"]
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Map 68 - Compass",
+                        "map_locations":[
+                            {
+                                "map":"level6",
+                                "x": 135,
+                                "y": 1144,
+                                "size": 48
+                            },
+                            {
+                                "map":"dungeons1",
+                                "x": 1139,
+                                "y": 572,
+                                "size": 48
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "name":"Kill Zols",
+                                "item_count":1,
+                                "access_rules":["@CanKillMostZ1Things"]
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Map 58 - Kill Keese",
+                        "map_locations":[
+                            {
+                                "map":"level6",
+                                "x": 135,
+                                "y": 968,
+                                "size": 48
+                            },
+                            {
+                                "map":"dungeons1",
+                                "x": 1139,
+                                "y": 484,
+                                "size": 48
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "name":"Kill Keese",
+                                "item_count":1,
+                                "access_rules":["z1boom","@CanKillMostZ1Things"]
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name":"Middle",
+                "access_rules":["[],@CanKillMostZ1Things","@CanKillWizzrobes"],
+                "children":[                    
+                    {
+                        "name": "Map 28 - Kill Wizzrobes",
+                        "map_locations":[
+                            {
+                                "map":"level6",
+                                "x": 215,
+                                "y": 392,
+                                "size": 48
+                            },
+                            {
+                                "map":"dungeons1",
+                                "x": 1179,
+                                "y": 196,
+                                "size": 48
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "name":"Kill Wizzrobes",
+                                "item_count":1,
+                                "access_rules":["@CanKillWizzrobes"]
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Map 29 - Wizzrobe Item",
+                        "map_locations":[
+                            {
+                                "map":"level6",
+                                "x": 391,
+                                "y": 440,
+                                "size": 48
+                            },
+                            {
+                                "map":"dungeons1",
+                                "x": 1266,
+                                "y": 220,
+                                "size": 48
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "name":"Wizzrobe Item",
+                                "capture_item":true,
+                                "item_count":1,
+                                "access_rules":["{z1bomb}","{@CanKillGleeok}","z1ladder,z1bomb","z1ladder,@CanKillGleeok"]
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Map 19 - Map",
+                        "map_locations":[
+                            {
+                                "map":"level6",
+                                "x": 391,
+                                "y": 263,
+                                "size": 48
+                            },
+                            {
+                                "map":"dungeons1",
+                                "x": 1266,
+                                "y": 131,
+                                "size": 48
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "name":"Kill Enemies",
+                                "item_count":1,
+                                "access_rules":["z1bomb,@CanKillMostZ1Things","@CanKillGleeok"]
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Map 1A - Wizzrobe Item",
+                        "map_locations":[
+                            {
+                                "map":"level6",
+                                "x": 647,
+                                "y": 263,
+                                "size": 48
+                            },
+                            {
+                                "map":"dungeons1",
+                                "x": 1395,
+                                "y": 131,
+                                "size": 48
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "name":"Wizzrobe Item",
+                                "item_count":1,
+                                "access_rules":["z1ladder,@CanKillWizzrobes"]
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Hidden Stairs Item",
+                        "map_locations":[
+                            {
+                                "map":"level6",
+                                "x": 136,
+                                "y": 88,
+                                "size": 48
+                            },
+                            {
+                                "map":"dungeons1",
+                                "x": 1307,
+                                "y": 18,
+                                "size": 48
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "name":"Magic Wand",
+                                "item_count":1,
+                                "access_rules":["@CanKillWizzrobes"]
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name":"Back",
+                "access_rules":["[],z1ladder,@CanKillMostZ1Things","z1ladder,@CanKillWizzrobes"],
+                "children":[
+                    {
+                        "name": "Map 2D - Kill Vires",
+                        "map_locations":[
+                            {
+                                "map":"level6",
+                                "x": 1415,
+                                "y": 440,
+                                "size": 48
+                            },
+                            {
+                                "map":"dungeons1",
+                                "x": 1779,
+                                "y": 220,
+                                "size": 48
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "name":"Kill Vires",
+                                "item_count":1
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Map 3C - Kill Wizzrobes",
+                        "map_locations":[
+                            {
+                                "map":"level6",
+                                "x": 1159,
+                                "y": 615,
+                                "size": 48
+                            },
+                            {
+                                "map":"dungeons1",
+                                "x": 1650,
+                                "y": 316,
+                                "size": 48
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "name":"Kill Wizzrobes",
+                                "item_count":1,
+                                "access_rules":["@CanKillWizzrobes"]
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Map 1C - Kill Boss",
+                        "map_locations":[
+                            {
+                                "map":"level6",
+                                "x": 1159,
+                                "y": 263,
+                                "size": 48
+                            },
+                            {
+                                "map":"dungeons1",
+                                "x": 1650,
+                                "y": 131,
+                                "size": 48
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "name":"Kill Boss",
+                                "item_count":1,
+                                "access_rules":["z1bow,z1arrows"],
+                                "chest_unopened_img":"images/LoZ/levelsixboss.png"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Level 6 Prize",
+                        "map_locations":[
+                            {
+                                "map":"level6",
+                                "x": 1151,
+                                "y": 88,
+                                "size": 48
+                            },
+                            {
+                                "map":"dungeons1",
+                                "x": 1650,
+                                "y": 44,
+                                "size": 48
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "name":"Triforce",
+                                "item_count":1,
+                                "access_rules":["z1bow,z1arrows"],
+                                "chest_unopened_img":"images/LoZ/z-triforceicon.png",
+                                "hosted_item": "z1tri6"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }     
+]

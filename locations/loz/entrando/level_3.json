@@ -1,0 +1,345 @@
+[
+    {
+        "name": "Level 3 - The Manji",
+        "color": "#009038",
+        "chest_opened_img": "images/LoZ/getitem.png",
+		"access_rules": ["levelthree"],
+        "children": [
+            {
+                "name": "Map 7B - Zol Item",
+                "map_locations":[
+                    {
+                        "map":"level3",
+                        "x": 648,
+                        "y": 969,
+                        "size": 48
+                    },
+                    {
+                        "map":"dungeons1",
+                        "x": 1522,
+                        "y": 658,
+                        "size": 48
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Zol Item",
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Stairs Item",
+                "map_locations":[
+                    {
+                        "map":"level3",
+                        "x": 136,
+                        "y": 969,
+                        "size": 48
+                    },
+                    {
+                        "map":"dungeons1",
+                        "x": 1306,
+                        "y": 569,
+                        "size": 48
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Raft",
+                        "item_count": 1,
+                        "access_rules":["@CanKillDarknuts"]
+                    }
+                ]
+            },
+            {
+                "name": "Map 69 - Kill Darknuts",
+                "map_locations":[
+                    {
+                        "map":"level3",
+                        "x": 135,
+                        "y": 791,
+                        "size": 48
+                    },
+                    {
+                        "map":"dungeons1",
+                        "x": 1267,
+                        "y": 569,
+                        "size": 48
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Kill Darknuts",
+                        "item_count": 1,
+                        "access_rules":["@CanKillDarknuts"]
+                    }
+                ]
+            },
+            {
+                "name": "Map 6B - Kill Zols",
+                "map_locations":[
+                    {
+                        "map":"level3",
+                        "x": 648,
+                        "y": 791,
+                        "size": 48
+                    },
+                    {
+                        "map":"dungeons1",
+                        "x": 1522,
+                        "y": 569,
+                        "size": 48
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Kill Zols",
+                        "item_count": 1,
+                        "access_rules":["@CanKillMostZ1Things"]
+                    }
+                ]
+            },           
+            {
+                "name": "Map 5A - Compass",
+                "map_locations":[
+                    {
+                        "map":"level3",
+                        "x": 391,
+                        "y": 616,
+                        "size": 48
+                    },
+                    {
+                        "map":"dungeons1",
+                        "x": 1395,
+                        "y": 481,
+                        "size": 48
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Compass",
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Map 5B - Kill Darknuts",
+                "map_locations":[
+                    {
+                        "map":"level3",
+                        "x": 648,
+                        "y": 616,
+                        "size": 48
+                    },
+                    {
+                        "map":"dungeons1",
+                        "x": 1522,
+                        "y": 481,
+                        "size": 48
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Kill Darknuts",
+                        "item_count": 1,
+                        "access_rules":["@CanKillDarknuts"]
+                    }
+                ]
+            },
+            {
+                "name": "Map 5D - Kill Enemies",
+                "map_locations":[
+                    {
+                        "map":"level3",
+                        "x": 1062,
+                        "y": 569,
+                        "size": 48
+                    },
+                    {
+                        "map":"dungeons1",
+                        "x": 1730,
+                        "y": 458,
+                        "size": 48
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Kill Enemies",
+                        "item_count": 1,
+                        "access_rules":["@CanKillDarknuts"]
+                    }
+                ]
+            },
+            {
+                "name": "Map 49 - Item",
+                "map_locations":[
+                    {
+                        "map":"level3",
+                        "x": 135,
+                        "y": 440,
+                        "size": 48
+                    },
+                    {
+                        "map":"dungeons1",
+                        "x": 1267,
+                        "y": 396,
+                        "size": 48
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Item",
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Map 4A - Kill Keese",
+                "map_locations":[
+                    {
+                        "map":"level3",
+                        "x": 391,
+                        "y": 440,
+                        "size": 48
+                    },
+                    {
+                        "map":"dungeons1",
+                        "x": 1395,
+                        "y": 396,
+                        "size": 48
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Kill Keese",
+                        "item_count": 1,
+                        "access_rules":["z1boom","@CanKillMostZ1Things"]
+                    }
+                ]
+            },
+            {
+                "name": "Map 4B - Kill Zols",
+                "map_locations":[
+                    {
+                        "map":"level3",
+                        "x": 648,
+                        "y": 440,
+                        "size": 48
+                    },
+                    {
+                        "map":"dungeons1",
+                        "x": 1522,
+                        "y": 396,
+                        "size": 48
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Kill Zols",
+                        "item_count": 1,
+                        "access_rules":["@CanKillMostZ1Things"]
+                    }
+                ]
+            },
+            {
+                "name": "Map 4C - Map",
+                "map_locations":[
+                    {
+                        "map":"level3",
+                        "x": 901,
+                        "y": 440,
+                        "size": 48
+                    },
+                    {
+                        "map":"dungeons1",
+                        "x": 1650,
+                        "y": 396,
+                        "size": 48
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Map",
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Map 2A - Kill Keese",
+                "map_locations":[
+                    {
+                        "map":"level3",
+                        "x": 391,
+                        "y": 89,
+                        "size": 48
+                    },
+                    {
+                        "map":"dungeons1",
+                        "x": 1395,
+                        "y": 218,
+                        "size": 48
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Kill Keese",
+                        "item_count": 1,
+                        "access_rules":["@CanKillMostZ1Things"]
+                    }
+                ]
+            },
+            {
+                "name": "Map 4D - Kill Boss",
+                "map_locations":[
+                    {
+                        "map":"level3",
+                        "x": 1150,
+                        "y": 440,
+                        "size": 48
+                    },
+                    {
+                        "map":"dungeons1",
+                        "x": 1774,
+                        "y": 396,
+                        "size": 48
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Kill Boss",
+                        "item_count": 1,
+                        "access_rules":["@CanKillDarknuts"],
+                        "chest_unopened_img": "images/LoZ/levelthreeboss.png"
+                    }
+                ]
+            },
+            {
+                "name": "Level 3 Prize",
+                "map_locations":[
+                    {
+                        "map":"level3",
+                        "x": 1150,
+                        "y": 268,
+                        "size": 48
+                    },
+                    {
+                        "map":"dungeons1",
+                        "x": 1774,
+                        "y": 309,
+                        "size": 48
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Triforce",
+                        "item_count": 1,
+                        "access_rules":["@CanKillDarknuts"],
+                        "chest_unopened_img": "images/LoZ/z-triforceicon.png",
+                        "hosted_item":"z1tri3"
+                    }
+                ]
+            }
+        ]
+    }
+]

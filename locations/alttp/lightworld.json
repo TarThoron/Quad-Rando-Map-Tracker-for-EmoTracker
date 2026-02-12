@@ -15,7 +15,8 @@
               {
                 "map": "lightworld",
                 "x": 83,
-                "y": 101
+                "y": 101,
+                "size": 80
               }
             ],
             "sections": [
